@@ -1,0 +1,56 @@
+$primary--color: #f8f7f7;
+$secondary--color: #CB3A82;
+
+* {
+    color: #575656;
+}
+
+a {
+    color: #575656;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.bg-light {
+    background-color: #f8f7f7 !important;
+}
+
+.navbar {
+    .navbar-toggler:focus {
+        box-shadow: inherit;
+    }
+    
+    .navbar-collapse {
+        .nav-item {
+            margin: 0 25px;
+            text-align: center;
+            
+            .nav-link {
+                padding-left: 1rem;
+                padding-right: 1rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.carousel-item {
+    min-height: 450px;
+    height: calc(100vh - 80px);
+    
+    img {
+        height: 100%;
+    }
+    
+    .carousel-caption {
+        right: 10%;
+        top: 50%;
+        left: 10%;
+        bottom: inherit;
+        text-align: left;
+        transform: translate(0, -50%);
+    }
+}
