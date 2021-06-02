@@ -1,12 +1,24 @@
-$primary--color: #f8f7f7;
-$secondary--color: #CB3A82;
+/* Colors: */
+$--color-f8f7f7: #F8F7F7;
+$--color-aaaaaa: #AAAAAA;
+$--color-707070: #707070;
+$--color-f2f2f2: #F2F2F2;
+$--color-bababa: #BABABA;
+$--color-ffffff: #FFFFFF;
+$--color-cb3a82: #CB3A82;
+$--color-84c942: #84C942;
+$--color-333333: #333333;
+$--color-e6006e: #E6006E;
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
-    color: #575656;
+    color: #333333;
+    font-family: 'Gothic A1', sans-serif;
 }
 
 a {
-    color: #575656;
+    color: #333333;
     text-decoration: none;
 }
 
@@ -15,23 +27,51 @@ ul {
 }
 
 .bg-light {
-    background-color: #f8f7f7 !important;
+    background-color: $--color-f8f7f7 !important;
+}
+
+.my-page {
+    padding: 10px 12px;
+    font-weight: 700;
+    color: $--color-cb3a82;
+    border: 1px solid $--color-cb3a82;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 10px;
+    display: block;
+    transition: background-color 0.5s ease;
+    
+    &:hover {
+        color: #FFFFFF;
+        background-color: $--color-cb3a82;
+    }
 }
 
 .navbar {
+    .navbar-brand {
+        padding: 0;
+        text-align: center;
+        
+        p {
+            margin: 0 0 3px 0;
+            font-size: 11px;
+            color: rgba(0, 0, 0, 0.55);
+        }
+    }
+    
     .navbar-toggler:focus {
         box-shadow: inherit;
     }
     
     .navbar-collapse {
         .nav-item {
-            margin: 0 25px;
+            margin: 0 20px;
             text-align: center;
             
             .nav-link {
                 padding-left: 1rem;
                 padding-right: 1rem;
-                font-weight: 700;
+                font-weight: 500;
             }
         }
     }
@@ -46,11 +86,25 @@ ul {
     }
     
     .carousel-caption {
-        right: 10%;
         top: 50%;
         left: 10%;
+        right: auto;
         bottom: inherit;
         text-align: left;
-        transform: translate(0, -50%);
+        padding: inherit;
+        transform: translate(0, -70%);
+        
+        img {
+        }
+        
+        h3 {
+            text-align: center;
+            letter-spacing: 0;
+            color: #2B2B2B;
+            opacity: 1;
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 45px;
+        }
     }
 }

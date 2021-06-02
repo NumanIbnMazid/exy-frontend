@@ -2,6 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <router-link class="navbar-brand" to="/">
+        <p>企業主導型専門予約サイト</p>
         <img src="https://dummyimage.com/160x54/adabad/ffffff&text=EXY" alt="Logo">
       </router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +14,7 @@
             <a class="nav-link" href="#">
               <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
               <div class="br"></div>
-              ご利⽤の流れ
+              ご利用の流れ
             </a>
           </li>
           <li class="nav-item">
@@ -32,13 +33,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <i class="fa fa-user"></i>
+              <i class="fa fa-question-circle" aria-hidden="true"></i>
               <div class="br"></div>
               よくあるご質問
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ログイン</a>
+            <a class="my-page" href="#">マイページ</a>
           </li>
         </ul>
       </div>

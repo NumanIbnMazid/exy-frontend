@@ -28,10 +28,10 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-5 offset-md-1">
           <div class="footer-item">
             <div class="fb-page">
-              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Frappleslimited&tabs&width=340&height=130&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+              <img src="https://dummyimage.com/550x160/adabad/ffffff&text=Facebook" alt="FB" class="d-block w-100">
               <div class="footer-icon">
                 <ul>
                   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -82,8 +82,8 @@
 
       <div class="row">
         <div class="col-12">
-          <div class="text-center mt-3">
-            <p class="m-0">Copyright ©2021 株式会社EXY | All Rights Reserved.</p>
+          <div class="text-center">
+            <p class="m-0">Copyright ©2021 <router-link to="/">株式会社EXY</router-link> | All Rights Reserved.</p>
           </div>
         </div>
       </div>
