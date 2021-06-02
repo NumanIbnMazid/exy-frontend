@@ -2,8 +2,61 @@
  * Search Section
  ****************************************/
 .search-section {
-    padding: 60px 0;
+    padding: 65px 0;
     background-color: $--color-f8f7f7;
+    
+    .mx-input {
+        text-align: center;
+        color: $--color-cb3a82;
+        font-weight: 600;
+        font-size: 18px;
+        height: 60px;
+        padding: 2px 0 0 0;
+        border: 1px solid $--color-cb3a82;
+        border-radius: 10px;
+        
+        &::placeholder {
+            color: $--color-cb3a82;
+        }
+    }
+    
+    .mx-calendar-content .disabled {
+        background-color: $--color-cb3a82;
+    }
+    
+    .search-btn {
+        background-color: $--color-cb3a82;
+        border: 1px solid $--color-cb3a82;
+        display: block;
+        width: 100%;
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+        height: 60px;
+        padding: 2px 0 0 0;
+        transition: background-color 0.5s ease;
+        
+        &:hover {
+            background-color: $--color-e6006e;
+        }
+    }
+    
+    .vs__dropdown-toggle {
+        background-color: #FFFFFF;
+        font-weight: 500;
+        font-size: 18px;
+        height: 60px;
+        padding: 2px 0 0 0;
+        border: 1px solid $--color-cb3a82;
+        border-radius: 10px;
+        color: $--color-cb3a82;
+        
+        input {
+            &::placeholder {
+                color: $--color-cb3a82;
+            }
+        }
+    }
 }
 
 /****************************************

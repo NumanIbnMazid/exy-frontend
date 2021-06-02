@@ -32,18 +32,19 @@
     <div class="search-section">
       <div class="container">
         <div class="row">
-          <div class="col-5">
+          <div class="col-md-5 mb-4 mb-md-0">
             <date-picker
+                v-model="date"
                 valueType="format"
                 :disabled-date="disabledBeforeToday"
                 placeholder="日付からさがす"
             ></date-picker>
           </div>
-          <div class="col-5">
-
+          <div class="col-md-5 mb-4 mb-md-0">
+            <v-select :options="options" placeholder="おこさまの年齢"></v-select>
           </div>
-          <div class="col-2">
-            
+          <div class="col-md-2 mb-4 mb-md-0">
+            <button type="button" class="search-btn">検索する</button>
           </div>
         </div>
       </div>
@@ -57,10 +58,28 @@
 import DatePicker from 'vue2-datepicker';
 import 'vue2-datepicker/index.css';
 import 'vue2-datepicker/locale/ja';
+import vSelect from 'vue-select'
 
 export default {
   name: 'Home',
-  components: { DatePicker },
+  data() {
+    return {
+      date: '',
+      options: [
+        'お子様の年齢',
+        '０歳 ０ヶ月',
+        '０歳 １ヶ月〜２ヶ月',
+        '０歳 ３ヶ月〜５ヶ月',
+        '０歳 ６ヶ月〜１１ヶ月',
+        '１歳',
+        '２歳',
+        '３歳',
+        '４歳',
+        '５歳',
+      ]
+    }
+  },
+  components: { DatePicker, vSelect },
   methods: {
     disabledBeforeToday(date) {
       const today = new Date();
