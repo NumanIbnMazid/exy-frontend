@@ -156,6 +156,57 @@
     </div>
     <!-- Garden Section End -->
 
+    <!-- About Section Start -->
+    <div class="about-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="single-item mb-4 mb-lg-0">
+              <a href="#">
+                <i class="fa fa-smile-o"></i>
+                <p>キガルニホイクとは</p>
+                <span>What is KIGATUNIHOIKU</span>
+              </a>
+              <p>メリットやご利用方法など サービス概要について</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="single-item mb-4 mb-lg-0">
+              <a href="#">
+                <i class="fa fa-smile-o"></i>
+                <p>キガルニホイク使い方</p>
+                <span>Hoｗ to use</span>
+              </a>
+              <p>保育園の探し方から 子育て相談コーナーなどの 活用方法まで</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="single-item mb-4 mb-lg-0">
+              <a href="#">
+                <i class="fa fa-smile-o"></i>
+                <p>お支払い方法について</p>
+                <span>Amount of money</span>
+              </a>
+              <p>お支払いの流れや お支払い方法のご案内</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="single-item">
+              <a href="#">
+                <i class="fa fa-smile-o"></i>
+                <p>ご利用いただく皆さまへ</p>
+                <span>To all of you</span>
+              </a>
+              <p>全ての人が安心して ご利用いただくための ガイドライン</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Section End -->
+
+    <div class="space-100"></div>
+
   </div>
 </template>
 
