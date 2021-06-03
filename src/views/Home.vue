@@ -10,16 +10,16 @@
       <div class="carousel-inner">
         <!-- Slide 1 -->
         <div class="carousel-item active">
-          <img src="https://via.placeholder.com/1920x1080/f9fafb" class="d-block w-100" alt="">
-          <div class="carousel-caption">
+          <img src="../assets/images/slider.png" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none">
             <img src="https://dummyimage.com/346x125/f9fafb/CB3A82&text=EXY" alt="Logo">
             <h3>WEBで予約、WEBで決済 <br/>保育園探しは <br/>キガルニホイク</h3>
           </div>
         </div>
         <!-- Slide 2 -->
         <div class="carousel-item">
-          <img src="https://via.placeholder.com/1920x1080/f9fafb" class="d-block w-100" alt="">
-          <div class="carousel-caption">
+          <img src="../assets/images/slider.png" class="d-block w-100" alt="">
+          <div class="carousel-caption d-none">
             <img src="https://dummyimage.com/346x125/f9fafb/CB3A82&text=EXY" alt="Logo">
             <h3>WEBで予約、WEBで決済 <br/>保育園探しは <br/>キガルニホイク</h3>
           </div>
@@ -46,6 +46,28 @@
           <div class="col-md-2 mb-4 mb-md-0">
             <button type="button" class="search-btn">検索する</button>
           </div>
+        </div>
+
+        <!-- Search Nav -->
+        <div class="search-nav">
+          <ul>
+            <li>
+              <a href="" class="me-3"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
+              <a href="#"><span>＃</span> 明日預ける</a>
+            </li>
+            <li>
+              <a href="#"><span>＃</span> 体験保育</a>
+            </li>
+            <li>
+              <a href="#"><span>＃</span> 月極保育</a>
+            </li>
+            <li>
+              <a href="#"><span>＃</span> 月極保育</a>
+            </li>
+            <li>
+              <a href="#"><span>＃</span> エリア・沿線からさがす</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

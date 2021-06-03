@@ -22,6 +22,9 @@ $--color-e6006e: #E6006E;
 a {
     color: #333333;
     text-decoration: none;
+    &:hover {
+        color: #333333;
+    }
 }
 
 ul {

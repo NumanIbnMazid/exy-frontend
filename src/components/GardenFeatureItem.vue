@@ -1,7 +1,7 @@
 <template>
   <div class="single-item">
     <div class="thumbnail">
-      <img src="https://via.placeholder.com/200x200/F8F7F7" class="img-fluid" alt="">
+      <img src="https://via.placeholder.com/200x200/ece9e9" class="img-fluid" alt="">
       <div class="overlay">
         <a href="#">園外観写真</a>
       </div>
