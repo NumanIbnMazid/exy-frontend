@@ -207,6 +207,47 @@
 
     <div class="space-100"></div>
 
+    <!-- Garden Reviews Start -->
+    <div class="garden-reviews">
+      <div class="container">
+        <h3>園口コミ</h3>
+
+        <div class="text-center">
+          <a href="#" class="read-more">保育園一覧をみる</a>
+        </div>
+      </div>
+    </div>
+    <!-- Garden Reviews End -->
+
+    <div class="space-100"></div>
+
+    <!-- Kigarni Hoik Start -->
+    <div class="Kigarni-hoik">
+      <div class="container">
+
+        <!-- Tabs Start -->
+        <div class="tabs">
+          <a class="active">＃キガルニホイク</a>
+        </div>
+        <!-- Tabs End -->
+
+        <!-- Tabs Content -->
+        <div class="content">
+          <!-- Tabs Content 1 -->
+          <div class="tab-content">
+            <hooper :settings="hooperSettings">
+              <slide>
+                <div class="single-item">
+                  <img src="https://dummyimage.com/220x220/F8F7F7/000&amp;text=Kigarni Hoik" alt="Kigarni Hoik" class="d-block w-100">
+                </div>
+              </slide>
+            </hooper>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Kigarni Hoik End -->
+
   </div>
 </template>
 
