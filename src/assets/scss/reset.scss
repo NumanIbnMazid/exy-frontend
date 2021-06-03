@@ -7,7 +7,9 @@ $--color-bababa: #BABABA;
 $--color-ffffff: #FFFFFF;
 $--color-cb3a82: #CB3A82;
 $--color-84c942: #84C942;
+$--color-8fc31f: #8FC31F;
 $--color-333333: #333333;
+$--color-c94284: #C94284;
 $--color-e6006e: #E6006E;
 
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&display=swap');
@@ -24,6 +26,14 @@ a {
 
 ul {
     list-style: none;
+}
+
+.mx-datepicker {
+    width: 100%;
+}
+
+.hooper {
+    height: auto;
 }
 
 .bg-light {

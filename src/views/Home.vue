@@ -51,6 +51,89 @@
     </div>
     <!-- Search Section End -->
 
+    <!-- Garden Section Start -->
+    <div class="garden-feature">
+      <div class="container">
+
+        <!-- Tabs Start -->
+        <div class="tabs">
+          <a @click="activeTab='1'" :class="[ activeTab === '1' ? 'active' : '' ]"><i class="fa fa-smile-o"></i> 明日預けられる園</a>
+          <a @click="activeTab='2'" :class="[ activeTab === '2' ? 'active' : '' ]"><i class="fa fa-lemon-o"></i> 特色がある園</a>
+          <a @click="activeTab='3'" :class="[ activeTab === '3' ? 'active' : '' ]"><i class="fa fa-heart"></i> 病児が預けられる園</a>
+        </div>
+        <!-- Tabs End -->
+
+        <!-- Tabs Content -->
+        <div class="content">
+          <!-- Tabs Content 1 -->
+          <div v-if="activeTab ==='1'" class="tab-content">
+            <hooper :settings="hooperSettings">
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+
+              <hooper-navigation slot="hooper-addons"></hooper-navigation>
+            </hooper>
+          </div>
+
+          <!-- Tabs Content 2 -->
+          <div v-if="activeTab ==='2'" class="tab-content">
+            <hooper :settings="hooperSettings">
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+
+              <hooper-navigation slot="hooper-addons"></hooper-navigation>
+            </hooper>
+          </div>
+
+          <!-- Tabs Content 3 -->
+          <div v-if="activeTab ==='3'" class="tab-content">
+            <hooper :settings="hooperSettings">
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+              <slide>
+                <garden-feature-item></garden-feature-item>
+              </slide>
+
+              <hooper-navigation slot="hooper-addons"></hooper-navigation>
+            </hooper>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <a href="#" class="read-more">保育園一覧をみる</a>
+        </div>
+
+      </div>
+    </div>
+    <!-- Garden Section End -->
+
   </div>
 </template>
 
@@ -59,12 +142,20 @@ import DatePicker from 'vue2-datepicker';
 import 'vue2-datepicker/index.css';
 import 'vue2-datepicker/locale/ja';
 import vSelect from 'vue-select'
+import {
+  Hooper,
+  Slide,
+  Navigation as HooperNavigation
+} from 'hooper';
+import 'hooper/dist/hooper.css';
+import GardenFeatureItem from "../components/GardenFeatureItem";
 
 export default {
   name: 'Home',
   data() {
     return {
       date: '',
+      activeTab: '1',
       options: [
         'お子様の年齢',
         '０歳 ０ヶ月',
@@ -76,10 +167,25 @@ export default {
         '３歳',
         '４歳',
         '５歳',
-      ]
+      ],
+      hooperSettings: {
+        itemsToShow: 1,
+        playSpeed: 3000,
+        centerMode: false,
+        infiniteScroll: true,
+        breakpoints: {
+          800: {
+            itemsToShow: 2
+          },
+          1000: {
+            itemsToShow: 4,
+            pagination: 'fraction'
+          }
+        }
+      }
     }
   },
-  components: { DatePicker, vSelect },
+  components: { GardenFeatureItem, DatePicker, vSelect, Slide, Hooper, HooperNavigation },
   methods: {
     disabledBeforeToday(date) {
       const today = new Date();
@@ -92,7 +198,5 @@ export default {
 </script>
 
 <style scoped>
-.mx-datepicker {
-  width: 100%;
-}
+
 </style>
