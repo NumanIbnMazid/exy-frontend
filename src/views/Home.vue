@@ -210,7 +210,9 @@
     <!-- Garden Reviews Start -->
     <div class="garden-reviews">
       <div class="container">
-        <h3>園口コミ</h3>
+        <h3 class="mb-4">園口コミ</h3>
+
+        <garden-reviews></garden-reviews>
 
         <div class="text-center">
           <a href="#" class="read-more">保育園一覧をみる</a>
@@ -238,9 +240,26 @@
             <hooper :settings="hooperSettings">
               <slide>
                 <div class="single-item">
-                  <img src="https://dummyimage.com/220x220/F8F7F7/000&amp;text=Kigarni Hoik" alt="Kigarni Hoik" class="d-block w-100">
+                  <img src="../assets/images/gallery-1.png" alt="Kigarni Hoik" class="d-block w-100">
                 </div>
               </slide>
+              <slide>
+                <div class="single-item">
+                  <img src="../assets/images/gallery-1.png" alt="Kigarni Hoik" class="d-block w-100">
+                </div>
+              </slide>
+              <slide>
+                <div class="single-item">
+                  <img src="../assets/images/gallery-1.png" alt="Kigarni Hoik" class="d-block w-100">
+                </div>
+              </slide>
+              <slide>
+                <div class="single-item">
+                  <img src="../assets/images/gallery-1.png" alt="Kigarni Hoik" class="d-block w-100">
+                </div>
+              </slide>
+
+              <hooper-navigation slot="hooper-addons"></hooper-navigation>
             </hooper>
           </div>
         </div>
@@ -263,6 +282,7 @@ import {
 } from 'hooper';
 import 'hooper/dist/hooper.css';
 import GardenFeatureItem from "../components/GardenFeatureItem";
+import GardenReviews from "../components/GardenReviews";
 
 export default {
   name: 'Home',
@@ -299,7 +319,7 @@ export default {
       }
     }
   },
-  components: { GardenFeatureItem, DatePicker, vSelect, Slide, Hooper, HooperNavigation },
+  components: { GardenReviews, GardenFeatureItem, DatePicker, vSelect, Slide, Hooper, HooperNavigation },
   methods: {
     disabledBeforeToday(date) {
       const today = new Date();
