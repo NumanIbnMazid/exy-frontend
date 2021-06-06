@@ -90,16 +90,7 @@
           <!-- Tabs Content 1 -->
           <div v-if="activeTab ==='1'" class="tab-content">
             <hooper :settings="hooperSettings">
-              <slide>
-                <garden-feature-item></garden-feature-item>
-              </slide>
-              <slide>
-                <garden-feature-item></garden-feature-item>
-              </slide>
-              <slide>
-                <garden-feature-item></garden-feature-item>
-              </slide>
-              <slide>
+              <slide v-for="n in 5" :key="n">
                 <garden-feature-item></garden-feature-item>
               </slide>
 
@@ -110,16 +101,7 @@
           <!-- Tabs Content 2 -->
           <div v-if="activeTab ==='2'" class="tab-content">
             <hooper :settings="hooperSettings">
-              <slide>
-                <garden-feature-item></garden-feature-item>
-              </slide>
-              <slide>
-                <garden-feature-item></garden-feature-item>
-              </slide>
-              <slide>
-                <garden-feature-item></garden-feature-item>
-              </slide>
-              <slide>
+              <slide v-for="n in 5" :key="n">
                 <garden-feature-item></garden-feature-item>
               </slide>
 
@@ -130,16 +112,7 @@
           <!-- Tabs Content 3 -->
           <div v-if="activeTab ==='3'" class="tab-content">
             <hooper :settings="hooperSettings">
-              <slide>
-                <garden-feature-item></garden-feature-item>
-              </slide>
-              <slide>
-                <garden-feature-item></garden-feature-item>
-              </slide>
-              <slide>
-                <garden-feature-item></garden-feature-item>
-              </slide>
-              <slide>
+              <slide v-for="n in 5" :key="n">
                 <garden-feature-item></garden-feature-item>
               </slide>
 
@@ -238,22 +211,7 @@
           <!-- Tabs Content 1 -->
           <div class="tab-content">
             <hooper :settings="hooperSettings">
-              <slide>
-                <div class="single-item">
-                  <img src="../assets/images/gallery-1.png" alt="Kigarni Hoik" class="d-block w-100">
-                </div>
-              </slide>
-              <slide>
-                <div class="single-item">
-                  <img src="../assets/images/gallery-1.png" alt="Kigarni Hoik" class="d-block w-100">
-                </div>
-              </slide>
-              <slide>
-                <div class="single-item">
-                  <img src="../assets/images/gallery-1.png" alt="Kigarni Hoik" class="d-block w-100">
-                </div>
-              </slide>
-              <slide>
+              <slide v-for="n in 5" :key="n">
                 <div class="single-item">
                   <img src="../assets/images/gallery-1.png" alt="Kigarni Hoik" class="d-block w-100">
                 </div>

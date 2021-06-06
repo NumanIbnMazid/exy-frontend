@@ -1,6 +1,7 @@
 <template>
   <hooper :settings="hooperSettings">
-    <slide>
+
+    <slide v-for="n in 5" :key="n">
       <div class="garden-review-item">
         <div class="date-time">2021年2月利用者</div>
         <a href="#" class="review-title">一時保育 - １歳児プラン</a>
@@ -46,139 +47,6 @@
       </div>
     </slide>
 
-    <slide>
-      <div class="garden-review-item">
-        <div class="date-time">2021年2月利用者</div>
-        <a href="#" class="review-title">一時保育 - １歳児プラン</a>
-        <ul class="review">
-          <li>
-            <div class="title">雰囲気</div>
-            <div class="count">4</div>
-            <div class="star">
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </li>
-          <li>
-            <div class="title">環境・施設</div>
-            <div class="count">4</div>
-            <div class="star">
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </li>
-          <li>
-            <div class="title">保育内容</div>
-            <div class="count">4</div>
-            <div class="star">
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </li>
-        </ul>
-        <div class="review-text">
-          この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章…
-        </div>
-        <img class="rounded-circle" src="https://via.placeholder.com/70x70/253646" alt="">
-      </div>
-    </slide>
-
-    <slide>
-      <div class="garden-review-item">
-        <div class="date-time">2021年2月利用者</div>
-        <a href="#" class="review-title">一時保育 - １歳児プラン</a>
-        <ul class="review">
-          <li>
-            <div class="title">雰囲気</div>
-            <div class="count">4</div>
-            <div class="star">
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </li>
-          <li>
-            <div class="title">環境・施設</div>
-            <div class="count">4</div>
-            <div class="star">
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </li>
-          <li>
-            <div class="title">保育内容</div>
-            <div class="count">4</div>
-            <div class="star">
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </li>
-        </ul>
-        <div class="review-text"></div>
-        <img class="rounded-circle" src="https://via.placeholder.com/70x70/253646" alt="">
-      </div>
-    </slide>
-
-    <slide>
-      <div class="garden-review-item">
-        <div class="date-time">2021年2月利用者</div>
-        <a href="#" class="review-title">一時保育 - １歳児プラン</a>
-        <ul class="review">
-          <li>
-            <div class="title">雰囲気</div>
-            <div class="count">4</div>
-            <div class="star">
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </li>
-          <li>
-            <div class="title">環境・施設</div>
-            <div class="count">4</div>
-            <div class="star">
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </li>
-          <li>
-            <div class="title">保育内容</div>
-            <div class="count">4</div>
-            <div class="star">
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star color"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </li>
-        </ul>
-        <div class="review-text"></div>
-        <img class="rounded-circle" src="https://via.placeholder.com/70x70/253646" alt="">
-      </div>
-    </slide>
   </hooper>
 </template>
 
