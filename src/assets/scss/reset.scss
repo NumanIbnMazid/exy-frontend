@@ -72,6 +72,21 @@ ul {
     }
 }
 
+.banner-btn {
+    display: block;
+    width: 100%;
+    color: $--color-cb3a82;
+    border: 1px solid;
+    text-align: center;
+    font-weight: 700;
+    padding: 35px 0;
+    line-height: 1;
+    
+    &:hover {
+        color: $--color-cb3a82;
+    }
+}
+
 .navbar {
     .navbar-brand {
         padding: 0;

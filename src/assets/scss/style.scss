@@ -475,6 +475,83 @@
 }
 
 /****************************************
+ * Kindergarten Hunt
+ ****************************************/
+.kindergarten-hunt {
+    padding: 30px 0 40px;
+    
+    .content {
+        text-align: center;
+        background-color: $--color-f8f7f7;
+        padding: 100px 140px;
+        height: 100%;
+        
+        h2 {
+            font-size: 35px;
+        }
+        
+        p {
+            text-align: left;
+            font-size: 15px;
+            margin: 20px 0 30px;
+        }
+        
+        a {
+            font-size: 15px;
+            color: $--color-cb3a82;
+            text-decoration: underline;
+        }
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+}
+
+/****************************************
+ * Ads
+ ****************************************/
+.ads-02 {
+    .banner {
+        border: 1px solid #e4e4e4;
+        border-radius: 5px;
+        margin: 8px 0;
+    }
+}
+
+/****************************************
+ * Notice
+ ****************************************/
+.notice {
+    h3 {
+        font-size: 25px;
+    }
+    
+    .notice-content {
+        border-top: 2px solid #cac3ce;
+        border-bottom: 2px solid #cac3ce;
+        padding: 8px 0;
+        
+        a {
+            font-size: 16px;
+            line-height: 35px;
+            text-decoration: underline;
+            
+            span {
+                display: inline-block;
+                
+                &:first-child {
+                    width: 150px;
+                    
+                }
+            }
+        }
+    }
+}
+
+/****************************************
  * Footer
  ****************************************/
 .footer-area {

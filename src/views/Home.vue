@@ -223,7 +223,7 @@
     </div>
     <!-- Kigarni Hoik End -->
 
-    <!-- ADS Hoik Start -->
+    <!-- ADS Start -->
     <section class="p-5 ads">
       <div class="container">
         <hr style="height: 2px;color: #3D3442" class="mb-4">
@@ -245,7 +245,143 @@
         <hr style="height: 2px;color: #3D3442" class="mt-4">
       </div>
     </section>
-    <!-- ADS Hoik End -->
+    <!-- ADS End -->
+
+    <!-- First Kindergarten Hunt Start -->
+    <section class="kindergarten-hunt">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 pe-md-0">
+            <div class="content">
+              <h2>初めての保活</h2>
+              <p>初めての保育園探し。<br/>そもそも保育園って何するの？ <br/>まずは保育サービスの基本を知り、パパママと<br/>お子さんにあった保育園を選びましょう</p>
+              <a href="#">保活についてくわしくみる ＞</a>
+            </div>
+          </div>
+          <div class="col-md-6 px-md-0">
+            <img src="../assets/images/kindergarten-hunt.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- First Kindergarten Hunt End -->
+
+    <!-- ADS Start -->
+    <section class="p-5 ads">
+      <div class="container">
+        <hr style="height: 2px;color: #3D3442" class="mb-4">
+        <div class="row justify-content-center">
+          <div class="col-md-3 mb-3 mb-md-0">
+            <div class="banner">
+              <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+            </div>
+          </div>
+          <div class="col-md-1 text-center visibility-hidden">
+            <span class="horizontal-line"></span>
+          </div>
+          <div class="col-md-3 mb-3 mb-md-0">
+            <div class="banner">
+              <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+            </div>
+          </div>
+          <div class="col-md-1 text-center visibility-hidden">
+            <span class="horizontal-line"></span>
+          </div>
+          <div class="col-md-3 mb-3 mb-md-0">
+            <div class="banner">
+              <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+            </div>
+          </div>
+        </div>
+        <hr style="height: 2px;color: #3D3442" class="mt-4">
+      </div>
+    </section>
+    <!-- ADS End -->
+
+    <section class="notice">
+      <div class="container">
+        <h3>お知らせ</h3>
+        <div class="notice-content">
+          <div class="notice-item">
+            <a href="#">
+              <span>▶︎2021年04月01日</span>
+              <span>新型コロナウィルス感染拡大に伴う影響について</span>
+            </a>
+          </div>
+          <div class="notice-item">
+            <a href="#">
+              <span>▶︎2021年04月01日</span>
+              <span>新型コロナウィルス感染拡大に伴う影響について</span>
+            </a>
+          </div>
+          <div class="notice-item">
+            <a href="#">
+              <span>▶︎2021年04月01日</span>
+              <span>新型コロナウィルス感染拡大に伴う影響について</span>
+            </a>
+          </div>
+          <div class="notice-item">
+            <a href="#">
+              <span>▶︎2021年04月01日</span>
+              <span>新型コロナウィルス感染拡大に伴う影響について</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ADS 02 Start -->
+    <section class="p-5 ads-02">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4 mb-3 mb-md-0">
+            <div class="banner">
+              <a href="#">
+                <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4 mb-3 mb-md-0">
+            <div class="banner">
+              <a href="#">
+                <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+              </a>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="banner">
+              <a href="#">
+                <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ADS End -->
+
+    <div class="pb-4">
+      <div class="container">
+        <a href="#">
+          <img src="https://dummyimage.com/1080x80/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+        </a>
+      </div>
+    </div>
+
+    <div class="pb-4">
+      <div class="container">
+        <a href="#" class="banner-btn">サポーター園をご検討の方はこちら ＞</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="#">
+        <img src="https://dummyimage.com/1080x80/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+      </a>
+    </div>
+
+    <div class="space-100"></div>
 
   </div>
 </template>
