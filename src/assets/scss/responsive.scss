@@ -9,9 +9,15 @@
         }
     }
     
-    .garden-feature {
+    .garden-feature, .garden-reviews {
         .read-more {
-            width: 100%;
+            width: 80%;
         }
+    }
+}
+
+@media (max-width: 767px) {
+    .visibility-hidden {
+        display: none;
     }
 }

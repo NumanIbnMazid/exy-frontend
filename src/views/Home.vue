@@ -194,8 +194,6 @@
     </div>
     <!-- Garden Reviews End -->
 
-    <div class="space-100"></div>
-
     <!-- Kigarni Hoik Start -->
     <div class="Kigarni-hoik">
       <div class="container">
@@ -224,6 +222,30 @@
       </div>
     </div>
     <!-- Kigarni Hoik End -->
+
+    <!-- ADS Hoik Start -->
+    <section class="p-5 ads">
+      <div class="container">
+        <hr style="height: 2px;color: #3D3442" class="mb-4">
+        <div class="row justify-content-center">
+          <div class="col-md-5 mb-3 mb-md-0">
+            <div class="banner">
+              <img src="https://dummyimage.com/400x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+            </div>
+          </div>
+          <div class="col-md-1 text-center visibility-hidden">
+            <span class="horizontal-line"></span>
+          </div>
+          <div class="col-md-5 mb-3 mb-md-0">
+            <div class="banner">
+              <img src="https://dummyimage.com/400x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+            </div>
+          </div>
+        </div>
+        <hr style="height: 2px;color: #3D3442" class="mt-4">
+      </div>
+    </section>
+    <!-- ADS Hoik End -->
 
   </div>
 </template>
