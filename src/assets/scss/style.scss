@@ -304,25 +304,23 @@
     }
 }
 
-.garden-feature, .garden-reviews {
-    .read-more {
-        margin-top: 50px;
-        background-color: #FFFFFF;
-        color: $--color-cb3a82;
-        display: inline-block;
-        border: 1px solid;
-        font-size: 20px;
-        line-height: 48px;
-        width: 500px;
-        font-weight: 700;
-        height: 48px;
-        transition: 0.8s;
-        
-        &:hover {
-            color: #FFFFFF;
-            background-color: $--color-cb3a82;
-            border: 1px solid $--color-e6006e;
-        }
+.read-more {
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    color: $--color-cb3a82;
+    display: inline-block;
+    border: 1px solid;
+    font-size: 20px;
+    line-height: 48px;
+    width: 500px;
+    font-weight: 700;
+    height: 48px;
+    transition: 0.8s;
+    
+    &:hover {
+        color: #FFFFFF;
+        background-color: $--color-cb3a82;
+        border: 1px solid $--color-e6006e;
     }
 }
 
@@ -517,11 +515,97 @@
     }
 }
 
+
+/****************************************
+ * Child-rearing information bulletin board
+ ****************************************/
+.bulletin-board {
+    padding: 50px 0 70px;
+    
+    .bulletin-board-inner {
+        border: 1px solid #8D8D8D;
+        
+        .top-title {
+            height: 70px;
+            background-color: $--color-cb3a82;
+            
+            h4 {
+                text-align: center;
+                line-height: 70px;
+                color: $--color-ffffff;
+                font-weight: 300;
+            }
+        }
+        
+        .content {
+            padding: 30px;
+            
+            .bulletin-item {
+                border-bottom: 1px dotted #8D8D8D;
+                padding: 15px 0;
+                
+                .date-title {
+                    display: flex;
+                    padding: 5px 0;
+                    
+                    div {
+                        &:first-child {
+                            padding: 1px 12px;
+                            border: 1px solid #8D8D8D;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+                
+                p {
+                    margin: 0;
+                    line-height: 30px;
+                }
+            }
+            
+            .read-more {
+                width: 100%;
+                margin-top: 25px;
+                text-align: center;
+            }
+            
+            .bulletin-btn {
+                display: block;
+                width: 100%;
+                background-color: #EAEAEA;
+                text-align: center;
+                border-radius: 40px;
+                margin-top: 25px;
+                line-height: 50px;
+            }
+        }
+    }
+    
+}
+
+
+/****************************************
+ * Child Rearing Consultation Corner
+ ****************************************/
+.child-consultation {
+    background-color: $--color-f8f7f7;
+    padding: 0 0 20px;
+    
+    .child-consultation-inner {
+        padding: 20px;
+        background-color: #FFFFFF;
+        
+        .consultation {
+            display: flex;
+        }
+    }
+}
+
 /****************************************
  * Notice
  ****************************************/
 .notice {
-    padding: 50px 0;
+    padding: 60px 0 50px;
     
     h3 {
         font-size: 25px;

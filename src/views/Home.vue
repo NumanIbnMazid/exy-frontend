@@ -308,6 +308,69 @@
     </section>
     <!-- ADS End -->
 
+    <!-- Child-rearing information bulletin board Start -->
+    <div class="bulletin-board">
+      <div class="container">
+        <div class="bulletin-board-inner">
+          <div class="top-title">
+            <h4>子育て情報掲示板</h4>
+          </div>
+          <div class="content">
+            <div class="row">
+              <div class="col-md-7">
+                <div class="bulletin-items">
+                  <div class="bulletin-item">
+                    <div class="date-title">
+                      <div>4/10</div>
+                      <div>大阪市西区に新しい保育園ができたらしい</div>
+                    </div>
+                    <p>大阪市西区北堀江の〇〇ビルに新しい保育園がオープン予…</p>
+                  </div>
+                  <div class="bulletin-item">
+                    <div class="date-title">
+                      <div>4/10</div>
+                      <div>大阪市西区に新しい保育園ができたらしい</div>
+                    </div>
+                    <p>大阪市西区北堀江の〇〇ビルに新しい保育園がオープン予…</p>
+                  </div>
+                  <div class="bulletin-item">
+                    <div class="date-title">
+                      <div>4/10</div>
+                      <div>大阪市西区に新しい保育園ができたらしい</div>
+                    </div>
+                    <p>大阪市西区北堀江の〇〇ビルに新しい保育園がオープン予…</p>
+                  </div>
+                </div>
+
+                <a href="#" class="read-more">保育園一覧をみる</a>
+              </div>
+              <div class="col-md-4 offset-md-1">
+                <img src="../assets/images/group-2765.png" class="d-block w-100" alt="">
+                <a href="#" class="bulletin-btn">皆さまの口コミを募集しております！</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Child-rearing information bulletin board End -->
+
+    <!-- Child-rearing consultation corner Start -->
+    <div class="child-consultation">
+      <div class="container">
+        <div class="child-consultation-inner">
+          <h4>子育て相談コーナー</h4>
+
+
+
+          <div class="text-center">
+            <a href="#" class="read-more">保育園一覧をみる</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Child-rearing consultation corner End -->
+
     <section class="notice">
       <div class="container">
         <h3>お知らせ</h3>
