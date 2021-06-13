@@ -44,7 +44,7 @@
             <v-select :options="options" placeholder="おこさまの年齢"></v-select>
           </div>
           <div class="col-md-2 mb-4 mb-md-0">
-            <button type="button" class="search-btn">検索する</button>
+            <router-link :to="{name:'Search'}" tag="button" type="button" class="search-btn">検索する</router-link>
           </div>
         </div>
 
@@ -360,7 +360,6 @@
       <div class="container">
         <div class="child-consultation-inner">
           <h4>子育て相談コーナー</h4>
-
 
 
           <div class="text-center">

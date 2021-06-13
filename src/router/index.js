@@ -11,6 +11,15 @@ const routes = [
         component: Home
     },
     {
+        path: '/search',
+        name: 'Search',
+        component: () => import("../components/search/Search")
+    },
+    {
+        path: '/details',
+        component: () => import("../components/search/Details")
+    },
+    {
         path: "*",
         redirect: "/pages/error-404"
     }
