@@ -106,11 +106,6 @@
             padding: 30px 0 0;
             position: relative;
             
-            i {
-                color: $--color-cb3a82;
-                font-size: 80px;
-            }
-            
             p {
                 margin: 0;
                 color: $--color-cb3a82;
@@ -370,6 +365,8 @@
             position: absolute;
             bottom: -48px;
             right: -10px;
+            height: 65px;
+            width: 65px;
         }
         
         .date-time {
@@ -449,6 +446,7 @@
  * Kigarni Hoik
  ****************************************/
 .Kigarni-hoik {
+    padding: 100px 0 50px;
     
     .tabs {
         text-align: left;
@@ -468,7 +466,6 @@
  ****************************************/
 .ads {
     .banner {
-        border: 1px solid #e4e4e4;
         border-radius: 5px;
         margin: 8px 0;
     }
@@ -515,7 +512,6 @@
  ****************************************/
 .ads-02 {
     .banner {
-        border: 1px solid #e4e4e4;
         border-radius: 5px;
         margin: 8px 0;
     }
@@ -525,6 +521,8 @@
  * Notice
  ****************************************/
 .notice {
+    padding: 50px 0;
+    
     h3 {
         font-size: 25px;
     }

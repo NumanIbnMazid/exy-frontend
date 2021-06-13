@@ -31,7 +31,7 @@
         <div class="col-12 col-md-5 offset-md-1">
           <div class="footer-item">
             <div class="fb-page">
-              <img src="https://dummyimage.com/550x160/adabad/ffffff&text=Facebook" alt="FB" class="d-block w-100">
+              <img src="../../assets/images/facebook.png" alt="Facebook" class="d-block w-100">
               <div class="footer-icon">
                 <ul>
                   <li><a href="#"><i class="fa fa-instagram"></i></a></li>

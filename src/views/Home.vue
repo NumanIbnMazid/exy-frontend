@@ -11,16 +11,16 @@
         <!-- Slide 1 -->
         <div class="carousel-item active">
           <img src="../assets/images/slider.png" class="d-block w-100" alt="">
-          <div class="carousel-caption d-none">
-            <img src="https://dummyimage.com/346x125/f9fafb/CB3A82&text=EXY" alt="Logo">
+          <div class="carousel-caption">
+            <img src="../assets/images/_pc.png" alt="Logo">
             <h3>WEBで予約、WEBで決済 <br/>保育園探しは <br/>キガルニホイク</h3>
           </div>
         </div>
         <!-- Slide 2 -->
         <div class="carousel-item">
           <img src="../assets/images/slider.png" class="d-block w-100" alt="">
-          <div class="carousel-caption d-none">
-            <img src="https://dummyimage.com/346x125/f9fafb/CB3A82&text=EXY" alt="Logo">
+          <div class="carousel-caption">
+            <img src="../assets/images/_pc.png" alt="Logo">
             <h3>WEBで予約、WEBで決済 <br/>保育園探しは <br/>キガルニホイク</h3>
           </div>
         </div>
@@ -62,7 +62,7 @@
               <a href="#"><span>＃</span> 月極保育</a>
             </li>
             <li>
-              <a href="#"><span>＃</span> 月極保育</a>
+              <a href="#"><span>＃</span> 条件からさがす</a>
             </li>
             <li>
               <a href="#"><span>＃</span> エリア・沿線からさがす</a>
@@ -79,9 +79,9 @@
 
         <!-- Tabs Start -->
         <div class="tabs">
-          <a @click="activeTab='1'" :class="[ activeTab === '1' ? 'active' : '' ]"><i class="fa fa-smile-o"></i> 明日預けられる園</a>
-          <a @click="activeTab='2'" :class="[ activeTab === '2' ? 'active' : '' ]"><i class="fa fa-lemon-o"></i> 特色がある園</a>
-          <a @click="activeTab='3'" :class="[ activeTab === '3' ? 'active' : '' ]"><i class="fa fa-heart"></i> 病児が預けられる園</a>
+          <a @click="activeTab='1'" :class="[ activeTab === '1' ? 'active' : '' ]"><img src="../assets/images/svg/smile-emoji.svg" alt=""> 明日預けられる園</a>
+          <a @click="activeTab='2'" :class="[ activeTab === '2' ? 'active' : '' ]"><img src="../assets/images/svg/leaves.svg" alt=""> 特色がある園</a>
+          <a @click="activeTab='3'" :class="[ activeTab === '3' ? 'active' : '' ]"><img src="../assets/images/svg/heart.svg" alt=""> 病児が預けられる園</a>
         </div>
         <!-- Tabs End -->
 
@@ -136,7 +136,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="single-item mb-4 mb-lg-0">
               <a href="#">
-                <i class="fa fa-smile-o"></i>
+                <img src="../assets/images/group-2761.png" class="img-fluid" alt="">
                 <p>キガルニホイクとは</p>
                 <span>What is KIGATUNIHOIKU</span>
               </a>
@@ -146,7 +146,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="single-item mb-4 mb-lg-0">
               <a href="#">
-                <i class="fa fa-smile-o"></i>
+                <img src="../assets/images/group-2762.png" class="img-fluid" alt="">
                 <p>キガルニホイク使い方</p>
                 <span>Hoｗ to use</span>
               </a>
@@ -156,7 +156,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="single-item mb-4 mb-lg-0">
               <a href="#">
-                <i class="fa fa-smile-o"></i>
+                <img src="../assets/images/group-2763.png" class="img-fluid" alt="">
                 <p>お支払い方法について</p>
                 <span>Amount of money</span>
               </a>
@@ -166,7 +166,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="single-item">
               <a href="#">
-                <i class="fa fa-smile-o"></i>
+                <img src="../assets/images/group-2764.png" class="img-fluid" alt="">
                 <p>ご利用いただく皆さまへ</p>
                 <span>To all of you</span>
               </a>
@@ -230,7 +230,9 @@
         <div class="row justify-content-center">
           <div class="col-md-5 mb-3 mb-md-0">
             <div class="banner">
-              <img src="https://dummyimage.com/400x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+              <a href="#">
+                <img src="../assets/images/_2021-04-01_165332@2x.png" alt="EXY" class="d-block w-100">
+              </a>
             </div>
           </div>
           <div class="col-md-1 text-center visibility-hidden">
@@ -238,7 +240,9 @@
           </div>
           <div class="col-md-5 mb-3 mb-md-0">
             <div class="banner">
-              <img src="https://dummyimage.com/400x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+              <a href="#">
+                <img src="../assets/images/_2021-04-01_165910@2x.png" alt="EXY" class="d-block w-100">
+              </a>
             </div>
           </div>
         </div>
@@ -273,7 +277,9 @@
         <div class="row justify-content-center">
           <div class="col-md-3 mb-3 mb-md-0">
             <div class="banner">
-              <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+              <a href="#">
+                <img src="../assets/images/_2021-04-01_170432@2x.png" alt="EXY" class="d-block w-100">
+              </a>
             </div>
           </div>
           <div class="col-md-1 text-center visibility-hidden">
@@ -281,7 +287,9 @@
           </div>
           <div class="col-md-3 mb-3 mb-md-0">
             <div class="banner">
-              <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+              <a href="#">
+                <img src="../assets/images/_2021-04-01_170619@2x.png" alt="EXY" class="d-block w-100">
+              </a>
             </div>
           </div>
           <div class="col-md-1 text-center visibility-hidden">
@@ -289,7 +297,9 @@
           </div>
           <div class="col-md-3 mb-3 mb-md-0">
             <div class="banner">
-              <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+              <a href="#">
+                <img src="../assets/images/_2021-04-01_170834@2x.png" alt="EXY" class="d-block w-100">
+              </a>
             </div>
           </div>
         </div>
@@ -335,24 +345,24 @@
     <section class="p-5 ads-02">
       <div class="container">
         <div class="row">
-          <div class="col-6 col-md-4 mb-3 mb-md-0">
+          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
             <div class="banner">
               <a href="#">
-                <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+                <img src="../assets/images/_2021-04-01_171335@2x.png" alt="EXY" class="d-block w-100">
               </a>
             </div>
           </div>
-          <div class="col-6 col-md-4 mb-3 mb-md-0">
+          <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
             <div class="banner">
               <a href="#">
-                <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+                <img src="../assets/images/_2021-04-01_171803@2x.png" alt="EXY" class="d-block w-100">
               </a>
             </div>
           </div>
-          <div class="col-6 col-md-4">
+          <div class="col-sm-6 col-md-4">
             <div class="banner">
               <a href="#">
-                <img src="https://dummyimage.com/250x150/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+                <img src="../assets/images/_2021-04-01_171957@2x.png" alt="EXY" class="d-block w-100">
               </a>
             </div>
           </div>
@@ -364,7 +374,7 @@
     <div class="pb-4">
       <div class="container">
         <a href="#">
-          <img src="https://dummyimage.com/1080x80/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+          <img src="../assets/images/_1-100@2x.png" alt="EXY" class="d-block w-100">
         </a>
       </div>
     </div>
@@ -377,7 +387,7 @@
 
     <div class="container">
       <a href="#">
-        <img src="https://dummyimage.com/1080x80/F8F7F7/F8F7F7&text=EXY" alt="EXY" class="d-block w-100">
+        <img src="../assets/images/_1_5-100@2x.png" alt="EXY" class="d-block w-100">
       </a>
     </div>
 

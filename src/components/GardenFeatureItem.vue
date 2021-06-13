@@ -1,7 +1,7 @@
 <template>
   <div class="single-item">
     <div class="thumbnail">
-      <img src="https://dummyimage.com/200x200/ece9e9/ece9e9&text=e" class="img-fluid" alt="">
+      <img src="../assets/images/WEB05@2x.png" class="img-fluid" alt="">
       <div class="overlay">
         <a href="#">園外観写真</a>
       </div>
