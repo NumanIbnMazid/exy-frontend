@@ -582,9 +582,44 @@
         padding: 20px;
         background-color: #FFFFFF;
         
-        .consultation {
+        .consultation-item {
             display: flex;
+            margin: 40px 0;
+            
+            img {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .consultation-content {
+                h5 {
+                    margin: 0 0 15px 0;
+                }
+                
+                span {
+                }
+            }
+            
+            
+            .bg-left {
+                background: url("../images/consultation-corner-bg-left.png");
+                padding: 15px 15px 15px 60px;
+            }
+            
+            .bg-right {
+                background: url("../images/consultation-corner-bg-right.png");
+                padding: 15px 60px 15px 15px;
+            }
+            
+            .bg-left, .bg-right {
+                background-size: 100% 100%;
+                width: 100%;
+            }
         }
+    }
+    
+    .read-more {
+        margin-top: 15px;
     }
 }
 

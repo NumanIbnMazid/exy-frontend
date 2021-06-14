@@ -360,7 +360,48 @@
       <div class="container">
         <div class="child-consultation-inner">
           <h4>子育て相談コーナー</h4>
+          
+          <div class="consultation-item">
+            <img src="../assets/images/group-2770.png" alt="">
+            <div class="consultation-content bg-left">
+              <h5><a href="#">▶︎現在５歳、春から小学生になる息子がいる母です。体が小さめで心も幼く、小学…</a></h5>
+              <div>
+                <span>＃お悩み聞いて！</span>
+                <span>＃旦那・家族</span>
+                <span>＃働くママ</span>
+                <span>＃5歳児</span>
+                <span>2021/04/01 17:28 ｜ コメント２</span>
+              </div>
+            </div>
+          </div>
 
+          <div class="consultation-item">
+            <div class="consultation-content bg-right">
+              <h5><a href="#">▶︎現在５歳、春から小学生になる息子がいる母です。体が小さめで心も幼く、小学…</a></h5>
+              <div>
+                <span>＃お悩み聞いて！</span>
+                <span>＃旦那・家族</span>
+                <span>＃働くママ</span>
+                <span>＃5歳児</span>
+                <span>2021/04/01 17:28 ｜ コメント２</span>
+              </div>
+            </div>
+            <img src="../assets/images/group-2770.png" alt="">
+          </div>
+
+          <div class="consultation-item">
+            <img src="../assets/images/group-2770.png" alt="">
+            <div class="consultation-content bg-left">
+              <h5><a href="#">▶︎現在５歳、春から小学生になる息子がいる母です。体が小さめで心も幼く、小学…</a></h5>
+              <div>
+                <span>＃お悩み聞いて！</span>
+                <span>＃旦那・家族</span>
+                <span>＃働くママ</span>
+                <span>＃5歳児</span>
+                <span>2021/04/01 17:28 ｜ コメント２</span>
+              </div>
+            </div>
+          </div>
 
           <div class="text-center">
             <a href="#" class="read-more">保育園一覧をみる</a>
