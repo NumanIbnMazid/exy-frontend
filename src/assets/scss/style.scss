@@ -312,7 +312,8 @@
     border: 1px solid;
     font-size: 20px;
     line-height: 48px;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     font-weight: 700;
     height: 48px;
     transition: 0.8s;
@@ -339,41 +340,27 @@
     }
     
     .garden-review-item {
-        background: #FFFFFF;
-        box-shadow: 1px 3px 6px #00000040;
-        padding: 13px 10px;
-        border-radius: 0 12px 0 15px;
+        background: url("../images/review-bg.png");
+        padding: 20px 20px 40px;
         position: relative;
-        margin: 11px 10px 55px;
-        
-        &:after {
-            content: '';
-            height: 16px;
-            width: 40px;
-            position: absolute;
-            background: #FFFFFF;
-            bottom: -8px;
-            left: 55%;
-            border-top: #EEEFF1 solid 1px;
-            border-left: #EEEFF1 solid 1px;
-            transform: rotate(201deg);
-        }
+        margin: 10px 10px 50px;
+        background-size: 100% 100%;
         
         img {
             position: absolute;
-            bottom: -48px;
-            right: -10px;
+            bottom: -20px;
+            right: 0;
             height: 65px;
             width: 65px;
         }
         
         .date-time {
             position: absolute;
-            top: -11px;
-            left: -6px;
-            background: $--color-cb3a82;
+            top: -5px;
+            left: 2px;
+            background: #CB3A82;
             color: #fff;
-            border: 1px solid $--color-cb3a82;
+            border: 1px solid #CB3A82;
             height: 22px;
             line-height: 22px;
             font-size: 15px;
