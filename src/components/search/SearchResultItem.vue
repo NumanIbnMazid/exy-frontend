@@ -14,12 +14,12 @@
             <hooper group="group1">
               <slide>
                 <div class="mb-2">
-                  <img src="https://via.placeholder.com/300x250" class="d-block w-100 rounded" alt="">
+                  <img src="../../assets/images/WEB05_n@2x.png" class="d-block w-100 rounded" alt="">
                 </div>
               </slide>
               <slide>
                 <div class="mb-2">
-                  <img src="https://via.placeholder.com/300x250" class="d-block w-100 rounded" alt="">
+                  <img src="../../assets/images/WEB05_n@2x.png" class="d-block w-100 rounded" alt="">
                 </div>
               </slide>
             </hooper>
@@ -27,16 +27,15 @@
             <hooper group="group1" :itemsToShow="2">
               <slide>
                 <div class="me-1">
-                  <img src="https://via.placeholder.com/300x250" class="d-block w-100 rounded" alt="">
+                  <img src="../../assets/images/English_lesson@2x.png" class="d-block w-100 rounded" alt="">
                 </div>
               </slide>
               <slide>
                 <div class="me-1">
-                  <img src="https://via.placeholder.com/300x250" class="d-block w-100 rounded" alt="">
+                  <img src="../../assets/images/web03_hb@2x.png" class="d-block w-100 rounded" alt="">
                 </div>
               </slide>
 
-              <hooper-pagination slot="hooper-addons"></hooper-pagination>
             </hooper>
           </div>
         </div>
@@ -51,18 +50,40 @@
         </div>
         <div class="dashed-border"></div>
         <div class="py-2">
-          <router-link to="/details" class="title">【園のPR分・⾃由⼊⼒】ダミーテキスト。ダミーテキス ト。ダミーテキスト。ダミーテキスト。ダミーテキス</router-link>
+          <div class="w-85">保育理念</div>
+          <router-link to="/details" class="title flex">【園のPR分・自由入力】ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。…</router-link>
         </div>
         <div class="dashed-border"></div>
-        <div class="py-2">〒550-0014 ⼤阪府⼤阪市⻄区北堀江１丁⽬２−２７</div>
-        <div class="pb-1">最寄駅：「四ツ橋駅」徒歩10分</div>
+        <div class="py-2">
+          <div class="w-85">所 在 地</div>
+          <div class="flex">〒550-0014 大阪府大阪市西区北堀江１丁目２−２７</div>
+        </div>
         <div class="dashed-border"></div>
-        <div class="py-2">営業時間 平 7:30-18:30</div>
+        <div class="py-2">
+          <div class="w-85">最 寄 駅</div>
+          <div class="flex">Osaka Metro「四ツ橋駅」 徒歩10分</div>
+        </div>
         <div class="dashed-border"></div>
-        <div class="py-2">定員 １２名</div>
+        <div class="py-2">
+          <div class="w-85">開園時間</div>
+          <div class="flex">
+            <span></span>
+            <span>平</span>
+            <span>7:30-18:30</span>
+            <span>休</span>
+            <span>7:30-18:30</span>
+            <span>休 園 日</span>
+            <span>毎週日曜日</span>
+          </div>
+        </div>
         <div class="dashed-border"></div>
-        <div class="py-2">園の特徴</div>
-        <div class="pb-2">
+        <div class="py-2">
+          <div class="w-85">定 員</div>
+          <div class="flex">定員 １２名</div>
+        </div>
+        <div class="dashed-border"></div>
+        <div class="py-2">
+          <div class="w-85">特 色</div>
           <div class="Kindergarten-features">
             <span>英語保育</span>
             <span>英語保育</span>
@@ -72,18 +93,19 @@
           </div>
         </div>
         <div class="dashed-border"></div>
-        <div class="py-2 search-analytics">
-          <div class="search-review-count">
-            <span>口 コ ミ <strong>5.0</strong></span>
+        <div class="py-2">
+          <div class="w-85">口 コ ミ</div>
+          <div class="flex">
+            <strong>5.0</strong>
+            <div class="search-heart-count ms-2 me-2">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <span>レビュー <strong>10</strong>件</span>
           </div>
-          <div class="search-heart-count ms-2 me-2">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-          </div>
-          <span>いいね！ <strong>305</strong>件</span>
         </div>
         <div class="dashed-border"></div>
       </div>
@@ -92,14 +114,13 @@
 </template>
 
 <script>
-import {Hooper, Pagination as HooperPagination, Slide} from "hooper";
+import {Hooper, Slide} from "hooper";
 
 export default {
   name: "SearchResultItem",
   components: {
     Hooper,
-    Slide,
-    HooperPagination
+    Slide
   }
 }
 </script>
