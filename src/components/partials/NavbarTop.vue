@@ -13,11 +13,11 @@
       <div class="collapse navbar-collapse" id="navbarTop">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <router-link class="nav-link" :to="{name: 'UsageFlow'}">
               <img src="../../assets/images/svg/hand.svg" alt="">
               <div class="br"></div>
               ご利用の流れ
-            </a>
+            </router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">

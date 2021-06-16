@@ -2,6 +2,8 @@
 $--color-f8f7f7: #F8F7F7;
 $--color-aaaaaa: #AAAAAA;
 $--color-707070: #707070;
+$--color-c4c4c4: #C4C4C4;
+$--color-6f7070: #6F7070;
 $--color-f2f2f2: #F2F2F2;
 $--color-bababa: #BABABA;
 $--color-ffffff: #FFFFFF;
@@ -14,13 +16,9 @@ $--color-e6006e: #E6006E;
 
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&display=swap');
 
-* {
+body {
     color: #333333;
     font-family: 'Gothic A1', sans-serif;
-}
-
-.dashed-border {
-    border-bottom: 1px dashed #8A8A8A;
 }
 
 a {
@@ -36,12 +34,12 @@ ul {
     list-style: none;
 }
 
-.flex {
-    display: flex;
-}
-
 .space-100 {
     padding: 50px 0
+}
+
+.dashed-border {
+    border-bottom: 1px dashed #8A8A8A;
 }
 
 .mx-datepicker {
@@ -180,4 +178,48 @@ ul {
 
 .breadcrumb-item + .breadcrumb-item::before {
     padding: 0 1.5rem;
+}
+
+/* ===================================
+    Background image
+====================================== */
+.cover-background {
+    position: relative !important;
+    background-size: cover !important;
+    overflow: hidden !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.background-position-top {
+    background-position: center top !important;
+}
+
+.opacity-medium {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+}
+
+.bg-extra-dark-gray {
+    background-color: #1c1c1c;
+}
+
+.padding-30px-tb {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.page-title {
+    h3 {
+        z-index: 9;
+        color: $--color-aaaaaa;
+    }
+}
+
+.pos-rel {
+    position: relative;
 }

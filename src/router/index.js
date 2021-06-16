@@ -11,6 +11,11 @@ const routes = [
         component: Home
     },
     {
+        path: '/usage-flow',
+        name: 'UsageFlow',
+        component: () => import("../views/UsageFlow")
+    },
+    {
         path: '/search',
         name: 'Search',
         component: () => import("../components/search/Search")
