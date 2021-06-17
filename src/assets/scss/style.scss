@@ -971,16 +971,26 @@
             position: absolute;
             top: 100%;
             left: 50%;
-            height: 100vh;
+            height: 10000%;
             width: 4px;
             background: $--color-c4c4c4;
+        }
+        
+        span {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            height: 100vh;
+            width: 4px;
+            background: $--color-f8f7f7;
+            z-index: 1;
         }
     }
     
     h4 {
         background: #6F7070;
         color: #FFFFFF;
-        padding: 7px 5px;
+        padding: 10px 5px;
         font-weight: 300;
         font-size: 20px;
         line-height: 1;
@@ -1024,12 +1034,10 @@
     }
     
     .box-content {
-        overflow: hidden;
+        display: flex;
         align-items: center;
-        justify-content: center;
         padding: 10px;
         border: 1px solid $--color-6f7070;
-        flex-wrap: nowrap;
         
         .left-content {
             text-align: center;
@@ -1038,7 +1046,6 @@
             vertical-align: middle;
             color: $--color-6f7070;
             float: left;
-            padding-top: 20px;
             
             span {
                 font-size: 11px;
@@ -1053,6 +1060,27 @@
         }
     }
 }
+
+.garden-word {
+    padding: 3rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    border: 2px solid $--color-c4c4c4;
+}
+
+.about-rules {
+    padding: 40px 0;
+    border: 2px solid $--color-c4c4c4;
+    
+    h3 {
+        margin-bottom: 40px;
+    }
+    
+    p {
+        margin: 0;
+    }
+}
+
 
 /****************************************
  * Footer

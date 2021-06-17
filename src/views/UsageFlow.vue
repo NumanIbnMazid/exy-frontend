@@ -263,7 +263,7 @@
         <div class="d-flex align-items-start">
           <div class="mr-3 text-center pos-rel">
             <span class="text-secondary d-inline-block mb-2">STEP</span>
-            <div class="p-4 rounded-circle text-white font-weight-bold d-flex align-items-center justify-content-center step-count">8</div>
+            <div class="p-4 rounded-circle text-white font-weight-bold d-flex align-items-center justify-content-center step-count"><span></span>8</div>
           </div>
           <div class="step-content rounded-3">
             <h5 class="mb-3">園口コミ・お支払い</h5>
@@ -289,7 +289,50 @@
     </section>
     <!-- Steps end -->
 
-    <div class="space-100"></div>
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="garden-word">
+              <h3>子育て相談コーナー</h3>
+              <a href="#">使い方はこちら ＞</a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="garden-word">
+              <h3>園口コミ</h3>
+              <a href="#">使い方はこちら ＞</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-rules">
+      <h3 class="text-center">ご利用いただく際のルールとマナーについて</h3>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <p>キガルニホイクでは、ご利用者様同士で直接やり取りができるコンテンツもご用意しています。</p>
+            <p>お互いを思いやり、楽しく気持ちの良いコミュニケーションが取れるようご協力お願い致します。</p>
+            <p>（※当サイトご利用の前には、ガイドラインをご一読ください。）</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <a href="#">
+              <img src="../assets/images/sinkitouroku.png" alt="" class="img-fluid rounded">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
 </template>
 
