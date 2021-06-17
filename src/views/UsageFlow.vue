@@ -53,7 +53,7 @@
 
         <!-- STEP Start -->
         <div class="d-flex mb-5 align-items-start">
-          <div class="mr-3 text-center pos-rel">
+          <div class="mr-3 text-center position-relative">
             <span class="text-secondary d-inline-block mb-2">STEP</span>
             <div class="p-4 rounded-circle text-white font-weight-bold d-flex align-items-center justify-content-center step-count">1</div>
           </div>
@@ -88,7 +88,7 @@
 
         <!-- STEP Start -->
         <div class="d-flex mb-5 align-items-start">
-          <div class="mr-3 text-center pos-rel">
+          <div class="mr-3 text-center position-relative">
             <span class="text-secondary d-inline-block mb-2">STEP</span>
             <div class="p-4 rounded-circle text-white font-weight-bold d-flex align-items-center justify-content-center step-count">2</div>
           </div>
@@ -112,7 +112,7 @@
 
         <!-- STEP Start -->
         <div class="d-flex mb-5 align-items-start">
-          <div class="mr-3 text-center pos-rel">
+          <div class="mr-3 text-center position-relative">
             <span class="text-secondary d-inline-block mb-2">STEP</span>
             <div class="p-4 rounded-circle text-white font-weight-bold d-flex align-items-center justify-content-center step-count">3</div>
           </div>
@@ -182,7 +182,7 @@
 
         <!-- STEP Start -->
         <div class="d-flex mb-5 align-items-start">
-          <div class="mr-3 text-center pos-rel">
+          <div class="mr-3 text-center position-relative">
             <span class="text-secondary d-inline-block mb-2">STEP</span>
             <div class="p-4 rounded-circle text-white font-weight-bold d-flex align-items-center justify-content-center step-count">4</div>
           </div>
@@ -202,7 +202,7 @@
 
         <!-- STEP Start -->
         <div class="d-flex mb-5 align-items-start">
-          <div class="mr-3 text-center pos-rel">
+          <div class="mr-3 text-center position-relative">
             <span class="text-secondary d-inline-block mb-2">STEP</span>
             <div class="p-4 rounded-circle text-white font-weight-bold d-flex align-items-center justify-content-center step-count">5</div>
           </div>
@@ -222,7 +222,7 @@
 
         <!-- STEP Start -->
         <div class="d-flex mb-5 align-items-start">
-          <div class="mr-3 text-center pos-rel">
+          <div class="mr-3 text-center position-relative">
             <span class="text-secondary d-inline-block mb-2">STEP</span>
             <div class="p-4 rounded-circle text-white font-weight-bold d-flex align-items-center justify-content-center step-count">6</div>
           </div>
@@ -242,7 +242,7 @@
 
         <!-- STEP Start -->
         <div class="d-flex mb-5 align-items-start">
-          <div class="mr-3 text-center pos-rel">
+          <div class="mr-3 text-center position-relative">
             <span class="text-secondary d-inline-block mb-2">STEP</span>
             <div class="p-4 rounded-circle text-white font-weight-bold d-flex align-items-center justify-content-center step-count">7</div>
           </div>
@@ -261,7 +261,7 @@
 
         <!-- STEP Start -->
         <div class="d-flex align-items-start">
-          <div class="mr-3 text-center pos-rel">
+          <div class="mr-3 text-center position-relative">
             <span class="text-secondary d-inline-block mb-2">STEP</span>
             <div class="p-4 rounded-circle text-white font-weight-bold d-flex align-items-center justify-content-center step-count"><span></span>8</div>
           </div>

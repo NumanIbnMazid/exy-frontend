@@ -660,8 +660,8 @@
  ****************************************/
 
 .breadcrumb-border {
-    border-top: 1px solid;
-    border-bottom: 2px solid;
+    border-top: 1px solid $--color-c4c4c4;
+    border-bottom: 1px solid $--color-c4c4c4;
     
     .breadcrumb {
         margin: 0;
@@ -1078,6 +1078,61 @@
     
     p {
         margin: 0;
+    }
+}
+
+/****************************************
+ * What is Kigaruni Hoiku
+ ****************************************/
+.kigaruni-hoiku {
+    .banner-content {
+        bottom: 15%;
+        position: absolute;
+        text-align: center;
+        padding: 0 40px;
+        right: 100px;
+    }
+}
+
+/****************************************
+ * Regain you full of love
+ ****************************************/
+.regain-full-love {
+    text-align: center;
+    background-color: $--color-f8f7f7;
+    
+    a {
+        display: inline-block;
+        background-color: #FFFFFF;
+        padding: 10px 20px;
+        font-weight: 700;
+        border-radius: 4px;
+        margin: 10px 0 30px;
+    }
+}
+
+.kigaruni-hoiku-info {
+    .single-item {
+        padding: 0 40px;
+        text-align: center;
+        
+        img {
+            width: 100%;
+        }
+        
+        h4 {
+            margin: 15px 0 20px;
+            display: inline-block;
+            border-bottom: 1px solid $--color-c94284;
+            font-size: 20px;
+        }
+        
+        p {
+            margin: 0;
+            text-align: left;
+            font-size: 14px;
+            line-height: 1.5rem;
+        }
     }
 }
 

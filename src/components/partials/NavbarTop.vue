@@ -20,11 +20,11 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <router-link class="nav-link" :to="{name:'KigaruniHoiku'}">
               <img src="../../assets/images/svg/smile-emoji.svg" alt="">
               <div class="br"></div>
               キガルニホイクとは？
-            </a>
+            </router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">

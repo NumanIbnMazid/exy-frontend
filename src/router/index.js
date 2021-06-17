@@ -16,6 +16,11 @@ const routes = [
         component: () => import("../views/UsageFlow")
     },
     {
+        path: '/what-is-kigaruni-hoiku',
+        name: 'KigaruniHoiku',
+        component: () => import("../views/KigaruniHoiku")
+    },
+    {
         path: '/search',
         name: 'Search',
         component: () => import("../components/search/Search")

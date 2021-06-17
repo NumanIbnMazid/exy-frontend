@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="171.492" height="21.709" viewBox="0 0 171.492 21.709">
+  <g id="Group_2758" data-name="Group 2758" transform="translate(-97.518 -1777.314)">
+    <g id="Group_1665" data-name="Group 1665" transform="translate(-324.224 -91)">
+      <text id="キガルニホイクは" transform="translate(507 1886.023)" fill="#333" font-size="16" font-family="YuGothicUI-Bold, Yu Gothic UI" font-weight="700"><tspan x="-51.129" y="0">キガルニホイクは</tspan></text>
+      <g id="Group_1659" data-name="Group 1659" transform="translate(424.771 1868.314) rotate(11)">
+        <line id="Line_440" data-name="Line 440" x2="9.769" y2="9.769" transform="translate(2.931 3.582)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_441" data-name="Line 441" x2="2.605" y2="5.21" transform="translate(8.141 0.977)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+        <line id="Line_442" data-name="Line 442" x2="7.815" y2="4.559" transform="translate(0.326 8.792)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+        <g id="Ellipse_83" data-name="Ellipse 83" fill="#cb3a82" stroke="#333" stroke-width="1">
+          <ellipse cx="0.977" cy="0.977" rx="0.977" ry="0.977" stroke="none"/>
+          <ellipse cx="0.977" cy="0.977" rx="0.477" ry="0.477" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_2757" data-name="Group 2757">
+        <g id="Group_1660" data-name="Group 1660" transform="translate(592.751 1881.42) rotate(169)">
+          <line id="Line_440-2" data-name="Line 440" y1="9.769" x2="9.769" transform="translate(2.931 0)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+          <line id="Line_441-2" data-name="Line 441" y1="5.21" x2="2.605" transform="translate(8.141 7.164)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+          <line id="Line_442-2" data-name="Line 442" y1="4.559" x2="7.815" transform="translate(0.326 0)" fill="none" stroke="#333" stroke-linecap="round" stroke-width="1"/>
+          <g id="Ellipse_83-2" data-name="Ellipse 83" transform="translate(0 11.397)" fill="#cb3a82" stroke="#333" stroke-width="1">
+            <ellipse cx="0.977" cy="0.977" rx="0.977" ry="0.977" stroke="none"/>
+            <ellipse cx="0.977" cy="0.977" rx="0.477" ry="0.477" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
