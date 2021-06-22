@@ -43,7 +43,7 @@
         <div class="review-text">
           この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章…
         </div>
-        <img class="rounded-circle" src="../assets/images/WEB04_ha.png" alt="">
+        <img class="rounded-circle" src="../assets/images/WEB04_ha.png" alt="EXY">
       </div>
     </slide>
 

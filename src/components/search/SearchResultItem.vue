@@ -12,15 +12,15 @@
           </h4>
           <div class="search-result-left-img">
             <div class="mb-2">
-              <img src="../../assets/images/WEB05_n@2x.png" class="d-block w-100 rounded" alt="">
+              <img src="../../assets/images/WEB05_n@2x.png" class="d-block w-100 rounded" alt="EXY">
             </div>
 
             <div class="d-flex">
               <div class="me-1">
-                <img src="../../assets/images/English_lesson@2x.png" class="d-block w-100 rounded" alt="">
+                <img src="../../assets/images/English_lesson@2x.png" class="d-block w-100 rounded" alt="EXY">
               </div>
               <div class="me-1">
-                <img src="../../assets/images/web03_hb@2x.png" class="d-block w-100 rounded" alt="">
+                <img src="../../assets/images/web03_hb@2x.png" class="d-block w-100 rounded" alt="EXY">
               </div>
             </div>
           </div>

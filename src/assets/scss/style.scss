@@ -1092,6 +1092,106 @@
         padding: 0 40px;
         right: 100px;
     }
+    
+    .kigarni-hoik {
+        background-color: $--color-f8f7f7;
+        padding: 3rem 0;
+        
+        .single-item {
+            background-color: $--color-ffffff;
+            padding: 25px;
+            border-radius: 30px;
+            margin-bottom: 30px;
+            
+            .content {
+                text-align: center;
+                display: table;
+                height: 100%;
+                padding: 1.5rem;
+                
+                .inner {
+                    display: table-cell;
+                    vertical-align: middle;
+                    
+                    h3 {
+                        color: $--color-c94284;
+                        margin-bottom: 15px;
+                    }
+                    
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+    .other-uses {
+        padding: 3rem 0;
+        
+        .single-item {
+            border-radius: 25px;
+            border: 1px solid $--color-aaaaaa;
+            padding: 20px 25px;
+            margin-bottom: 30px;
+            
+            h5 {
+                font-weight: 500;
+                color: $--color-c94284;
+                margin-bottom: 15px;
+            }
+            
+            p {
+                margin-bottom: 0;
+                line-height: 26px;
+                color: $--color-6f7070;
+            }
+        }
+    }
+    
+    .rules {
+        padding: 3rem 0;
+        
+        h3 {
+            padding: 0 25px;
+            margin-bottom: 40px;
+            display: inline-block;
+            border-bottom: 2px solid $--color-707070;
+        }
+        
+        p {
+            margin-bottom: 0;
+            line-height: 26px;
+            color: $--color-6f7070;
+        }
+    }
+    
+    .voice-user {
+        padding: 3rem 0;
+        background-color: $--color-f8f7f7;
+        
+        .single-item {
+            .content {
+                display: table;
+                height: 100%;
+                padding: 1.5rem;
+                
+                .inner {
+                    display: table-cell;
+                    vertical-align: middle;
+                    
+                    h4 {
+                        margin-bottom: 35px;
+                        margin-left: 25px;
+                    }
+                    
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
 }
 
 /****************************************

@@ -40,7 +40,7 @@
             <p class="mb-0">登録無料で始めてみましょう。</p>
           </div>
           <div class="text-center">
-            <img src="https://dummyimage.com/200x200/ece9e9/ece9e9&text=e" class="img-fluid" alt="">
+            <img src="https://dummyimage.com/200x200/ece9e9/ece9e9&text=e" class="img-fluid" alt="EXY">
           </div>
         </div>
       </div>
@@ -60,21 +60,21 @@
           <div class="step-content rounded-3">
             <h5 class="mb-3">ご登録</h5>
             <div class="d-flex text-secondary font-weight-light">
-              <img src="../assets/images/coinview-app.png" alt="">
+              <img src="../assets/images/coinview-app.png" alt="EXY">
               <div class="content">
                 <a href="#">１．アカウントの作成</a>
                 <p>メールアドレスで簡単に登録できます。登録後、メールが届きますのでメールの指示に従い、次のステップにお進みください。</p>
               </div>
             </div>
             <div class="d-flex text-secondary font-weight-light my-4">
-              <img src="../assets/images/_jc@2x.png" alt="">
+              <img src="../assets/images/_jc@2x.png" alt="EXY">
               <div class="content">
                 <a href="#">２．プロフィールの登録</a>
                 <p>お子さまと保護者さまのプロフィールをご登録ください。安心安全に保育園をご利用いただくために、情報は正確にご記入いただきますようお願いいたします。</p>
               </div>
             </div>
             <div class="d-flex text-secondary font-weight-light">
-              <img src="../assets/images/business_47.png" alt="">
+              <img src="../assets/images/business_47.png" alt="EXY">
               <div class="content">
                 <a href="#">３．本人確認書類などの登録</a>
                 <p>月極保育・体験保育ご予約をご予定の方は、本人確認書類(※1)のご登録をお願いいたします。（園見学予約をご予定の方は、本人確認書類等の登録は必要ありません。）
@@ -95,7 +95,7 @@
           <div class="step-content rounded-3">
             <h5 class="mb-3">保育園をさがす</h5>
             <div class="d-flex text-secondary font-weight-light">
-              <img src="../assets/images/ID3543293.png" alt="">
+              <img src="../assets/images/ID3543293.png" alt="EXY">
               <div class="content">
                 <p>会員登録が完了後はすぐに、園見学のご予約や、子育て相談コーナーのご利用が可能です。
                   なお、体験保育（一時保育）や月極保育のご予約に関しては、本人確認書類の登録完了後にご利用可能となります。</p>
@@ -118,7 +118,7 @@
           </div>
           <div class="step-content rounded-3">
             <div class="d-flex text-secondary font-weight-light mb-4">
-              <img src="../assets/images/f_f_business_12.png" alt="">
+              <img src="../assets/images/f_f_business_12.png" alt="EXY">
               <div class="content">
                 <a href="#">１．予約リクエスト</a>
                 <p>希望条件と合致した保育園に、予約リクエストを送ります。</p>
@@ -128,7 +128,7 @@
               </div>
             </div>
             <div class="d-flex text-secondary font-weight-light">
-              <img src="../assets/images/f_f_business_44.png" alt="">
+              <img src="../assets/images/f_f_business_44.png" alt="EXY">
               <div class="content">
                 <a href="#">２．予約確定</a>
                 <p>予約リクエストを送ると、登録メールアドレスに保育園から予約の可否に関するメッセージの通知が届きます。</p>
@@ -189,7 +189,7 @@
           <div class="step-content rounded-3">
             <h5 class="mb-3">電子契約書にサイン</h5>
             <div class="d-flex text-secondary font-weight-light">
-              <img src="../assets/images/f_f_object_128.png" alt="">
+              <img src="../assets/images/f_f_object_128.png" alt="EXY">
               <div class="content">
                 <p>体験保育（一時保育）・月極保育の予約が確定後、ご利用に関する書類等が登録メールアドレス宛に送付されます。（※園見学予約には書類登録はございません。）</p>
                 <p>WEB上で表示された書類を確認し、問題なければサインをします。</p>
@@ -209,7 +209,7 @@
           <div class="step-content rounded-3">
             <h5 class="mb-3">登園まで</h5>
             <div class="d-flex text-secondary font-weight-light">
-              <img src="../assets/images/christian-wiediger.png" alt="">
+              <img src="../assets/images/christian-wiediger.png" alt="EXY">
               <div class="content">
                 <p>登園前に気になる点や伝えておきたいことがある場合は、事前にマイページのトーク画面で保育園へ確認しておきます。</p>
                 <p>※予約確定後のキャンセルは、来園予定日の前日（キャンセル可能時期は園による）まで、WEB上でキャンセルが可能です。</p>
@@ -229,7 +229,7 @@
           <div class="step-content rounded-3">
             <h5 class="mb-3">保育開始</h5>
             <div class="d-flex text-secondary font-weight-light">
-              <img src="../assets/images/ID4329329_.png" alt="">
+              <img src="../assets/images/ID4329329_.png" alt="EXY">
               <div class="content">
                 <a href="#"></a>
                 <p>当日は安心してお子さまを保育園にお任せしましょう。</p>
@@ -249,7 +249,7 @@
           <div class="step-content rounded-3">
             <h5 class="mb-3">保育完了</h5>
             <div class="d-flex text-secondary font-weight-light">
-              <img src="../assets/images/ID4329339.png" alt="">
+              <img src="../assets/images/ID4329339.png" alt="EXY">
               <div class="content">
                 <p>保育が完了したら、保育園から保育完了の報告を受けましょう。</p>
                 <p>ご利用時間やお子様のお名前等、報告内容に誤りがなければ保育完了とします。</p>
@@ -268,14 +268,14 @@
           <div class="step-content rounded-3">
             <h5 class="mb-3">園口コミ・お支払い</h5>
             <div class="d-flex text-secondary font-weight-light mb-4">
-              <img src="../assets/images/8-1.png" alt="">
+              <img src="../assets/images/8-1.png" alt="EXY">
               <div class="content">
                 <a href="#">１．園口コミ</a>
                 <p>保育完了後、保育園より完了報告が届きます。<br/>報告内容に問題が無ければ、報告を承認し、口コミを記入します。</p>
               </div>
             </div>
             <div class="d-flex text-secondary font-weight-light">
-              <img src="../assets/images/8-2.png" alt="">
+              <img src="../assets/images/8-2.png" alt="EXY">
               <div class="content">
                 <a href="#">２．お支払い</a>
                 <p>お支払いをします。<br/>お支払い方法は、クレジットカード払い・ポイント支払い・クーポンコードの３種類です。詳しくはコチラをご確認ください。</p>
@@ -326,7 +326,7 @@
         <div class="row">
           <div class="col-12">
             <a href="#">
-              <img src="../assets/images/sinkitouroku.png" alt="" class="img-fluid rounded">
+              <img src="../assets/images/sinkitouroku.png" alt="EXY" class="img-fluid rounded">
             </a>
           </div>
         </div>

@@ -14,28 +14,28 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <router-link class="nav-link" :to="{name: 'UsageFlow'}">
-              <img src="../../assets/images/svg/hand.svg" alt="">
+              <img src="../../assets/images/svg/hand.svg" alt="EXY">
               <div class="br"></div>
               ご利用の流れ
             </router-link>
           </li>
           <li class="nav-item">
             <router-link class="nav-link" :to="{name:'KigaruniHoiku'}">
-              <img src="../../assets/images/svg/smile-emoji.svg" alt="">
+              <img src="../../assets/images/svg/smile-emoji.svg" alt="EXY">
               <div class="br"></div>
               キガルニホイクとは？
             </router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <img src="../../assets/images/svg/search.svg" alt="">
+              <img src="../../assets/images/svg/search.svg" alt="EXY">
               <div class="br"></div>
               保育園をさがす
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">
-              <img src="../../assets/images/svg/question.svg" alt="">
+              <img src="../../assets/images/svg/question.svg" alt="EXY">
               <div class="br"></div>
               よくあるご質問
             </a>

@@ -10,7 +10,7 @@
       <div class="carousel-inner">
         <!-- Slide 1 -->
         <div class="carousel-item active">
-          <img src="../assets/images/slider.png" class="d-block w-100" alt="">
+          <img src="../assets/images/slider.png" class="d-block w-100" alt="EXY">
           <div class="carousel-caption">
             <img src="../assets/images/_pc.png" alt="Logo">
             <h3>WEBで予約、WEBで決済 <br/>保育園探しは <br/>キガルニホイク</h3>
@@ -18,7 +18,7 @@
         </div>
         <!-- Slide 2 -->
         <div class="carousel-item">
-          <img src="../assets/images/slider.png" class="d-block w-100" alt="">
+          <img src="../assets/images/slider.png" class="d-block w-100" alt="EXY">
           <div class="carousel-caption">
             <img src="../assets/images/_pc.png" alt="Logo">
             <h3>WEBで予約、WEBで決済 <br/>保育園探しは <br/>キガルニホイク</h3>
@@ -79,9 +79,9 @@
 
         <!-- Tabs Start -->
         <div class="tabs">
-          <a @click="activeTab='1'" :class="[ activeTab === '1' ? 'active' : '' ]"><img src="../assets/images/svg/smile-emoji.svg" alt=""> 明日預けられる園</a>
-          <a @click="activeTab='2'" :class="[ activeTab === '2' ? 'active' : '' ]"><img src="../assets/images/svg/leaves.svg" alt=""> 特色がある園</a>
-          <a @click="activeTab='3'" :class="[ activeTab === '3' ? 'active' : '' ]"><img src="../assets/images/svg/heart.svg" alt=""> 病児が預けられる園</a>
+          <a @click="activeTab='1'" :class="[ activeTab === '1' ? 'active' : '' ]"><img src="../assets/images/svg/smile-emoji.svg" alt="EXY"> 明日預けられる園</a>
+          <a @click="activeTab='2'" :class="[ activeTab === '2' ? 'active' : '' ]"><img src="../assets/images/svg/leaves.svg" alt="EXY"> 特色がある園</a>
+          <a @click="activeTab='3'" :class="[ activeTab === '3' ? 'active' : '' ]"><img src="../assets/images/svg/heart.svg" alt="EXY"> 病児が預けられる園</a>
         </div>
         <!-- Tabs End -->
 
@@ -136,7 +136,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="single-item mb-4 mb-lg-0">
               <a href="#">
-                <img src="../assets/images/group-2761.png" class="img-fluid" alt="">
+                <img src="../assets/images/group-2761.png" class="img-fluid" alt="EXY">
                 <p>キガルニホイクとは</p>
                 <span>What is KIGATUNIHOIKU</span>
               </a>
@@ -146,7 +146,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="single-item mb-4 mb-lg-0">
               <a href="#">
-                <img src="../assets/images/group-2762.png" class="img-fluid" alt="">
+                <img src="../assets/images/group-2762.png" class="img-fluid" alt="EXY">
                 <p>キガルニホイク使い方</p>
                 <span>Hoｗ to use</span>
               </a>
@@ -156,7 +156,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="single-item mb-4 mb-lg-0">
               <a href="#">
-                <img src="../assets/images/group-2763.png" class="img-fluid" alt="">
+                <img src="../assets/images/group-2763.png" class="img-fluid" alt="EXY">
                 <p>お支払い方法について</p>
                 <span>Amount of money</span>
               </a>
@@ -166,7 +166,7 @@
           <div class="col-md-6 col-lg-3">
             <div class="single-item">
               <a href="#">
-                <img src="../assets/images/group-2764.png" class="img-fluid" alt="">
+                <img src="../assets/images/group-2764.png" class="img-fluid" alt="EXY">
                 <p>ご利用いただく皆さまへ</p>
                 <span>To all of you</span>
               </a>
@@ -263,7 +263,7 @@
             </div>
           </div>
           <div class="col-md-6 px-md-0">
-            <img src="../assets/images/kindergarten-hunt.png" alt="">
+            <img src="../assets/images/kindergarten-hunt.png" alt="EXY">
           </div>
         </div>
       </div>
@@ -345,7 +345,7 @@
                 <a href="#" class="read-more">保育園一覧をみる</a>
               </div>
               <div class="col-md-4 offset-md-1">
-                <img src="../assets/images/group-2765.png" class="d-block w-100" alt="">
+                <img src="../assets/images/group-2765.png" class="d-block w-100" alt="EXY">
                 <a href="#" class="bulletin-btn">皆さまの口コミを募集しております！</a>
               </div>
             </div>
@@ -362,7 +362,7 @@
           <h4>子育て相談コーナー</h4>
           
           <div class="consultation-item">
-            <img src="../assets/images/group-2770.png" alt="">
+            <img src="../assets/images/group-2770.png" alt="EXY">
             <div class="consultation-content bg-left">
               <h5><a href="#">▶︎現在５歳、春から小学生になる息子がいる母です。体が小さめで心も幼く、小学…</a></h5>
               <div>
@@ -386,11 +386,11 @@
                 <span>2021/04/01 17:28 ｜ コメント２</span>
               </div>
             </div>
-            <img src="../assets/images/group-2770.png" alt="">
+            <img src="../assets/images/group-2770.png" alt="EXY">
           </div>
 
           <div class="consultation-item">
-            <img src="../assets/images/group-2770.png" alt="">
+            <img src="../assets/images/group-2770.png" alt="EXY">
             <div class="consultation-content bg-left">
               <h5><a href="#">▶︎現在５歳、春から小学生になる息子がいる母です。体が小さめで心も幼く、小学…</a></h5>
               <div>
