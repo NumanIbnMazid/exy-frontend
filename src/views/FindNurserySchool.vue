@@ -14,11 +14,16 @@
       </div>
     </div>
 
-    <section class="cover-background background-position-top" :style="{'background-image': `url(${require('../assets/images/banner.jpg')})`}" style="padding: 100px 0">
-      <div class="opacity-medium bg-extra-dark-gray"></div>
-      <div class="container">
-        <div class="row">
-          .col-md-
+    <section class="position-relative">
+      <img src="../assets/images/ID2266338_m@2x.png" class="img-fluid" alt="EXY">
+      <div class="position-absolute top-0 w-100 h-100">
+        <div class="container h-100">
+          <div class="d-flex justify-content-between align-items-center h-100">
+            <div>
+              <h3>保育園検索</h3>
+            </div>
+            <div>2</div>
+          </div>
         </div>
       </div>
     </section>
