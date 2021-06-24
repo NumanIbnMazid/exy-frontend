@@ -27,11 +27,11 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <router-link class="nav-link" :to="{name:'FindNurserySchool'}">
               <img src="../../assets/images/svg/search.svg" alt="EXY">
               <div class="br"></div>
               保育園をさがす
-            </a>
+            </router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">

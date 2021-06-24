@@ -21,6 +21,11 @@ const routes = [
         component: () => import("../views/KigaruniHoiku")
     },
     {
+        path: '/find-nursery-school',
+        name: 'FindNurserySchool',
+        component: () => import("../views/FindNurserySchool")
+    },
+    {
         path: '/search',
         name: 'Search',
         component: () => import("../components/search/Search")
