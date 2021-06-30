@@ -1237,13 +1237,42 @@
 }
 
 .find-nursery-school {
-    .heading {
-        border: 1px solid #CBCBCB;
-        padding: 5px;
-        line-height: 2.5rem;
-        font-size: 18px;
-        font-weight: 700;
+    .first-banner {
+        .d-flex {
+            padding: 5px;
+            border: 1px solid $--color-c94284;
+        }
+        
+        img {
+            width: 140px;
+            height: 117px;
+        }
+        
+        h3 {
+            display: block;
+            text-align: center;
+            width: 100%;
+            margin: 0;
+        }
     }
+    
+    ul, h5 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        padding: 5px 0;
+        
+        &:first-child {
+            padding-top: 0;
+        }
+        
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+    
 }
 
 
