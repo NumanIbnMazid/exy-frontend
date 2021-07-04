@@ -26,6 +26,21 @@ const routes = [
         component: () => import("../views/FindNurserySchool")
     },
     {
+        path: '/faqs',
+        name: 'Faqs',
+        component: () => import("../views/faqs/Index")
+    },
+    {
+        path: '/my-page',
+        name: 'MyPage',
+        component: () => import("../views/MyPage")
+    },
+    {
+        path: '/contact-us',
+        name: 'ContactUs',
+        component: () => import("../views/contact/Index")
+    },
+    {
         path: '/search',
         name: 'Search',
         component: () => import("../components/search/Search")

@@ -60,12 +60,14 @@
           <div class="footer-item">
             <h4>INFORMATION</h4>
             <ul>
-              <li><a href="#">サポーター園になる</a></li>
-              <li><a href="#">キガルニホイクの使い方-園側ページ</a></li>
-              <li><a href="#">ご利用いただく皆さまへ</a></li>
-              <li><a href="#">月極保育 -園側ページ</a></li>
-              <li><a href="#">園見学 -園側ページ</a></li>
-              <li><a href="#">預かり先募集 -園側ページ</a></li>
+              <li>
+                <router-link :to="{name:'Faqs'}">よくある質問</router-link>
+              </li>
+              <li><router-link :to="{name:'ContactUs'}">お問い合わせ</router-link></li>
+              <li><a href="#">サービス利用規約</a></li>
+              <li><a href="#">ポイント利用規約</a></li>
+              <li><a href="#">プライバシーポリシー</a></li>
+              <li><a href="#">特定商取引法に基づく表示</a></li>
             </ul>
           </div>
         </div>
@@ -83,7 +85,10 @@
       <div class="row">
         <div class="col-12">
           <div class="text-center">
-            <p class="m-0">Copyright ©2021 <router-link to="/">株式会社EXY</router-link> | All Rights Reserved.</p>
+            <p class="m-0">Copyright ©2021
+              <router-link to="/">株式会社EXY</router-link>
+              | All Rights Reserved.
+            </p>
           </div>
         </div>
       </div>

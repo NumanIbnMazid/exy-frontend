@@ -34,14 +34,14 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <router-link class="nav-link" :to="{name:'Faqs'}">
               <img src="../../assets/images/svg/question.svg" alt="EXY">
               <div class="br"></div>
               よくあるご質問
-            </a>
+            </router-link>
           </li>
           <li class="nav-item">
-            <a class="my-page" href="#">マイページ</a>
+            <router-link class="my-page" :to="{name:'MyPage'}">マイページ</router-link>
           </li>
         </ul>
       </div>
