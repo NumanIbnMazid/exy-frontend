@@ -50,6 +50,11 @@ const routes = [
         component: () => import("../components/search/Details")
     },
     {
+        path: '/guardian-characteristics-detail',
+        name: 'CharacteristicsDetail',
+        component: () => import("../views/guardian/CharacteristicsDetail")
+    },
+    {
         path: "*",
         redirect: "/pages/error-404"
     }
