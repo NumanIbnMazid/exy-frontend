@@ -36,7 +36,7 @@
     </section>
 
     <!-- details-tab start -->
-    <section class="details">
+    <section class="charecteristics-details">
       <div class="container">
         <div class="row">
           <div class="col-md-10">
@@ -103,36 +103,36 @@
         <div class="container">
           <div class="row">
               <div class="row-button">
-                <button class="btn btn-white">#アレルギー対応</button>
+                <p class="btn-white text-center">#アレルギー対応</p>
               </div>
               <div class="row-button">
-                <button class="btn btn-white">#習い事</button>
+                <p class="btn-white text-center">#習い事</p>
               </div>
               <div class="row-button">
-                <button class="btn btn-white">#手ぶら登園</button>
+                <p class="btn-white text-center">#手ぶら登園</p>
               </div>
               <div class="row-button">
-                <button class="btn btn-white">#こだわり給食</button>
+                <p class="btn-white text-center">#こだわり給食</p>
               </div>
               <div class="row-button">
-                <button class="btn btn-white">#送迎サービス</button>
+                <p class="btn-white text-center">#送迎サービス</p>
               </div>
           </div>
           <div class="row">
               <div class="row-button">
-                <button class="btn btn-white">#英語教育</button>
+                <p class="btn-white text-center">#英語教育</p>
               </div>
               <div class="row-button">
-                <button class="btn btn-white">#幼児教育</button>
+                <p class="btn-white text-center">#幼児教育</p>
               </div>
               <div class="row-button">
-                <button class="btn btn-white">#就学前教育</button>
+                <p class="btn-white text-center">#就学前教育</p>
               </div>
               <div class="row-button">
-                <button class="btn btn-white">#運動教育</button>
+                <p class="btn-white text-center">#運動教育</p>
               </div>
               <div class="row-button">
-                <button class="btn btn-white">#体験保育</button>
+                <p class="btn-white text-center">#体験保育</p>
               </div>
           </div>
         </div>
@@ -156,13 +156,15 @@
             </div>
           </div>
           <div class="col-md-2" style="padding-right:0px">
-            <div class="allergy-right">
+            <!-- <div class="allergy-right">
               <p>予約へ進む</p>
-            </div>
+            </div> -->
+            <button class="btn allergy-right ">予約へ進む</button>
           </div>
         </div>
       </div>
-      <div class="container child-care">
+      <div class="child-care">
+        <div class="container">
           <div class="row">
             <div class="col-md-6 child-left">
               <h4 class="child-head">保育理念</h4>
@@ -219,6 +221,112 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="container nursery-school">
+        <div class="row text-center">
+          <p> <img src="../../assets/images/svg/title-left-black.svg" alt="EXY" style="padding-right:10px; vertical-align: unset;">  保育園のココが知りたい <img src="../../assets/images/svg/title-right-black.svg" alt="EXY" style="padding-left:10px; vertical-align: unset;"> <br><span style="color:#cb3a82">#</span> <b> 5 POINT </b></p>
+        </div>
+        <div class="row school-step mt-4">
+          <div class="col-md-2 step-item">
+            <p>リフレッシュ利用</p>
+          </div>
+          <div class="col-md-10">
+            <div class="pull-left step-left">
+              <p style="font-weight: bold;">OK</p>
+            </div>
+            <ul class="progressbar">
+              <li class="active"><img src="../../assets/images/guardian/Group_1736.png" alt="EXY"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div class="pull-right step-right">
+              <p style="font-weight: bold;">NG</p>
+            </div>
+          </div>
+        </div>
+        <div class="row school-step mt-5">
+          <div class="col-md-2 step-item">
+            <p>保護者参加行事</p>
+          </div>
+          <div class="col-md-10">
+            <div class="pull-left step-left">
+              <p>あり</p>
+            </div>
+            <ul class="progressbar">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li><img src="../../assets/images/guardian/Group_1736.png" alt="EXY"></li>
+              <li></li>
+            </ul>
+            <div class="pull-right step-right">
+              <p>なし</p>
+            </div>
+          </div>
+        </div>
+        <div class="row school-step mt-5">
+          <div class="col-md-2 step-item">
+            <p>園外遊び</p>
+          </div>
+          <div class="col-md-10">
+            <div class="pull-left step-left">
+              <p>あり</p>
+            </div>
+            <ul class="progressbar">
+              <li></li>
+              <li><img src="../../assets/images/guardian/Group_1736.png" alt="EXY"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div class="pull-right step-right">
+              <p>なし</p>
+            </div>
+          </div>
+        </div>
+         <div class="row school-step mt-5">
+          <div class="col-md-2 step-item">
+            <p>日々の持ち物</p>
+          </div>
+          <div class="col-md-10">
+            <div class="pull-left step-left">
+              <p>あり</p>
+            </div>
+            <ul class="progressbar">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li><img src="../../assets/images/guardian/Group_1736.png" alt="EXY"></li>
+            </ul>
+            <div class="pull-right step-right">
+              <p>なし</p>
+            </div>
+          </div>
+        </div>
+         <div class="row school-step mt-5">
+          <div class="col-md-2 step-item">
+            <p>保護者会</p>
+          </div>
+          <div class="col-md-10">
+            <div class="pull-left step-left">
+              <p>あり</p>
+            </div>
+            <ul class="progressbar">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li><img src="../../assets/images/guardian/Group_1736.png" alt="EXY"></li>
+            </ul>
+            <div class="pull-right step-right">
+              <p>なし</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!-- details-tab end -->

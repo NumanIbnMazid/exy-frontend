@@ -31,7 +31,7 @@
     }
 }
 
-.details {
+.charecteristics-details {
     padding: 40px 0;
     
     .small {
@@ -106,7 +106,8 @@
             
             .btn-white {
                 width: 80%;
-                padding: 5px;
+                padding: 5px 5px;
+                border-radius: 10px;
                 background-color: $--color-ffffff;
                 color: $--color-cb3a82;
             }
@@ -135,22 +136,25 @@
             background-color: $--color-bababa;
             margin-left: 9.5rem;
             height: 80%;
-            padding: 100px 50px 0 18px;
+            padding: 10px 50px 0 18px;
             
-            p {
-                font-size: 25px;
-                width: 1px;
-                word-wrap: break-word;
-                font-family: monospace;
-                color: $--color-ffffff;
-                white-space: pre-wrap;
-            }
+            font-size: 25px;
+            width: 1px;
+            word-wrap: break-word;
+            font-family: monospace;
+            color: $--color-ffffff;
+            white-space: pre-wrap;
+            border-radius: 0%;
+            // p {
+                
+            // }
         }
     }
     
     .child-care {
         border-top: 2px solid $--color-bababa;
-        padding-top: 50px;
+        padding: 50px 50px;
+        background-color: $--color-f2f2f2;
         
         .child-left {
             padding-top: 20px;
@@ -161,6 +165,7 @@
         }
         
         .child-right {
+            background-color: $--color-ffffff;
             .btn-map {
                 margin-left: 5rem;
                 border-radius: 0;
@@ -177,6 +182,101 @@
                     text-align: center;
                     padding-top: 20px;
                     font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .nursery-school{
+        padding: 40px 0;
+        .school-step{
+            .step-item{
+                padding-left: 50px;
+                position: relative;
+                 z-index: 1;
+                p:before {
+                     content: "";
+                    border-bottom: 1px solid $--color-cb3a82;
+                    padding: 0px;
+                    margin: 0px;
+                     position: absolute;
+                     left: 45px;
+                     bottom: 12px;
+                     height: 0px;
+                     width: 12%;
+                }
+            }
+            .step-left{
+                position:relative;
+                p{
+                    position:absolute;
+                    left: 70px;
+                    width: 150px;
+                }
+            }
+            .progressbar {
+                // counter-reset: step;
+                li {
+                    list-style-type: none;
+                    width: 20%;
+                    float: left;
+                    font-size: 12px;
+                    position: relative;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: $--color-bababa;
+                    img{
+                        position:absolute;
+                        top: -20px;
+                        left: 75px;
+                        z-index: 2;
+                    }
+                }
+                li:before {
+                    width: 20px;
+                    height: 20px;
+                    content: '';
+                    // counter-increment: step;
+                    line-height: 20px;
+                    // border: 2px solid $--color-bababa;
+                    display: block;
+                    text-align: center;
+                    margin: 0 auto 10px auto;
+                    border-radius: 50%;
+                    background-color: $--color-bababa;
+                }
+                li:after {
+                    width: 100%;
+                    height: 4px;
+                    content: '';
+                    position: absolute;
+                    background-color: $--color-bababa;
+                    top: 9px;
+                    left: -50%;
+                    z-index: -1;
+                }
+                li:first-child:after {
+                    content: none;
+
+                }
+                li.active {
+                    // color: green;
+                }
+                li.active:before {
+                    // border-color: #55b776;
+                }
+                li.active+li:after {
+                    // background-color: #55b776;
+                }
+            }
+            .step-right {
+                position: relative;
+                margin-top: 0px;
+                p {
+                    position: absolute;
+                    left: -55px;
+                    top: -15px;
+                    width: 150px;
                 }
             }
         }
