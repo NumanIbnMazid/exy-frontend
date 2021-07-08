@@ -62,41 +62,7 @@
           </div>
           <!-- Tabs End -->
           <!-- Tabs Content -->
-          <div class="content">
-            <!-- Tabs Content 1 -->
-            <div v-if="activeTab ==='1'" class="tab-content">
-              <hooper :settings="hooperSettings">
-                <slide v-for="n in 5" :key="n">
-                  <garden-feature-item></garden-feature-item>
-                </slide>
-
-                <hooper-navigation slot="hooper-addons"></hooper-navigation>
-              </hooper>
-            </div>
-
-            <!-- Tabs Content 2 -->
-            <div v-if="activeTab ==='2'" class="tab-content">
-              <hooper :settings="hooperSettings">
-                <slide v-for="n in 5" :key="n">
-                  <garden-feature-item></garden-feature-item>
-                </slide>
-
-                <hooper-navigation slot="hooper-addons"></hooper-navigation>
-              </hooper>
-            </div>
-
-            <!-- Tabs Content 3 -->
-            <div v-if="activeTab ==='3'" class="tab-content">
-              <hooper :settings="hooperSettings">
-                <slide v-for="n in 5" :key="n">
-                  <garden-feature-item></garden-feature-item>
-                </slide>
-
-                <hooper-navigation slot="hooper-addons"></hooper-navigation>
-              </hooper>
-            </div>
-          </div>
-          
+           
         </div>
       </div>
       <div class="button-div">
@@ -352,21 +318,6 @@ export default {
         '４歳',
         '５歳',
       ],
-      hooperSettings: {
-        itemsToShow: 1,
-        playSpeed: 3000,
-        centerMode: false,
-        infiniteScroll: true,
-        breakpoints: {
-          800: {
-            itemsToShow: 2
-          },
-          1000: {
-            itemsToShow: 4,
-            pagination: 'fraction'
-          }
-        }
-      }
     }
   },
 }
