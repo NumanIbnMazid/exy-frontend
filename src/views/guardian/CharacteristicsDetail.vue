@@ -22,7 +22,7 @@
       <div class="row" style="width:100%; margin:0px">
         <div class="col-md-6 box-border">
           <div class="footer-icon">
-                <ul>
+                <ul class="d-flex align-items-center justify-content-center">
                   <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                   <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="#"><i class="fa fa-facebook"></i></a></li>

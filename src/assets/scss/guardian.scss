@@ -1,40 +1,20 @@
-/* Colors: */
-$--color-f8f7f7: #F8F7F7;
-$--color-aaaaaa: #AAAAAA;
-$--color-707070: #707070;
-$--color-c4c4c4: #C4C4C4;
-$--color-6f7070: #6F7070;
-$--color-f2f2f2: #F2F2F2;
-$--color-bababa: #BABABA;
-$--color-ffffff: #FFFFFF;
-$--color-cb3a82: #CB3A82;
-$--color-84c942: #84C942;
-$--color-8fc31f: #8FC31F;
-$--color-333333: #333333;
-$--color-c94284: #C94284;
-$--color-e6006e: #E6006E;
-
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&display=swap');
-
-.charecteristics{
+.charecteristics {
     .box-border {
         border: 1px solid #d2cece;
-        .right-footer{
+        
+        .right-footer {
             margin-top: 15px;
             font-size: 20px;
         }
     }
+    
     .footer-icon {
         margin-top: 15px;
-
+        
         ul {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
             li {
                 margin: 0 10px;
-
+                
                 a {
                     &:hover {
                         i {
@@ -42,7 +22,7 @@ $--color-e6006e: #E6006E;
                         }
                     }
                 }
-
+                
                 i {
                     font-size: 20px;
                 }
@@ -51,155 +31,156 @@ $--color-e6006e: #E6006E;
     }
 }
 
-.details{
+.details {
     padding: 40px 0;
-    .small{
+    
+    .small {
         padding-left: 5rem;
         font-size: 10px;
     }
-    .details-tab{
+    
+    .details-tab {
         padding: 40px 0;
+        
         .tabs {
             display: flex;
             flex-wrap: nowrap;
             text-align: center;
             margin-bottom: 30px;
             border-bottom: 7px solid $--color-f8f7f7;
-
+            
             a,
             i {
                 cursor: pointer;
                 display: inline-block;
                 font-weight: 500;
             }
-
+            
             a {
                 width: calc(100% / 3);
                 padding: 6px 10px;
                 font-size: 25px;
                 border-radius: 5px;
                 border: 2px solid $--color-f8f7f7;
-                // color: $--color-f8f7f7;
-
+                
                 &:hover {
                     color: #333333;
-
+                    
                     i {
                         color: #333333;
                     }
                 }
             }
-
+            
             .active {
                 position: relative;
-
+                
                 &::before {
                     content: '';
                     display: inline-block;
                     height: 0;
                     width: 0;
                     background-color: #E6006E;
-                    // border-top: 28px solid $--color-c94284;
-                    // border-left: 25px solid transparent;
-                    // border-right: 25px solid transparent;
-                    // position: absolute;
-                    // top: 100%;
-                    // left: 50%;
-                    // transform: translateX(-50%);
                 }
-
+                
                 &::after {
                     content: '';
-                    // display: block;
                     height: 100%;
                     width: 100%;
                     position: absolute;
                     border-radius: 5px;
-                    // top: 100%;
                     left: 0;
                     background-color: $--color-c94284;
                 }
             }
         }
     }
-     .button-div{
-         padding: 30px 30px;
-          background-color: $--color-f2f2f2;
-          .row-button{
-              padding: 10px;
-               width: calc(100% / 5);
-              .btn-white{
-                  width: 80%;
-                  padding: 5px;
-                  background-color: $--color-ffffff;
-                  color: $--color-cb3a82;
-              }
-          }
-     }
-     .allergy-support{
-         padding-left: 100px;
-         .allergy-left{
-             padding: 100px 0;
-             .allergy-desc{
-                 padding-left: 50px;
-                 .btn-allergy{
-                     width: 40%;
-                     padding: 5px;
-                     border: 2px solid $--color-aaaaaa;
-                     color: $--color-cb3a82;
-                 }
-             }
-         }
-         .allergy-right{
+    
+    .button-div {
+        padding: 30px 30px;
+        background-color: $--color-f2f2f2;
+        
+        .row-button {
+            padding: 10px;
+            width: calc(100% / 5);
+            
+            .btn-white {
+                width: 80%;
+                padding: 5px;
+                background-color: $--color-ffffff;
+                color: $--color-cb3a82;
+            }
+        }
+    }
+    
+    .allergy-support {
+        padding-left: 100px;
+        
+        .allergy-left {
+            padding: 100px 0;
+            
+            .allergy-desc {
+                padding-left: 50px;
+                
+                .btn-allergy {
+                    width: 40%;
+                    padding: 5px;
+                    border: 2px solid $--color-aaaaaa;
+                    color: $--color-cb3a82;
+                }
+            }
+        }
+        
+        .allergy-right {
             background-color: $--color-bababa;
             margin-left: 9.5rem;
             height: 80%;
-            padding: 100px 50px 0px 18px;
+            padding: 100px 50px 0 18px;
+            
             p {
-                // padding: 10px 10px 2px 2px;
-                // writing-mode: vertical-rl;
-                // text-orientation: upright;
                 font-size: 25px;
-                width:1px;
+                width: 1px;
                 word-wrap: break-word;
                 font-family: monospace;
                 color: $--color-ffffff;
-                /* this is just for good looks */
-                white-space:pre-wrap;
-                /* this is for displaying whitespaces including Moz-FF.*/
+                white-space: pre-wrap;
             }
-         }
-     }
-     .child-care{
-         border-top: 2px solid $--color-bababa;
-         padding-top: 50px;
-         .child-left{
-             padding-top: 20px;
-             .child-head{
-                 color: $--color-cb3a82;
-             }
-         }
-         .child-right{
-             .btn-map{
-                  margin-left: 5rem;
-                  border-radius: 0%;
-                  width: 10%;
-                  padding: 5px;
-                  border: 2px solid $--color-aaaaaa;
-                //   color: $--color-cb3a82;
-             }
-             .child-row{
-                 padding-top: 10px;
-                // border-top: 2px solid $--color-cb3a82;
+        }
+    }
+    
+    .child-care {
+        border-top: 2px solid $--color-bababa;
+        padding-top: 50px;
+        
+        .child-left {
+            padding-top: 20px;
+            
+            .child-head {
+                color: $--color-cb3a82;
+            }
+        }
+        
+        .child-right {
+            .btn-map {
+                margin-left: 5rem;
+                border-radius: 0;
+                width: 10%;
+                padding: 5px;
+                border: 2px solid $--color-aaaaaa;
+            }
+            
+            .child-row {
+                padding-top: 10px;
                 border-bottom: 1px solid $--color-cb3a82;
-                .row-left{
+                
+                .row-left {
                     text-align: center;
                     padding-top: 20px;
                     font-weight: bold;
                 }
-             }
-         }
-     }
+            }
+        }
+    }
     
 }
 
