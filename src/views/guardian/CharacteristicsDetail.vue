@@ -51,19 +51,14 @@
       </div>
 
       <div class="details-tab">
-        <div class="container">
-          <!-- Tabs Start -->
-          <div class="tabs">
-            <a @click="activeTab='1'" :class="[ activeTab === '1' ? 'active' : '' ]"> 園の特色</a>
+        <div class="container tabs">
+          <a @click="activeTab='1'" :class="[ activeTab === '1' ? 'active' : '' ]"> 園の特色</a>
             <a @click="activeTab='2'" :class="[ activeTab === '2' ? 'active' : '' ]"> 保育内容</a>
             <a @click="activeTab='3'" :class="[ activeTab === '3' ? 'active' : '' ]"> 料金プラン</a>
             <a @click="activeTab='4'" :class="[ activeTab === '4' ? 'active' : '' ]"> 口コミ</a>
             <a @click="activeTab='5'" :class="[ activeTab === '5' ? 'active' : '' ]"> 概要</a>
-          </div>
-          <!-- Tabs End -->
-          <!-- Tabs Content -->
-           
         </div>
+        
       </div>
       <div class="button-div">
         <div class="container">
@@ -112,7 +107,7 @@
               </div>
               <div class="col-md-6 allergy-desc">
                 <div class="row">
-                  <button class="btn btn-allergy">#アレルギー対応</button>
+                  <p class="btn-allergy text-center">#アレルギー対応</p>
                 </div>
                 <div class="row mt-3">
                   <h3 style="padding-left:0px">各お子さまのアレルギーに対応した給食を提供します</h3>
@@ -125,7 +120,7 @@
             <!-- <div class="allergy-right">
               <p>予約へ進む</p>
             </div> -->
-            <button class="btn allergy-right ">予約へ進む</button>
+            <a href="#" class="allergy-right pull-right text-center">予約へ進む</a>
           </div>
         </div>
       </div>
@@ -147,7 +142,7 @@
                 <div class="col-md-2 row-left"><p>住所</p></div>
                 <div class="col-md-10">
                   <p> 大阪府大阪市西区北堀江1-19-3</p>
-                  <p> サンライズビル１階・２階 <button class="btn btn-map">map</button></p>
+                  <p> サンライズビル１階・２階 <span class="btn-map">map</span></p>
                 </div>
               </div>
               <div class="row child-row">
@@ -290,6 +285,167 @@
             </ul>
             <div class="pull-right step-right">
               <p>なし</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nursery-availability">
+        <div class="container">
+          <div class="row">
+            <p class="text-center fw-bold"> <span style="color:#cb3a82">#</span> 保育園の空き状況</p>
+          </div>
+          <div class="row mt-3">
+            <p class="text-center fw-bold fs-3">
+              Draft Calender Here
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="review">
+        <div class="container">
+          <div class="row">
+            <p class="text-center"> <img src="../../assets/images/svg/title-left-black.svg" alt="EXY" style="padding-right:10px; vertical-align: unset;">  ほんとのとこどうなの？ <img src="../../assets/images/svg/title-right-black.svg" alt="EXY" style="padding-left:10px; vertical-align: unset;"> <br><span class="fs-4" style="color:#cb3a82">#</span> <span class="fs-4 fw-bold"> みんなの口コミ </span></p>
+          </div>
+          <div class="row mt-2 top-bar">
+            <div class="col-md-6">
+              <p class="">
+                 <span class="fs-4 fw-bold">総合</span> 
+                 <span class="fs-4 fw-bold rv-point">4.0</span>
+                 <span class="fs-2 fa fa-star checked"></span>
+                 <span class="fs-2 fa fa-star checked"></span>
+                 <span class="fs-2 fa fa-star checked"></span>
+                 <span class="fs-2 fa fa-star checked"></span>
+                 <span class="fs-2 fa fa-star"></span>
+              </p>
+            </div>
+            <div class="col-md-6">
+              <div class="row bar-left">
+                <div class="col-md-4">
+                  <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
+                </div>
+                <div class="col-md-4 pt-2 left-border">
+                  <p class="text-center">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
+                </div>
+                <div class="col-md-4 pt-2 left-border">
+                  <p class="text-center">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3 row-1">
+            <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_26.png" alt="EXY"></div>
+            <div class="col-md-10">
+              <div class="row me-1 row-11">
+                <p class="fw-bold pt-2">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+              </div>
+              <div class="row mt-2">
+               <div class="col-md-6">
+                  <p>
+                    <span class="">総合</span> 
+                    <span class="fw-bold rv-point">4</span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star"></span>
+                  </p>
+               </div>
+               <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                    </div>
+                    <div class="col-md-4 pt-2 left-border">
+                      <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                    </div>
+                    <div class="col-md-4 pt-2 left-border">
+                      <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-2">
+            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れていますこの文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+          </div>
+          <div class="row mt-3 row-1">
+            <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_33.png" alt="EXY"></div>
+            <div class="col-md-10">
+              <div class="row me-1 row-11">
+                <p class="fw-bold pt-2">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+              </div>
+              <div class="row mt-2">
+               <div class="col-md-6">
+                  <p>
+                    <span class="">総合</span> 
+                    <span class="fw-bold rv-point">4</span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star"></span>
+                  </p>
+               </div>
+               <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                    </div>
+                    <div class="col-md-4 pt-2 left-border">
+                      <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                    </div>
+                    <div class="col-md-4 pt-2 left-border">
+                      <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-2">
+            <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れていますこの文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+          </div>
+          <div class="row mt-3 row-1">
+            <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_34.png" alt="EXY"></div>
+            <div class="col-md-10">
+              <div class="row me-1 row-11">
+                <p class="fw-bold pt-2">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+              </div>
+              <div class="row mt-2">
+               <div class="col-md-6">
+                  <p>
+                    <span class="">総合</span> 
+                    <span class="fw-bold rv-point">4</span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star checked"></span>
+                    <span class=" fa fa-star"></span>
+                  </p>
+               </div>
+               <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                    </div>
+                    <div class="col-md-4 pt-2 left-border">
+                      <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                    </div>
+                    <div class="col-md-4 pt-2 left-border">
+                      <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4 row-3">
+            <div class="col-md-2">
+              <p class="fw-bold">検索条件</p>
+            </div>
+            <div class="col-md-10">
+              <p>アレルギー対応<span class="divider">/</span>習い事<span class="divider">/</span>手ぶら登園<span class="divider">/</span>こだわり給食<span class="divider">/</span>送迎サービス<span class="divider">/</span>英語教育<span class="divider">/</span>幼児教<span class="divider">/</span>就学前教育<span class="divider">/</span>運動教育</p>
             </div>
           </div>
         </div>
