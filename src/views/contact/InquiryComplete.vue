@@ -14,16 +14,16 @@
     </div>
 
     <div class="container py-5">
-      <h3 class="m-0 --color-e6006e"><img src="../../assets/images/svg/title-left.svg" alt="EXY" class="mb-2"> お問い合わせが完了しました</h3>
+      <h3 class="m-0 --color-e6006e text-2xl"><img src="../../assets/images/svg/title-left.svg" alt="EXY" class="mb-2"> お問い合わせが完了しました</h3>
       <hr class="my-1">
-      <div class="row justify-content-center">
-        <div class="col-md-3">
-          お問い合わせいただき、誠にありがとうございます。
-          担当者から折り返しご連絡させていただきますので、
-          今しばらくお待ちくださいますよう、お願い申し上げます。
-
-          <a href="#" class="border py-2 px-4">戻る</a>
+      <div class="my-5 text-center">
+        <div>
+          お問い合わせいただき、誠にありがとうございます。<br /> 担当者からご登録のメールアドレスへご連絡させていただきますので、<br /> 今しばらくお待ちくださいますよう、お願い申し上げます。
         </div>
+        <div class="my-4">
+          ※ご返信日数の目安：1〜10営業日以内
+        </div>
+        <router-link :to="{name:'Home'}" class="border py-2 px-5 d-inline-block border-dark">戻る</router-link>
       </div>
     </div>
   </div>

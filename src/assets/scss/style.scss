@@ -916,24 +916,42 @@
 }
 
 /****************************************
+ * Usage Flow
+ ****************************************/
+.usage-flow {
+    .header {
+        h4 {
+            &:before, &:after {
+                top: 50%;
+                content: "";
+                clear: both;
+                height: 1px;
+                width: 35px;
+                display: block;
+                position: absolute;
+                transform: translate(0, -50%);
+                background-color: $--color-707070;
+            }
+            
+            &:before {
+                right: 115px;
+            }
+            
+            &:after {
+                left: 115px;
+            }
+        }
+    }
+}
+
+/****************************************
  * For the first time
  ****************************************/
 .for-the-first-time {
     padding: 40px 0;
     
     .inner {
-        display: flex;
-        border: 1px solid $--color-707070;
-        padding: 1rem;
-        
-        .text {
-            flex: 1;
-            padding: 20px 20px 20px 0;
-            
-            p {
-                line-height: 36px;
-            }
-        }
+    
     }
 }
 
@@ -941,16 +959,20 @@
  * Steps
  ****************************************/
 .steps {
-    background: $--color-f8f7f7;
     padding: 60px 0;
     overflow: hidden;
+    
+    span {
+        color: #f1cbdc;
+        background-color: #FFFFFF;
+    }
     
     .step-count {
         height: 65px;
         width: 65px;
         font-size: 50px;
         line-height: 1.4em;
-        background-color: $--color-c4c4c4;
+        background-color: #f1cbdc;
         position: relative;
         
         &:before {
@@ -959,7 +981,7 @@
             position: absolute;
             top: 50%;
             right: -36px;
-            height: 3px;
+            height: 2px;
             width: 25px;
             transform: translate(-50%, 0);
             background: $--color-c4c4c4;
@@ -972,8 +994,8 @@
             top: 100%;
             left: 50%;
             height: 10000%;
-            width: 4px;
-            background: $--color-c4c4c4;
+            width: 3px;
+            background: #f1cbdc;
         }
         
         span {
@@ -981,18 +1003,17 @@
             top: 100%;
             left: 50%;
             height: 100vh;
-            width: 4px;
-            background: $--color-f8f7f7;
+            width: 3px;
+            background: #ffffff;
             z-index: 1;
         }
     }
     
     h4 {
-        background: #6F7070;
-        color: #FFFFFF;
+        background: #D6D6D65D 0 0 no-repeat padding-box;
         padding: 10px 5px;
-        font-weight: 300;
-        font-size: 20px;
+        font-weight: 700;
+        font-size: 18px;
         line-height: 1;
     }
     
@@ -1003,12 +1024,12 @@
         width: 100%;
         
         h5 {
-            color: $--color-6f7070;
+            color: #CB3A82;
         }
         
         img {
-            width: 90px;
-            height: 90px;
+            width: 115px;
+            height: 115px;
             margin-right: 15px;
         }
         
@@ -1026,10 +1047,11 @@
         
         .bg-gradient-ib {
             display: inline-block;
-            background: linear-gradient(to top, #F2F2F2 60%, #FFFFFF 40%);
+            background: linear-gradient(to top, #CB3A8212 60%, #FFFFFF 40%);
             padding: 2px 5px 5px;
             line-height: 1;
             margin: 13px 0 7px;
+            color: #333333;
         }
     }
     
@@ -1047,7 +1069,7 @@
             color: $--color-6f7070;
             float: left;
             
-            span {
+            div {
                 font-size: 11px;
             }
         }
@@ -1058,26 +1080,6 @@
             float: left;
             width: calc(100% - 100px);
         }
-    }
-}
-
-.garden-word {
-    padding: 3rem;
-    text-align: center;
-    border-radius: 0.3rem;
-    border: 2px solid $--color-c4c4c4;
-}
-
-.about-rules {
-    padding: 40px 0;
-    border: 2px solid $--color-c4c4c4;
-    
-    h3 {
-        margin-bottom: 40px;
-    }
-    
-    p {
-        margin: 0;
     }
 }
 
