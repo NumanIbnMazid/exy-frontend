@@ -69,7 +69,7 @@
                 </div>
                 <div class="row g-3 align-items-center justify-content-center mt-2">
                   <div class="col-9">
-                    <button class="btn exy-default-btn w-100" type="button">検索する</button>
+                    <router-link :to="{name:'Search'}" class="btn exy-default-btn w-100" type="button">検索する</router-link>
                   </div>
                 </div>
               </form>
@@ -85,16 +85,20 @@
 
         <div class="row justify-content-center first-banner">
           <div class="col-md-5">
-            <div class="d-flex align-items-center">
-              <img src="../assets/images/ID3192071_m@2x.png" alt="EXY">
-              <h3>エリアからさがす</h3>
-            </div>
+            <router-link :to="{name:'todo'}">
+              <div class="d-flex align-items-center">
+                <img src="../assets/images/ID3192071_m@2x.png" alt="EXY">
+                <h3>エリアからさがす</h3>
+              </div>
+            </router-link>
           </div>
           <div class="col-md-5">
-            <div class="d-flex align-items-center">
-              <img src="../assets/images/ID3808135_m@2x.png" alt="EXY">
-              <h3>エリアからさがす</h3>
-            </div>
+            <router-link :to="{name:'todo'}">
+              <div class="d-flex align-items-center">
+                <img src="../assets/images/ID3808135_m@2x.png" alt="EXY">
+                <h3>エリアからさがす</h3>
+              </div>
+            </router-link>
           </div>
         </div>
 
@@ -132,13 +136,13 @@
             </div>
           </div>
         </div>
-        <div class="text-end">
+        <div class="text-end mt-4">
           <label class="mx-3">または</label>
           <a href="#" class="--color-e6006e">一週間の希望日を指定する ＞</a>
         </div>
         <hr>
 
-        <button class="exy-default-btn mt-5 w-100 py-3" type="button">この条件で検索する</button>
+        <router-link :to="{name:'Search'}" class="exy-default-btn mt-5 w-100 py-3 text-center" type="button">この条件で検索する</router-link>
 
         <h4 class="shadow p-3 my-5 bg-body rounded">その他の条件を追加する</h4>
 
@@ -377,7 +381,9 @@
 
         <div class="solid-border"></div>
 
-        <button class="exy-default-btn my-5 w-100 py-3" type="button">この条件で検索する</button>
+        <div class="text-center my-5">
+          <router-link :to="{name:'Search'}" class="exy-default-btn py-2 px-5" type="button">この条件で検索する</router-link>
+        </div>
       </div>
     </section>
 

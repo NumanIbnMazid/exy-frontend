@@ -79,9 +79,9 @@
 
             <div class="row justify-content-end mt-5 mb-3">
               <div class="col-md-8 text-center">
-                <a href="#" onclick="alert('TODO')">
+                <router-link :to="{name:'todo'}">
                   <span class="text-decoration-underline">利用規約、プライバシーポリシー</span>に同意の上 <br/> ご送信ください
-                </a>
+                </router-link>
 
                 <div class="mt-5 mb-4">
                   <label class="color-3d3442">
