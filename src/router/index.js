@@ -67,6 +67,7 @@ const routes = [
     },
     {
         path: '/details',
+        name: 'search.result',
         component: () => import("../components/search/Details")
     },
     {
