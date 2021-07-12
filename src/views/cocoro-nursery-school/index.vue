@@ -1,5 +1,3 @@
-<!-- Contributor: Numan Ibn Mazid || http://github.com/NumanIbnMazid || numanibnmazid@gmail.com -->
-
 <template>
   <div class="cocoro-parent-div">
     <div class="cocoro-container">
@@ -8,9 +6,9 @@
         <div class="cocoro-page-title mb-5">
           <div class="title-img-holder">
             <img
-              src="../../assets/images/cocoro/cocoro.png"
-              alt="COCORO"
-              class="cocoro-img"
+                src="../../assets/images/cocoro/cocoro.png"
+                alt="COCORO"
+                class="cocoro-img"
             />
           </div>
           <div class="title-txt-holder mt-3">
@@ -30,17 +28,17 @@
 
           <!-- section 1 tabs -->
           <ul class="nav nav-pills mt-4 ms-5 me-5 cocoro-section-1-tab-pills row" id="pills-tab" role="tablist">
-            <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 pills-li" role="presentation">
+            <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 px-0" role="presentation">
               <button class="nav-link active" id="pills-experienced-based-tab" data-bs-toggle="pill" data-bs-target="#pills-experienced-based" type="button" role="tab" aria-controls="pills-experienced-based" aria-selected="true">
                 <span class="pills-text">体験保育</span>
               </button>
             </li>
-            <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 pills-li" role="presentation">
+            <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 px-0" role="presentation">
               <button class="nav-link" id="pills-monthly-childcare-tab" data-bs-toggle="pill" data-bs-target="#pills-monthly-childcare" type="button" role="tab" aria-controls="pills-monthly-childcare" aria-selected="false">
                 <span class="pills-text">月極保育</span>
               </button>
             </li>
-            <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 pills-li" role="presentation">
+            <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 px-0" role="presentation">
               <button class="nav-link" id="pills-garden-tour-tab" data-bs-toggle="pill" data-bs-target="#pills-garden-tour" type="button" role="tab" aria-controls="pills-garden-tour" aria-selected="false">
                 <span class="pills-text">園見学</span>
               </button>
@@ -57,7 +55,7 @@
                   </div>
                   <div class="row custom-form-group m-2">
                     <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12 mt-4 form-label">
-                    日 時 
+                      日 時
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-12 mt-4">
                       <date-picker
@@ -110,19 +108,19 @@
                   <div class="row custom-form-group m-2">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="check1" checked>
-                      <label class="form-check-label" for="flexCheckChecked">
+                      <label class="form-check-label" for="check1">
                         その他経費 <span class="ms-3 me-3">|</span> お給食
                       </label>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="check2">
-                      <label class="form-check-label" for="flexCheckDefault">
+                      <label class="form-check-label" for="check2">
                         その他経費 <span class="ms-3 me-3">|</span> おやつ
                       </label>
                     </div>
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="check3">
-                      <label class="form-check-label" for="flexCheckDefault">
+                      <label class="form-check-label" for="check3">
                         その他経費 <span class="ms-3 me-3">|</span> ミルク
                       </label>
                     </div>
@@ -171,8 +169,8 @@
               <div class="user-registration-section">
                 <div class="row custom-form-group ms-2 me-2">
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="check1" checked>
-                    <label class="form-check-label fw-lighter" for="flexCheckChecked">
+                    <input class="form-check-input" type="checkbox" value="" id="check5" checked>
+                    <label class="form-check-label fw-lighter" for="check5">
                       <span class="ms-4 me-5">
                         <span>田中</span>
                         <span class="ms-2">海</span>
@@ -186,8 +184,8 @@
                     </label>
                   </div>
                   <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="check2" disabled>
-                    <label class="form-check-label" for="flexCheckDefault">
+                    <input class="form-check-input" type="checkbox" value="" id="check6" disabled>
+                    <label class="form-check-label" for="check6">
                       <span class="ms-4 me-5">
                         <span>田中</span>
                         <span class="ms-2">陸</span>
@@ -367,4 +365,5 @@ export default {
 </script>
 
 <style scoped>
+
 </style>
