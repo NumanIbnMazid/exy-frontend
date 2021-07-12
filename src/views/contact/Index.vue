@@ -14,7 +14,7 @@
     </div>
 
     <div class="container py-5">
-      <h3 class="m-0 --color-e6006e"><img src="../../assets/images/svg/title-left.svg" alt="EXY" class="mb-2"> お問い合せ</h3>
+      <h3 class="m-0 --color-e6006e text-2xl"><img src="../../assets/images/svg/title-left.svg" alt="EXY" class="mb-2"> お問い合せ</h3>
       <hr class="my-1">
       <div class="mt-4 mb-5">
         <router-link :to="{name:'Faqs'}">よくあるご質問を準備しております。お問い合わせ前にご確認くださいませ。</router-link>
@@ -22,38 +22,38 @@
 
       <div class="d-flex align-items-center justify-content-between p-3 bg-light mb-5">
         <div><span class="--color-e6006e">＃</span>現在ご利用中・ご利用をご検討中の親御さま</div>
-        <div class="text-center shadow-sm bg-white rounded hw-100">
+        <router-link :to="{name:'InquiryForm'}" class="text-center shadow-sm bg-white rounded hw-100">
           <div class="--color-e6006e pt-1">
             <i class="fa fa-envelope-o fa-4x"></i>
           </div>
           <div class="">
-            <a href="#" class="--color-e6006e text-decoration-underline">フォーム</a>
+            <span class="--color-e6006e text-decoration-underline">フォーム</span>
           </div>
-        </div>
+        </router-link>
       </div>
 
       <div class="d-flex align-items-center justify-content-between p-3 bg-light mb-5">
         <div><span class="--color-e6006e">＃</span>法人利用をご検討の方</div>
-        <div class="text-center shadow-sm bg-white rounded hw-100">
+        <router-link :to="{name:'ConsideringSupporterGarden'}" class="text-center shadow-sm bg-white rounded hw-100">
           <div class="--color-e6006e pt-1">
             <i class="fa fa-envelope-o fa-4x"></i>
           </div>
           <div class="">
-            <a href="#" class="--color-e6006e text-decoration-underline">フォーム</a>
+            <span class="--color-e6006e text-decoration-underline">フォーム</span>
           </div>
-        </div>
+        </router-link>
       </div>
 
       <div class="d-flex align-items-center justify-content-between p-3 bg-light mb-5">
         <div><span class="--color-e6006e">＃</span>サポーター園をご検討の方</div>
-        <div class="text-center shadow-sm bg-white rounded hw-100">
+        <router-link :to="{name:'InquiryForm'}" class="text-center shadow-sm bg-white rounded hw-100">
           <div class="--color-e6006e pt-1">
             <i class="fa fa-envelope-o fa-4x"></i>
           </div>
           <div class="">
-            <a href="#" class="--color-e6006e text-decoration-underline">フォーム</a>
+            <span class="--color-e6006e text-decoration-underline">フォーム</span>
           </div>
-        </div>
+        </router-link>
       </div>
 
       <div class="d-flex align-items-center justify-content-between p-3 bg-light mb-5">
@@ -63,7 +63,7 @@
             <i class="fa fa-envelope-o fa-4x"></i>
           </div>
           <div class="">
-            <a href="#" class="--color-e6006e text-decoration-underline">フォーム</a>
+            <span class="--color-e6006e text-decoration-underline">フォーム</span>
           </div>
         </div>
       </div>
@@ -78,7 +78,7 @@
             <i class="fa fa-envelope-o fa-4x"></i>
           </div>
           <div class="">
-            <a href="#" class="--color-e6006e text-decoration-underline">フォーム</a>
+            <span class="--color-e6006e text-decoration-underline">フォーム</span>
           </div>
         </div>
       </div>

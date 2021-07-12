@@ -40,6 +40,26 @@ const routes = [{
         component: () => import("../views/contact/Index")
     },
     {
+        path: '/inquiry-form',
+        name: 'InquiryForm',
+        component: () => import("../views/contact/InquiryForm")
+    },
+    {
+        path: '/considering-supporter-garden',
+        name: 'ConsideringSupporterGarden',
+        component: () => import("../views/contact/ConsideringSupporterGarden")
+    },
+    {
+        path: '/confirmation-of-input-contents',
+        name: 'ConfirmationOfInputContents',
+        component: () => import("../views/contact/ConfirmationOfInputContents")
+    },
+    {
+        path: '/inquiry-complete',
+        name: 'InquiryComplete',
+        component: () => import("../views/contact/InquiryComplete")
+    },
+    {
         path: '/search',
         name: 'Search',
         component: () => import("../components/search/Search")
@@ -52,6 +72,11 @@ const routes = [{
         path: '/guardian-characteristics-detail',
         name: 'CharacteristicsDetail',
         component: () => import("../views/guardian/CharacteristicsDetail")
+    },
+    {
+        path: '/todo',
+        name: 'todo',
+        component: () => import("../views/todo")
     },
     {
         path: "*",

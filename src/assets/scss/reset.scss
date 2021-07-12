@@ -2,6 +2,7 @@
 $--color-f8f7f7: #F8F7F7;
 $--color-aaaaaa: #AAAAAA;
 $--color-707070: #707070;
+$--color-3d3442: #3D3442;
 $--color-c4c4c4: #C4C4C4;
 $--color-6f7070: #6F7070;
 $--color-f2f2f2: #F2F2F2;
@@ -13,6 +14,15 @@ $--color-8fc31f: #8FC31F;
 $--color-333333: #333333;
 $--color-c94284: #C94284;
 $--color-e6006e: #E6006E;
+$--color-cccc3b: #CCCC3B;
+$--color-f2a9a8: #F2A9A8;
+$--color-98d4e1: #98D4E1;
+$--color-fabe7f: #FABE7F;
+$--color-8cc43f: #8CC43F;
+$--color-918d8d: #918D8D;
+$--color-cecece: #CECECE;
+$--color-d6d6d6: #D6D6D6;
+$--color-fbeef5: #FBEEF5;
 
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&display=swap');
 
@@ -233,6 +243,26 @@ ul {
     color: $--color-e6006e
 }
 
+.color-707070 {
+    color: $--color-707070;
+}
+
+.border-color-e6006e {
+    border-color: $--color-e6006e !important;
+}
+
+.border-color-707070 {
+    border-color: $--color-707070 !important;
+}
+
+.color-3d3442 {
+    color: $--color-3d3442;
+}
+
+.bg-fafafa {
+    background-color: #FAFAFA;
+}
+
 .border-radius-25 {
     border-radius: 25px !important;
 }
@@ -259,8 +289,73 @@ button.exy-default-btn {
     border: inherit;
 }
 
-input, select {
+input, select, textarea {
     &:focus {
         box-shadow: inherit !important;
     }
+}
+
+.text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+}
+
+.text-9xl {
+    font-size: 8rem;
+    line-height: 1;
 }
