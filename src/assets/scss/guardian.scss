@@ -37,19 +37,17 @@
     .small {
         padding-left: 5rem;
         font-size: 10px;
+        color: $--color-918d8d;
     }
     .details-tab {
         padding-top: 40px;
 
-        // border-bottom: 3px solid $--color-bababa;
         .tabs {
             display: flex;
             flex-wrap: nowrap;
             text-align: center;
             padding: 0 5rem 0 5rem;
 
-            // border-bottom: 3px solid $--color-bababa;
-            // margin-bottom: 30px;
             a,
             i {
                 cursor: pointer;
@@ -78,28 +76,6 @@
                 background-color: $--color-cb3a82;
                 color: $--color-ffffff;
             }
-
-            // .active {
-            //     position: relative;
-
-            //     &::before {
-            //         content: '';
-            //         display: inline-block;
-            //         height: 0;
-            //         width: 0;
-            //         background-color: #E6006E;
-            //     }
-
-            //     &::after {
-            //         content: '';
-            //         height: 100%;
-            //         width: 100%;
-            //         position: absolute;
-            //         border-radius: 5px;
-            //         left: 0;
-            //         background-color: $--color-c94284;
-            //     }
-            // }
         }
     }
     
@@ -107,7 +83,7 @@
          border-top: 3px solid $--color-bababa;
         .button-div {
             padding: 30px 30px;
-            background-color: $--color-f2f2f2;
+            background-color: $--color-f8f7f7;
 
             .row-button {
                 padding: 10px;
@@ -144,11 +120,8 @@
 
             .allergy-right {
                 background-color: $--color-aaaaaa;
-                // margin-left: 9.5rem;
                 height: 80%;
-                // width: 100%;
                 padding: 140px 50px 0 18px;
-
                 font-size: 25px;
                 width: 1px;
                 word-wrap: break-word;
@@ -156,17 +129,13 @@
                 color: $--color-ffffff;
                 white-space: pre-wrap;
                 border-radius: 0%;
-                // padding-top: 20px;
-                // p {
-
-                // }
             }
         }
 
         .child-care {
             border-top: 2px solid $--color-bababa;
             padding: 50px 50px;
-            background-color: $--color-f2f2f2;
+            background-color: $--color-f8f7f7;
 
             .child-left {
                 padding-top: 20px;
@@ -234,7 +203,6 @@
 
                 .progressbar {
 
-                    // counter-reset: step;
                     li {
                         list-style-type: none;
                         width: 20%;
@@ -243,7 +211,7 @@
                         position: relative;
                         text-align: center;
                         text-transform: uppercase;
-                        color: $--color-bababa;
+                        color: $--color-cecece;
 
                         img {
                             position: absolute;
@@ -257,14 +225,12 @@
                         width: 20px;
                         height: 20px;
                         content: '';
-                        // counter-increment: step;
                         line-height: 20px;
-                        // border: 2px solid $--color-bababa;
                         display: block;
                         text-align: center;
                         margin: 0 auto 10px auto;
                         border-radius: 50%;
-                        background-color: $--color-bababa;
+                        background-color: $--color-cecece;
                     }
 
                     li:after {
@@ -272,7 +238,7 @@
                         height: 4px;
                         content: '';
                         position: absolute;
-                        background-color: $--color-bababa;
+                        background-color: $--color-cecece;
                         top: 9px;
                         left: -50%;
                         z-index: -1;
@@ -281,18 +247,6 @@
                     li:first-child:after {
                         content: none;
 
-                    }
-
-                    li.active {
-                        // color: green;
-                    }
-
-                    li.active:before {
-                        // border-color: #55b776;
-                    }
-
-                    li.active+li:after {
-                        // background-color: #55b776;
                     }
                 }
 
@@ -312,7 +266,7 @@
 
         .nursery-availability {
             padding: 40px 0;
-            background-color: $--color-f2f2f2;
+            background-color: $--color-f8f7f7;
         }
 
         .review {
@@ -329,9 +283,7 @@
             }
 
             .fa-star.checked {
-                // padding-left: 20px;
                 color: $--color-cccc3b;
-
             }
 
             .left-border {
@@ -340,14 +292,8 @@
 
             .top-bar {
                 border-bottom: 1px solid $--color-333333;
-
-
             }
 
-            // .image-div{
-            //     text-align: center;
-            //     margin-top: 10px;
-            // }
             .row-1 {
                 margin: 0 50px 0 50px;
                 padding: 20px 0;
@@ -377,18 +323,13 @@
 
     .childcare{
         border-top: 3px solid $--color-bababa;
-        // padding-top: 0px !important;
         .philosophy{
             padding-left: 170px;
             padding-bottom: 100px;
-            // padding-top: 0px;
             .philosophy-right{
                 background-color: $--color-aaaaaa;
-                // margin-left: 9.5rem;
                 height: 45%;
-                // width: 100%;
                 padding: 80px 50px 0 18px;
-
                 font-size: 25px;
                 width: 1px;
                 word-wrap: break-word;
@@ -408,7 +349,6 @@
             padding: 40px 0;
             background-color: $--color-f8f7f7;
             .event-col{
-                // width: calc(100% / 5);
                 margin: 0px;
                 padding: 30px 0px 30px 30px;
                 background-color: $--color-ffffff;
@@ -427,6 +367,72 @@
             }
             .col-color-4 {
                 color: $--color-8cc43f;
+            }
+        }
+        .annual-curriculum{
+            padding: 40px 0;
+            .accordion-button{
+                border: 1px solid $--color-333333;
+                background-color: $--color-ffffff;
+                color: $--color-333333;
+            }
+            .accordion-button:focus {
+                 outline: none !important;
+                 box-shadow: none;
+            }
+            .accordion-button:not(.collapsed)::after {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+            }
+            .collapse-body-1{
+                font-size: 13px;
+                .row-1{
+                    border: 1px solid $--color-d6d6d6;
+                    .col-left{
+                        background-color: $--color-f8f7f7;
+                        border-right: 2px solid $--color-d6d6d6;
+                    }
+                }
+                .btn-menu{
+                    width: calc(100% / 6);
+                    padding: 15px 0 15px 50px;
+                    border: 1px solid $--color-d6d6d6;
+                    background-color: $--color-ffffff;
+                }
+                .btn-menu:focus {
+                    outline: none !important;
+                    box-shadow: none;
+                }
+                .dropdown-toggle::after{
+                    font-size: 18px;
+                    color: $--color-707070;
+                    margin-left: 5.255em;
+                    vertical-align: 1px;
+                }
+                .btn-menu.active{
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
+                }
+                .btn-menu.active1 {
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
+                }
+                .active.dropdown-toggle::after {
+                    color: $--color-ffffff;
+                    margin-left: 1.255em;
+                    vertical-align: 10px;
+                }
+                .active1.dropdown-toggle::after {
+                    color: $--color-ffffff;
+                }
+                .row-2{
+                    padding: 10px 10px;
+                    border: 1px solid $--color-d6d6d6;
+                    background-color: $--color-fbeef5;
+                }
+                .row-3{
+                    padding: 10px 10px;
+                    border: 1px solid $--color-d6d6d6;
+                }
             }
         }
     }
