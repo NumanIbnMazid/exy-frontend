@@ -75,6 +75,11 @@ const routes = [
         component: () => import("../views/guardian/CharacteristicsDetail")
     },
     {
+        path: '/todo',
+        name: 'todo',
+        component: () => import("../views/todo")
+    },
+    {
         path: "*",
         redirect: "/pages/error-404"
     }
