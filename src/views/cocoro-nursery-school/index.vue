@@ -89,15 +89,17 @@
                                                     </div>
                                                     <div class="row custom-form-group m-2">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexCheckChecked">
+                                                            <label class="container-checkbox">
                                                                 体験保育 <span class="ms-3 me-3">|</span> ０歳児
+                                                                <input type="checkbox" checked>
+                                                                <span class="checkmark"></span>
                                                             </label>
                                                         </div>
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                            <label class="container-checkbox">
                                                                 体験保育 <span class="ms-3 me-3">|</span> １歳児以上
+                                                                <input type="checkbox" checked>
+                                                                <span class="checkmark"></span>
                                                             </label>
                                                         </div>
                                                     </div>
@@ -111,27 +113,31 @@
                                                     </div>
                                                     <div class="row custom-form-group m-2">
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value="" id="check1" checked>
-                                                            <label class="form-check-label" for="check1">
+                                                            <label class="container-checkbox">
                                                                 その他経費 <span class="ms-3 me-3">|</span> お給食
+                                                                <input type="checkbox" checked>
+                                                                <span class="checkmark"></span>
                                                             </label>
                                                         </div>
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value="" id="check2">
-                                                            <label class="form-check-label" for="check2">
+                                                            <label class="container-checkbox">
                                                                 その他経費 <span class="ms-3 me-3">|</span> おやつ
+                                                                <input type="checkbox">
+                                                                <span class="checkmark"></span>
                                                             </label>
                                                         </div>
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value="" id="check3">
-                                                            <label class="form-check-label" for="check3">
+                                                            <label class="container-checkbox">
                                                                 その他経費 <span class="ms-3 me-3">|</span> ミルク
+                                                                <input type="checkbox">
+                                                                <span class="checkmark"></span>
                                                             </label>
                                                         </div>
                                                         <div class="form-check">
-                                                            <input class="form-check-input" type="checkbox" value="" id="check4">
-                                                            <label class="form-check-label" for="flexCheckDefault">
+                                                            <label class="container-checkbox">
                                                                 その他経費 <span class="ms-3 me-3">|</span> 手ぶらプラン
+                                                                <input type="checkbox">
+                                                                <span class="checkmark"></span>
                                                             </label>
                                                         </div>
                                                     </div>
@@ -154,8 +160,7 @@
                                                 <!-- user registration -->
                                                 <div class="row custom-form-group ms-2 me-2">
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="" id="check5" checked>
-                                                        <label class="form-check-label fw-lighter" for="check5">
+                                                        <label class="container-checkbox">
                                                             <span class="ms-4 me-5">
                                                                 <span>田中</span>
                                                                 <span class="ms-2">海</span>
@@ -166,11 +171,12 @@
                                                                 <span class="ms-4">男児</span>
                                                                 <span class="ms-3">アレルギー疾患 : 有</span>
                                                             </span>
+                                                            <input type="checkbox">
+                                                            <span class="checkmark"></span>
                                                         </label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="" id="check6" disabled>
-                                                        <label class="form-check-label" for="check6">
+                                                        <label class="container-checkbox">
                                                             <span class="ms-4 me-5">
                                                                 <span>田中</span>
                                                                 <span class="ms-2">陸</span>
@@ -181,6 +187,8 @@
                                                                 <span class="ms-4">男児</span>
                                                                 <span class="ms-3">アレルギー疾患 : 有</span>
                                                             </span>
+                                                            <input type="checkbox">
+                                                            <span class="checkmark"></span>
                                                         </label>
                                                     </div>
                                                 </div>
@@ -295,7 +303,7 @@
                                                                 <span class="checkmark"></span>
                                                             </label>
                                                         </span>
-                                                        <span>
+                                                        <span class="ms-4">
                                                             <label class="container-checkbox">
                                                                 なし
                                                                 <input type="checkbox">
@@ -320,7 +328,7 @@
                                                                 <span class="checkmark"></span>
                                                             </label>
                                                         </span>
-                                                        <span>
+                                                        <span class="ms-4">
                                                             <label class="container-checkbox">
                                                                 なし
                                                                 <input type="checkbox">
@@ -343,7 +351,7 @@
                                                                 <span class="checkmark"></span>
                                                             </label>
                                                         </span>
-                                                        <span>
+                                                        <span class="ms-4">
                                                             <label class="container-checkbox">
                                                                 なし
                                                                 <input type="checkbox">
@@ -366,7 +374,7 @@
                                                                 <span class="checkmark"></span>
                                                             </label>
                                                         </span>
-                                                        <span>
+                                                        <span class="ms-4">
                                                             <label class="container-checkbox">
                                                                 なし
                                                                 <input type="checkbox">
