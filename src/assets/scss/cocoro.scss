@@ -12,37 +12,62 @@
     border: 2px solid #959595;
 }
 
+.hr-dotted {
+    hr {
+        background-color: #fff;
+        border-top: 2px dotted #000000;
+    }
+}
+
+.text-red {
+    color: #FF0000;
+}
+
 .custom-form-group {
     .form-label {
         line-height: 35px;
     }
-    
+
+    .form-control {
+        border-color: #9C9C9C;
+        border: 2px solid #9C9C9C;
+    }
+
     .form-control:focus {
         border-color: #9C9C9C;
+        border: 2px solid #9C9C9C;
     }
-    
+
     // for date picker
+
+    .mx-input {
+        border-color: #9C9C9C;
+        border: 2px solid #9C9C9C;
+        height: 40px;
+    }
+
     .mx-input:focus,
     .mx-input:hover {
         border-color: #9C9C9C;
+        height: 40px;
     }
-    
+
     .end-time-holder {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
-    
+
     .end-time-input-holder {
         padding-left: 10px !important;
         float: left;
     }
-    
+
     .end-time-spacer {
         float: left;
         color: #707981;
         line-height: 35px;
     }
-    
+
     input[type=checkbox] {
         margin-top: 7px;
     }
@@ -55,100 +80,102 @@
     font-style: normal;
     font-weight: normal;
     color: rgba(61, 52, 66, 1);
-    
+
     .cocoro-container {
         margin: 25px 60px 25px 60px;
-        
+
         // *** cocoro page title ***
         .cocoro-page-title {
             .cocoro-img {
                 height: 80px;
                 width: 80px;
             }
-            
+
             .title-img-holder {
                 float: left;
             }
-            
+
             .title-txt-holder {
                 font-size: 25px;
                 color: rgba(68, 63, 61, 1);
             }
         }
-        
+
+        // *** Cocoro Content Holder ***
+        .cocoro-content-holder {
+            padding: 2px 12px 2px 12px;
+
+            .content-btn {
+                padding: 5px 40px 5px 40px;
+                border: 2px solid #E59CC0;
+                color: #CB3A82;
+                background-color: #FFFFFF;
+            }
+        }
+
+        .section-header {
+            color: #CB3A82;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 2px;
+        }
+
+        // section 1 tab pills
+        .cocoro-section-tab-pills {
+
+            .nav-link {
+                background: none;
+                border: 2px solid #DCDCDC;
+                border-radius: 0.65rem;
+                width: 100% !important;
+                height: 55px;
+
+                .pills-text {
+                    color: rgba(51, 51, 51, 1)
+                }
+            }
+
+            .nav-link.active,
+            .show>.nav-link {
+                color: #fff;
+                background-color: #CB3A82;
+                width: 100% !important;
+                border: none !important;
+
+                .pills-text {
+                    color: rgba(255, 255, 255, 1);
+                    font-weight: bold;
+                }
+            }
+
+            .pills-text {
+                text-align: center;
+                font-style: normal;
+                font-size: 16px;
+            }
+        }
+
+        // section 1 tab content
+        .cocoro-section-tab-content {
+            border-top: 5px solid #DCDCDC;
+        }
+
         // *** cocoro section ***
         .cocoro-section {
             border: 2px solid #DCDCDC;
-            
+
             hr {
                 background-color: #fff;
                 border-top: 2px dashed #EBEBEB;
             }
-            
-            .section-header {
-                color: #CB3A82;
-                font-size: 20px;
-                line-height: 30px;
-                letter-spacing: 2px;
-            }
-            
+
             .content-box {
-                background-color: #F8F7F7;
+                background-color: $--color-f8f7f7;
                 margin-top: 0 !important;
-                
+
                 .content-holder {
                     padding: 37px 30px;
                 }
-            }
-            
-            // section 1 tab pills
-            .cocoro-section-1-tab-pills {
-                
-                .nav-link {
-                    background: none;
-                    border: 2px solid #DCDCDC;
-                    border-radius: 0.65rem;
-                    width: 100% !important;
-                    height: 55px;
-                    
-                    .pills-text {
-                        color: rgba(51, 51, 51, 1)
-                    }
-                }
-                
-                .nav-link.active,
-                .show > .nav-link {
-                    color: #fff;
-                    background-color: #CB3A82;
-                    width: 100% !important;
-                    border: none !important;
-                    
-                    .pills-text {
-                        color: rgba(255, 255, 255, 1);
-                        font-weight: bold;
-                    }
-                }
-                
-                .pills-text {
-                    text-align: center;
-                    font-style: normal;
-                    font-size: 16px;
-                }
-            }
-            
-            // section 1 tab content
-            .cocoro-section-1-tab-content {
-                background-color: #F8F7F7;
-                margin-top: 0 !important;
-                border-top: 5px solid #DCDCDC;
-                
-                .tab-content-holder {
-                    padding: 37px 30px;
-                }
-            }
-            
-            .section-2 {
-                line-height: 27px;
             }
         }
     }
