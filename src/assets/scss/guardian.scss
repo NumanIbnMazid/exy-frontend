@@ -521,6 +521,43 @@
             padding-top: 100px;
         }
     }
+
+    .overview{
+         border-top: 3px solid $--color-bababa;
+         padding-bottom: 50px;
+        .left-col{
+             padding-left: 120px;
+             .left{
+                 padding-top: 20px;
+                 background-color: $--color-fbeef5;
+             }
+             .right{
+                 padding: 20px 50px;
+                .span-padding {
+                    padding-left: 150px;
+                }
+             }
+            .row-1{
+                 border-top: 1px solid $--color-bababa;
+             }
+            .row-2{
+                 border-top: 1px solid $--color-bababa;
+                 border-bottom: 1px solid $--color-bababa;
+                 .right-1{
+                      padding: 20px 0 100px 50px;
+                      .span-padding {
+                          padding-left: 150px;
+                    }
+                }
+            }
+        }
+        .right-col{
+            .philosophy-right {
+                padding-top: 70px;
+                height: 60%;
+            }
+        }
+    }
     
 }
 
