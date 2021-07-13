@@ -299,9 +299,8 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 月極保育</label></li>
               <li>
-                <label class="container-checkbox">金
+                <label class="container-checkbox">月極保育
                   <input type="checkbox" checked="checked">
                   <span class="checkmark"></span>
                 </label>
@@ -310,9 +309,8 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 病児・病後児保育</label></li>
               <li>
-                <label class="container-checkbox">金
+                <label class="container-checkbox">病児・病後児保育
                   <input type="checkbox" checked="checked">
                   <span class="checkmark"></span>
                 </label>
