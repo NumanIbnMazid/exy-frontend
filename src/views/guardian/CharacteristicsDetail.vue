@@ -22,7 +22,7 @@
       <div class="row w-100 m-0">
         <div class="col-md-6 box-border">
           <div class="footer-icon">
-            <ul class="d-flex align-items-center justify-content-center">
+            <ul class="d-flex align-items-center justify-content-center mb-0 mt-0">
               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="col-md-6 text-center box-border">
-          <p class="right-footer">この園へ問い合わせる</p>
+          <p class="text-sm m-0 pt-2">この園へ問い合わせる</p>
         </div>
       </div>
     </section>
@@ -305,7 +305,7 @@
             </div>
             <div class="row mt-2 top-bar">
               <div class="col-md-6">
-                <p class="">
+                <p class="m-0">
                   <span class="fs-4 fw-bold">総合</span>
                   <span class="fs-4 fw-bold rv-point">4.0</span>
                   <span class="fs-2 fa fa-star checked"></span>
@@ -315,16 +315,16 @@
                   <span class="fs-2 fa fa-star"></span>
                 </p>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 pt-2">
                 <div class="row bar-left">
                   <div class="col-md-4">
-                    <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
+                    <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
                   </div>
-                  <div class="col-md-4 pt-2 left-border">
-                    <p class="text-center">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
+                  <div class="col-md-4 left-border">
+                    <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
                   </div>
-                  <div class="col-md-4 pt-2 left-border">
-                    <p class="text-center">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
+                  <div class="col-md-4 left-border">
+                    <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
                   </div>
                 </div>
               </div>
@@ -333,11 +333,11 @@
               <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_26.png" alt="EXY"></div>
               <div class="col-md-10">
                 <div class="row me-1 row-11">
-                  <p class="fw-bold pt-2">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
                 </div>
                 <div class="row mt-2">
                   <div class="col-md-6">
-                    <p>
+                    <p class="m-0">
                       <span class="">総合</span>
                       <span class="fw-bold rv-point">4</span>
                       <span class=" fa fa-star checked"></span>
@@ -350,13 +350,13 @@
                   <div class="col-md-6">
                     <div class="row">
                       <div class="col-md-4">
-                        <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
                       </div>
-                      <div class="col-md-4 pt-2 left-border">
-                        <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
                       </div>
-                      <div class="col-md-4 pt-2 left-border">
-                        <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
                       </div>
                     </div>
                   </div>
@@ -370,7 +370,7 @@
               <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_33.png" alt="EXY"></div>
               <div class="col-md-10">
                 <div class="row me-1 row-11">
-                  <p class="fw-bold pt-2">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
                 </div>
                 <div class="row mt-2">
                   <div class="col-md-6">
@@ -387,13 +387,13 @@
                   <div class="col-md-6">
                     <div class="row">
                       <div class="col-md-4">
-                        <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
                       </div>
-                      <div class="col-md-4 pt-2 left-border">
-                        <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
                       </div>
-                      <div class="col-md-4 pt-2 left-border">
-                        <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
                       </div>
                     </div>
                   </div>
@@ -407,7 +407,7 @@
               <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_34.png" alt="EXY"></div>
               <div class="col-md-10">
                 <div class="row me-1 row-11">
-                  <p class="fw-bold pt-2">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
                 </div>
                 <div class="row mt-2">
                   <div class="col-md-6">
@@ -424,13 +424,13 @@
                   <div class="col-md-6">
                     <div class="row">
                       <div class="col-md-4">
-                        <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
                       </div>
-                      <div class="col-md-4 pt-2 left-border">
-                        <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
                       </div>
-                      <div class="col-md-4 pt-2 left-border">
-                        <p class="text-center">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
                       </div>
                     </div>
                   </div>
@@ -1375,6 +1375,633 @@
           </div>
         </div>
       </div>
+
+      <!-- Rate Plan Tab Start -->
+      <div v-if="activeTab == 3" class="rate-plan">
+        <div class="row experince w-100  ms-0">
+          <div class="col-md-11 left-col ps-0">
+            <div class="row row-top mt-5 w-50">
+              <p class="m-0 fw-bold">体験保育</p>
+            </div>
+            <div class="row mt-4 row-1">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">体験保育 <span class="ps-3 pe-3 span-divider">｜</span>０歳児</p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">￥15 ／ 1分</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <div class="col-md-10">
+                    <p class="m-0">9:00~18:00（延長保育あり）別途、施設利用料500円が必要です。</p>
+                  </div>
+                  <div class="col-md-2">
+                    <span class="pull-right badge-bottom">おすすめ</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-1">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">体験保育 <span class="ps-3 pe-3 span-divider">｜</span>１歳児以上</p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">￥10 ／ 1分</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <div class="col-md-10">
+                    <p class="m-0">9:00~18:00（延長保育あり）別途、施設利用料500円が必要です。</p>
+                  </div>
+                  <div class="col-md-2">
+                    <span class="pull-right badge-bottom">おすすめ</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-2">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">その他費用 <span class="ps-3 pe-3 span-divider fw-normal">｜</span>お給食 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">￥500 ／ 1食</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-2">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">その他費用 <span class="ps-3 pe-3 span-divider fw-normal">｜</span>おやつ </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">￥100 ／ 1食</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-2">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">その他費用 <span class="ps-3 pe-3 span-divider fw-normal">｜</span>ミルク </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">￥100 ／ 1食</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-2">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">その他費用 <span class="ps-3 pe-3 span-divider fw-normal">｜</span>手ぶらプラン </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">￥500 ／ 1日</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1 right-col pe-0">
+            <a href="#" class="philosophy-right pull-right text-center">予約へ進む</a>
+          </div>
+        </div>
+        <div class="row monthly-childcare w-100  ms-0 mt-1 mb-5">
+          <div class="col-md-12">
+            <div class="row row-top mt-5 w-40">
+              <p class="m-0 fw-bold">月極保育</p>
+            </div>
+            <div class="row mt-4 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">通常プラン <span class="ps-3 pe-3 span-divider fw-normal">｜</span>０歳児 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">￥35,900 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">月16日以上のご利用が必要となります。</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">通常プラン <span class="ps-3 pe-3 span-divider fw-normal">｜</span>１歳児・２歳児 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">￥35,700 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">月16日以上のご利用が必要となります。</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">通常プラン <span class="ps-3 pe-3">｜</span>３歳児以上 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">無償化対象 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">月16日以上のご利用が必要となります。</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">時短プラン <span class="ps-3 pe-3">｜</span>０歳児 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">¥20,000 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">9:00〜16:00までのお預かり/月16日のご利用に限ります。</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">時短プラン <span class="ps-3 pe-3">｜</span>１歳児・２歳児 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right">¥15,000 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">9:00〜16:00までのお預かり/月16日のご利用に限ります。</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">時短プラン <span class="ps-3 pe-3">｜</span>３歳児以上 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right"> 無償化対象 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">9:00〜16:00までのお預かり/月16日のご利用に限ります。</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">保育補助費（通常プラン）<span class="ps-3 pe-3">｜</span>全年齢対応 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right"> ¥20,000 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">※備考欄：月16日以上のご利用が必要となります。</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">保育補助費（時短プラン）<span class="ps-3 pe-3">｜</span>全年齢対応 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right"> ¥20,000 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">9:00〜16:00までのお預かり/月16日のご利用に限ります。</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">手ぶらプラン<span class="ps-3 pe-3">｜</span>０・１歳児 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right"> ¥4,000 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">ご希望の方のみ</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">手ぶらプラン <span class="ps-3 pe-3">｜</span>２歳児 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right"> ¥3,500 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">※備考欄：ご希望の方のみ</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">手ぶらプラン <span class="ps-3 pe-3">｜</span>３歳児以上 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right"> ¥3,000 ／ 1ヶ月</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">※備考欄：ご希望の方のみ</p>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-3 row-4">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">入園必要経費 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right"> ¥25,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-top last-top w-40">
+              <p class="m-0 fw-bold">園見学</p>
+            </div>
+            <div class="row mt-4 row-3">
+              <div class="col-md-12">
+                <div class="row text-xl fw-bold">
+                  <div class="col-md-10">
+                    <p class="m-0">全年齢 </p>
+                  </div>
+                  <div class="col-md-2 me-0 pe-2">
+                    <p class="m-0 pull-right"> ￥0</p>
+                  </div>
+                </div>
+                <div class="row mt-2 text-sm">
+                  <p class="m-0">※お持ち物：ペン（メモ用）・スリッパ</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Rate Plan Tab End -->
+
+      <!-- Word Of Mouth Tab Satrt -->
+      <div v-if="activeTab == 4" class="word-of-mouth">
+        <div class="row comprehensive w-100 ms-0">
+          <div class="col-md-11 left-col">
+            <div class="row mt-2 top-bar pb-2">
+              <div class="col-md-6">
+                <p class="m-0">
+                  <span class="fs-4 fw-bold">総合</span>
+                  <span class="fs-4 fw-bold rv-point">4.0</span>
+                  <span class="fs-2 fa fa-star checked"></span>
+                  <span class="fs-2 fa fa-star checked"></span>
+                  <span class="fs-2 fa fa-star checked"></span>
+                  <span class="fs-2 fa fa-star checked"></span>
+                  <span class="fs-2 fa fa-star"></span>
+                </p>
+              </div>
+              <div class="col-md-6 pt-2">
+                <div class="row bar-left">
+                  <div class="col-md-4">
+                    <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
+                  </div>
+                  <div class="col-md-4 left-border">
+                    <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
+                  </div>
+                  <div class="col-md-4 left-border">
+                    <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4.0</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4 row-1">
+              <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_26.png" alt="EXY"></div>
+              <div class="col-md-10">
+                <div class="row me-1 row-11">
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-6">
+                    <p class="m-0">
+                      <span class="">総合</span>
+                      <span class="fw-bold rv-point">4</span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star"></span>
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             <div class="row row-2">
+              <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れていますこの文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+            </div>
+            <div class="row mt-5 row-1">
+              <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_33.png" alt="EXY"></div>
+              <div class="col-md-10">
+                <div class="row me-1 row-11">
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-6">
+                    <p>
+                      <span class="">総合</span>
+                      <span class="fw-bold rv-point">4</span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star"></span>
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-2">
+              <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れていますこの文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+            </div>
+            <div class="row mt-5 row-1">
+              <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_34.png" alt="EXY"></div>
+              <div class="col-md-10">
+                <div class="row me-1 row-11">
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-6">
+                    <p>
+                      <span class="">総合</span>
+                      <span class="fw-bold rv-point">4</span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star"></span>
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5 row-1">
+              <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_34.png" alt="EXY"></div>
+              <div class="col-md-10">
+                <div class="row me-1 row-11">
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-6">
+                    <p>
+                      <span class="">総合</span>
+                      <span class="fw-bold rv-point">4</span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star"></span>
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5 row-1">
+              <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_34.png" alt="EXY"></div>
+              <div class="col-md-10">
+                <div class="row me-1 row-11">
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-6">
+                    <p>
+                      <span class="">総合</span>
+                      <span class="fw-bold rv-point">4</span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star"></span>
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5 row-1">
+              <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_34.png" alt="EXY"></div>
+              <div class="col-md-10">
+                <div class="row me-1 row-11">
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-6">
+                    <p>
+                      <span class="">総合</span>
+                      <span class="fw-bold rv-point">4</span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star"></span>
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5 row-1">
+              <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_34.png" alt="EXY"></div>
+              <div class="col-md-10">
+                <div class="row me-1 row-11">
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-6">
+                    <p>
+                      <span class="">総合</span>
+                      <span class="fw-bold rv-point">4</span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star"></span>
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5 row-1">
+              <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_34.png" alt="EXY"></div>
+              <div class="col-md-10">
+                <div class="row me-1 row-11">
+                  <p class="fw-bold pt-2 m-0">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-6">
+                    <p>
+                      <span class="">総合</span>
+                      <span class="fw-bold rv-point">4</span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star checked"></span>
+                      <span class=" fa fa-star"></span>
+                    </p>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                      <div class="col-md-4 left-border">
+                        <p class="text-center m-0">雰囲気 <span class="rv-point fw-bold">4</span></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row row-3">
+              <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/WEB06.png" alt="EXY"></div>
+              <div class="col-md-10 pt-2">
+                <p class="m-0">この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-1 right-col pe-0">
+            <a href="#" class="philosophy-right pull-right text-center h-25">予約へ進む</a>
+          </div>
+        </div>
+      </div>
+      <!-- Word Of Mouth Tab End -->
     </section>
     <!-- details-tab end -->
   </div>
@@ -1386,7 +2013,7 @@ export default {
   data() {
     return {
       date: '',
-      activeTab: 2,
+      activeTab: 1,
       options: [
         'お子様の年齢',
         '０歳 ０ヶ月',

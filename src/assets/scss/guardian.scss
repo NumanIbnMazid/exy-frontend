@@ -1,19 +1,14 @@
 .charecteristics {
     .box-border {
         border: 1px solid #d2cece;
-        
-        .right-footer {
-            margin-top: 15px;
-            font-size: 20px;
-        }
     }
     
     .footer-icon {
-        margin-top: 15px;
+        margin-top: 8px;
         
         ul {
             li {
-                margin: 0 10px;
+                margin: 0 20px;
                 
                 a {
                     &:hover {
@@ -25,6 +20,7 @@
                 
                 i {
                     font-size: 20px;
+                    color: $--color-707070;
                 }
             }
         }
@@ -38,6 +34,26 @@
         padding-left: 5rem;
         font-size: 10px;
         color: $--color-918d8d;
+    }
+    .top-bar {
+        border-bottom: 1px solid $--color-333333;
+    }
+    .rv-point {
+        padding-left: 50px;
+        color: $--color-cccc3b;
+    }
+
+    .fa-star {
+        padding-left: 20px;
+        color: $--color-bababa;
+    }
+
+    .fa-star.checked {
+        color: $--color-cccc3b;
+    }
+
+    .left-border {
+        border-left: 1px solid $--color-333333;
     }
     .details-tab {
         padding-top: 40px;
@@ -272,28 +288,6 @@
         .review {
             padding: 40px 0;
 
-            .rv-point {
-                padding-left: 50px;
-                color: $--color-cccc3b;
-            }
-
-            .fa-star {
-                padding-left: 20px;
-                color: $--color-bababa;
-            }
-
-            .fa-star.checked {
-                color: $--color-cccc3b;
-            }
-
-            .left-border {
-                border-left: 1px solid $--color-333333;
-            }
-
-            .top-bar {
-                border-bottom: 1px solid $--color-333333;
-            }
-
             .row-1 {
                 margin: 0 50px 0 50px;
                 padding: 20px 0;
@@ -434,6 +428,97 @@
                     border: 1px solid $--color-d6d6d6;
                 }
             }
+        }
+    }
+    .philosophy-right {
+        background-color: $--color-aaaaaa;
+        height: 45%;
+        padding: 80px 50px 0 18px;
+        font-size: 25px;
+        width: 1px;
+        word-wrap: break-word;
+        font-family: monospace;
+        color: $--color-ffffff;
+        white-space: pre-wrap;
+        border-radius: 0%;
+    }
+    .rate-plan{
+        border-top: 3px solid $--color-bababa;
+        .span-divider {
+            color: $--color-bababa;
+        }
+        .row-top {
+            padding: 10px 100px;
+            background-color: $--color-fbeef5;
+            color: $--color-cb3a82;
+        }
+        .experince{
+            padding: 20px 0;
+            .left-col{
+                .row-1{
+                    margin-left: 120px;
+                    padding: 10px 10px;
+                    border: 1px solid $--color-bababa;
+                    .badge-bottom{
+                        padding: 3px 25px;
+                        color: $--color-ffffff;
+                        background-color: $--color-84c942;
+                    }
+                }
+                .row-2 {
+                    margin-left: 120px;
+                    padding: 30px 10px;
+                    border: 1px solid $--color-bababa;
+                }
+            }
+        }
+        .monthly-childcare{
+            .w-40{
+                width: 45%;
+            }
+            .row-3 {
+                margin: 0 110px;
+                padding: 15px 10px;
+                border: 1px solid $--color-bababa;
+            }
+            .row-4 {
+                margin: 0 110px;
+                padding: 30px 10px;
+                border: 1px solid $--color-bababa;
+            }
+            .last-top{
+                margin-top: 80px;
+            }
+        }
+    }
+    .word-of-mouth{
+        border-top: 3px solid $--color-bababa;
+        .left-col{
+            padding: 40px 0 40px 120px;
+            .row-1 {
+                margin: 0 50px 0 50px;
+                padding: 20px 0;
+                border: 1px solid $--color-333333;
+
+                .row-11 {
+                    border-bottom: 1px solid $--color-bababa;
+                }
+            }
+
+            .row-2 {
+                margin: 0 50px 0 50px;
+                padding-top: 20px;
+                background-color: $--color-f2f2f2;
+            }
+
+            .row-3 {
+                margin: 0 50px 0 50px;
+                padding: 20px 0;
+                background-color: $--color-f2f2f2;
+            }
+        }
+        .philosophy-right{
+            padding-top: 100px;
         }
     }
     
