@@ -159,13 +159,13 @@
                 </label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="開始時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="開始時間">
               </div>
               <div class="col-lg-1 text-center">
                 <label class="me-3 fw-bolder fs-4 d-none d-md-block">〜</label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="終了時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="終了時間">
               </div>
             </div>
             <div class="row d-flex align-items-center mb-3">
@@ -176,13 +176,13 @@
                 </label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="開始時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="開始時間">
               </div>
               <div class="col-lg-1 text-center">
                 <label class="me-3 fw-bolder fs-4 d-none d-md-block">〜</label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="終了時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="終了時間">
               </div>
             </div>
             <div class="row d-flex align-items-center mb-3">
@@ -193,13 +193,13 @@
                 </label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="開始時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="開始時間">
               </div>
               <div class="col-lg-1 text-center">
                 <label class="me-3 fw-bolder fs-4 d-none d-md-block">〜</label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="終了時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="終了時間">
               </div>
             </div>
             <div class="row d-flex align-items-center mb-3">
@@ -210,13 +210,13 @@
                 </label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="開始時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="開始時間">
               </div>
               <div class="col-lg-1 text-center">
                 <label class="me-3 fw-bolder fs-4 d-none d-md-block">〜</label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="終了時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="終了時間">
               </div>
             </div>
             <div class="row d-flex align-items-center mb-3">
@@ -227,13 +227,13 @@
                 </label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="開始時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="開始時間">
               </div>
               <div class="col-lg-1 text-center">
                 <label class="me-3 fw-bolder fs-4 d-none d-md-block">〜</label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="終了時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="終了時間">
               </div>
             </div>
             <div class="row d-flex align-items-center mb-3">
@@ -244,13 +244,13 @@
                 </label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="開始時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="開始時間">
               </div>
               <div class="col-lg-1 text-center">
                 <label class="me-3 fw-bolder fs-4 d-none d-md-block">〜</label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="終了時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="終了時間">
               </div>
             </div>
             <div class="row d-flex align-items-center mb-3">
@@ -261,13 +261,13 @@
                 </label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="開始時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="開始時間">
               </div>
               <div class="col-lg-1 text-center">
                 <label class="me-3 fw-bolder fs-4 d-none d-md-block">〜</label>
               </div>
               <div class="col-lg-4">
-                <input type="text" class="p-2 w-100 text-xl border border-333333 text-light" placeholder="終了時間">
+                <input type="text" class="p-2 w-100 text-xl border border-333333" placeholder="終了時間">
               </div>
             </div>
           </div>
