@@ -1,0 +1,31 @@
+.login-page {
+    .login-area {
+        .login-btn-area {
+            :last-child {
+                margin-left: 10px;
+            }
+        }
+        .login-area-main {
+            .forget-pass-email-option {
+                 ul {
+                    list-style: disc;
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        // .login-reg-section {
+            .registration-box {
+                background: url("../images/bg/registration-box.png") no-repeat;
+                width: 300px;
+                margin: auto;
+                padding: 21px 0 30px 0;
+                background-size: 100% 100%;
+                text-align: center;
+                max-height: 350px;
+                margin-top: 70px;
+            }
+        // }
+    }
+}

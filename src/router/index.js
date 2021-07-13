@@ -81,6 +81,16 @@ const routes = [
         component: () => import("../views/cocoro-nursery-school/index")
     },
     {
+        path: '/login',
+        name: 'Login',
+        component: () => import("../components/auth/Login")
+    },
+    {
+        path: '/registration',
+        name: 'Registration',
+        component: () => import("../components/auth/Registration")
+    },
+    {
         path: '/todo',
         name: 'todo',
         component: () => import("../views/todo")
