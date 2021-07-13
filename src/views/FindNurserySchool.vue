@@ -289,17 +289,34 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 体験保育（一時保育）</label></li>
+              <li>
+                <label class="container-checkbox">体験保育（一時保育）
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
               <li><label><input class="form-check-input me-1" type="checkbox"> 月極保育</label></li>
+              <li>
+                <label class="container-checkbox">金
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
               <li><label><input class="form-check-input me-1" type="checkbox"> 病児・病後児保育</label></li>
+              <li>
+                <label class="container-checkbox">金
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
@@ -312,21 +329,56 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> ０歳児（6ヶ月未満）</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> ２歳児</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> ５歳児</label></li>
+              <li>
+                <label class="container-checkbox">０歳児（6ヶ月未満）
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">２歳児
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">５歳児
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> ０歳児（6ヶ月以上）</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> ３歳児</label></li>
+              <li>
+                <label class="container-checkbox">０歳児（6ヶ月以上）
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">３歳児
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> １歳児</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> ４歳児</label></li>
+              <li>
+                <label class="container-checkbox">１歳児
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">４歳児
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
@@ -339,7 +391,12 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> あり</label></li>
+              <li>
+                <label class="container-checkbox">あり
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
@@ -352,14 +409,34 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 延長保育（早朝）</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 夜間保育</label></li>
+              <li>
+                <label class="container-checkbox">延長保育（早朝）
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">夜間保育
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 延長保育（夕方）</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> お泊まり保育</label></li>
+              <li>
+                <label class="container-checkbox">延長保育（夕方）
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">お泊まり保育
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
@@ -372,17 +449,32 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 土曜日</label></li>
+              <li>
+                <label class="container-checkbox">土曜日
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 日曜日</label></li>
+              <li>
+                <label class="container-checkbox">日曜日
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 祝日</label></li>
+              <li>
+                <label class="container-checkbox">祝日
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
@@ -395,22 +487,62 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 連絡アプリ導入済み</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 制服・指定服あり</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 駐車場・駐輪場あり</label></li>
+              <li>
+                <label class="container-checkbox">連絡アプリ導入済み
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">制服・指定服あり
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">駐車場・駐輪場あり
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 保護者会等あり</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> アレルギー対応あり</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> リフレッシュ利用可能</label></li>
+              <li>
+                <label class="container-checkbox">保護者会等あり
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">アレルギー対応あり
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">リフレッシュ利用可能
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 保護者参加行事あり</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> ベビーカー置き場あり</label></li>
+              <li>
+                <label class="container-checkbox">保護者参加行事あり
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">ベビーカー置き場あり
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
@@ -423,17 +555,32 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 小規模（19名以下）</label></li>
+              <li>
+                <label class="container-checkbox">小規模（19名以下）
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 中規模（59名以下）</label></li>
+              <li>
+                <label class="container-checkbox">中規模（59名以下）
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 大規模（60名以上）</label></li>
+              <li>
+                <label class="container-checkbox">大規模（60名以上）
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
@@ -446,17 +593,32 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 80平米以下</label></li>
+              <li>
+                <label class="container-checkbox">80平米以下
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 81〜200平米以下</label></li>
+              <li>
+                <label class="container-checkbox">81〜200平米以下
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 200平米以上</label></li>
+              <li>
+                <label class="container-checkbox">200平米以上
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
@@ -469,7 +631,12 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> あり</label></li>
+              <li>
+                <label class="container-checkbox">あり
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
@@ -482,7 +649,12 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> なし</label></li>
+              <li>
+                <label class="container-checkbox">なし
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
@@ -495,23 +667,68 @@
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 習い事</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 送迎サービス</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 英語教育</label></li>
+              <li>
+                <label class="container-checkbox">習い事
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">送迎サービス
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">英語教育
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 手ぶら登園</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 夕食・補食</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 幼児教育</label></li>
+              <li>
+                <label class="container-checkbox">手ぶら登園
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">夕食・補食
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">幼児教育
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="col-md-3">
             <ul>
-              <li><label><input class="form-check-input me-1" type="checkbox"> こだわり給食</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 運動教育</label></li>
-              <li><label><input class="form-check-input me-1" type="checkbox"> 就学前教育</label></li>
+              <li>
+                <label class="container-checkbox">こだわり給食
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">運動教育
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
+              <li>
+                <label class="container-checkbox">就学前教育
+                  <input type="checkbox" checked="checked">
+                  <span class="checkmark"></span>
+                </label>
+              </li>
             </ul>
           </div>
         </div>
