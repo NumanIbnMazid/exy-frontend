@@ -79,6 +79,11 @@ const routes = [{
         component: () => import("../views/todo")
     },
     {
+        path: '/cocoro-nursery-school',
+        name: 'CocoroNurserySchool',
+        component: () => import("../views/cocoro-nursery-school/index")
+    },
+    {
         path: "*",
         redirect: "/pages/error-404"
     }
