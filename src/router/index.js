@@ -4,7 +4,8 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-const routes = [{
+const routes = [
+    {
         path: '/',
         name: 'Home',
         component: Home
@@ -66,12 +67,18 @@ const routes = [{
     },
     {
         path: '/details',
+        name: 'search.result',
         component: () => import("../components/search/Details")
     },
     {
         path: '/guardian-characteristics-detail',
         name: 'CharacteristicsDetail',
         component: () => import("../views/guardian/CharacteristicsDetail")
+    },
+    {
+        path: '/proceed-to-reservation',
+        name: 'ProceedToReservation',
+        component: () => import("../views/cocoro-nursery-school/index")
     },
     {
         path: '/todo',

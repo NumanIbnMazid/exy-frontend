@@ -16,18 +16,18 @@
 
     <section class="position-relative charecteristics">
       <div class="container">
-        <p style="padding-top:10px">キャンペーン中！</p>
+        <p class="pt-2">キャンペーン中！</p>
       </div>
-      <img src="../../assets/images/guardian/WEB07.png" alt="EXY" class="img-fluid" style="width: 100%">
-      <div class="row" style="width:100%; margin:0px">
+      <img src="../../assets/images/guardian/WEB07.png" alt="EXY" class="img-fluid w-100">
+      <div class="row w-100 m-0">
         <div class="col-md-6 box-border">
           <div class="footer-icon">
-                <ul class="d-flex align-items-center justify-content-center">
-                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                </ul>
-            </div>
+            <ul class="d-flex align-items-center justify-content-center">
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+          </div>
         </div>
         <div class="col-md-6 text-center box-border">
           <p class="right-footer">この園へ問い合わせる</p>
@@ -45,79 +45,79 @@
             <p style="margin-top:20px">「えいごとにほんごであそぼう」をテーマに、楽しく自然に英語を身につけることを目標にした保育園</p>
           </div>
           <div class="col-md-2">
-            <img src="../../assets/images/guardian/Image_53.png" alt="EXY" class="img-fluid  pull-right" style="width: 50%">
+            <img src="../../assets/images/guardian/Image_53.png" alt="EXY" class="img-fluid  pull-right w-50">
           </div>
         </div>
       </div>
 
       <div class="details-tab">
         <div class="container tabs">
-          <a @click="activeTab='1'" :class="[ activeTab === '1' ? 'active' : '' ]"> 園の特色</a>
-            <a @click="activeTab='2'" :class="[ activeTab === '2' ? 'active' : '' ]"> 保育内容</a>
-            <a @click="activeTab='3'" :class="[ activeTab === '3' ? 'active' : '' ]"> 料金プラン</a>
-            <a @click="activeTab='4'" :class="[ activeTab === '4' ? 'active' : '' ]"> 口コミ</a>
-            <a @click="activeTab='5'" :class="[ activeTab === '5' ? 'active' : '' ]"> 概要</a>
+          <a @click="activeTab=1" :class="[ activeTab === 1 ? 'active' : '' ]"> 園の特色</a>
+          <a @click="activeTab=2" :class="[ activeTab === 2 ? 'active' : '' ]"> 保育内容</a>
+          <a @click="activeTab=3" :class="[ activeTab === 3 ? 'active' : '' ]"> 料金プラン</a>
+          <a @click="activeTab=4" :class="[ activeTab === 4 ? 'active' : '' ]"> 口コミ</a>
+          <a @click="activeTab=5" :class="[ activeTab === 5 ? 'active' : '' ]"> 概要</a>
         </div>
       </div>
-      <div  v-if="activeTab=='1'" class="features">
+      <div v-if="activeTab===1" class="features">
         <div class="button-div">
           <div class="container">
             <div class="row">
-                <div class="row-button">
-                  <p class="btn-white text-center">#アレルギー対応</p>
-                </div>
-                <div class="row-button">
-                  <p class="btn-white text-center">#習い事</p>
-                </div>
-                <div class="row-button">
-                  <p class="btn-white text-center">#手ぶら登園</p>
-                </div>
-                <div class="row-button">
-                  <p class="btn-white text-center">#こだわり給食</p>
-                </div>
-                <div class="row-button">
-                  <p class="btn-white text-center">#送迎サービス</p>
-                </div>
+              <div class="row-button">
+                <p class="btn-white text-center">#アレルギー対応</p>
+              </div>
+              <div class="row-button">
+                <p class="btn-white text-center">#習い事</p>
+              </div>
+              <div class="row-button">
+                <p class="btn-white text-center">#手ぶら登園</p>
+              </div>
+              <div class="row-button">
+                <p class="btn-white text-center">#こだわり給食</p>
+              </div>
+              <div class="row-button">
+                <p class="btn-white text-center">#送迎サービス</p>
+              </div>
             </div>
             <div class="row">
-                <div class="row-button">
-                  <p class="btn-white text-center">#英語教育</p>
-                </div>
-                <div class="row-button">
-                  <p class="btn-white text-center">#幼児教育</p>
-                </div>
-                <div class="row-button">
-                  <p class="btn-white text-center">#就学前教育</p>
-                </div>
-                <div class="row-button">
-                  <p class="btn-white text-center">#運動教育</p>
-                </div>
-                <div class="row-button">
-                  <p class="btn-white text-center">#体験保育</p>
-                </div>
+              <div class="row-button">
+                <p class="btn-white text-center">#英語教育</p>
+              </div>
+              <div class="row-button">
+                <p class="btn-white text-center">#幼児教育</p>
+              </div>
+              <div class="row-button">
+                <p class="btn-white text-center">#就学前教育</p>
+              </div>
+              <div class="row-button">
+                <p class="btn-white text-center">#運動教育</p>
+              </div>
+              <div class="row-button">
+                <p class="btn-white text-center">#体験保育</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="allergy-support">
-          <div class="row" style="width:100%; margin:0px">
+          <div class="row w-100 m-0">
             <div class="col-md-10 allergy-left">
               <div class="row">
                 <div class="col-md-6">
-                  <img src="../../assets/images/guardian/Image_16.png" alt="EXY" class="img-fluid " style="width: 100%">
+                  <img src="../../assets/images/guardian/Image_16.png" alt="EXY" class="img-fluid w-100">
                 </div>
                 <div class="col-md-6 allergy-desc">
                   <div class="row">
                     <p class="btn-allergy text-center">#アレルギー対応</p>
                   </div>
                   <div class="row mt-3">
-                    <h3 style="padding-left:0px">各お子さまのアレルギーに対応した給食を提供します</h3>
-                    <p style="padding-left:0px; padding-top:10px">【園側自由記入部分】。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を</p>
+                    <h3 class="ps-0">各お子さまのアレルギーに対応した給食を提供します</h3>
+                    <p class="ps-0 pt-2">【園側自由記入部分】。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-md-2" style="padding-right:0px">
-              <a href="#" class="allergy-right pull-right text-center">予約へ進む</a>
+            <div class="col-md-2 pe-0">
+              <router-link :to="{name:'ProceedToReservation'}" class="allergy-right pull-right text-center">予約へ進む</router-link>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@
             <div class="row">
               <div class="col-md-6 child-left">
                 <h4 class="child-head">保育理念</h4>
-                <p>「心に愛を <br> 人からたくさんの愛情を注がれた子は、将来また必ず人へ  <br> あまりある愛情を注ぐ”愛”溢れる人を目指し</p>
+                <p>「心に愛を <br> 人からたくさんの愛情を注がれた子は、将来また必ず人へ <br> あまりある愛情を注ぐ”愛”溢れる人を目指し</p>
                 <br><br>
                 <h4 class="child-head">保育方針</h4>
                 <p>小規模保育の良さを生かし、家庭的であたたかな雰囲気を大切にし、<br> ひとりひとりにたっぷりの愛情を注ぐことで、また周りの人々へ <br>愛情を注ぐ連鎖を築く</p>
@@ -169,12 +169,12 @@
                 <div class="row child-row">
                   <div class="col-md-2 row-left">
                     <p>慣らし保育</p>
-                    <p style="font-weight:normal"> <u> 慣らし保育 </u><br> <u> とは？＞</u></p>
+                    <p style="font-weight:normal"><u> 慣らし保育 </u><br> <u> とは？＞</u></p>
                   </div>
                   <div class="col-md-10">
                     <p>目安期間 ：１週間〜１ヶ月程度</p>
                     <p>初日の保育時間：8：30〜10：30（2、3時間）</p>
-                    <p class="small" style="padding-left:0px">※あくまで目安ですので、お子さまの体調や保護者さまのご都合を考慮し 調整いたします。</p>
+                    <p class="small ps-0">※あくまで目安ですので、お子さまの体調や保護者さまのご都合を考慮し 調整いたします。</p>
                   </div>
                 </div>
               </div>
@@ -183,7 +183,7 @@
         </div>
         <div class="container nursery-school">
           <div class="row text-center">
-            <p> <img src="../../assets/images/svg/title-left-black.svg" alt="EXY" style="padding-right:10px; vertical-align: unset;">  保育園のココが知りたい <img src="../../assets/images/svg/title-right-black.svg" alt="EXY" style="padding-left:10px; vertical-align: unset;"> <br><span style="color:#cb3a82">#</span> <b> 5 POINT </b></p>
+            <p><img src="../../assets/images/svg/title-left-black.svg" alt="EXY" style="padding-right:10px; vertical-align: unset;"> 保育園のココが知りたい <img src="../../assets/images/svg/title-right-black.svg" alt="EXY" style="padding-left:10px; vertical-align: unset;"> <br><span style="color:#cb3a82">#</span> <b> 5 POINT </b></p>
           </div>
           <div class="row school-step mt-4">
             <div class="col-md-2 step-item">
@@ -289,7 +289,7 @@
         <div class="nursery-availability">
           <div class="container">
             <div class="row">
-              <p class="text-center fw-bold"> <span style="color:#cb3a82">#</span> 保育園の空き状況</p>
+              <p class="text-center fw-bold"><span style="color:#cb3a82">#</span> 保育園の空き状況</p>
             </div>
             <div class="row mt-3">
               <p class="text-center fw-bold fs-3">
@@ -301,12 +301,12 @@
         <div class="review">
           <div class="container">
             <div class="row">
-              <p class="text-center"> <img src="../../assets/images/svg/title-left-black.svg" alt="EXY" style="padding-right:10px; vertical-align: unset;">  ほんとのとこどうなの？ <img src="../../assets/images/svg/title-right-black.svg" alt="EXY" style="padding-left:10px; vertical-align: unset;"> <br><span class="fs-4" style="color:#cb3a82">#</span> <span class="fs-4 fw-bold"> みんなの口コミ </span></p>
+              <p class="text-center"><img src="../../assets/images/svg/title-left-black.svg" alt="EXY" style="padding-right:10px; vertical-align: unset;"> ほんとのとこどうなの？ <img src="../../assets/images/svg/title-right-black.svg" alt="EXY" style="padding-left:10px; vertical-align: unset;"> <br><span class="fs-4" style="color:#cb3a82">#</span> <span class="fs-4 fw-bold"> みんなの口コミ </span></p>
             </div>
             <div class="row mt-2 top-bar">
               <div class="col-md-6">
                 <p class="">
-                  <span class="fs-4 fw-bold">総合</span> 
+                  <span class="fs-4 fw-bold">総合</span>
                   <span class="fs-4 fw-bold rv-point">4.0</span>
                   <span class="fs-2 fa fa-star checked"></span>
                   <span class="fs-2 fa fa-star checked"></span>
@@ -336,9 +336,9 @@
                   <p class="fw-bold pt-2">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
                 </div>
                 <div class="row mt-2">
-                <div class="col-md-6">
+                  <div class="col-md-6">
                     <p>
-                      <span class="">総合</span> 
+                      <span class="">総合</span>
                       <span class="fw-bold rv-point">4</span>
                       <span class=" fa fa-star checked"></span>
                       <span class=" fa fa-star checked"></span>
@@ -346,8 +346,8 @@
                       <span class=" fa fa-star checked"></span>
                       <span class=" fa fa-star"></span>
                     </p>
-                </div>
-                <div class="col-md-6">
+                  </div>
+                  <div class="col-md-6">
                     <div class="row">
                       <div class="col-md-4">
                         <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4</span></p>
@@ -373,9 +373,9 @@
                   <p class="fw-bold pt-2">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
                 </div>
                 <div class="row mt-2">
-                <div class="col-md-6">
+                  <div class="col-md-6">
                     <p>
-                      <span class="">総合</span> 
+                      <span class="">総合</span>
                       <span class="fw-bold rv-point">4</span>
                       <span class=" fa fa-star checked"></span>
                       <span class=" fa fa-star checked"></span>
@@ -383,8 +383,8 @@
                       <span class=" fa fa-star checked"></span>
                       <span class=" fa fa-star"></span>
                     </p>
-                </div>
-                <div class="col-md-6">
+                  </div>
+                  <div class="col-md-6">
                     <div class="row">
                       <div class="col-md-4">
                         <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4</span></p>
@@ -410,9 +410,9 @@
                   <p class="fw-bold pt-2">2021年2月利用者<span style="padding-left:40px">一時保育ー1歳児プラン </span></p>
                 </div>
                 <div class="row mt-2">
-                <div class="col-md-6">
+                  <div class="col-md-6">
                     <p>
-                      <span class="">総合</span> 
+                      <span class="">総合</span>
                       <span class="fw-bold rv-point">4</span>
                       <span class=" fa fa-star checked"></span>
                       <span class=" fa fa-star checked"></span>
@@ -420,8 +420,8 @@
                       <span class=" fa fa-star checked"></span>
                       <span class=" fa fa-star"></span>
                     </p>
-                </div>
-                <div class="col-md-6">
+                  </div>
+                  <div class="col-md-6">
                     <div class="row">
                       <div class="col-md-4">
                         <p class="text-center pt-2">雰囲気 <span class="rv-point fw-bold">4</span></p>
@@ -448,13 +448,13 @@
           </div>
         </div>
       </div>
-      <div  v-if="activeTab=='2'" class="childcare">
+      <div v-if="activeTab===2" class="childcare">
         <div class="philosophy">
-          <div class="row" style="width:100%; margin:0px">
+          <div class="row w-100 m-0">
             <div class="col-md-10 mt-5">
               <div class="row">
                 <div class="col-md-4 text-center">
-                  <img src="../../assets/images/guardian/Mask_Group_50.png" alt="EXY" class="img-fluid " style="width: 100%">
+                  <img src="../../assets/images/guardian/Mask_Group_50.png" alt="EXY" class="img-fluid w-100">
                 </div>
                 <div class="col-md-8 ps-5 pt-4">
                   <h4 style="color:#CB3A82">保育理念</h4>
@@ -463,7 +463,7 @@
               </div>
               <div class="row mt-5">
                 <div class="col-md-4 text-center">
-                  <img src="../../assets/images/guardian/Mask_Group_51.png" alt="EXY" class="img-fluid " style="width: 100%">
+                  <img src="../../assets/images/guardian/Mask_Group_51.png" alt="EXY" class="img-fluid w-100">
                 </div>
                 <div class="col-md-8 ps-5 pt-4">
                   <h4 style="color:#CB3A82">保育方針</h4>
@@ -472,7 +472,7 @@
               </div>
               <div class="row mt-5">
                 <div class="col-md-4 text-center">
-                  <img src="../../assets/images/guardian/Mask_Group_52.png" alt="EXY" class="img-fluid " style="width: 100%">
+                  <img src="../../assets/images/guardian/Mask_Group_52.png" alt="EXY" class="img-fluid w-100">
                 </div>
                 <div class="col-md-8 ps-5 pt-4">
                   <h4 style="color:#CB3A82">保育目標</h4>
@@ -480,8 +480,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-2" style="padding-right:0px">
-              <a href="#" class="philosophy-right pull-right text-center">予約へ進む</a>
+            <div class="col-md-2 pe-0">
+              <router-link :to="{name:'ProceedToReservation'}" class="philosophy-right pull-right text-center">予約へ進む</router-link>
             </div>
           </div>
         </div>
@@ -490,25 +490,25 @@
             <div class="col md-3">
               <a href="#">
                 <img src="../../assets/images/guardian/Mask_Group_53.png" alt="EXY" class="img-fluid " style="width: 100%">
-                <p class="text-center mt-2"> <span style="color:#CB3A82">#</span> ヨガレッスンの様子</p>
+                <p class="text-center mt-2"><span style="color:#CB3A82">#</span> ヨガレッスンの様子</p>
               </a>
             </div>
             <div class="col md-3">
               <a href="#">
                 <img src="../../assets/images/guardian/Mask_Group_54.png" alt="EXY" class="img-fluid " style="width: 100%">
-                <p class="text-center mt-2"> <span style="color:#CB3A82">#</span> 英語レッスンの様子</p>
+                <p class="text-center mt-2"><span style="color:#CB3A82">#</span> 英語レッスンの様子</p>
               </a>
             </div>
             <div class="col md-3">
               <a href="#">
                 <img src="../../assets/images/guardian/Mask_Group_55.png" alt="EXY" class="img-fluid " style="width: 100%">
-                <p class="text-center mt-2"> <span style="color:#CB3A82">#</span> 季節の行事</p>
+                <p class="text-center mt-2"><span style="color:#CB3A82">#</span> 季節の行事</p>
               </a>
             </div>
-             <div class="col md-3">
+            <div class="col md-3">
               <a href="#">
                 <img src="../../assets/images/guardian/Mask_Group_56.png" alt="EXY" class="img-fluid " style="width: 100%">
-                <p class="text-center mt-2"> <span style="color:#CB3A82">#</span> 心に愛を</p>
+                <p class="text-center mt-2"><span style="color:#CB3A82">#</span> 心に愛を</p>
               </a>
             </div>
           </div>
@@ -516,7 +516,7 @@
         <div class="annual-events">
           <div class="container">
             <div class="row">
-              <h4 class="text-center"> <span style="color:#CB3A82">#</span> 年間行事</h4>
+              <h4 class="text-center"><span style="color:#CB3A82">#</span> 年間行事</h4>
             </div>
             <div class="row mt-3">
               <div class="col-md-3 text-center">
@@ -679,9 +679,9 @@
             <div class="row text-center">
               <h4><span style="color:#CB3A82">#</span>年間カリキュラム</h4>
             </div>
-            <div class="row mt-4" id="accordionPanelsStayOpenExample">
+            <div class="row mt-4">
               <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                 保育の内容に関する全体的な計画 を見る
+                保育の内容に関する全体的な計画 を見る
               </button>
             </div>
             <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show collapse-body-1" aria-labelledby="panelsStayOpen-headingOne">
@@ -770,12 +770,12 @@
                 </div>
               </div>
               <div class="row mt-5">
-                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ０歳児 </button>
-                <button type="button" class="btn-menu dropdown-toggle active p-0" data-bs-toggle="dropdown" aria-expanded="false"> １歳児 <br> <span class="ps-5">（満１歳児より）</span> </button>
-                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ２歳児 </button>
-                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ３歳児 </button>
-                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ４歳児 </button>
-                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ５歳児 </button>
+                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ０歳児</button>
+                <button type="button" class="btn-menu dropdown-toggle active p-0" data-bs-toggle="dropdown" aria-expanded="false"> １歳児 <br> <span class="ps-5">（満１歳児より）</span></button>
+                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ２歳児</button>
+                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ３歳児</button>
+                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ４歳児</button>
+                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ５歳児</button>
               </div>
               <div class="row row-2">
                 <p class="m-0">子どもの保育目標</p>
@@ -962,7 +962,7 @@
                   <p class="m-0">
                     ●法人主体の研修 ●英語レッスン（週2回。月1回は外国人講師による ●ヨガレッスン（週1回専門講師による）<br>
                     ●絵本、音楽、身体を通した表現活動
-                  </p> 
+                  </p>
                 </div>
               </div>
               <div class="row mt-1 row-1">
@@ -998,19 +998,19 @@
                 </div>
               </div>
             </div>
-            <div class="row mt-4" id="accordionPanelsStayOpenExample">
+            <div class="row mt-4">
               <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
                 年齢ごとの年間指導 を見る
               </button>
             </div>
             <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show collapse-body-1" aria-labelledby="panelsStayOpen-headingTwo">
               <div class="row mt-3">
-                <button type="button" class="btn-menu dropdown-toggle active1" data-bs-toggle="dropdown" aria-expanded="false"> ０歳児 </button>
-                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> １歳児 </button>
-                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ２歳児 </button>
-                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ３歳児 </button>
-                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ４歳児 </button>
-                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ５歳児 </button>
+                <button type="button" class="btn-menu dropdown-toggle active1" data-bs-toggle="dropdown" aria-expanded="false"> ０歳児</button>
+                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> １歳児</button>
+                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ２歳児</button>
+                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ３歳児</button>
+                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ４歳児</button>
+                <button type="button" class="btn-menu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> ５歳児</button>
               </div>
               <div class="row row-2">
                 <p class="m-0">年間目標</p>
@@ -1383,10 +1383,10 @@
 <script>
 export default {
   name: "CharacteristicsDetail",
-   data() {
+  data() {
     return {
       date: '',
-      activeTab: '2',
+      activeTab: 2,
       options: [
         'お子様の年齢',
         '０歳 ０ヶ月',

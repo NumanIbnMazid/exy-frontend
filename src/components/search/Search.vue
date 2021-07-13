@@ -174,20 +174,29 @@
 
         <div class="col-lg-9 search-result">
 
-          <h4 class="fw-bold">Search results</h4>
-          <ul class="search-result-tab">
-            <li @click="activeTab=1" :class="[ activeTab === 1 ? 'active' : '' ]">標準</li>
-            <li @click="activeTab=2" :class="[ activeTab === 2 ? 'active' : '' ]">口コミランキング</li>
-          </ul>
+          <h3 class="fw-bold">検索結果</h3>
 
-          <div class="search-result-total py-4">検索結果：全120園</div>
+          <div class="d-flex align-items-center text-center search-result-tab">
+            <div class="p-10 flex-fill cursor-pointer text-base" @click="activeTab=1" :class="[ activeTab === 1 ? 'active' : '' ]">おすすめ</div>
+            <div class="p-10 flex-fill cursor-pointer text-base" @click="activeTab=2" :class="[ activeTab === 2 ? 'active' : '' ]">口コミランキング</div>
+            <div class="p-10 flex-fill cursor-pointer text-base" @click="activeTab=3" :class="[ activeTab === 3 ? 'active' : '' ]">新着</div>
+            <div class="p-10 flex-fill cursor-pointer text-base" @click="activeTab=4" :class="[ activeTab === 4 ? 'active' : '' ]">価格</div>
+          </div>
+
+          <div class="search-result-total py-4">検索結果 <span class="text-2xl fw-bold" style="color: #84C942">120</span> 件</div>
 
           <div class="search-result-content">
             <div v-if="activeTab === 1">
-              <search-result-item v-for="n in 4" :key="n"></search-result-item>
+              <search-result-item v-for="n in 1" :key="n"></search-result-item>
             </div>
             <div v-if="activeTab === 2">
-              <search-result-item v-for="n in 4" :key="n"></search-result-item>
+              <search-result-item v-for="n in 2" :key="n"></search-result-item>
+            </div>
+            <div v-if="activeTab === 3">
+              <search-result-item v-for="n in 1" :key="n"></search-result-item>
+            </div>
+            <div v-if="activeTab === 4">
+              <search-result-item v-for="n in 2" :key="n"></search-result-item>
             </div>
           </div>
 

@@ -1,10 +1,12 @@
 <template>
-  <div class="search-result-item">
+  <router-link :to="{name:'CharacteristicsDetail'}" class="search-result-item">
     <div class="col-12 col-lg-5">
       <div class="search-result-left">
         <div class="search-result-start">
-          <span>気になる</span>
-          <i class="fa fa-star"></i>
+          <div>
+            <span>追加</span>
+            <span class="text-xl">☆</span>
+          </div>
         </div>
         <div class="search-result-left-content">
           <h4 class="fw-bold">
@@ -12,15 +14,15 @@
           </h4>
           <div class="search-result-left-img">
             <div class="mb-2">
-              <img src="../../assets/images/WEB05_n@2x.png" class="d-block w-100 rounded" alt="EXY">
+              <img src="../../assets/images/image-79.png" class="d-block w-100" alt="EXY">
             </div>
 
             <div class="d-flex">
               <div class="me-1">
-                <img src="../../assets/images/English_lesson@2x.png" class="d-block w-100 rounded" alt="EXY">
+                <img src="../../assets/images/image-81.png" class="d-block w-100" alt="EXY">
               </div>
               <div class="me-1">
-                <img src="../../assets/images/web03_hb@2x.png" class="d-block w-100 rounded" alt="EXY">
+                <img src="../../assets/images/image-80.png" class="d-block w-100" alt="EXY">
               </div>
             </div>
           </div>
@@ -29,15 +31,25 @@
     </div>
     <div class="col-12 col-lg-7">
       <div class="search-result-right">
-        <div class="book-items py-2">
-          <a href="#" class="btn book-item">体験保育を予約する</a>
-          <a href="#" class="btn book-item">体験保育を予約する</a>
-          <a href="#" class="btn book-item">体験保育を予約する</a>
+        <div class="dashed-border"></div>
+        <div class="py-2">
+          <div class="w-85">概 要</div>
+          <router-link :to="{name:'search.result'}" class="title d-flex text-sm">【園のPR分・自由入力】ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。</router-link>
         </div>
         <div class="dashed-border"></div>
         <div class="py-2">
-          <div class="w-85">保育理念</div>
-          <router-link to="/details" class="title d-flex">【園のPR分・自由入力】ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。…</router-link>
+          <div class="w-85">口 コ ミ</div>
+          <div class="d-flex">
+            <strong>5.0</strong>
+            <div class="search-heart-count ms-2 me-2">
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+              <i class="fa fa-star" aria-hidden="true"></i>
+            </div>
+            <span>レビュー <strong>10</strong>件</span>
+          </div>
         </div>
         <div class="dashed-border"></div>
         <div class="py-2">
@@ -79,24 +91,9 @@
           </div>
         </div>
         <div class="dashed-border"></div>
-        <div class="py-2">
-          <div class="w-85">口 コ ミ</div>
-          <div class="d-flex">
-            <strong>5.0</strong>
-            <div class="search-heart-count ms-2 me-2">
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-            </div>
-            <span>レビュー <strong>10</strong>件</span>
-          </div>
-        </div>
-        <div class="dashed-border"></div>
       </div>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>

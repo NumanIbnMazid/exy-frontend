@@ -122,7 +122,7 @@
         </div>
 
         <div class="text-center">
-          <a href="#" class="read-more">保育園一覧をみる</a>
+          <router-link :to="{name:'Search'}" class="read-more">保育園一覧をみる</router-link>
         </div>
 
       </div>
@@ -360,7 +360,7 @@
       <div class="container">
         <div class="child-consultation-inner">
           <h4>子育て相談コーナー</h4>
-          
+
           <div class="consultation-item">
             <img src="../assets/images/group-2770.png" alt="EXY">
             <div class="consultation-content bg-left">
