@@ -4,8 +4,7 @@ import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-const routes = [
-    {
+const routes = [{
         path: '/',
         name: 'Home',
         component: Home
@@ -84,11 +83,6 @@ const routes = [
         path: '/todo',
         name: 'todo',
         component: () => import("../views/todo")
-    },
-    {
-        path: '/cocoro-nursery-school',
-        name: 'CocoroNurserySchool',
-        component: () => import("../views/cocoro-nursery-school/index")
     },
     {
         path: "*",
