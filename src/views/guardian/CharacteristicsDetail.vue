@@ -497,19 +497,19 @@
                 </a>
               </div>
               <div class="col md-3">
-                <a href="#">
+                <a  @click="subTab=2" href="#">
                   <img src="../../assets/images/guardian/Mask_Group_54.png" alt="EXY" class="img-fluid " style="width: 100%">
                   <p class="text-center mt-2"><span style="color:#CB3A82">#</span> 英語レッスンの様子</p>
                 </a>
               </div>
               <div class="col md-3">
-                <a href="#">
+                <a  @click="subTab=2" href="#">
                   <img src="../../assets/images/guardian/Mask_Group_55.png" alt="EXY" class="img-fluid " style="width: 100%">
                   <p class="text-center mt-2"><span style="color:#CB3A82">#</span> 季節の行事</p>
                 </a>
               </div>
               <div class="col md-3">
-                <a href="#">
+                <a  @click="subTab=2" href="#">
                   <img src="../../assets/images/guardian/Mask_Group_56.png" alt="EXY" class="img-fluid " style="width: 100%">
                   <p class="text-center mt-2"><span style="color:#CB3A82">#</span> 心に愛を</p>
                 </a>
