@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
-const routes = [{
+const routes = [
+    {
         path: '/',
         name: 'Home',
-        component: Home
+        component: () => import("../views/Home")
     },
     {
         path: '/usage-flow',
@@ -65,6 +65,11 @@ const routes = [{
         component: () => import("../components/search/Search")
     },
     {
+        path: '/search-from-the-area',
+        name: 'SearchFromArea',
+        component: () => import("../views/SearchFromArea")
+    },
+    {
         path: '/details',
         name: 'search.result',
         component: () => import("../components/search/Details")
@@ -78,6 +83,16 @@ const routes = [{
         path: '/proceed-to-reservation',
         name: 'ProceedToReservation',
         component: () => import("../views/cocoro-nursery-school/index")
+    },
+    {
+        path: '/login',
+        name: 'Login',
+        component: () => import("../components/auth/Login")
+    },
+    {
+        path: '/registration',
+        name: 'Registration',
+        component: () => import("../components/auth/Registration")
     },
     {
         path: '/todo',

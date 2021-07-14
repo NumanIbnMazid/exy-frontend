@@ -49,25 +49,16 @@
         </div>
 
         <!-- Search Nav -->
-        <div class="search-nav">
-          <ul>
-            <li>
-              <a href="" class="me-3"><i class="fa fa-caret-right" aria-hidden="true"></i></a>
-              <a href="#"><span>＃</span> 明日預ける</a>
-            </li>
-            <li>
-              <a href="#"><span>＃</span> 体験保育</a>
-            </li>
-            <li>
-              <a href="#"><span>＃</span> 月極保育</a>
-            </li>
-            <li>
-              <a href="#"><span>＃</span> 条件からさがす</a>
-            </li>
-            <li>
-              <a href="#"><span>＃</span> エリア・沿線からさがす</a>
-            </li>
-          </ul>
+        <div class="d-flex align-items-center justify-content-between mt-4 search-nav">
+          <a href="#">
+            <i class="fa fa-caret-right"></i>
+            <span class="ms-3">＃</span> 明日預ける
+          </a>
+          <a href="#"><span>＃</span> 体験保育</a>
+          <a href="#"><span>＃</span> 月極保育</a>
+          <router-link :to="{name:'FindNurserySchool'}"><span>＃</span> 条件からさがす</router-link>
+          <router-link :to="{name:'SearchFromArea'}"><span>＃</span> エリアからさがす</router-link>
+          <router-link :to="{name:'SearchFromArea'}"><span>＃</span> 沿線からさがす</router-link>
         </div>
       </div>
     </div>
@@ -135,11 +126,11 @@
         <div class="row">
           <div class="col-md-6 col-lg-3">
             <div class="single-item mb-4 mb-lg-0">
-              <a href="#">
+              <router-link :to="{name:'KigaruniHoiku'}">
                 <img src="../assets/images/group-2761.png" class="img-fluid" alt="EXY">
                 <p>キガルニホイクとは</p>
                 <span>What is KIGATUNIHOIKU</span>
-              </a>
+              </router-link>
               <p>メリットやご利用方法など サービス概要について</p>
             </div>
           </div>

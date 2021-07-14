@@ -58,30 +58,9 @@
     }
     
     .search-nav {
-        margin-top: 30px;
-        
-        ul {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: space-between;
-            
-            li {
-                line-height: 1;
-                
-                a {
-                    font-size: 20px;
-                    
-                    span {
-                        letter-spacing: -2px;
-                        color: $--color-8fc31f;
-                    }
-                    
-                    .fa-caret-right {
-                        color: $--color-8fc31f;
-                    }
-                }
-            }
+        span, .fa-caret-right {
+            letter-spacing: -2px;
+            color: $--color-8fc31f;
         }
     }
 }
