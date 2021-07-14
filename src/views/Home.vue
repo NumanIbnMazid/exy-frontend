@@ -57,8 +57,8 @@
           <a href="#"><span>＃</span> 体験保育</a>
           <a href="#"><span>＃</span> 月極保育</a>
           <router-link :to="{name:'FindNurserySchool'}"><span>＃</span> 条件からさがす</router-link>
-          <a href="#"><span>＃</span> エリアからさがす</a>
-          <a href="#"><span>＃</span> 沿線からさがす</a>
+          <router-link :to="{name:'SearchFromArea'}"><span>＃</span> エリアからさがす</router-link>
+          <router-link :to="{name:'SearchFromArea'}"><span>＃</span> 沿線からさがす</router-link>
         </div>
       </div>
     </div>

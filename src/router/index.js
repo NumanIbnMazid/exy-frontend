@@ -65,6 +65,11 @@ const routes = [
         component: () => import("../components/search/Search")
     },
     {
+        path: '/search-from-the-area',
+        name: 'SearchFromArea',
+        component: () => import("../views/SearchFromArea")
+    },
+    {
         path: '/details',
         name: 'search.result',
         component: () => import("../components/search/Details")
