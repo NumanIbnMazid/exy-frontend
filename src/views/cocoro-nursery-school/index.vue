@@ -535,10 +535,142 @@
                             <!-- *** Tab 3 *** -->
                             <div class="tab-pane fade pills-garden-tour" id="pills-garden-tour" role="tabpanel" aria-labelledby="pills-garden-tour-tab">
                                 <div class="tab-content-holder">
-                                    Garden Tour
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                                    scrambled it to make a type specimen book.
+
+                                    <!-- section 1 -->
+                                    <section class="p-5 bg-light">
+
+                                        <div class="ms-3 me-3 mb-4 content-box">
+                                            <div class="content-holder">
+                                                <!-- date -->
+                                                <div class="mt-3">
+                                                    <div class="vertical-line">
+                                                        <span class="ms-4 fw-bold">来園希望日</span>
+                                                    </div>
+                                                    <div class="row custom-form-group m-2">
+                                                        <div class="col-xl-1 col-lg-1 col-md-6 col-sm-12 col-12 mt-4 form-label">
+                                                            <span>日</span>
+                                                            <span class="ms-3">時</span>
+                                                        </div>
+                                                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 mt-4">
+                                                            <input type="text" name="" class="form-control" placeholder="第１希望日">
+                                                        </div>
+                                                        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 mt-4">
+                                                            <date-picker v-model="date" valueType="format" :disabled-date="disabledBeforeToday" placeholder="日付">
+                                                            </date-picker>
+                                                        </div>
+                                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mt-4 end-time-holder">
+                                                            <input type="text" name="" class="form-control" placeholder="時間">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row custom-form-group m-2">
+                                                        <div class="col-xl-1 col-lg-1 col-md-6 col-sm-12 col-12 mt-4 form-label">
+                                                        </div>
+                                                        <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12 col-12 mt-4">
+                                                            <input type="text" name="" class="form-control" placeholder="第２希望日">
+                                                        </div>
+                                                        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12 mt-4">
+                                                            <date-picker v-model="date" valueType="format" :disabled-date="disabledBeforeToday" placeholder="日付">
+                                                            </date-picker>
+                                                        </div>
+                                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mt-4 end-time-holder">
+                                                            <input type="text" name="" class="form-control" placeholder="時間">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /date -->
+
+                                                <!-- visitor registration -->
+                                                <div class="mt-5 mb-2">
+                                                    <div class="vertical-line">
+                                                        <span class="ms-4 fw-bold">来園者登録</span>
+                                                    </div>
+                                                    <div class="mt-4 ms-4">
+                                                        <span class="text-xl fw-bold ms-4">
+                                                            来園者登録
+                                                        </span>
+                                                        <div class="ms-5 mt-4">
+                                                            <p>お子さま</p>
+                                                            <div class="row">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                                    <label class="container-checkbox">
+                                                                        <span class="ms-4">田中</span>
+                                                                        <span class="ms-3">海</span>
+                                                                        <input type="checkbox" checked>
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-start">
+                                                                    <span>令和2年2月25日生（満１歳）</span>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-start">
+                                                                    <span>男児</span>
+                                                                    <span class="ms-3">アレルギー疾患：有</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                                    <label class="container-checkbox text-muted">
+                                                                        <span class="ms-4">田中</span>
+                                                                        <span class="ms-3">海</span>
+                                                                        <input type="checkbox" disabled>
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-start">
+                                                                    <span class="text-muted">令和2年2月25日生（満１歳）</span>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-start text-muted">
+                                                                    <span>男児</span>
+                                                                    <span class="ms-3">アレルギー疾患：有</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ms-5 mt-4">
+                                                            <p>保護者さま</p>
+                                                            <div class="row">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                                    <span>1.</span>
+                                                                    <span class="ms-4">田中</span>
+                                                                    <span class="ms-3">愛</span>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-start">
+                                                                    <span>族柄：母</span>
+                                                                    <span class="ms-5">携帯番号：090-0000-0000</span>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-start">
+                                                                    <span>×来園者から削除する</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                                                                    <span>2.</span>
+                                                                    <span class="ms-4">田中</span>
+                                                                    <span class="ms-3">仁</span>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-start">
+                                                                    <span>族柄：父</span>
+                                                                    <span class="ms-5">携帯番号：080-1111-1111</span>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 text-start">
+                                                                    <span>×来園者から削除する</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="mt-3">
+                                                                <span>＋連絡先を追加する</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /visitor registration -->
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <!-- /section 1 -->
+
+                                    <!-- section 2 -->
+                                    <!-- Remarks -->
+                                    <remarks></remarks>
+                                    <!-- /section 2 -->
                                 </div>
                             </div>
                             <!-- *** Tab /3 *** -->
