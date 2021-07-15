@@ -1531,7 +1531,7 @@
             </div>
           </div>
           <div class="col-md-1 right-col pe-0">
-            <a href="#" class="philosophy-right pull-right text-center">予約へ進む</a>
+            <router-link :to="{name:'ProceedToReservation'}" class="philosophy-right pull-right text-center">予約へ進む</router-link>
           </div>
         </div>
         <div class="row monthly-childcare w-100  ms-0 mt-1 mb-5">
@@ -2055,7 +2055,7 @@
             </div>
           </div>
           <div class="col-md-1 right-col pe-0">
-            <a href="#" class="philosophy-right pull-right text-center h-25">予約へ進む</a>
+            <router-link :to="{name:'ProceedToReservation'}" class="philosophy-right pull-right text-center h-25">予約へ進む</router-link>
           </div>
         </div>
       </div>
@@ -2099,7 +2099,7 @@
             </div>
           </div>
           <div class="col-md-1 right-col pe-0">
-            <a href="#" class="philosophy-right pull-right text-center h-60">予約へ進む</a>
+            <router-link :to="{name:'ProceedToReservation'}" class="philosophy-right pull-right text-center h-60">予約へ進む</router-link>
           </div>
         </div>
       </div>
