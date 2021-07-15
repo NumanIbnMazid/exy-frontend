@@ -14,7 +14,7 @@
                         クレジット支払い
                     </label>
                     <div class="mt-3">
-                        <input type="text" class="pt-1 pb-1 ps-2 pe-2 w-50 border border-2 rounded" placeholder="カード様別名: MasterCard  カ ード番号 : ****-****-****-1234 有効期限 : 12月/23年">
+                        <input type="text" class="pt-2 pb-2 ps-2 pe-2 w-50 border border-2 rounded" placeholder="カード様別名: MasterCard  カ ード番号 : ****-****-****-1234 有効期限 : 12月/23年">
                     </div>
                 </div>
                 <div class="form-check mt-4">
@@ -88,16 +88,57 @@
                     <label class="form-check-label ms-2" for="bank-transfer">
                         銀行振込
                     </label>
-                    <div class="row mt-3">
-                        <div class="table-responsive col-6">
-                            <table class="table table-bordered">
-                                <tbody>
-                                    <tr>
-                                        <td class="bg-pink">振込先金融機関</td>
-                                        <td>三井住友銀行 〇〇支店</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                    <div>
+                        <div class="row mt-3">
+                            <div class="table-responsive col-xl-6 col-lg-6 col-md-6 col-12">
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        <tr class="border border-2 border-secondary text-center">
+                                            <td class="bg-pink">振込先金融機関</td>
+                                            <td>三井住友銀行 〇〇支店</td>
+                                        </tr>
+                                        <tr class="border border-2 border-secondary text-center">
+                                            <td class="bg-pink">振込先口座番号</td>
+                                            <td>(普)1234567</td>
+                                        </tr>
+                                        <tr class="border border-2 border-secondary text-center">
+                                            <td class="bg-pink">振込先</td>
+                                            <td>カ) 工クシー</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="bg-light p-4 mt-3">
+                            <li class="m-2">
+                                <span>
+                                    ご子約確定後
+                                </span>
+                                <span class="ms-3">
+                                    『
+                                    <span class="text-red">1週間以内</span>
+                                    』
+                                    <span class="ms-2">
+                                        にお振込みください。
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="m-2">
+                                <span class="me-3">
+                                    お振込みのご名義は、
+                                </span>
+                                <span>
+                                    ご予約者様のお名前にてお願いします。
+                                </span>
+                            </li>
+                            <li class="m-2">
+                                <span class="me-3">
+                                    振込手数料は、
+                                </span>
+                                <span>
+                                    お客様ご負担となります。
+                                </span>
+                            </li>
                         </div>
                     </div>
                 </div>
@@ -106,6 +147,26 @@
                     <label class="form-check-label ms-2" for="point-payment">
                         ポイント支払い
                     </label>
+
+                    <div class="mt-3">
+                        <div class="row">
+                            <div class="bg-pink p-2 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <span class="fw-bold --color-e6006e">1 pt</span>
+                                <span class="ms-2">から利用できます</span>
+                            </div>
+                        </div>
+                        <div>
+                            <span>
+                                <input type="text" class="pt-2 pb-2 ps-2 pe-2 border border-2 rounded form-text border mt-4" placeholder="">
+                            </span>
+                            <span class="ms-3">
+                                <span class="fw-bold">pt</span>
+                                <span class="ms-3 me-3">/</span>
+                                <u>500pt</u>
+                                <span> (ご利用可能ポイント)</span>
+                            </span>
+                        </div>
+                    </div>
                 </div>
                 <div class="form-check mt-4">
                     <input class="form-check-input" type="radio" name="payment-selection" id="coupon-code" checked>
@@ -113,7 +174,7 @@
                         クーポンコードを利用する
                     </label>
                     <div class="mt-3">
-                        <input type="text" class="pt-1 pb-1 ps-2 pe-2 border border-2 rounded" placeholder="クーポンコードを入力する">
+                        <input type="text" class="pt-2 pb-2 ps-2 pe-2 border border-2 rounded w-50" placeholder="クーポンコードを入力する">
                     </div>
                 </div>
             </div>
