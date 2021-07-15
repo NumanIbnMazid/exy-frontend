@@ -95,6 +95,11 @@ const routes = [
         component: () => import("../components/auth/Registration")
     },
     {
+        path: '/reset-password',
+        name: 'ResetPassword',
+        component: () => import("../components/auth/ResetPassword")
+    },
+    {
         path: '/todo',
         name: 'todo',
         component: () => import("../views/todo")

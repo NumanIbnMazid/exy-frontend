@@ -74,7 +74,7 @@
                                 <p class="m-0 p-0 fw-bold">24時間いつでもネット予約</p>
                                 <p class="m-0 p-0 fw-bold">会員登録は無料です。</p>
                             </div>
-                            <router-link  :to="{name:'Registration'}" class="btn text-xl exy-default-btn w-100 mt-4">新規会員登録へ</router-link>
+                                <router-link  :to="{name:'Registration'}" class="btn text-xl exy-default-btn w-100 mt-4">新規会員登録へ</router-link>
                             </div>
                         </div>
                     </div>
