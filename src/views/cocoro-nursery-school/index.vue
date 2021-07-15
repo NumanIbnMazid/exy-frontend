@@ -1,6 +1,6 @@
 <template>
     <div class="cocoro-parent-div">
-        <div class="cocoro-container">
+        <div class="cocoro-container container">
             <div class="row">
                 <!-- cocoro page title -->
                 <div class="cocoro-page-title mb-5">
@@ -62,21 +62,21 @@
                                                         <span class="ms-4 fw-bold">日時を指定</span>
                                                     </div>
                                                     <div class="row custom-form-group m-2">
-                                                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12 mt-4 form-label">
+                                                        <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12 mt-4 form-label">
                                                             日 時
                                                         </div>
-                                                        <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12 col-12 mt-4">
+                                                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mt-4">
                                                             <date-picker v-model="date" valueType="format" :disabled-date="disabledBeforeToday" placeholder="日付">
                                                             </date-picker>
                                                         </div>
-                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 mt-4">
+                                                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12 mt-4">
                                                             <input type="text" name="" id="start-time" class="form-control" placeholder="開始時間">
                                                         </div>
-                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 mt-4 end-time-holder">
-                                                            <span class="end-time-spacer">〜</span>
-                                                            <span class="end-time-input-holder">
-                                                                <input type="text" name="" id="end-time" class="form-control" placeholder="終了時間">
-                                                            </span>
+                                                        <div class="col-xl-1 col-lg-1 col-md-2 col-sm-2 col-12 mt-4 text-center">
+                                                            <span class="text-2xl">〜</span>
+                                                        </div>
+                                                        <div class="col-xl-2 col-lg-2 col-md-4 col-sm-12 col-12 mt-4">
+                                                            <input type="text" name="" id="end-time" class="form-control" placeholder="終了時間">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -682,6 +682,11 @@
                 </div>
             </div>
         </div>
+
+        <!-- All Modals -->
+        <modals></modals>
+        <!-- /All Modals -->
+
     </div>
 </template>
 
@@ -697,6 +702,7 @@
     import Remarks from "./Remarks.vue"
     import ItemCheck from "./ItemCheck.vue"
     import TotalFee from "./TotalFee.vue"
+    import Modals from "./Modals.vue"
 
     export default {
         name: "CocoroNurserySchool",
@@ -713,7 +719,8 @@
             Questionnaire,
             Remarks,
             ItemCheck,
-            TotalFee
+            TotalFee,
+            Modals
         },
         methods: {
             disabledBeforeToday(date) {

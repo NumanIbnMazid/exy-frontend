@@ -52,7 +52,7 @@
                                     <div class="forget-pass-email-option mt-4">
                                         <ul>
                                             <li>
-                                                <router-link to="#">パスワードを忘れた方はこちら</router-link>
+                                                <router-link :to="{name:'ResetPassword'}">パスワードを忘れた方はこちら</router-link>
                                             </li>
                                             <li>
                                                 <router-link to="#">メールアドレスを忘れた方はこちら</router-link>

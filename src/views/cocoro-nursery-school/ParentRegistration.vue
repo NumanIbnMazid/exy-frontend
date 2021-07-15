@@ -40,7 +40,8 @@
                 </div>
                 <div class="row custom-form-group mt-4 me-2">
                     <span class="fw-lighter">
-                        <span class="ms-4">+ 連絡先を追加する</span>
+                        <a href="#" class="ms-4" data-bs-toggle="modal" data-bs-target="#parentRegistrationModal">+
+                            連絡先を追加する</a>
                     </span>
                 </div>
                 <!-- /emergency contact -->

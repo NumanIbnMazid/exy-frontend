@@ -25,9 +25,30 @@ const routes = [
         component: () => import("../views/FindNurserySchool")
     },
     {
-        path: '/faqs',
-        name: 'Faqs',
-        component: () => import("../views/faqs/Index")
+        path: '',
+        component: () => import("../views/faqs/Main"),
+        children: [
+            {
+                path: '/faqs',
+                name: 'Faqs',
+                component: () => import("../views/faqs/Index"),
+            },
+            {
+                path: '/faqs/category',
+                name: 'Faqs.Category',
+                component: () => import("../views/faqs/Category"),
+            },
+            {
+                path: '/faqs/detail',
+                name: 'Faqs.Detail',
+                component: () => import("../views/faqs/Detail"),
+            },
+        ]
+    },
+    {
+        path: '/terms/:active?',
+        name: 'terms',
+        component: () => import("../views/terms/Index")
     },
     {
         path: '/my-page',
@@ -84,6 +105,12 @@ const routes = [
         name: 'ProceedToReservation',
         component: () => import("../views/cocoro-nursery-school/index")
     },
+
+    {
+        path: '/payment-method-selection',
+        name: 'PaymentMethodSelection',
+        component: () => import("../views/cocoro-nursery-school/PaymentMethodSelection")
+    },
     {
         path: '/login',
         name: 'Login',
@@ -100,7 +127,7 @@ const routes = [
         component: () => import("../components/auth/ResetPassword")
     },
     {
-        path: '/todo',
+        path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")
     },

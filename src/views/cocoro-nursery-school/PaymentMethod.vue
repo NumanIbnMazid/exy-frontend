@@ -14,9 +14,9 @@
                         クレジット支払い
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                        <button class="cocoro-btn">
+                        <router-link :to="{name:'PaymentMethodSelection'}" class="border border-2 border-secondary p-1 ps-4 pe-4" type="button">
                             お支払い方法変更
-                        </button>
+                        </router-link>
                     </div>
                 </div>
                 <!-- /payment method -->
