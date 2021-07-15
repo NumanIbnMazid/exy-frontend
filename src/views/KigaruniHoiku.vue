@@ -299,9 +299,9 @@
           <h3 class="mb-3 mt-2"><span class="--color-e6006e">＃</span>登録無料</h3>
           <p class="mb-4">実際に利用した保育料のみお支払いいただくことで、簡単便利にご利用いただけます！</p>
         </div>
-        <a href="#">
-          <img src="../assets/images/sinkitouroku.png" alt="EXY" class="img-fluid rounded">
-        </a>
+
+        <registration-link/>
+
       </div>
     </section>
 
@@ -311,6 +311,7 @@
 <script>
 import {Hooper, Slide} from "hooper";
 import 'hooper/dist/hooper.css';
+import RegistrationLink from "../components/RegistrationLink";
 
 export default {
   name: "KigaruniHoiku",
@@ -325,6 +326,7 @@ export default {
     };
   },
   components: {
+    RegistrationLink,
     Hooper,
     Slide
   }
