@@ -46,6 +46,11 @@ const routes = [
         ]
     },
     {
+        path: '/terms/:active?',
+        name: 'terms',
+        component: () => import("../views/terms/Index")
+    },
+    {
         path: '/my-page',
         name: 'MyPage',
         component: () => import("../views/MyPage")

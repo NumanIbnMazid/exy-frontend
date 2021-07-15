@@ -65,7 +65,7 @@
             <i class="fa fa-angle-right me-1"></i>
             トラブル
           </router-link>
-          <router-link :to="{name:'todo', params:{page:135}}" tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer">
+          <router-link :to="{name:'terms'}" tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer">
             <i class="fa fa-angle-right me-1"></i>
             規約
           </router-link>

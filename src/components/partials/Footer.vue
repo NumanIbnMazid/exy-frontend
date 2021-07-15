@@ -21,7 +21,9 @@
           <div class="footer-item">
             <h4>CONTENTS</h4>
             <ul>
-              <li><router-link :to="{name:'FindNurserySchool'}">保育園をさがす</router-link></li>
+              <li>
+                <router-link :to="{name:'FindNurserySchool'}">保育園をさがす</router-link>
+              </li>
               <li><a>エリア・沿線からさがす</a></li>
               <li><a href="#">子育て情報掲示板</a></li>
               <li><a href="#">子育て相談コーナー</a></li>
@@ -48,7 +50,9 @@
             <h4>GUIDE</h4>
             <ul>
               <li><a href="#">キガルニホイクの使い方</a></li>
-              <li><router-link :to="{name:'UsageFlow'}">ご利用の流れ</router-link></li>
+              <li>
+                <router-link :to="{name:'UsageFlow'}">ご利用の流れ</router-link>
+              </li>
               <li><a href="#">月極保育</a></li>
               <li><a href="#">体験保育予約</a></li>
               <li><a href="#">園見学</a></li>
@@ -67,10 +71,18 @@
               <li>
                 <router-link :to="{name:'ContactUs'}">お問い合わせ</router-link>
               </li>
-              <li><a href="#">サービス利用規約</a></li>
-              <li><a href="#">ポイント利用規約</a></li>
-              <li><a href="#">プライバシーポリシー</a></li>
-              <li><a href="#">特定商取引法に基づく表示</a></li>
+              <li>
+                <router-link :to="{name:'terms'}">サービス利用規約</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'terms', params:{active:2}}">ポイント利用規約</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'terms', params:{active:3}}">プライバシーポリシー</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'terms', params:{active:4}}">特定商取引法に基づく表示</router-link>
+              </li>
             </ul>
           </div>
         </div>
