@@ -1,0 +1,46 @@
+.mypage-nav{
+    padding: 20px 0;
+    .col-left{
+        padding-left: 80px;
+        .nav-badge{
+            background-color: $--color-cccc3b;
+            color: $--color-ffffff;
+        }
+    }
+    .col-right{
+        .active{
+            border-left: 1px solid $--color-cb3a82;
+        }
+    }
+}
+
+.talk{
+    .talk-body{
+        .col-left {
+            padding-left: 2px;
+            .row-1 {
+                padding: 5px 5px;
+                border: 2px solid $--color-707070;
+                .left-badge {
+                    background-color: $--color-707070;
+                    color: $--color-ffffff;
+                }
+            }
+            .row-2{
+                padding: 5px 5px;
+                border: 2px solid $--color-707070;
+                border-top: 0px;
+            }
+        }
+        .col-right{
+                background-color: $--color-fbeef5;
+            .row-top{
+                padding: 30px 0;
+                background-color: $--color-f8f7f7;
+            }
+            .row-1{
+                background-color: $--color-fbeef5;
+            }
+        }
+    }
+}
