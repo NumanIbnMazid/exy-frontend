@@ -22,8 +22,8 @@
           <div class="row justify-content-end">
             <div class="col-md-6">
               <router-link :to="{name:'KigaruniHoiku'}" class="border border-2 py-2 px-4 d-inline-block bg-white text-base w-100 border-cb3a82 rounded text-start mt-4">キガルニホイクとは？</router-link>
-              <router-link :to="{name:'todo', params:{page:166}}" class="border border-2 py-2 px-4 d-inline-block bg-white text-base w-100 border-cb3a82 rounded text-start my-3">キガルニホイクの使い方</router-link>
-              <router-link :to="{name:'todo', params:{page:171}}" class="border border-2 py-2 px-4 d-inline-block bg-white text-base w-100 border-cb3a82 rounded text-start">お支払い方法について</router-link>
+              <router-link :to="{name:'todo', params:{page:179}}" class="border border-2 py-2 px-4 d-inline-block bg-white text-base w-100 border-cb3a82 rounded text-start my-3">キガルニホイクの使い方</router-link>
+              <router-link :to="{name:'todo', params:{page:184}}" class="border border-2 py-2 px-4 d-inline-block bg-white text-base w-100 border-cb3a82 rounded text-start">お支払い方法について</router-link>
             </div>
           </div>
         </div>

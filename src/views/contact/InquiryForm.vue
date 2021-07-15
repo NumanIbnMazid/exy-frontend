@@ -79,7 +79,7 @@
 
             <div class="row justify-content-end mt-5 mb-3">
               <div class="col-md-8 text-center">
-                <router-link :to="{name:'todo'}">
+                <router-link :to="{name:'todo', params:{page:135}}">
                   <span class="text-decoration-underline">利用規約、プライバシーポリシー</span>に同意の上 <br/> ご送信ください
                 </router-link>
 
