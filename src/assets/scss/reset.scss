@@ -228,15 +228,6 @@ ul {
     background-position: center top !important;
 }
 
-.opacity-medium {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: 0.75;
-    top: 0;
-    left: 0;
-}
-
 .bg-extra-dark-gray {
     background-color: #1c1c1c;
 }
@@ -289,6 +280,10 @@ ul {
     background-color: #FAFAFA;
 }
 
+.bg-cb3a82 {
+    background-color: $--color-cb3a82;
+}
+
 .border-radius-25 {
     border-radius: 25px !important;
 }
@@ -317,6 +312,7 @@ button.exy-default-btn {
 
 input,
 select,
+button,
 textarea {
     &:focus {
         box-shadow: inherit !important;

@@ -25,9 +25,25 @@ const routes = [
         component: () => import("../views/FindNurserySchool")
     },
     {
-        path: '/faqs',
-        name: 'Faqs',
-        component: () => import("../views/faqs/Index")
+        path: '',
+        component: () => import("../views/faqs/Main"),
+        children: [
+            {
+                path: '/faqs',
+                name: 'Faqs',
+                component: () => import("../views/faqs/Index"),
+            },
+            {
+                path: '/faqs/category',
+                name: 'Faqs.Category',
+                component: () => import("../views/faqs/Category"),
+            },
+            {
+                path: '/faqs/detail',
+                name: 'Faqs.Detail',
+                component: () => import("../views/faqs/Detail"),
+            },
+        ]
     },
     {
         path: '/my-page',
@@ -95,7 +111,7 @@ const routes = [
         component: () => import("../components/auth/Registration")
     },
     {
-        path: '/todo',
+        path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")
     },
