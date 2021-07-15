@@ -84,6 +84,12 @@ const routes = [
         name: 'ProceedToReservation',
         component: () => import("../views/cocoro-nursery-school/index")
     },
+
+    {
+        path: '/payment-method-selection',
+        name: 'PaymentMethodSelection',
+        component: () => import("../views/cocoro-nursery-school/PaymentMethodSelection")
+    },
     {
         path: '/login',
         name: 'Login',
