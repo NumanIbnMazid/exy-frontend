@@ -329,7 +329,7 @@
                 </div>
               </div>
             </div>
-            <a  @click="activeTab=4" href="#">
+            <a @click="activeTab=4" href="#">
               <div class="row mt-3 row-1">
                 <div class="col-md-2 mt-2 text-center"><img src="../../assets/images/guardian/Mask_Group_26.png" alt="EXY"></div>
                 <div class="col-md-10">
@@ -491,25 +491,25 @@
           <div class="lesson">
             <div class="row">
               <div class="col md-3">
-                <a  @click="subTab=2" href="#">
+                <a @click="subTab=2" href="#">
                   <img src="../../assets/images/guardian/Mask_Group_53.png" alt="EXY" class="img-fluid " style="width: 100%">
                   <p class="text-center mt-2"><span style="color:#CB3A82">#</span> ヨガレッスンの様子</p>
                 </a>
               </div>
               <div class="col md-3">
-                <a  @click="subTab=2" href="#">
+                <a @click="subTab=2" href="#">
                   <img src="../../assets/images/guardian/Mask_Group_54.png" alt="EXY" class="img-fluid " style="width: 100%">
                   <p class="text-center mt-2"><span style="color:#CB3A82">#</span> 英語レッスンの様子</p>
                 </a>
               </div>
               <div class="col md-3">
-                <a  @click="subTab=2" href="#">
+                <a @click="subTab=2" href="#">
                   <img src="../../assets/images/guardian/Mask_Group_55.png" alt="EXY" class="img-fluid " style="width: 100%">
                   <p class="text-center mt-2"><span style="color:#CB3A82">#</span> 季節の行事</p>
                 </a>
               </div>
               <div class="col md-3">
-                <a  @click="subTab=2" href="#">
+                <a @click="subTab=2" href="#">
                   <img src="../../assets/images/guardian/Mask_Group_56.png" alt="EXY" class="img-fluid " style="width: 100%">
                   <p class="text-center mt-2"><span style="color:#CB3A82">#</span> 心に愛を</p>
                 </a>
@@ -1396,11 +1396,11 @@
                 <div class="row row-3">
                   <p>
                     COCOROHOIKUEN 弁天町園では、<br>
-                     週に一度外部講師を招いてヨガレッスンを行っています♪
+                    週に一度外部講師を招いてヨガレッスンを行っています♪
                   </p>
                   <p class="m-0">
                     レッスンは、小さいお友達と大きいお友達の２クラスに分けて行い、<br>
-                     個々の発達状況に合わせた内容で楽しみながら進めます🌼🌼
+                    個々の発達状況に合わせた内容で楽しみながら進めます🌼🌼
                   </p>
                 </div>
                 <div class="row row-2 mt-2">
@@ -1408,7 +1408,7 @@
                 </div>
                 <div class="row row-3 mt-2">
                   <p>
-                   大きいお友達は、動物になりきりながら体幹を鍛えたり <br>
+                    大きいお友達は、動物になりきりながら体幹を鍛えたり <br>
                     少し難しいポーズで足の筋力を高めたりします🔥
                   </p>
                 </div>
@@ -1417,9 +1417,9 @@
                 </div>
                 <div class="row row-4 mt-2">
                   <p>
-                  小さいお友達は、講師の先生や保育者の援助も受けながら <br>
-                   いろんなポーズを取ったり体を動かしたりして、<br>
-                    実際に自分の体に触れることでボディーイメージを養います🌱✨ 
+                    小さいお友達は、講師の先生や保育者の援助も受けながら <br>
+                    いろんなポーズを取ったり体を動かしたりして、<br>
+                    実際に自分の体に触れることでボディーイメージを養います🌱✨
                   </p>
                   <p class="mt-5">
                     ご興味のある方はぜひ一度体験保育に来てみてくださいね☺️
@@ -1803,7 +1803,7 @@
                 </div>
               </div>
             </div>
-             <div class="row row-2">
+            <div class="row row-2">
               <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れていますこの文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
             </div>
             <div class="row mt-5 row-1">

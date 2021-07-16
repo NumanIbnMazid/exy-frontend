@@ -35,59 +35,62 @@
         font-size: 10px;
         color: $--color-918d8d;
     }
+    
     .top-bar {
         border-bottom: 1px solid $--color-333333;
     }
+    
     .rv-point {
         padding-left: 50px;
         color: $--color-cccc3b;
     }
-
+    
     .fa-star {
         padding-left: 20px;
         color: $--color-bababa;
     }
-
+    
     .fa-star.checked {
         color: $--color-cccc3b;
     }
-
+    
     .left-border {
         border-left: 1px solid $--color-333333;
     }
+    
     .details-tab {
         padding-top: 40px;
-
+        
         .tabs {
             display: flex;
             flex-wrap: nowrap;
             text-align: center;
             padding: 0 5rem 0 5rem;
-
+            
             a,
             i {
                 cursor: pointer;
                 display: inline-block;
                 font-weight: 500;
             }
-
+            
             a {
                 width: calc(100% / 3);
                 padding: 6px 10px;
                 font-size: 25px;
                 border-radius: 10px;
                 border: 1px solid $--color-bababa;
-                border-bottom: 0px solid $--color-bababa;
-
+                border-bottom: 0 solid $--color-bababa;
+                
                 &:hover {
                     color: #333333;
-
+                    
                     i {
                         color: #333333;
                     }
                 }
             }
-
+            
             a.active {
                 background-color: $--color-cb3a82;
                 color: $--color-ffffff;
@@ -95,16 +98,17 @@
         }
     }
     
-    .features{
-         border-top: 3px solid $--color-bababa;
+    .features {
+        border-top: 3px solid $--color-bababa;
+        
         .button-div {
             padding: 30px 30px;
             background-color: $--color-f8f7f7;
-
+            
             .row-button {
                 padding: 10px;
                 width: calc(100% / 5);
-
+                
                 .btn-white {
                     width: 80%;
                     padding: 5px 5px;
@@ -114,16 +118,16 @@
                 }
             }
         }
-
+        
         .allergy-support {
             padding-left: 100px;
-
+            
             .allergy-left {
                 padding: 100px 0;
-
+                
                 .allergy-desc {
                     padding-left: 50px;
-
+                    
                     .btn-allergy {
                         width: 40%;
                         padding: 5px;
@@ -133,7 +137,7 @@
                     }
                 }
             }
-
+            
             .allergy-right {
                 background-color: $--color-aaaaaa;
                 height: 80%;
@@ -144,26 +148,26 @@
                 font-family: monospace;
                 color: $--color-ffffff;
                 white-space: pre-wrap;
-                border-radius: 0%;
+                border-radius: 0;
             }
         }
-
+        
         .child-care {
             border-top: 2px solid $--color-bababa;
             padding: 50px 50px;
             background-color: $--color-f8f7f7;
-
+            
             .child-left {
                 padding-top: 20px;
-
+                
                 .child-head {
                     color: $--color-cb3a82;
                 }
             }
-
+            
             .child-right {
                 background-color: $--color-ffffff;
-
+                
                 .btn-map {
                     margin-left: 5rem;
                     border-radius: 0;
@@ -171,11 +175,11 @@
                     padding: 5px;
                     border: 2px solid $--color-aaaaaa;
                 }
-
+                
                 .child-row {
                     padding-top: 10px;
                     border-bottom: 1px solid $--color-cb3a82;
-
+                    
                     .row-left {
                         text-align: center;
                         padding-top: 20px;
@@ -184,41 +188,41 @@
                 }
             }
         }
-
+        
         .nursery-school {
             padding: 40px 0;
-
+            
             .school-step {
                 .step-item {
                     padding-left: 50px;
                     position: relative;
                     z-index: 1;
-
+                    
                     p:before {
                         content: "";
                         border-bottom: 1px solid $--color-cb3a82;
-                        padding: 0px;
-                        margin: 0px;
+                        padding: 0;
+                        margin: 0;
                         position: absolute;
                         left: 45px;
                         bottom: 12px;
-                        height: 0px;
+                        height: 0;
                         width: 12%;
                     }
                 }
-
+                
                 .step-left {
                     position: relative;
-
+                    
                     p {
                         position: absolute;
                         left: 70px;
                         width: 150px;
                     }
                 }
-
+                
                 .progressbar {
-
+                    
                     li {
                         list-style-type: none;
                         width: 20%;
@@ -228,7 +232,7 @@
                         text-align: center;
                         text-transform: uppercase;
                         color: $--color-cecece;
-
+                        
                         img {
                             position: absolute;
                             top: -20px;
@@ -236,7 +240,7 @@
                             z-index: 2;
                         }
                     }
-
+                    
                     li:before {
                         width: 20px;
                         height: 20px;
@@ -248,7 +252,7 @@
                         border-radius: 50%;
                         background-color: $--color-cecece;
                     }
-
+                    
                     li:after {
                         width: 100%;
                         height: 4px;
@@ -259,17 +263,17 @@
                         left: -50%;
                         z-index: -1;
                     }
-
+                    
                     li:first-child:after {
                         content: none;
-
+                        
                     }
                 }
-
+                
                 .step-right {
                     position: relative;
-                    margin-top: 0px;
-
+                    margin-top: 0;
+                    
                     p {
                         position: absolute;
                         left: -55px;
@@ -279,34 +283,34 @@
                 }
             }
         }
-
+        
         .nursery-availability {
             padding: 40px 0;
             background-color: $--color-f8f7f7;
         }
-
+        
         .review {
             padding: 40px 0;
-
+            
             .row-1 {
                 margin: 0 50px 0 50px;
                 padding: 20px 0;
                 border: 1px solid $--color-333333;
-
+                
                 .row-11 {
                     border-bottom: 1px solid $--color-bababa;
                 }
             }
-
+            
             .row-2 {
                 margin: 0 60px 0 60px;
                 padding-top: 20px;
                 background-color: $--color-f2f2f2;
             }
-
+            
             .row-3 {
                 margin: 40px 20px 0 20px;
-
+                
                 .divider {
                     padding-left: 30px;
                     padding-right: 30px;
@@ -314,13 +318,15 @@
             }
         }
     }
-
-    .childcare{
+    
+    .childcare {
         border-top: 3px solid $--color-bababa;
-        .philosophy{
+        
+        .philosophy {
             padding-left: 170px;
             padding-bottom: 100px;
-            .philosophy-right{
+            
+            .philosophy-right {
                 background-color: $--color-aaaaaa;
                 height: 45%;
                 padding: 80px 50px 0 18px;
@@ -330,131 +336,163 @@
                 font-family: monospace;
                 color: $--color-ffffff;
                 white-space: pre-wrap;
-                border-radius: 0%;
+                border-radius: 0;
             }
         }
-        .lesson{
+        
+        .lesson {
             margin: 0 150px;
             padding: 40px 0 15px 0;
             border-top: 1px solid $--color-333333;
             border-bottom: 1px solid $--color-333333;
         }
-        .annual-events{
+        
+        .annual-events {
             padding: 40px 0;
             background-color: $--color-f8f7f7;
-            .event-col{
-                margin: 0px;
-                padding: 30px 0px 30px 30px;
+            
+            .event-col {
+                margin: 0;
+                padding: 30px 0 30px 30px;
                 background-color: $--color-ffffff;
             }
-            .divider{
+            
+            .divider {
                 border-bottom: 2px dashed $--color-c4c4c4;
             }
-            .col-color-1{
+            
+            .col-color-1 {
                 color: $--color-f2a9a8;
             }
+            
             .col-color-2 {
                 color: $--color-98d4e1;
             }
+            
             .col-color-3 {
                 color: $--color-fabe7f;
             }
+            
             .col-color-4 {
                 color: $--color-8cc43f;
             }
         }
-        .annual-curriculum{
+        
+        .annual-curriculum {
             padding: 40px 0;
-            .accordion-button{
+            
+            .accordion-button {
                 border: 1px solid $--color-333333;
                 background-color: $--color-ffffff;
                 color: $--color-333333;
             }
+            
             .accordion-button:focus {
-                 outline: none !important;
-                 box-shadow: none;
+                outline: none !important;
+                box-shadow: none;
             }
+            
             .accordion-button:not(.collapsed)::after {
                 background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
             }
-            .collapse-body-1{
+            
+            .collapse-body-1 {
                 font-size: 13px;
-                .row-1{
+                
+                .row-1 {
                     border: 1px solid $--color-d6d6d6;
-                    .col-left{
+                    
+                    .col-left {
                         background-color: $--color-f8f7f7;
                         border-right: 2px solid $--color-d6d6d6;
                     }
                 }
-                .btn-menu{
+                
+                .btn-menu {
                     width: calc(100% / 6);
                     padding: 15px 0 15px 50px;
                     border: 1px solid $--color-d6d6d6;
                     background-color: $--color-ffffff;
                 }
+                
                 .btn-menu:focus {
                     outline: none !important;
                     box-shadow: none;
                 }
-                .dropdown-toggle::after{
+                
+                .dropdown-toggle::after {
                     font-size: 18px;
                     color: $--color-707070;
                     margin-left: 5.255em;
                     vertical-align: 1px;
                 }
-                .btn-menu.active{
+                
+                .btn-menu.active {
                     background-color: $--color-cb3a82;
                     color: $--color-ffffff;
                 }
+                
                 .btn-menu.active1 {
                     background-color: $--color-cb3a82;
                     color: $--color-ffffff;
                 }
+                
                 .active.dropdown-toggle::after {
                     color: $--color-ffffff;
                     margin-left: 1.255em;
                     vertical-align: 10px;
                 }
+                
                 .active1.dropdown-toggle::after {
                     color: $--color-ffffff;
                 }
-                .row-2{
+                
+                .row-2 {
                     padding: 10px 10px;
                     border: 1px solid $--color-d6d6d6;
                     background-color: $--color-fbeef5;
                 }
-                .row-3{
+                
+                .row-3 {
                     padding: 10px 10px;
                     border: 1px solid $--color-d6d6d6;
                 }
             }
         }
-        .yoga-lesson{
+        
+        .yoga-lesson {
             padding-bottom: 100px;
-            .row-1{
+            
+            .row-1 {
                 margin: 50px 0 0 160px;
                 border-bottom: 2px solid $--color-bababa;
-                .top-left{
+                
+                .top-left {
                     color: $--color-cb3a82;
                 }
             }
-            .row-2{
+            
+            .row-2 {
                 margin-left: 160px;
                 padding: 50px 100px;
             }
-            .row-3{
+            
+            .row-3 {
                 margin-left: 160px;
             }
-            .row-4{
-                margin-left:  160px;
+            
+            .row-4 {
+                margin-left: 160px;
                 padding-bottom: 40px;
                 border-bottom: 2px solid $--color-bababa;
             }
+            
             .philosophy-right {
                 height: 10%;
             }
         }
     }
+    
     .philosophy-right {
         background-color: $--color-aaaaaa;
         height: 45%;
@@ -465,31 +503,38 @@
         font-family: monospace;
         color: $--color-ffffff;
         white-space: pre-wrap;
-        border-radius: 0%;
+        border-radius: 0;
     }
-    .rate-plan{
+    
+    .rate-plan {
         border-top: 3px solid $--color-bababa;
+        
         .span-divider {
             color: $--color-bababa;
         }
+        
         .row-top {
             padding: 10px 100px;
             background-color: $--color-fbeef5;
             color: $--color-cb3a82;
         }
-        .experince{
+        
+        .experince {
             padding: 20px 0;
-            .left-col{
-                .row-1{
+            
+            .left-col {
+                .row-1 {
                     margin-left: 120px;
                     padding: 10px 10px;
                     border: 1px solid $--color-bababa;
-                    .badge-bottom{
+                    
+                    .badge-bottom {
                         padding: 3px 25px;
                         color: $--color-ffffff;
                         background-color: $--color-84c942;
                     }
                 }
+                
                 .row-2 {
                     margin-left: 120px;
                     padding: 30px 10px;
@@ -497,86 +542,103 @@
                 }
             }
         }
-        .monthly-childcare{
-            .w-40{
+        
+        .monthly-childcare {
+            .w-40 {
                 width: 45%;
             }
+            
             .row-3 {
                 margin: 0 110px;
                 padding: 15px 10px;
                 border: 1px solid $--color-bababa;
             }
+            
             .row-4 {
                 margin: 0 110px;
                 padding: 30px 10px;
                 border: 1px solid $--color-bababa;
             }
-            .last-top{
+            
+            .last-top {
                 margin-top: 80px;
             }
         }
     }
-    .word-of-mouth{
+    
+    .word-of-mouth {
         border-top: 3px solid $--color-bababa;
-        .left-col{
+        
+        .left-col {
             padding: 40px 0 40px 120px;
+            
             .row-1 {
                 margin: 0 50px 0 50px;
                 padding: 20px 0;
                 border: 1px solid $--color-333333;
-
+                
                 .row-11 {
                     border-bottom: 1px solid $--color-bababa;
                 }
             }
-
+            
             .row-2 {
                 margin: 0 50px 0 50px;
                 padding-top: 20px;
                 background-color: $--color-f2f2f2;
             }
-
+            
             .row-3 {
                 margin: 0 50px 0 50px;
                 padding: 20px 0;
                 background-color: $--color-f2f2f2;
             }
         }
-        .philosophy-right{
+        
+        .philosophy-right {
             padding-top: 100px;
         }
     }
-
-    .overview{
-         border-top: 3px solid $--color-bababa;
-         padding-bottom: 50px;
-        .left-col{
-             padding-left: 120px;
-             .left{
-                 padding-top: 20px;
-                 background-color: $--color-fbeef5;
-             }
-             .right{
-                 padding: 20px 50px;
+    
+    .overview {
+        border-top: 3px solid $--color-bababa;
+        padding-bottom: 50px;
+        
+        .left-col {
+            padding-left: 120px;
+            
+            .left {
+                padding-top: 20px;
+                background-color: $--color-fbeef5;
+            }
+            
+            .right {
+                padding: 20px 50px;
+                
                 .span-padding {
                     padding-left: 150px;
                 }
-             }
-            .row-1{
-                 border-top: 1px solid $--color-bababa;
-             }
-            .row-2{
-                 border-top: 1px solid $--color-bababa;
-                 border-bottom: 1px solid $--color-bababa;
-                 .right-1{
-                      padding: 20px 0 100px 50px;
-                      .span-padding {
-                          padding-left: 150px;
+            }
+            
+            .row-1 {
+                border-top: 1px solid $--color-bababa;
+            }
+            
+            .row-2 {
+                border-top: 1px solid $--color-bababa;
+                border-bottom: 1px solid $--color-bababa;
+                
+                .right-1 {
+                    padding: 20px 0 100px 50px;
+                    
+                    .span-padding {
+                        padding-left: 150px;
                     }
                 }
             }
         }
-        .right-col{
+        
+        .right-col {
             .philosophy-right {
                 padding-top: 70px;
                 height: 60%;
