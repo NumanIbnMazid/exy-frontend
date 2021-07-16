@@ -56,6 +56,11 @@ const routes = [
         component: () => import("../views/MyPage")
     },
     {
+        path: '/my-page/talk',
+        name: 'Talk',
+        component: () => import("../views/myPage/Talk")
+    },
+    {
         path: '/contact-us',
         name: 'ContactUs',
         component: () => import("../views/contact/Index")
@@ -105,11 +110,20 @@ const routes = [
         name: 'ProceedToReservation',
         component: () => import("../views/cocoro-nursery-school/index")
     },
-
     {
         path: '/payment-method-selection',
         name: 'PaymentMethodSelection',
         component: () => import("../views/cocoro-nursery-school/PaymentMethodSelection")
+    },
+    {
+        path: '/thoughts-of-kigarni-hoik',
+        name: 'ThoughtsofKigarniHoik',
+        component: () => import("../views/ThoughtsofKigarniHoik")
+    },
+    {
+        path: '/what-is-kigarni-hoiku-point',
+        name: 'WhatIsKigarniHoikuPoint',
+        component: () => import("../views/WhatIsKigarniHoikuPoint")
     },
     {
         path: '/login',

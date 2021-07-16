@@ -2,8 +2,7 @@
 
 ## TASKS
 
-* Fix Links In page 31, 34, 40
-* Page 31 Modal
+* Dynamic Content Show on page 39
 
 ## ISSUES
 

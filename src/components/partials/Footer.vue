@@ -12,8 +12,12 @@
               <li>
                 <router-link :to="{name:'KigaruniHoiku'}">キガルニホイクとは</router-link>
               </li>
-              <li><a href="#">キガルニホイクの思い</a></li>
-              <li><a href="#">キガルニホイクポイントとは</a></li>
+              <li>
+                <router-link :to="{name:'ThoughtsofKigarniHoik'}">キガルニホイクの思い</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'WhatIsKigarniHoikuPoint'}">キガルニホイクポイントとは</router-link>
+              </li>
             </ul>
           </div>
         </div>
