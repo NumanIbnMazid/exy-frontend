@@ -146,11 +146,11 @@
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="single-item mb-4 mb-lg-0">
-              <a href="#">
+              <router-link :to="{name:'AboutPaymentMethod'}">
                 <img src="../assets/images/group-2763.png" class="img-fluid" alt="EXY">
                 <p>お支払い方法について</p>
                 <span>Amount of money</span>
-              </a>
+              </router-link>
               <p>お支払いの流れや お支払い方法のご案内</p>
             </div>
           </div>

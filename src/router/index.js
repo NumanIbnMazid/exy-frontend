@@ -126,6 +126,11 @@ const routes = [
         component: () => import("../views/WhatIsKigarniHoikuPoint")
     },
     {
+        path: '/about-payment-method',
+        name: 'AboutPaymentMethod',
+        component: () => import("../views/AboutPaymentMethod")
+    },
+    {
         path: '/login',
         name: 'Login',
         component: () => import("../components/auth/Login")
