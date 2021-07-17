@@ -165,11 +165,11 @@ li {
     float: left;
 
     &:first-child {
-      width: 150px;
+      width: 70px;
     }
 
     &:last-child {
-      width: calc(100% - 150px);
+      width: calc(100% - 70px);
     }
   }
 }

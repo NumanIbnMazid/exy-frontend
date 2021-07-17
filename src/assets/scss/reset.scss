@@ -23,6 +23,7 @@ $--color-918d8d: #918D8D;
 $--color-cecece: #CECECE;
 $--color-d6d6d6: #D6D6D6;
 $--color-fbeef5: #FBEEF5;
+$--color-f2c228: #F2C228;
 
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700&display=swap');
 
@@ -483,4 +484,8 @@ textarea {
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
     }
+}
+
+.rounded-25 {
+    border-radius: 25px
 }

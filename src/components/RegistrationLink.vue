@@ -1,6 +1,6 @@
 <template>
   <router-link :to="{name:'Registration'}">
-    <img src="../assets/images/sinkitouroku.png" alt="EXY" class="img-fluid rounded">
+    <img src="../assets/images/sinkitouroku.png" alt="EXY" class="img-fluid">
   </router-link>
 </template>
 
