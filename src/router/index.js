@@ -131,6 +131,31 @@ const routes = [
         component: () => import("../views/AboutPaymentMethod")
     },
     {
+        path: '/how-to-use-kigarni-hoik',
+        name: 'HowToUseKigarniHoik',
+        component: () => import("../views/HowToUseKigarniHoik")
+    },
+    {
+        path: '/monthly-childcare',
+        name: 'MonthlyChildcare',
+        component: () => import("../views/MonthlyChildcare")
+    },
+    {
+        path: '/experience-childcare-reservation',
+        name: 'ExperienceChildcareReservation',
+        component: () => import("../views/ExperienceChildcareReservation")
+    },
+    {
+        path: '/garden-tour',
+        name: 'GardenTour',
+        component: () => import("../views/GardenTour")
+    },
+    {
+        path: '/to-all-users-guidelines',
+        name: 'AllUsersGuidelines',
+        component: () => import("../views/AllUsersGuidelines")
+    },
+    {
         path: '/login',
         name: 'Login',
         component: () => import("../components/auth/Login")
