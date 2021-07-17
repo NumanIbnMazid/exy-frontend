@@ -63,13 +63,13 @@
                 <router-link :to="{name:'AboutPaymentMethod'}">お支払い方法について</router-link>
               </li>
               <li>
-                <router-link :to="{name:'MonthlyChildcare'}">月極保育</router-link>
+                <router-link :to="{name:'guide', params:{active:'monthly-childcare'}}">月極保育</router-link>
               </li>
               <li>
-                <router-link :to="{name:'ExperienceChildcareReservation'}">体験保育予約</router-link>
+                <router-link :to="{name:'guide', params:{active:'experience-childcare-reservation'}}">体験保育予約</router-link>
               </li>
               <li>
-                <router-link :to="{name:'GardenTour'}">園見学</router-link>
+                <router-link :to="{name:'guide', params:{active:'garden-tour'}}">園見学</router-link>
               </li>
               <li>
                 <router-link :to="{name:'AllUsersGuidelines'}">ご利用いただく皆さまへ (ガイドライン)</router-link>

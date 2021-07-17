@@ -167,7 +167,6 @@
       </div>
     </div>
 
-
     <div class="space-100"></div>
     <div class="container">
       <registration-link/>

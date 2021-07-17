@@ -136,19 +136,9 @@ const routes = [
         component: () => import("../views/HowToUseKigarniHoik")
     },
     {
-        path: '/monthly-childcare',
-        name: 'MonthlyChildcare',
-        component: () => import("../views/MonthlyChildcare")
-    },
-    {
-        path: '/experience-childcare-reservation',
-        name: 'ExperienceChildcareReservation',
-        component: () => import("../views/ExperienceChildcareReservation")
-    },
-    {
-        path: '/garden-tour',
-        name: 'GardenTour',
-        component: () => import("../views/GardenTour")
+        path: '/guide/:active?',
+        name: 'guide',
+        component: () => import("../views/book-nursery-school/Main")
     },
     {
         path: '/to-all-users-guidelines',

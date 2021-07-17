@@ -7,10 +7,10 @@
       </div>
 
       <div class="d-flex align-items-center text-center tab">
-        <div class="p-10 flex-fill cursor-pointer text-base border mx-2" @click="activeTab=1" :class="[ activeTab === 1 ? 'active' : '' ]">サービス利用規約</div>
-        <div class="p-10 flex-fill cursor-pointer text-base border mx-2" @click="activeTab=2" :class="[ activeTab === 2 ? 'active' : '' ]">ポイント利用規約</div>
-        <div class="p-10 flex-fill cursor-pointer text-base border mx-2" @click="activeTab=3" :class="[ activeTab === 3 ? 'active' : '' ]">プライバシーポリシー</div>
-        <div class="p-10 flex-fill cursor-pointer text-base border mx-2" @click="activeTab=4" :class="[ activeTab === 4 ? 'active' : '' ]">特定商取引法に基づく表示</div>
+        <router-link tag="div" :to="{name:'terms', params:{active:1}}" class="p-10 flex-fill cursor-pointer text-base border mx-2" :class="[ activeTab === 1 ? 'active' : '' ]">サービス利用規約</router-link>
+        <router-link tag="div" :to="{name:'terms', params:{active:2}}" class="p-10 flex-fill cursor-pointer text-base border mx-2" :class="[ activeTab === 2 ? 'active' : '' ]">ポイント利用規約</router-link>
+        <router-link tag="div" :to="{name:'terms', params:{active:3}}" class="p-10 flex-fill cursor-pointer text-base border mx-2" :class="[ activeTab === 3 ? 'active' : '' ]">プライバシーポリシー</router-link>
+        <router-link tag="div" :to="{name:'terms', params:{active:4}}" class="p-10 flex-fill cursor-pointer text-base border mx-2" :class="[ activeTab === 4 ? 'active' : '' ]">特定商取引法に基づく表示</router-link>
       </div>
     </div>
     <div class="border-bottom border-3"></div>
@@ -18,16 +18,16 @@
     <div class="pb-5">
       <div class="tab-content">
         <div v-if="activeTab === 1">
-          <tab-one />
+          <tab-one/>
         </div>
         <div v-if="activeTab === 2">
-          <tab-two />
+          <tab-two/>
         </div>
         <div v-if="activeTab === 3">
-          <tab-three />
+          <tab-three/>
         </div>
         <div v-if="activeTab === 4">
-          <tab-four />
+          <tab-four/>
         </div>
       </div>
     </div>
@@ -40,9 +40,10 @@ import TabOne from "./TabOne";
 import TabTwo from "./TabTwo";
 import TabThree from "./TabThree";
 import TabFour from "./TabFour";
+
 export default {
   name: "Index",
-  components: { TabFour, TabThree, TabTwo, TabOne  },
+  components: { TabFour, TabThree, TabTwo, TabOne },
   data() {
     return {
       activeTab: 1,
