@@ -11,7 +11,8 @@
       </nav>
     </div>
     
-    <div class="text-center my-4">
+    <div class="text-center my-4 position-relative">
+      <div class="position-absolute top-0 w-100 h-100"></div>
       <img src="../assets/images/50000.png" alt="EXY" class="img-fluid w-100">
     </div>
 
