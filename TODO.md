@@ -2,7 +2,7 @@
 
 ## TASKS
 
-* Dynamic Content Show on page 39
+* Fix Tab -1 User Registration Section
 
 ## ISSUES
 
