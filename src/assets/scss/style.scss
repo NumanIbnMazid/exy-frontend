@@ -1306,3 +1306,43 @@
         }
     }
 }
+
+/****************************************
+ * Guide Pages
+ ****************************************/
+.guide {
+    .step {
+        overflow: hidden;
+        margin-bottom: 60px;
+        
+        .step-count {
+            height: 90px;
+            line-height: 2em;
+            font-weight: 700;
+            font-size: 20px;
+            color: $--color-c94284;
+            opacity: .4;
+            
+            &:after {
+                display: block;
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                height: 10000%;
+                width: 2px;
+                background: $--color-c94284;
+            }
+            
+            span {
+                font-size: 36px;
+            }
+        }
+        
+        .step-content {
+            background: #ffffff;
+            margin-left: 2rem;
+            width: 100%;
+        }
+    }
+}

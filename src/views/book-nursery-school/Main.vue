@@ -47,15 +47,15 @@
     <div class="py-3" style="background-color: #FFFFFA">
       <div class="container tab-content">
 
-        <div class="border border-2 p-1 my-4 position-relative" style="border-color: #808080">
+        <div class="border border-2 p-1 mt-4 mb-5 position-relative" style="border-color: #808080">
           <div class="border border-2 py-3 px-5 text-center text-base" style="border-color: #808080">
             園詳細ページの「月極保育予約」または「予約へすすむ」ページで予約をすることができます。<br/>
             月極保育の予約をするには、<span style="border-bottom: 1px solid #D9CA23">本人確認書等の登録が必須条件</span>となります。
 
             <div class="position-absolute" style="top: -65px;left: -65px;">
               <div class="position-relative">
-                <img src="../../assets/images/polygon-17.png" alt="EXY">
-                <img src="../../assets/images/group-3665.png" alt="EXY" class="position-absolute" style="top: 60px; left: 45px">
+                <img src="../../assets/images/guide/polygon-17.png" alt="EXY">
+                <img src="../../assets/images/guide/group-3665.png" alt="EXY" class="position-absolute" style="top: 60px; left: 45px">
               </div>
             </div>
           </div>
