@@ -66,6 +66,18 @@
                 .empty{
                     height: 100px;
                 }
+                .p-border{
+                    border-bottom: 1px solid $--color-443f3d;
+                }
+                .p-border-1{
+                    margin: 30px 0 70px 0;
+                    padding: 15px 10px;
+                    border-top: 1px solid $--color-443f3d;
+                    border-bottom: 1px solid $--color-443f3d;
+                }
+                .p-ancor{
+                    color: $--color-cb3a82;
+                }
             }
             .row-3{
                 margin-top: 100px;

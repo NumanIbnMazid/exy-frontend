@@ -61,6 +61,11 @@ const routes = [
         component: () => import("../views/myPage/Talk")
     },
     {
+        path: '/my-page/talk-reservation',
+        name: 'TalkResarvation',
+        component: () => import("../views/myPage/TalkReservation")
+    },
+    {
         path: '/contact-us',
         name: 'ContactUs',
         component: () => import("../views/contact/Index")

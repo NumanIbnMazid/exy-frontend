@@ -236,10 +236,40 @@
                   獲得予定ポイント<span class="px-4">｜</span>692ポイント
                 </p>
               </div>
+              
             </div>
             <div class="col-md-3 d-flex align-items-end pb-0">
               <span class="">12:30</span>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-8">
+              <div class="row row-2 p-2 mt-3">
+                <p class="p-border py-3">
+                  【月極保育】ご予約が確定いたしました。
+                </p>
+                <p class="py-1">
+                  田中様 <br>
+                  この度は当園にご予約いただきまして誠にありがとうございます。<br>
+                  いただきました内容でご予約を賜りましたのでお知らせいたします。
+                </p>
+                <p>
+                  下記の内容をご一読の上、問題なければ【予約確定の承認】をお願いいたします。<br>
+                  また、当園へご連絡の際は本チャットへメッセージをお送りください。
+                </p>
+                <p class="p-border-1">
+                  【登園前にご一読ください】 <br>
+                  持ち物について：<br> <br>
+                  ご注意ください：<br>
+                  【各園が利用者へアテンションしたいこと、確認したいことなどを記載する】
+                </p>
+                <p>
+                  ▶︎ ご予約確定の承認は<a href="#" class="p-ancor text-decoration-underline">こちら</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3"></div>
           </div>
           <div class="row row-3">
             <div class="col-md-12 px-5 py-2">
@@ -265,7 +295,7 @@
 
 <script>
 export default {
-  name: "Talk"
+  name: "TalkReservation"
 }
 </script>
 
