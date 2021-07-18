@@ -312,10 +312,29 @@ ul {
         box-shadow: inherit;
     }
 }
+.exy-default-btn-outline {
+    color: #000;
+    outline: inherit;
+    padding: 10px 75px;
+    display: inline-block;
+    background-color: #fff;
+    transition: background-color 0.5s ease;
+    border: 1px solid $--color-cb3a82;
+    
+    &:hover {
+        color: #FFFFFF;
+        background-color: $--color-e6006e;
+    }
+    
+    &:focus {
+        box-shadow: inherit;
+    }
+}
 
 button.exy-default-btn {
     border: inherit;
 }
+
 
 input,
 select,

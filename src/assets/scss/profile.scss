@@ -4,24 +4,24 @@
             button {
                 font-size: 12px;
             }
-            
+
             :last-child {
                 margin-left: 10px;
             }
         }
-        
+
         .login-area-main {
             .forget-pass-email-option {
                 ul {
                     list-style: disc;
-                    
+
                     a {
                         text-decoration: underline;
                     }
                 }
             }
         }
-        
+
         .registration-box {
             background: url("../images/bg/registration-box.png") no-repeat;
             width: 300px;
@@ -38,32 +38,32 @@
     .registration-body {
         background: #F8F7F7;
     }
-    
+
     .registration-footer {
         margin-top: 50px;
-        
+
         .footer-button-box {
             border: 1px solid #666;
             border-radius: 10px;
-            
+
             .login-btn-area {
                 button {
                     font-size: 12px;
                 }
-                
+
                 :last-child {
                     margin-left: 10px;
                 }
             }
         }
-        
+
         .registration-footer-text {
             border-top: 1px solid #666;
             border-bottom: 1px solid #666;
             padding: 20px 0 20px 10px;
             margin: 40px 0;
         }
-        
+
     }
 }
 
@@ -71,10 +71,54 @@
     .password-reset-area {
         .password-reset-body {
             .form-group-container {
-                border-top: 1px solid #666;
-                border-bottom: 1px solid #666;
-                padding: 10px 0;
+                border: 1px solid #666;
+                margin: 10px 0;
+                .input-label {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 12px;
+                    font-weight: bold;
+                }
+                .input-group-container-right {
+                    padding: 15px 0;
+                }
+            }
+            .exy-default-btn {
+                margin-left: 10px;
             }
         }
+    }
+}
+.form-group-container {
+    border: 1px solid #666;
+    margin: 10px 0;
+    .input-label {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding-left: 12px;
+        font-weight: bold;
+        justify-content: space-between;
+        padding-right: 12px;
+    }
+    .input-group-container-right {
+        padding: 15px 0;
+    }
+}
+.conform-email-area {
+    .exy-default-btn {
+        margin-left: 10px;
+    }
+}
+.setPassword-area {
+    .set-pass-privacy {
+        span {
+            color: #005CC8;
+            text-decoration: underline;
+        }
+    }
+    .exy-default-btn {
+        margin-left: 10px;
     }
 }

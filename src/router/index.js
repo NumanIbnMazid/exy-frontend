@@ -171,6 +171,16 @@ const routes = [
         component: () => import("../components/auth/PasswordReset")
     },
     {
+        path: '/conform-email',
+        name: 'ConformEmail',
+        component: () => import("../components/auth/ConformEmail")
+    },
+    {
+        path: '/set-password',
+        name: 'SetPassword',
+        component: () => import("../components/auth/SetPassword")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")
