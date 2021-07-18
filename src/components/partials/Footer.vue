@@ -29,9 +29,15 @@
                 <router-link :to="{name:'FindNurserySchool'}">保育園をさがす</router-link>
               </li>
               <li><a>エリア・沿線からさがす</a></li>
-              <li><a href="#">子育て情報掲示板</a></li>
-              <li><a href="#">子育て相談コーナー</a></li>
-              <li><a href="#">保活情報</a></li>
+              <li>
+                <router-link :to="{name:'BulletinBoard'}">子育て情報掲示板</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'ConsultationCorner'}">子育て相談コーナー</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'lifeProtectionInformation'}">保活情報</router-link>
+              </li>
             </ul>
           </div>
         </div>

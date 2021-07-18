@@ -146,6 +146,21 @@ const routes = [
         component: () => import("../views/HowToUseKigarniHoik")
     },
     {
+        path: '/child-rearing-information-bulletin-board',
+        name: 'BulletinBoard',
+        component: () => import("../views/bulletin-board/Index")
+    },
+    {
+        path: '/child-rearing-consultation-corner',
+        name: 'ConsultationCorner',
+        component: () => import("../views/consultation-corner/Index")
+    },
+    {
+        path: '/life-protection-information',
+        name: 'lifeProtectionInformation',
+        component: () => import("../views/protection-information/Index")
+    },
+    {
         path: '/guide/:active?',
         name: 'guide',
         component: () => import("../views/book-nursery-school/Main")
