@@ -214,7 +214,7 @@
                   </div>
                 </div>
                 <div class="col-6">
-                  <img src="../../assets/images/guide/Image_67.png" alt="EXY" class="img-fluid">
+                  <img src="../../assets/images/guide/Image_67.png" alt="EXY" class="img-fluid border">
                 </div>
               </div>
 
