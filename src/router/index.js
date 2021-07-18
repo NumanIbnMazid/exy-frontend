@@ -111,11 +111,6 @@ const routes = [
         component: () => import("../views/SearchFromArea")
     },
     {
-        path: '/details',
-        name: 'search.result',
-        component: () => import("../components/search/Details")
-    },
-    {
         path: '/guardian-characteristics-detail',
         name: 'CharacteristicsDetail',
         component: () => import("../views/guardian/CharacteristicsDetail")
