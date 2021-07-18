@@ -93,7 +93,7 @@
                 <div class="col-6">
                   <div class="text-sm">
                     <div class="fw-bold mb-3">① ご利用目的を入力</div>
-                    <div>ご希望の日時とプラン、オプションを選択します。<br/>
+                    <div class="pe-5">ご希望の日時とプラン、オプションを選択します。<br/>
                       プランやオプションの料金については、保育園詳細
                       ページの料金プランに記載があります。
                     </div>
@@ -395,6 +395,10 @@
             <div class="text-sm mt-4">
               ※月極保育ご予約前の体験保育ご利用の方は、後日、月極保育ご予約に関するご案内メールを送付します。<br/>
               案内に沿って月極保育の契約締結を行ってください。
+            </div>
+
+            <div class="position-absolute top-0" style="right: 10%">
+              <img src="../../assets/images/guide/path-2054.png" alt="EXY">
             </div>
           </div>
         </div>
