@@ -9,20 +9,20 @@
             </div>
             <div class="form">
                 <div class="form-check mt-4">
-                    <input class="form-check-input" type="radio" name="payment-selection" id="credit-payment">
+                    <input class="form-check-input" type="radio" name="payment-selection" id="credit-payment" @click="handlePaymentOptions('creditPayment')">
                     <label class="form-check-label ms-2" for="credit-payment">
                         クレジット支払い
                     </label>
-                    <div class="mt-3">
+                    <div class="mt-3" v-if="paymentOptions.creditPayment == true">
                         <input type="text" class="pt-2 pb-2 ps-2 pe-2 w-50 border border-2 rounded" placeholder="カード様別名: MasterCard  カ ード番号 : ****-****-****-1234 有効期限 : 12月/23年">
                     </div>
                 </div>
                 <div class="form-check mt-4">
-                    <input class="form-check-input" type="radio" name="payment-selection" id="new-credit">
+                    <input class="form-check-input" type="radio" name="payment-selection" id="new-credit" @click="handlePaymentOptions('newCredit')">
                     <label class="form-check-label ms-2" for="new-credit">
                         新しいクレジットカード情報を登録する
                     </label>
-                    <div class="mt-3 table-responsive">
+                    <div class="mt-3 table-responsive" v-if="paymentOptions.newCredit == true">
                         <table class="table table-bordered border-secondary">
                             <thead>
                                 <tr class="bg-pink text-center">
@@ -84,11 +84,11 @@
                     </div>
                 </div>
                 <div class="form-check mt-4">
-                    <input class="form-check-input" type="radio" name="payment-selection" id="bank-transfer">
+                    <input class="form-check-input" type="radio" name="payment-selection" id="bank-transfer" @click="handlePaymentOptions('bankTransfer')">
                     <label class="form-check-label ms-2" for="bank-transfer">
                         銀行振込
                     </label>
-                    <div>
+                    <div v-if="paymentOptions.bankTransfer == true">
                         <div class="row mt-3">
                             <div class="table-responsive col-xl-6 col-lg-6 col-md-6 col-12">
                                 <table class="table table-bordered">
@@ -143,12 +143,12 @@
                     </div>
                 </div>
                 <div class="form-check mt-4">
-                    <input class="form-check-input" type="radio" name="payment-selection" id="point-payment">
+                    <input class="form-check-input" type="radio" name="payment-selection" id="point-payment" @click="handlePaymentOptions('pointPayment')">
                     <label class="form-check-label ms-2" for="point-payment">
                         ポイント支払い
                     </label>
 
-                    <div class="mt-3">
+                    <div class="mt-3" v-if="paymentOptions.pointPayment == true">
                         <div class="row">
                             <div class="bg-pink p-2 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                 <span class="fw-bold --color-e6006e">1 pt</span>
@@ -169,11 +169,11 @@
                     </div>
                 </div>
                 <div class="form-check mt-4">
-                    <input class="form-check-input" type="radio" name="payment-selection" id="coupon-code" checked>
+                    <input class="form-check-input" type="radio" name="payment-selection" id="coupon-code" @click="handlePaymentOptions('useCoupon')" checked>
                     <label class="form-check-label ms-2" for="coupon-code">
                         クーポンコードを利用する
                     </label>
-                    <div class="mt-3">
+                    <div class="mt-3" v-if="paymentOptions.useCoupon == true">
                         <input type="text" class="pt-2 pb-2 ps-2 pe-2 border border-2 rounded w-50" placeholder="クーポンコードを入力する">
                     </div>
                 </div>
@@ -196,8 +196,29 @@
 <script>
     export default {
         name: "PaymentMethodSelection",
-        data() {
-            return {}
+        data: () => {
+            return {
+                // Payment Options: Credit Payment, Register New Credit, Bank Transfer, Point Payment, Use Coupon
+                paymentOptions: {
+                    creditPayment: false,
+                    newCredit: false,
+                    bankTransfer: false,
+                    pointPayment: false,
+                    useCoupon: true
+                }
+            }
+        },
+        methods: {
+            handlePaymentOptions(option) {
+                for (const pmOption in this.paymentOptions) {
+                    if (pmOption == option) {
+                        this.paymentOptions[pmOption] = true
+                    } else {
+                        this.paymentOptions[pmOption] = false
+                    }
+                }
+                return
+            }
         },
     };
 </script>
