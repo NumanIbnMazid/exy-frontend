@@ -56,6 +56,11 @@ const routes = [
         component: () => import("../views/MyPage")
     },
     {
+        path: '/my-page/talk',
+        name: 'Talk',
+        component: () => import("../views/myPage/Talk")
+    },
+    {
         path: '/contact-us',
         name: 'ContactUs',
         component: () => import("../views/contact/Index")
@@ -105,11 +110,40 @@ const routes = [
         name: 'ProceedToReservation',
         component: () => import("../views/cocoro-nursery-school/index")
     },
-
     {
         path: '/payment-method-selection',
         name: 'PaymentMethodSelection',
         component: () => import("../views/cocoro-nursery-school/PaymentMethodSelection")
+    },
+    {
+        path: '/thoughts-of-kigarni-hoik',
+        name: 'ThoughtsofKigarniHoik',
+        component: () => import("../views/ThoughtsofKigarniHoik")
+    },
+    {
+        path: '/what-is-kigarni-hoiku-point',
+        name: 'WhatIsKigarniHoikuPoint',
+        component: () => import("../views/WhatIsKigarniHoikuPoint")
+    },
+    {
+        path: '/about-payment-method',
+        name: 'AboutPaymentMethod',
+        component: () => import("../views/AboutPaymentMethod")
+    },
+    {
+        path: '/how-to-use-kigarni-hoik',
+        name: 'HowToUseKigarniHoik',
+        component: () => import("../views/HowToUseKigarniHoik")
+    },
+    {
+        path: '/guide/:active?',
+        name: 'guide',
+        component: () => import("../views/book-nursery-school/Main")
+    },
+    {
+        path: '/to-all-users-guidelines',
+        name: 'AllUsersGuidelines',
+        component: () => import("../views/AllUsersGuidelines")
     },
     {
         path: '/login',
@@ -125,6 +159,21 @@ const routes = [
         path: '/reset-password',
         name: 'ResetPassword',
         component: () => import("../components/auth/ResetPassword")
+    },
+    {
+        path: '/password-reset',
+        name: 'PasswordReset',
+        component: () => import("../components/auth/PasswordReset")
+    },
+    {
+        path: '/conform-email',
+        name: 'ConformEmail',
+        component: () => import("../components/auth/ConformEmail")
+    },
+    {
+        path: '/set-password',
+        name: 'SetPassword',
+        component: () => import("../components/auth/SetPassword")
     },
     {
         path: '/todo/:page',

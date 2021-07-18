@@ -12,8 +12,12 @@
               <li>
                 <router-link :to="{name:'KigaruniHoiku'}">キガルニホイクとは</router-link>
               </li>
-              <li><a href="#">キガルニホイクの思い</a></li>
-              <li><a href="#">キガルニホイクポイントとは</a></li>
+              <li>
+                <router-link :to="{name:'ThoughtsofKigarniHoik'}">キガルニホイクの思い</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'WhatIsKigarniHoikuPoint'}">キガルニホイクポイントとは</router-link>
+              </li>
             </ul>
           </div>
         </div>
@@ -49,15 +53,27 @@
           <div class="footer-item">
             <h4>GUIDE</h4>
             <ul>
-              <li><a href="#">キガルニホイクの使い方</a></li>
+              <li>
+                <router-link :to="{name:'HowToUseKigarniHoik'}">キガルニホイクの使い方</router-link>
+              </li>
               <li>
                 <router-link :to="{name:'UsageFlow'}">ご利用の流れ</router-link>
               </li>
-              <li><a href="#">月極保育</a></li>
-              <li><a href="#">体験保育予約</a></li>
-              <li><a href="#">園見学</a></li>
-              <li><a href="#">預かり先募集</a></li>
-              <li><a href="#">ご利用いただく皆さまへ (ガイドライン)</a></li>
+              <li>
+                <router-link :to="{name:'AboutPaymentMethod'}">お支払い方法について</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'guide', params:{active:'monthly-childcare'}}">月極保育</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'guide', params:{active:'experience-childcare-reservation'}}">体験保育予約</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'guide', params:{active:'garden-tour'}}">園見学</router-link>
+              </li>
+              <li>
+                <router-link :to="{name:'AllUsersGuidelines'}">ご利用いただく皆さまへ (ガイドライン)</router-link>
+              </li>
             </ul>
           </div>
         </div>

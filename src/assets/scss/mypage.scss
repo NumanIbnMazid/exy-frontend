@@ -1,0 +1,76 @@
+.mypage-nav{
+    padding: 20px 0;
+    .col-left{
+        padding-left: 80px;
+        .nav-badge{
+            background-color: $--color-cccc3b;
+            color: $--color-ffffff;
+        }
+    }
+    .col-right{
+        .active{
+            border-left: 1px solid $--color-cb3a82;
+        }
+    }
+}
+
+.talk{
+    .talk-body{
+        padding-bottom: 50px;
+        .col-left {
+            padding-left: 2px;
+            .row-1 {
+                padding: 5px 5px;
+                border: 2px solid $--color-707070;
+                border-right: 1px solid $--color-707070;
+                .left-badge {
+                    background-color: $--color-707070;
+                    color: $--color-ffffff;
+                }
+            }
+            .row-2{
+                padding: 5px 5px;
+                border: 2px solid $--color-707070;
+                border-right: 1px solid $--color-707070;
+                border-top: 0;
+            }
+            .row-3{
+                color: $--color-6d6e6d;
+            }
+        }
+        .col-right{
+            border-left: 1px solid $--color-707070;
+                background-color: $--color-fbeef5;
+            .row-top{
+                padding: 30px 0;
+                background-color: $--color-f8f7f7;
+            }
+            .row-1 {
+                background-color: $--color-fbeef5;
+
+                .span-badge {
+                    background-color: $--color-c3c3c3;
+                    color: $--color-ffffff;
+                    padding: 10px 30px;
+                    border-radius: 10px;
+                }
+            }
+            .row-2{
+                border: 1px solid $--color-707070;
+                background-color: $--color-ffffff;
+                .hr-color{
+                    border-top: 1px solid $--color-443f3d;
+                    background-color: unset;
+                    opacity: unset;
+                }
+                .empty{
+                    height: 100px;
+                }
+            }
+            .row-3{
+                margin-top: 100px;
+                background-color: $--color-f8f7f7;
+            }
+        }
+    }
+}
