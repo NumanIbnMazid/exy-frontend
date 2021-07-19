@@ -156,7 +156,7 @@
                   戻る
                 </button>
               </router-link>
-              <router-link :to="{ name: 'SetPassword' }">
+              <router-link :to="{ name: 'PasswordResetSuccess' }">
                 <button
                   type="submit"
                   class="btn text-xl exy-default-btn rounded-0"
@@ -169,6 +169,16 @@
         </div>
         <div class="setPassword-footer mt-5">
             <p>※メールアドレス送信後、認証コードメールが届かない場合下記の原因が考えられます。</p>
+            <table class="table">
+              <tr>
+                  <td style="width: 30px;">(1)</td>
+                  <td>メールが「迷惑メールフォルダ」に入っている <br> メールフォルダを再度ご連絡ください。 </td>
+              </tr>
+              <tr>
+                  <td>(2)</td>
+                  <td>メールが「迷惑メールフォルダ」に入っている <br> お手数ですが、再度「お客様登録」手続きを行ってください。 </td>
+              </tr>
+            </table>
             <p>30分経っても確認メールが届かない場合は、お手数ですが再度「新規会員登録」手続きを行ってください。
             </p>
         </div>

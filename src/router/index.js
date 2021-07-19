@@ -181,6 +181,11 @@ const routes = [
         component: () => import("../components/auth/Registration")
     },
     {
+        path: '/registration-otp',
+        name: 'RegistrationOtp',
+        component: () => import("../components/auth/RegistrationOtp")
+    },
+    {
         path: '/reset-password',
         name: 'ResetPassword',
         component: () => import("../components/auth/ResetPassword")
@@ -199,6 +204,11 @@ const routes = [
         path: '/set-password',
         name: 'SetPassword',
         component: () => import("../components/auth/SetPassword")
+    },
+    {
+        path: '/password-reset-success',
+        name: 'PasswordResetSuccess',
+        component: () => import("../components/auth/PasswordResetSuccess")
     },
     {
         path: '/todo/:page',
