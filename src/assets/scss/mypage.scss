@@ -86,3 +86,67 @@
         }
     }
 }
+
+.home{
+    .home-body{
+         margin: 0 70px;
+         padding-bottom: 100px;
+        .row-1{
+            padding-top: 20px;
+            .p-heading{
+                color: $--color-cb3a82;
+            }
+        }
+        .row-2{
+            border: 1px solid $--color-707070;
+            .row-inner{
+                margin: 8px;
+                padding: 30px 10px;
+                border: 1px solid $--color-707070;
+                .spna-badge{
+                    padding: 5px 15px;
+                    border-radius: 10px;
+                    background-color: $--color-707070;
+                    color: $--color-ffffff;
+                }
+                .right-btn{
+                    border-radius: 5px;
+                    padding: 8px 0;
+                    border: 1px solid $--color-cb3a82;
+                    color: $--color-cb3a82;
+                }
+            }
+        }
+        .row-3{
+            margin-top: 80px;
+            border-bottom: 3px solid $--color-cb3a82;
+            .p-heading {
+                color: $--color-cb3a82;
+            }
+        }
+        .row-4{
+            .right-col{
+                border-top: 1px dashed $--color-707070;
+                border-bottom: 1px dashed $--color-707070;
+                .span-1{
+                    padding: 5px 10px;
+                    border: 1px solid $--color-cb3a82;
+                    color: $--color-cb3a82;
+                }
+                .span-2{
+                    padding: 5px 45px;
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
+                }
+                .span-3 {
+                    padding: 5px 15px;
+                    background-color: $--color-bababa;
+                    color: $--color-ffffff;
+                }
+                .p-bottom{
+                    color: $--color-909090;
+                }
+            }
+        }
+    }
+}

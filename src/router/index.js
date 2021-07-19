@@ -56,6 +56,11 @@ const routes = [
         component: () => import("../views/MyPage")
     },
     {
+        path: '/my-page/home',
+        name: 'Home',
+        component: () => import("../views/myPage/Home")
+    },
+    {
         path: '/my-page/talk',
         name: 'Talk',
         component: () => import("../views/myPage/Talk")
@@ -159,6 +164,10 @@ const routes = [
         path: '/life-protection-information',
         name: 'lifeProtectionInformation',
         component: () => import("../views/protection-information/Index")
+    },
+    {
+        path: '/test',
+        component: () => import("../views/protection-information/Detail")
     },
     {
         path: '/guide/:active?',
