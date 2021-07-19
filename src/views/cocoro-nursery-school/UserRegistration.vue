@@ -62,17 +62,21 @@
 
     export default {
         name: "UserRegistration",
-        data: () => {
-            return {
-                showRegType: false
-            }
+        props: {
+            showRegType: Boolean
         },
+        // data: () => {
+        //     return {
+        //         showRegType: this.showRegType
+        //     }
+        // },
         components: {
             UserRegistrationType
         },
         methods: {
             handleShowRegType() {
                 this.showRegType = !this.showRegType
+                // this.$emit('showRegType', this.showRegType)
                 return
             }
         },

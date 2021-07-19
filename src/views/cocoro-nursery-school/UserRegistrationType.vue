@@ -1,5 +1,5 @@
 <template>
-    <div class="ms-5 bg-white">
+    <div class="ms-5 bg-white mt-3 mb-3 pb-3">
         <div class="bg-pink p-2">
             <span class="ms-2">田中</span>
             <span class="ms-3">海</span>
