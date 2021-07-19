@@ -161,6 +161,10 @@ const routes = [
         component: () => import("../views/protection-information/Index")
     },
     {
+        path: '/test',
+        component: () => import("../views/protection-information/Detail")
+    },
+    {
         path: '/guide/:active?',
         name: 'guide',
         component: () => import("../views/book-nursery-school/Main")

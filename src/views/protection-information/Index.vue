@@ -165,7 +165,7 @@
             <div class="border-bottom border-top border-color-707070 py-3">
               <div class="d-flex">
                 <div class="d-flex" style="width: 45%;">
-                  <div style="color: #84C942; border: 1px solid; padding: 2px; margin-right: 5px">保活</div>
+                  <div style="color: #84C942; border: 1px solid; padding: 25px 4px; margin-right: 8px">保活</div>
                   <div>保育料について</div>
                 </div>
                 <div style="border-left: 1px solid #707070; width: 10%"></div>
