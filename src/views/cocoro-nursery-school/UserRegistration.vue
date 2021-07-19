@@ -25,9 +25,13 @@
                             <input type="checkbox" checked>
                             <span class="checkmark"></span>
                         </label>
+
+                        <!-- user registration type -->
+                        <user-registration-type v-if="showRegType == true"></user-registration-type>
+
                     </div>
                     <div class="form-check">
-                        <label class="container-checkbox text-muted">
+                        <label class="container-checkbox text-muted" >
                             <span class="ms-4 me-5">
                                 <span>田中</span>
                                 <span class="ms-2">陸</span>
@@ -38,9 +42,12 @@
                                 <span class="ms-4">男児</span>
                                 <span class="ms-3">アレルギー疾患 : 有</span>
                             </span>
-                            <input type="checkbox" disabled>
+                            <input type="checkbox" @click="handleShowRegType()">
                             <span class="checkmark"></span>
                         </label>
+
+                        <!-- user registration type -->
+                        <user-registration-type v-if="showRegType == true"></user-registration-type>
                     </div>
                 </div>
                 <!-- /user registration -->
@@ -49,3 +56,29 @@
     </section>
     <!-- /section 2 -->
 </template>
+
+<script>
+    import UserRegistrationType from "./UserRegistrationType.vue"
+
+    export default {
+        name: "UserRegistration",
+        data: () => {
+            return {
+                showRegType: false
+            }
+        },
+        components: {
+            UserRegistrationType
+        },
+        methods: {
+            handleShowRegType() {
+                this.showRegType = !this.showRegType
+                return
+            }
+        },
+    };
+</script>
+
+<style scoped>
+
+</style>
