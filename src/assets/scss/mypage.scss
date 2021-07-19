@@ -90,7 +90,7 @@
 .home{
     .home-body{
          margin: 0 70px;
-         padding-bottom: 100px;
+         padding-bottom: 150px;
         .row-1{
             padding-top: 20px;
             .p-heading{
@@ -101,7 +101,7 @@
             border: 1px solid $--color-707070;
             .row-inner{
                 margin: 8px;
-                padding: 30px 10px;
+                padding: 20px 15px;
                 border: 1px solid $--color-707070;
                 .spna-badge{
                     padding: 5px 15px;
@@ -146,6 +146,78 @@
                 .p-bottom{
                     color: $--color-909090;
                 }
+            }
+        }
+        .row-bottom{
+            color: $--color-707070;
+        }
+        .row-5{
+             margin-top: 100px;
+             .p-heading {
+                 color: $--color-cb3a82;
+             }
+        }
+        .row-6{
+            // position: relative;
+            // border: 1px solid #000;
+            margin-left: 30px;
+            border: 1px solid $--color-707070;
+            .left-col{
+                width: 5%;
+                .top-border {
+                    position: absolute;
+                    width: 4%;
+                    left: 70px;
+                    // top: -1px;
+                }
+            }
+            .right-col{
+                width: 95%;
+                .rv-point {
+                    padding-left: 15px;
+                    color: $--color-cccc3b;
+                }
+
+                .fa-star {
+                    padding-left: 15px;
+                    color: $--color-bababa;
+                }
+
+                .fa-star.checked {
+                    color: $--color-cccc3b;
+                }
+                .span-button{
+                    border: 1px solid $--color-bababa;
+                    color: $--color-bababa;
+                }
+                .p-button{
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
+                    border-radius: 8px;
+                }
+            }
+            // .inner-row{
+            //     border: 1px solid $--color-707070;
+            // }
+        }
+        .row-7{
+            margin-top: 100px;
+            border-bottom: 3px solid $--color-cb3a82;
+            padding: 0 50px;
+            .span-color{
+                color: $--color-cb3a82;
+            }
+        }
+        .row-8{
+            padding: 20px 110px;
+            border-bottom: 1px solid $--color-707070;
+            .p-text-color{
+                color: $--color-707070;
+            }
+            .span-button{
+                background-color: $--color-cb3a82;
+                color: $--color-ffffff;
+                padding: 10px 30px;
             }
         }
     }
