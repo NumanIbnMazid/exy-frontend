@@ -1,6 +1,6 @@
 <template>
   <div class="single-item">
-    <div class="d-flex">
+    <router-link  :to="{name:'Bulletin.Details'}" class="d-flex">
       <img src="../../assets/images/bulletin-board/3b52a332-s.png" alt="EXY" class="img-fluid flex-shrink-1 me-3">
       <div>
         <div class="d-flex align-items-center mb-2">
@@ -9,7 +9,7 @@
         </div>
         <p class="text-sm color-707070">府道144号線沿い中宮北町に「いろは保育園」ができるようです。↓こちら 以前は「じてんしゃ工房 PUMP it」があったところ。地図ではここ↓大阪府枚方市中宮北町2-18が住所です。大阪府枚方市中宮北町2-18が住所です。大阪府枚方市中宮北町2-18が住所です。大阪府…</p>
       </div>
-    </div>
+    </router-link>
     <div class="text-end text-muted text-sm">
       <i class="fa fa-heart"></i>
       <span class="ms-1">30</span>

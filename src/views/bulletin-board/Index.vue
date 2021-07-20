@@ -15,13 +15,15 @@
       <div class="row">
         <div class="col-md-9">
           <div class="position-relative">
-            <img src="../../assets/images/bulletin-board/ID3b52a332-s.png" alt="EXY" class="img-fluid w-100">
-            <div class="overlay">
-              <div class="content d-flex align-items-center">
-                <span class="text-white text-sm">施設</span>
-                <a href="" class="text-white text-sm">枚方市に新しい保育園ができるらしい</a>
+            <router-link :to="{name:'Bulletin.Details'}">
+              <img src="../../assets/images/bulletin-board/ID3b52a332-s.png" alt="EXY" class="img-fluid w-100">
+              <div class="overlay">
+                <div class="content d-flex align-items-center">
+                  <span class="text-white text-sm">施設</span>
+                  <a href="" class="text-white text-sm">枚方市に新しい保育園ができるらしい</a>
+                </div>
               </div>
-            </div>
+            </router-link>
           </div>
 
           <div class="border rounded-3 mt-4" style="background: #FEFDFC">

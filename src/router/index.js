@@ -161,6 +161,11 @@ const routes = [
         component: () => import("../views/bulletin-board/TemporaryChildcare")
     },
     {
+        path: '/child-rearing-information-bulletin-board-details-of-child-rearing-information',
+        name: 'Bulletin.Details',
+        component: () => import("../views/bulletin-board/Details")
+    },
+    {
         path: '/child-rearing-consultation-corner',
         name: 'ConsultationCorner',
         component: () => import("../views/consultation-corner/Index")
@@ -171,7 +176,8 @@ const routes = [
         component: () => import("../views/protection-information/Index")
     },
     {
-        path: '/test',
+        path: '/article-details',
+        name: 'Article.Details',
         component: () => import("../views/protection-information/Detail")
     },
     {

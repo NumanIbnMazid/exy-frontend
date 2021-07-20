@@ -16,7 +16,7 @@
     <div class="border border-aaa rounded-3 mt-4 p-2">
       <div class="text-center --color-e6006e text-sm mb-3">話題の情報</div>
 
-      <div class="d-flex mb-4">
+      <router-link  :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute top-left--8">
             <img src="../../assets/images/bulletin-board/1.png" alt="EXY">
@@ -26,9 +26,9 @@
         <div class="text-sm">
           枚方市に新しい保育園ができるらしい
         </div>
-      </div>
+      </router-link>
 
-      <div class="d-flex mb-4">
+      <router-link  :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute top-left--8">
             <img src="../../assets/images/bulletin-board/2.png" alt="EXY">
@@ -38,9 +38,9 @@
         <div class="text-sm">
           関西テレビ「シャバめの象さん」にひらパーが映るみたい。4月10日放送
         </div>
-      </div>
+      </router-link>
 
-      <div class="d-flex mb-4">
+      <router-link  :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute top-left--8">
             <img src="../../assets/images/bulletin-board/3.png" alt="EXY">
@@ -50,9 +50,9 @@
         <div class="text-sm">
           松井山手につくってる回転寿司店｢はま寿司｣の外観がほぼできてる
         </div>
-      </div>
+      </router-link>
 
-      <div class="d-flex mb-4">
+      <router-link  :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute top-left--8">
             <img src="../../assets/images/bulletin-board/4.png" alt="EXY">
@@ -62,9 +62,9 @@
         <div class="text-sm">
           「sarkomama」の『オムライス』（枚方市宮之阪）【ひらつーグルメ】
         </div>
-      </div>
+      </router-link>
 
-      <div class="d-flex mb-4">
+      <router-link :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute top-left--8">
             <img src="../../assets/images/bulletin-board/5.png" alt="EXY">
@@ -74,7 +74,7 @@
         <div class="text-sm">
           寝屋川市駅〜枚方市駅高架後の淀屋橋駅から1番最初の踏切はどこ？【ひらかたクイ…
         </div>
-      </div>
+      </router-link>
 
     </div>
 
