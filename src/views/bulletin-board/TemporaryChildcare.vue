@@ -14,20 +14,10 @@
     <div class="container pt-4">
       <div class="row">
         <div class="col-md-9">
-          <div class="position-relative">
-            <img src="../../assets/images/bulletin-board/ID3b52a332-s.png" alt="EXY" class="img-fluid w-100">
-            <div class="overlay">
-              <div class="content d-flex align-items-center">
-                <span class="text-white text-sm">施設</span>
-                <a href="" class="text-white text-sm">枚方市に新しい保育園ができるらしい</a>
-              </div>
-            </div>
-          </div>
 
-          <div class="border rounded-3 mt-4" style="background: #FEFDFC">
+          <div class="border rounded-3" style="background: #FEFDFC">
             <div class="border-bottom p-2">
-              <img src="../../assets/images/svg/title-left.svg" alt="EXY" class="me-1">
-              記事一覧
+              <span class="--color-e6006e">#</span> 一時保育
             </div>
 
             <div class="p-3">
@@ -55,41 +45,14 @@
 </template>
 
 <script>
-import RightSidebar from "./RightSidebar";
 import SingleItem from "./SingleItem";
-
+import RightSidebar from "./RightSidebar";
 export default {
-  name: "Index",
-  components: { SingleItem, RightSidebar }
+  name: "TemporaryChildcare",
+  components: { RightSidebar, SingleItem }
 }
 </script>
 
-<style scoped lang="scss">
-.overlay {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: rgba(0, 0, 0, .5);
+<style scoped>
 
-  .content {
-    padding: 12px;
-
-    span {
-      border: 1px solid #FFFFFF;
-      display: inline-block;
-      padding: 2px 10px;
-      margin-right: 15px;
-    }
-
-    a {
-      text-decoration: underline;
-    }
-  }
-}
-
-.top-left--8 {
-  top: -8px;
-  left: -8px;
-}
 </style>

@@ -81,7 +81,7 @@
     <div class="border border-aaa rounded-3 mt-4 p-2">
       <div class="text-center --color-e6006e text-sm mb-1">話題のタグ</div>
 
-      <div class="d-flex align-content-center justify-content-between border border-aaa rounded p-2 text-sm mb-2">
+      <router-link :to="{name:'TemporaryChildcare'}" class="d-flex align-content-center justify-content-between border border-aaa rounded p-2 text-sm mb-2">
         <div>
           <img src="../../assets/images/bulletin-board/1.png" alt="EXY">
           <span class="ms-2 fw-bold border-bottom border-aaa"><span class="--color-e6006e border-bottom border-color-e6006e">＃</span>一時保育</span>
@@ -89,8 +89,8 @@
         <div class="color-cccc3b pt-1">
           ★3/1 NEW
         </div>
-      </div>
-      <div class="d-flex align-content-center justify-content-between border border-aaa rounded p-2 text-sm mb-2">
+      </router-link>
+      <router-link :to="{name:'TemporaryChildcare'}" class="d-flex align-content-center justify-content-between border border-aaa rounded p-2 text-sm mb-2">
         <div>
           <img src="../../assets/images/bulletin-board/2.png" alt="EXY">
           <span class="ms-2 fw-bold border-bottom border-aaa"><span class="--color-e6006e border-bottom border-color-e6006e">＃</span>小規模保育</span>
@@ -98,8 +98,8 @@
         <div class="color-cccc3b pt-1">
           ★3/1 NEW
         </div>
-      </div>
-      <div class="d-flex align-content-center justify-content-between border border-aaa rounded p-2 text-sm mb-2">
+      </router-link>
+      <router-link :to="{name:'TemporaryChildcare'}" class="d-flex align-content-center justify-content-between border border-aaa rounded p-2 text-sm mb-2">
         <div>
           <img src="../../assets/images/bulletin-board/3.png" alt="EXY">
           <span class="ms-2 fw-bold border-bottom border-aaa"><span class="--color-e6006e border-bottom border-color-e6006e">＃</span>気になる施設</span>
@@ -107,8 +107,8 @@
         <div class="color-cccc3b pt-1">
           ★3/1 NEW
         </div>
-      </div>
-      <div class="d-flex align-content-center justify-content-between border border-aaa rounded p-2 text-sm mb-2">
+      </router-link>
+      <router-link :to="{name:'TemporaryChildcare'}" class="d-flex align-content-center justify-content-between border border-aaa rounded p-2 text-sm mb-2">
         <div>
           <img src="../../assets/images/bulletin-board/4.png" alt="EXY">
           <span class="ms-2 fw-bold border-bottom border-aaa"><span class="--color-e6006e border-bottom border-color-e6006e">＃</span>神アプリ</span>
@@ -116,8 +116,8 @@
         <div class="color-cccc3b pt-1">
           ★3/1 NEW
         </div>
-      </div>
-      <div class="d-flex align-content-center justify-content-between border border-aaa rounded p-2 text-sm mb-2">
+      </router-link>
+      <router-link :to="{name:'TemporaryChildcare'}" class="d-flex align-content-center justify-content-between border border-aaa rounded p-2 text-sm mb-2">
         <div>
           <img src="../../assets/images/bulletin-board/5.png" alt="EXY">
           <span class="ms-2 fw-bold border-bottom border-aaa"><span class="--color-e6006e border-bottom border-color-e6006e">＃</span>保育園さがし</span>
@@ -125,7 +125,7 @@
         <div class="color-cccc3b pt-1">
           ★3/1 NEW
         </div>
-      </div>
+      </router-link>
 
     </div>
 

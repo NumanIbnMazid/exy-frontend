@@ -156,6 +156,11 @@ const routes = [
         component: () => import("../views/bulletin-board/Index")
     },
     {
+        path: '/temporary-childcare',
+        name: 'TemporaryChildcare',
+        component: () => import("../views/bulletin-board/TemporaryChildcare")
+    },
+    {
         path: '/child-rearing-consultation-corner',
         name: 'ConsultationCorner',
         component: () => import("../views/consultation-corner/Index")
