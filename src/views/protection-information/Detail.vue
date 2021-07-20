@@ -61,15 +61,19 @@
             <div class="border-bottom border-top border-color-707070 py-3">
               <div class="d-flex">
                 <div class="d-flex" style="width: 45%;">
-                  <div style="color: #84C942; border: 1px solid; padding: 25px 4px; margin-right: 8px">保活</div>
+                  <div class="exy--arrow me-2">
+                    <span>保活</span>
+                  </div>
                   <div>保育料について</div>
                 </div>
                 <div style="border-left: 1px solid #707070; width: 10%"></div>
                 <div class="d-flex" style="width: 45%;">
-                  <div>
+                  <div style="width: calc(100% - 42px)">
                     2021/4/1から毎月実施するサポーターの住所及び氏名変更の状況確認について
                   </div>
-                  <div style="color: #84C942; border: 1px solid; padding: 2px;margin-left: 3px">お知 らせ</div>
+                  <div class="exy--arrow">
+                    <span>お知 らせ</span>
+                  </div>
                 </div>
               </div>
             </div>

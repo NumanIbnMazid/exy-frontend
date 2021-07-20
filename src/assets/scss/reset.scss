@@ -252,6 +252,7 @@ ul {
 .--color-e6006e {
     color: $--color-e6006e
 }
+
 .color-cb3a82 {
     color: $--color-cb3a82
 }
@@ -272,6 +273,10 @@ ul {
     border-color: $--color-707070 !important;
 }
 
+.border-aaa {
+    border-color: #AAAAAA !important;
+}
+
 .border-333333 {
     border-color: $--color-333333 !important;
 }
@@ -282,6 +287,10 @@ ul {
 
 .color-3d3442 {
     color: $--color-3d3442;
+}
+
+.color-cccc3b {
+    color: #CCCC3B;
 }
 
 .bg-fafafa {
@@ -313,6 +322,7 @@ ul {
         box-shadow: inherit;
     }
 }
+
 .exy-default-btn-outline {
     color: #000;
     outline: inherit;
@@ -514,4 +524,20 @@ textarea {
 
 .rounded-25 {
     border-radius: 25px
+}
+
+.exy--arrow {
+    width: 42px;
+    border: 1px solid;
+    position: relative;
+    text-align: center;
+    color: rgb(132, 201, 66);
+    
+    span {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
 }
