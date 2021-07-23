@@ -57,7 +57,6 @@ const routes = [
     },
     {
         path: '/my-page/home',
-        name: 'Home',
         component: () => import("../views/myPage/Home")
     },
     {

@@ -94,7 +94,7 @@
 
         <div class="row justify-content-center first-banner">
           <div class="col-md-5">
-            <router-link :to="{name:'todo'}">
+            <router-link :to="{name:'SearchFromArea'}">
               <div class="d-flex align-items-center">
                 <img src="../assets/images/ID3192071_m@2x.png" alt="EXY">
                 <h3>エリアからさがす</h3>
@@ -102,7 +102,7 @@
             </router-link>
           </div>
           <div class="col-md-5">
-            <router-link :to="{name:'todo'}">
+            <router-link :to="{name:'SearchFromArea'}">
               <div class="d-flex align-items-center">
                 <img src="../assets/images/ID3808135_m@2x.png" alt="EXY">
                 <h3>エリアからさがす</h3>

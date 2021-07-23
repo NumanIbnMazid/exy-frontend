@@ -136,11 +136,11 @@
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="single-item mb-4 mb-lg-0">
-              <a href="#">
+              <router-link :to="{name:'HowToUseKigarniHoik'}">
                 <img src="../assets/images/group-2762.png" class="img-fluid" alt="EXY">
                 <p>キガルニホイク使い方</p>
                 <span>Hoｗ to use</span>
-              </a>
+              </router-link>
               <p>保育園の探し方から 子育て相談コーナーなどの 活用方法まで</p>
             </div>
           </div>
