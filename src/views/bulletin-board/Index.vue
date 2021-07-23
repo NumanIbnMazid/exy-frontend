@@ -20,7 +20,7 @@
               <div class="overlay">
                 <div class="content d-flex align-items-center">
                   <span class="text-white text-sm">施設</span>
-                  <a href="" class="text-white text-sm">枚方市に新しい保育園ができるらしい</a>
+                  <a class="text-white text-sm">枚方市に新しい保育園ができるらしい</a>
                 </div>
               </div>
             </router-link>

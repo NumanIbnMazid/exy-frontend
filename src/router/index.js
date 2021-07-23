@@ -175,6 +175,11 @@ const routes = [
         component: () => import("../views/protection-information/Index")
     },
     {
+        path: '/about-kindergarten-hunting',
+        name: 'AboutKindergartenHunting',
+        component: () => import("../views/protection-information/AboutKindergartenHunting")
+    },
+    {
         path: '/article-details',
         name: 'Article.Details',
         component: () => import("../views/protection-information/Detail")

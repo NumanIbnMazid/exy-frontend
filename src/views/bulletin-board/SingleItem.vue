@@ -5,7 +5,7 @@
       <div>
         <div class="d-flex align-items-center mb-2">
           <span class="text-sm border border-color-e6006e me-3 --color-e6006e px-2">施設</span>
-          <a href="" class="text-sm fw-bold text-decoration-underline">枚方市に新しい保育園ができるらしい</a>
+          <a class="text-sm fw-bold text-decoration-underline">枚方市に新しい保育園ができるらしい</a>
         </div>
         <p class="text-sm color-707070">府道144号線沿い中宮北町に「いろは保育園」ができるようです。↓こちら 以前は「じてんしゃ工房 PUMP it」があったところ。地図ではここ↓大阪府枚方市中宮北町2-18が住所です。大阪府枚方市中宮北町2-18が住所です。大阪府枚方市中宮北町2-18が住所です。大阪府…</p>
       </div>

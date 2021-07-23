@@ -250,7 +250,7 @@
             <div class="content">
               <h2>初めての保活</h2>
               <p>初めての保育園探し。<br/>そもそも保育園って何するの？ <br/>まずは保育サービスの基本を知り、パパママと<br/>お子さんにあった保育園を選びましょう</p>
-              <a href="#">保活についてくわしくみる ＞</a>
+              <router-link :to="{name:'AboutKindergartenHunting'}">保活についてくわしくみる ＞</router-link>
             </div>
           </div>
           <div class="col-md-6 px-md-0">
