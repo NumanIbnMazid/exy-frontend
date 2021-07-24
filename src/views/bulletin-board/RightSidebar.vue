@@ -1,7 +1,9 @@
 <template>
   <div>
     <div class="border mb-3">
-      <img src="../../assets/images/bulletin-board/_kx.png" alt="EXY" class="img-fluid w-100">
+      <router-link :to="{name:'ReviewCreateForm'}">
+        <img src="../../assets/images/bulletin-board/_kx.png" alt="EXY" class="img-fluid w-100">
+      </router-link>
     </div>
     <div class="border mb-3">
       <img src="../../assets/images/life-protection/_2021-05-25_122848.png" alt="EXY" class="img-fluid w-100">
@@ -16,7 +18,7 @@
     <div class="border border-aaa rounded-3 mt-4 p-2">
       <div class="text-center --color-e6006e text-sm mb-3">話題の情報</div>
 
-      <router-link  :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
+      <router-link :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute top-left--8">
             <img src="../../assets/images/bulletin-board/1.png" alt="EXY">
@@ -28,7 +30,7 @@
         </div>
       </router-link>
 
-      <router-link  :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
+      <router-link :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute top-left--8">
             <img src="../../assets/images/bulletin-board/2.png" alt="EXY">
@@ -40,7 +42,7 @@
         </div>
       </router-link>
 
-      <router-link  :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
+      <router-link :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute top-left--8">
             <img src="../../assets/images/bulletin-board/3.png" alt="EXY">
@@ -52,7 +54,7 @@
         </div>
       </router-link>
 
-      <router-link  :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
+      <router-link :to="{name:'Bulletin.Details'}" class="d-flex mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute top-left--8">
             <img src="../../assets/images/bulletin-board/4.png" alt="EXY">
