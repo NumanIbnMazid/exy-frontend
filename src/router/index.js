@@ -160,6 +160,11 @@ const routes = [
         component: () => import("../views/bulletin-board/Index")
     },
     {
+        path: '/create-review-form',
+        name: 'ReviewCreateForm',
+        component: () => import("../views/review/ReviewCreateForm")
+    },
+    {
         path: '/temporary-childcare',
         name: 'TemporaryChildcare',
         component: () => import("../views/bulletin-board/TemporaryChildcare")
