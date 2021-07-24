@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="mypage-home">
     <div class="mypage-nav">
       <div class="row w-100">
         <div class="col-md-6 col-left">
@@ -41,20 +41,20 @@
             </div>
             <div class="col-md-2">
               <a href="#">
-                <p class="m-0 text-center fw-bold">お気に入り</p>
-                <p class="m-0 text-center text-sm">favorite</p>
+                <p class="m-0  fw-bold">お気に入り</p>
+                <p class="m-0 ps-2 text-sm">favorite</p>
               </a>
             </div>
             <div class="col-md-2">
               <a href="#">
-                <p class="m-0 pull-right pe-2 fw-bold">お知らせ</p>
-                <p class="m-0 pull-right text-sm">information</p>
+                <p class="m-0 pe-2 fw-bold">お知らせ</p>
+                <p class="m-0 text-sm">information</p>
               </a>
             </div>
             <div class="col-md-2">
               <a href="#">
-                <p class="m-0 pull-right pe-2 fw-bold">設定</p><br>
-                <p class="m-0 pull-right text-sm">setting</p>
+                <p class="m-0 text-center fw-bold">設定</p>
+                <p class="m-0 text-center text-sm">setting</p>
               </a>
             </div>
           </div>

@@ -80,6 +80,11 @@ const routes = [
         component: () => import("../views/myPage/TalkReservationChange")
     },
     {
+        path: '/my-page/notice',
+        name: 'Notice',
+        component: () => import("../views/myPage/Notice")
+    },
+    {
         path: '/contact-us',
         name: 'ContactUs',
         component: () => import("../views/contact/Index")
