@@ -256,7 +256,6 @@
                 .span-4 {
                     padding: 5px 45px;
                     border: 1px solid $--color-333333;
-                    // color: ;
                 }
 
                 .p-bottom {
@@ -269,6 +268,48 @@
             .pag{
                 border: 1px solid $--color-707070;
                 border-radius: 5px;
+            }
+        }
+    }
+}
+.mypage-reservation{
+    .reservation-canceled{
+        padding-bottom: 100px;
+        .right-col{
+            .row-1{
+                .top-span{
+                    color: $--color-cb3a82;
+                }
+            }
+            .row-2{
+                border: 1px solid $--color-707070;
+                .inner-1{
+                    border-bottom: 1px solid $--color-707070;
+                    .left-1{
+                        padding-top: 15px;
+                        border: 1px solid $--color-cb3a82;
+                        color: $--color-cb3a82;
+                    }
+                    .left-2{
+                        background-color: $--color-cb3a82;
+                        padding-top: 15px;
+                        color: $--color-ffffff;
+                    }
+                    .left-3 {
+                        padding-top: 15px;
+                        border: 1px solid $--color-707070;
+                    }
+                    .left-4 {
+                        background-color: $--color-dddddd;
+                        padding-top: 15px;
+                        color: $--color-707070;
+                    }
+                    .left-5 {
+                        background-color: $--color-333333;
+                        padding-top: 15px;
+                        color: $--color-ffffff;
+                    }
+                }
             }
         }
     }

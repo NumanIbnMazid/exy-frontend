@@ -85,6 +85,11 @@ const routes = [
         component: () => import("../views/myPage/Notice")
     },
     {
+        path: '/my-page/reservation/canceled',
+        name: 'Canceled',
+        component: () => import("../views/myPage/reservation/Canceled")
+    },
+    {
         path: '/contact-us',
         name: 'ContactUs',
         component: () => import("../views/contact/Index")
