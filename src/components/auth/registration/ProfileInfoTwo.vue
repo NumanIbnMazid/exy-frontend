@@ -27,7 +27,7 @@
             保育園を利用するお子さまの情報をご登録ください。
           </p>
         </div>
-        <div class="profile-info-one-body">
+        <div class="profile-info-two-body">
           <form novalidate>
             <div class="card">
               <div class="card-header">
@@ -234,7 +234,7 @@
             </div>
 
 
-             <div class="card">
+             <div class="card mt-3">
               <div class="card-header">
                 <h5>第二子</h5>
               </div>
@@ -457,8 +457,8 @@
 
 
 
-            <div class="form-group text-center">
-              <router-link :to="{ name: 'ProfileInfoTwo' }">
+            <div class="form-group text-center ">
+              <router-link :to="{ name: 'ProfileInfo' }">
                 <button
                   type="submit"
                   class="btn text-xl exy-default-btn-outline rounded-0 mt-4"
