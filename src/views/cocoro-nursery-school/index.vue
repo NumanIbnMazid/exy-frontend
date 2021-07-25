@@ -656,7 +656,9 @@
                                                                 </div>
                                                             </div>
                                                             <div class="mt-3">
-                                                                <span>＋連絡先を追加する</span>
+                                                                <a href="#" data-bs-toggle="modal" data-bs-target="#purposeOfUseModal">
+                                                                    ＋連絡先を追加する
+                                                                </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -671,6 +673,15 @@
                                     <!-- Remarks -->
                                     <remarks></remarks>
                                     <!-- /section 2 -->
+                                    <!-- section 3 -->
+                                    <section class="p-4 mt-2">
+                                        <div class="text-end">
+                                            <router-link :to="{name:'ProceedToReservation'}" class="content-btn" type="button">
+                                                この内容で次へ
+                                            </router-link>
+                                        </div>
+                                    </section>
+                                    <!-- /section 3 -->
                                 </div>
                             </div>
                             <!-- *** Tab /3 *** -->

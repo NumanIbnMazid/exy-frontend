@@ -8,9 +8,9 @@
                 <span class="text-3xl fw-bold text-red ms-4">¥5,000</span>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-end">
-                <button class="content-btn me-5">
+                <router-link :to="{name:'ReservationContent'}" class="content-btn me-5" type="button">
                     <span class="fw-bold">この内容で次へ</span>
-                </button>
+                </router-link>
             </div>
         </div>
     </section>
