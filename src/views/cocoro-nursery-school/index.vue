@@ -150,7 +150,7 @@
 
                                     <!-- section 2 -->
                                     <!-- User Registration -->
-                                    <user-registration></user-registration>
+                                    <user-registration :showRegType="showRegType"></user-registration>
                                     <!-- /section 2 -->
 
 
@@ -168,7 +168,7 @@
 
                                     <!-- section 5 -->
                                     <!-- Questionnaire -->
-                                    <questionnaire></questionnaire>
+                                    <questionnaire :showRegType="showRegType"></questionnaire>
                                     <!-- /section 5 -->
 
 
@@ -457,7 +457,7 @@
 
                                     <!-- section 2 -->
                                     <!-- User Registration -->
-                                    <user-registration></user-registration>
+                                    <user-registration :showRegType="showRegType"></user-registration>
                                     <!-- /section 2 -->
 
                                     <!-- section 3 -->
@@ -472,7 +472,7 @@
 
                                     <!-- section 5 -->
                                     <!-- Questionnaire -->
-                                    <questionnaire></questionnaire>
+                                    <questionnaire :showRegType="showRegType"></questionnaire>
                                     <!-- /section 5 -->
 
                                     <!-- section 6 -->
@@ -709,6 +709,7 @@
         data() {
             return {
                 date: '',
+                showRegType: false
             }
         },
         components: {
@@ -728,7 +729,7 @@
                 today.setHours(0, 0, 0, 0)
 
                 return date < today
-            }
+            },
         },
     };
 </script>

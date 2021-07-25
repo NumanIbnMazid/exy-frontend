@@ -1,7 +1,8 @@
 .mypage-nav{
     padding: 20px 0;
+    margin: 0 80px 0 110px;
     .col-left{
-        padding-left: 80px;
+        // padding-left: 80px;
         .nav-badge{
             background-color: $--color-cccc3b;
             color: $--color-ffffff;
@@ -87,10 +88,10 @@
     }
 }
 
-.home{
+.mypage-home {
     .home-body{
-         margin: 0 70px;
-         padding-bottom: 100px;
+         margin: 0 125px;
+         padding-bottom: 150px;
         .row-1{
             padding-top: 20px;
             .p-heading{
@@ -101,7 +102,7 @@
             border: 1px solid $--color-707070;
             .row-inner{
                 margin: 8px;
-                padding: 30px 10px;
+                padding: 20px 15px;
                 border: 1px solid $--color-707070;
                 .spna-badge{
                     padding: 5px 15px;
@@ -145,6 +146,169 @@
                 }
                 .p-bottom{
                     color: $--color-909090;
+                }
+            }
+        }
+        .row-bottom{
+            color: $--color-707070;
+        }
+        .row-5{
+             margin-top: 100px;
+             .p-heading {
+                 color: $--color-cb3a82;
+             }
+        }
+        .row-6{
+            margin-left: 30px;
+            border: 1px solid $--color-707070;
+            .left-col{
+                width: 5%;
+                .top-border {
+                    position: absolute;
+                    width: 4%;
+                    left: 125px;
+                }
+            }
+            .right-col{
+                width: 95%;
+                .rv-point {
+                    padding-left: 15px;
+                    color: $--color-cccc3b;
+                }
+
+                .fa-star {
+                    padding-left: 15px;
+                    color: $--color-bababa;
+                }
+
+                .fa-star.checked {
+                    color: $--color-cccc3b;
+                }
+                .span-button{
+                    border: 1px solid $--color-bababa;
+                    color: $--color-bababa;
+                }
+                .p-button{
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
+                    border-radius: 8px;
+                }
+            }
+        }
+        .row-7{
+            margin-top: 100px;
+            border-bottom: 3px solid $--color-cb3a82;
+            padding: 0 50px;
+            .span-color{
+                color: $--color-cb3a82;
+            }
+        }
+        .row-8{
+            padding: 20px 50px;
+            border-bottom: 1px solid $--color-707070;
+            .p-text-color{
+                color: $--color-707070;
+            }
+            .span-button{
+                background-color: $--color-cb3a82;
+                color: $--color-ffffff;
+                padding: 10px 30px;
+            }
+        }
+    }
+}
+.mypage-notice{
+    .notice-body{
+        margin: 60px 155px 0 125px;
+        padding-bottom: 200px;
+        .row-1{
+            border-bottom: 3px solid $--color-cb3a82;
+            .span-color{
+                color: $--color-cb3a82;
+            }
+        }
+        .row-2{
+            .left-col{
+                width: 12%;
+            }
+            .right-col {
+                width: 88%;
+                border-top: 1px dashed $--color-707070;
+                border-bottom: 1px dashed $--color-707070;
+
+                .span-1 {
+                    padding: 5px 45px;
+                    border: 1px solid $--color-cb3a82;
+                    color: $--color-cb3a82;
+                }
+
+                .span-2 {
+                    padding: 5px 45px;
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
+                }
+
+                .span-3 {
+                    padding: 5px 15px;
+                    background-color: $--color-bababa;
+                    color: $--color-ffffff;
+                }
+                .span-4 {
+                    padding: 5px 45px;
+                    border: 1px solid $--color-333333;
+                }
+
+                .p-bottom {
+                    color: $--color-909090;
+                }
+            }
+        }
+        .row-3{
+            padding: 100px 0;
+            .pag{
+                border: 1px solid $--color-707070;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+.mypage-reservation{
+    .reservation-canceled{
+        padding-bottom: 100px;
+        .right-col{
+            .row-1{
+                .top-span{
+                    color: $--color-cb3a82;
+                }
+            }
+            .row-2{
+                border: 1px solid $--color-707070;
+                .inner-1{
+                    border-bottom: 1px solid $--color-707070;
+                    .left-1{
+                        padding-top: 15px;
+                        border: 1px solid $--color-cb3a82;
+                        color: $--color-cb3a82;
+                    }
+                    .left-2{
+                        background-color: $--color-cb3a82;
+                        padding-top: 15px;
+                        color: $--color-ffffff;
+                    }
+                    .left-3 {
+                        padding-top: 15px;
+                        border: 1px solid $--color-707070;
+                    }
+                    .left-4 {
+                        background-color: $--color-dddddd;
+                        padding-top: 15px;
+                        color: $--color-707070;
+                    }
+                    .left-5 {
+                        background-color: $--color-333333;
+                        padding-top: 15px;
+                        color: $--color-ffffff;
+                    }
                 }
             }
         }

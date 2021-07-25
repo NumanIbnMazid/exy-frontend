@@ -10,7 +10,7 @@
         </div>
         <div class="search-result-left-content">
           <h4 class="fw-bold">
-            <router-link to="/details" class="title">COCORO HOIKUEN 〇〇園</router-link>
+            <span class="title">COCORO HOIKUEN 〇〇園</span>
           </h4>
           <div class="search-result-left-img">
             <div class="mb-2">
@@ -34,7 +34,7 @@
         <div class="dashed-border"></div>
         <div class="py-2">
           <div class="w-85">概 要</div>
-          <router-link :to="{name:'search.result'}" class="title d-flex text-sm">【園のPR分・自由入力】ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。</router-link>
+          <div class="title d-flex text-sm">【園のPR分・自由入力】ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。ダミーテキスト。</div>
         </div>
         <div class="dashed-border"></div>
         <div class="py-2">

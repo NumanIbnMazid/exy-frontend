@@ -2,7 +2,7 @@
 
 ## TASKS
 
-* Fix Tab -1 User Registration Section
+* Fix Child Parent Inheritance: Index, User Registration, Questionnaire (page: 33)
 
 ## ISSUES
 

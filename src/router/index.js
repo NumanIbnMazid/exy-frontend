@@ -57,7 +57,6 @@ const routes = [
     },
     {
         path: '/my-page/home',
-        name: 'Home',
         component: () => import("../views/myPage/Home")
     },
     {
@@ -79,6 +78,16 @@ const routes = [
         path: '/my-page/talk-reservation-Change',
         name: 'TalkResarvationChange',
         component: () => import("../views/myPage/TalkReservationChange")
+    },
+    {
+        path: '/my-page/notice',
+        name: 'Notice',
+        component: () => import("../views/myPage/Notice")
+    },
+    {
+        path: '/my-page/reservation/canceled',
+        name: 'Canceled',
+        component: () => import("../views/myPage/reservation/Canceled")
     },
     {
         path: '/contact-us',
@@ -156,6 +165,21 @@ const routes = [
         component: () => import("../views/bulletin-board/Index")
     },
     {
+        path: '/create-review-form',
+        name: 'ReviewCreateForm',
+        component: () => import("../views/review/ReviewCreateForm")
+    },
+    {
+        path: '/temporary-childcare',
+        name: 'TemporaryChildcare',
+        component: () => import("../views/bulletin-board/TemporaryChildcare")
+    },
+    {
+        path: '/child-rearing-information-bulletin-board-details-of-child-rearing-information',
+        name: 'Bulletin.Details',
+        component: () => import("../views/bulletin-board/Details")
+    },
+    {
         path: '/child-rearing-consultation-corner',
         name: 'ConsultationCorner',
         component: () => import("../views/consultation-corner/Index")
@@ -166,7 +190,13 @@ const routes = [
         component: () => import("../views/protection-information/Index")
     },
     {
-        path: '/test',
+        path: '/about-kindergarten-hunting',
+        name: 'AboutKindergartenHunting',
+        component: () => import("../views/protection-information/AboutKindergartenHunting")
+    },
+    {
+        path: '/article-details',
+        name: 'Article.Details',
         component: () => import("../views/protection-information/Detail")
     },
     {

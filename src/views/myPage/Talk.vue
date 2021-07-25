@@ -20,22 +20,22 @@
         <div class="col-md-6 col-right mt-3">
           <div class="row text-base">
             <div class="col-md-2">
-              <a href="#">
+              <router-link to="/my-page/home">
                 <p class="m-0 fw-bold">ホーム</p>
                 <p class="m-0 text-sm">home</p>
-              </a>
+              </router-link>
             </div>
             <div class="col-md-2 active">
-              <a href="#">
+              <router-link :to="{name:'Talk'}">
                 <p class="m-0 fw-bold">トーク</p>
                 <p class="m-0 ps-2 text-sm">talk</p>
-              </a>
+              </router-link>
             </div>
             <div class="col-md-2">
-              <a href="#">
+              <router-link :to="{name:'Canceled'}">
                 <p class="m-0 fw-bold">予約一覧</p>
                 <p class="m-0 ps-2 text-sm">reserve</p>
-              </a>
+              </router-link>
             </div>
             <div class="col-md-2">
               <a href="#">
@@ -44,10 +44,10 @@
               </a>
             </div>
             <div class="col-md-2">
-              <a href="#">
+              <router-link :to="{name:'Notice'}">
                 <p class="m-0 pull-right pe-2 fw-bold">お知らせ</p>
                 <p class="m-0 pull-right text-sm">information</p>
-              </a>
+              </router-link>
             </div>
             <div class="col-md-2">
               <a href="#">

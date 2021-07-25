@@ -136,11 +136,11 @@
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="single-item mb-4 mb-lg-0">
-              <a href="#">
+              <router-link :to="{name:'HowToUseKigarniHoik'}">
                 <img src="../assets/images/group-2762.png" class="img-fluid" alt="EXY">
                 <p>キガルニホイク使い方</p>
                 <span>Hoｗ to use</span>
-              </a>
+              </router-link>
               <p>保育園の探し方から 子育て相談コーナーなどの 活用方法まで</p>
             </div>
           </div>
@@ -250,7 +250,7 @@
             <div class="content">
               <h2>初めての保活</h2>
               <p>初めての保育園探し。<br/>そもそも保育園って何するの？ <br/>まずは保育サービスの基本を知り、パパママと<br/>お子さんにあった保育園を選びましょう</p>
-              <a href="#">保活についてくわしくみる ＞</a>
+              <router-link :to="{name:'AboutKindergartenHunting'}">保活についてくわしくみる ＞</router-link>
             </div>
           </div>
           <div class="col-md-6 px-md-0">
