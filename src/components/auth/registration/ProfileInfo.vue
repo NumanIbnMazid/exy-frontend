@@ -64,7 +64,7 @@
                       <div class="bg-light input-label">
                         <span
                           >パスワード
-                          <span class="badge bg-secondary">必 須</span>
+                          <span class="badge badge-exy">必 須</span>
                         </span>
                         <small>半角／英数</small>
                       </div>
@@ -85,7 +85,7 @@
                       <div class="bg-light input-label">
                         <span
                           >パスワード再入力
-                          <span class="badge bg-secondary">必 須</span>
+                          <span class="badge badge-exy">必 須</span>
                         </span>
                         <small>半角／英数</small>
                       </div>
@@ -102,7 +102,7 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >性別 <span class="badge bg-secondary">必 須</span>
+                          >性別 <span class="badge badge-exy">必 須</span>
                         </span>
                       </div>
                     </div>
@@ -124,7 +124,7 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >生年月日 <span class="badge bg-secondary">必 須</span>
+                          >生年月日 <span class="badge badge-exy">必 須</span>
                         </span>
                       </div>
                     </div>
@@ -193,7 +193,7 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >ニックネーム <span class="badge bg-secondary">必 須</span>
+                          >ニックネーム <span class="badge badge-exy">必 須</span>
                         </span>
                       </div>
                     </div>
@@ -209,7 +209,7 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >電話番号 <span class="badge bg-secondary">必 須</span>
+                          >電話番号 <span class="badge badge-exy">必 須</span>
                         </span>
                       </div>
                     </div>
@@ -301,7 +301,7 @@
               </div>
             </div>
             <div class="form-group text-center">
-               <router-link :to="{name:'PasswordReset'}">
+               <router-link :to="{name:'ProfileInfoTwo'}">
                  <button type="submit" class="btn text-xl exy-default-btn rounded-0 mt-4">次へ</button>
                </router-link>
             </div>

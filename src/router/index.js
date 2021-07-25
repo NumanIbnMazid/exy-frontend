@@ -230,6 +230,11 @@ const routes = [
         component: () => import("../components/auth/registration/ProfileInfo")
     },
     {
+        path: '/profile-info-two',
+        name: 'ProfileInfoTwo',
+        component: () => import("../components/auth/registration/ProfileInfoTwo")
+    },
+    {
         path: '/reset-password',
         name: 'ResetPassword',
         component: () => import("../components/auth/ResetPassword")
