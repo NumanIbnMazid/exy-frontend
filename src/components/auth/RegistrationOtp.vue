@@ -81,7 +81,7 @@
                   戻る
                 </button>
               </router-link>
-              <router-link :to="{ name: 'SetPassword' }">
+              <router-link :to="{ name: 'ProfileInfo' }">
                 <button
                   type="buttno"
                   class="btn text-xl exy-default-btn rounded-0"

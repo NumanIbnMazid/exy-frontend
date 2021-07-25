@@ -195,6 +195,11 @@ const routes = [
         component: () => import("../components/auth/RegistrationOtp")
     },
     {
+        path: '/profile-info',
+        name: 'ProfileInfo',
+        component: () => import("../components/auth/registration/ProfileInfo")
+    },
+    {
         path: '/reset-password',
         name: 'ResetPassword',
         component: () => import("../components/auth/ResetPassword")
