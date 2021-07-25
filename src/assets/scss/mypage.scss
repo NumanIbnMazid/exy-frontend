@@ -275,7 +275,7 @@
 .mypage-reservation{
     .reservation-body{
         padding-bottom: 100px;
-        .right-col{
+        .left-col{
             .row-1{
                 .top-span{
                     color: $--color-cb3a82;
@@ -309,6 +309,106 @@
                         padding-top: 15px;
                         color: $--color-ffffff;
                     }
+                }
+            }
+        }
+        .right-col{
+            padding-bottom: 100px;
+            .row-1{
+                border: 1px solid $--color-707070;
+                .p-text-color{
+                    color: $--color-989898;
+                }
+            }
+            .row-2{
+                border-left: 1px solid $--color-707070;
+                border-right: 1px solid $--color-707070;
+                .top-p{
+                    padding-top: 9px;
+                }
+                .span-1{
+                    padding: 13px 43px;
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
+                }
+                .span-2{
+                    border-radius: 5px;
+                    border: 1px solid $--color-84c942;
+                    color: $--color-84c942;
+                    padding: 10px 90px;
+                }
+                .col-left{
+                    width: 20%;
+                }
+                .col-middle{
+                    width: 50%;
+                }
+                .col-right{
+                    width: 30%;
+                }
+                .col-4 {
+                    width: 23%;
+                }
+                .col-5 {
+                    width: 10%;
+                }
+                .col-6 {
+                    width: 67%;
+                }
+                .col-7 {
+                    width: 77%;
+                }
+                .col-left-border{
+                    border-left: 1px solid $--color-d6d6d6;
+                }
+                .right-p{
+                    border-radius: 5px;
+                    border: 1px solid $--color-cb3a82;
+                    color: $--color-cb3a82;
+                }
+                .p-box-1{
+                    border: 1px solid $--color-707070;
+                }
+                .inner-1{
+                    border-top: 1px solid $--color-d6d6d6;
+                }
+                .inner-2 {
+                    border-top: 1px solid $--color-d6d6d6;
+                    border-bottom: 1px solid $--color-d6d6d6;
+                }
+            }
+            .row-3{
+                background-color: $--color-f8f7f7;
+                border: 1px solid $--color-d6d6d6;
+            }
+            .row-4{
+                 border-top: 1px solid $--color-d6d6d6;
+                 border-bottom: 1px solid $--color-d6d6d6;
+                 border-left: 1px solid $--color-707070;
+            }
+            .right-border{
+                border-right: 0px;
+            }
+            .row-5{
+                border-bottom: 1px solid $--color-d6d6d6;
+                border-left: 1px solid $--color-707070;
+                .col-1{
+                    width: 20%;
+                }
+                .col-2 {
+                    width: 20%;
+                }
+                .col-3 {
+                    width: 60%;
+                }
+            }
+            .row-6{
+                margin-top: 100px;
+                background-color: $--color-f8f7f7;
+                .span-btn{
+                    background-color: $--color-ffffff;
+                    border: 1px solid $--color-cb3a82;
+                    color: $--color-cb3a82;
                 }
             }
         }
