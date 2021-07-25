@@ -676,7 +676,7 @@
                                     <!-- section 3 -->
                                     <section class="p-4 mt-2">
                                         <div class="text-end">
-                                            <router-link :to="{name:'ProceedToReservation'}" class="content-btn" type="button">
+                                            <router-link :to="{name:'ReservationContentSecondary'}" class="content-btn" type="button">
                                                 この内容で次へ
                                             </router-link>
                                         </div>
