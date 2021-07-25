@@ -5,7 +5,7 @@
         <div class="col-md-6 col-left">
           <div class="row">
             <div class="col-md-2">
-              <img src="../../../assets/images/mypage/daiga-ellaby--0KARP5Jh_8-unspl.png" alt="EXY">
+              <img src="../../assets/images/mypage/daiga-ellaby--0KARP5Jh_8-unspl.png" alt="EXY">
             </div>
             <div class="col-md-10 mt-3">
               <div class="row">
@@ -22,7 +22,7 @@
         <div class="col-md-6 col-right mt-3">
           <div class="row text-base">
             <div class="col-md-2">
-              <router-link to="/my-page/home">
+              <router-link :to="{name:'Mypage.Home'}">
                 <p class="m-0 fw-bold">ホーム</p>
                 <p class="m-0 text-sm">home</p>
               </router-link>
@@ -34,7 +34,7 @@
               </router-link>
             </div>
             <div class="col-md-2 active">
-              <router-link :to="{name:'Canceled'}">
+              <router-link :to="{name:'Reservation'}">
                 <p class="m-0 fw-bold">予約一覧</p>
                 <p class="m-0 ps-2 text-sm">reserve</p>
               </router-link>
@@ -61,13 +61,13 @@
         </div>
       </div>
     </div>
-    <section class="reservation-canceled">
+    <section class="reservation-body">
       <div class="row w-100 mt-5 me-0 ms-0">
         <div class="col-md-3 right-col">
           <div class="row row-1">
             <p class="text-lg ps-5"><span class="top-span">|</span> 予約一覧</p>
           </div>
-          <router-link :to="{name:'todo', params:{page:59}}">
+          <a @click="activeTab=1">
             <div class="row row-2">
               <div class="col-md-12">
                 <div class="row inner-1">
@@ -85,8 +85,8 @@
                 </div>
               </div>
             </div>
-          </router-link>
-          <router-link :to="{name:'todo', params:{page:58}}">
+          </a>
+          <a @click="activeTab=2">
             <div class="row row-2 mt-2">
               <div class="col-md-12 ">
                 <div class="row inner-1">
@@ -104,8 +104,8 @@
                 </div>
               </div>
             </div>
-          </router-link>
-          <router-link :to="{name:'todo', params:{page:57}}">
+          </a>
+          <a @click="activeTab=3">
             <div class="row row-2 mt-2">
               <div class="col-md-12 ">
                 <div class="row inner-1">
@@ -123,8 +123,8 @@
                 </div>
               </div>
             </div>
-          </router-link>
-          <router-link :to="{name:'todo', params:{page:57}}">
+          </a>
+          <a @click="activeTab=4">
             <div class="row row-2 mt-2">
               <div class="col-md-12 ">
                 <div class="row inner-1">
@@ -142,8 +142,8 @@
                 </div>
               </div>
             </div>
-          </router-link>
-          <router-link :to="{name:'todo', params:{page:57}}">
+          </a>
+          <a @click="activeTab=5">
             <div class="row row-2 mt-2">
               <div class="col-md-12 ">
                 <div class="row inner-1">
@@ -161,9 +161,22 @@
                 </div>
               </div>
             </div>
-          </router-link>
+          </a>
         </div>
-        <div class="col-md-9"></div>
+        <div class="col-md-9">
+            <div v-if="activeTab===4" class="row">
+                <p class="text-center">Tab 4</p>
+            </div>
+             <div v-if="activeTab===1" class="row">
+                <p class="text-center">Tab 1</p>
+            </div>
+            <div v-if="activeTab===3" class="row">
+                <p class="text-center">Tab 3</p>
+            </div>
+            <div v-if="activeTab===2" class="row">
+                <p class="text-center">Tab 2</p>
+            </div>
+        </div>
       </div>
     </section>
   </div>
@@ -171,7 +184,12 @@
 
 <script>
 export default {
-  name: "Canceled"
+  name: "Reservation",
+   data() {
+    return {
+      activeTab: 4
+    }
+   },
 }
 </script>
 

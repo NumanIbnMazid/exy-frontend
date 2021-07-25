@@ -20,7 +20,7 @@
         <div class="col-md-6 col-right mt-3">
           <div class="row text-base">
             <div class="col-md-2">
-              <router-link to="/my-page/home">
+              <router-link :to="{name:'Mypage.Home'}">
                 <p class="m-0 fw-bold">ホーム</p>
                 <p class="m-0 text-sm">home</p>
               </router-link>
@@ -32,7 +32,7 @@
               </router-link>
             </div>
             <div class="col-md-2">
-              <router-link :to="{name:'Canceled'}">
+              <router-link :to="{name:'Reservation'}">
                 <p class="m-0 fw-bold">予約一覧</p>
                 <p class="m-0 ps-2 text-sm">reserve</p>
               </router-link>
