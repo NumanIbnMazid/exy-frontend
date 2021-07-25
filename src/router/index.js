@@ -57,6 +57,7 @@ const routes = [
     },
     {
         path: '/my-page/home',
+        name: 'Mypage.Home',
         component: () => import("../views/myPage/Home")
     },
     {
@@ -85,9 +86,9 @@ const routes = [
         component: () => import("../views/myPage/Notice")
     },
     {
-        path: '/my-page/reservation/canceled',
-        name: 'Canceled',
-        component: () => import("../views/myPage/reservation/Canceled")
+        path: '/my-page/reservation',
+        name: 'Reservation',
+        component: () => import("../views/myPage/Reservation")
     },
     {
         path: '/contact-us',
@@ -133,6 +134,16 @@ const routes = [
         path: '/proceed-to-reservation',
         name: 'ProceedToReservation',
         component: () => import("../views/cocoro-nursery-school/index")
+    },
+    {
+        path: '/reservation-content',
+        name: 'ReservationContent',
+        component: () => import("../views/cocoro-nursery-school/ReservationContents")
+    },
+    {
+        path: '/reservation-content-secondary',
+        name: 'ReservationContentSecondary',
+        component: () => import("../views/cocoro-nursery-school/ReservationContentSecondary")
     },
     {
         path: '/payment-method-selection',
