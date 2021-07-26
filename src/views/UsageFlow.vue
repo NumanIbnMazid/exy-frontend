@@ -283,13 +283,7 @@
 
     <section class="py-5">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <a href="#">
-              <img src="../assets/images/sinkitouroku.png" alt="EXY" class="img-fluid rounded">
-            </a>
-          </div>
-        </div>
+        <registration-link />
       </div>
     </section>
 
@@ -297,8 +291,10 @@
 </template>
 
 <script>
+import RegistrationLink from "../components/RegistrationLink";
 export default {
-  name: "UsageFlow"
+  name: "UsageFlow",
+  components: { RegistrationLink }
 }
 </script>
 

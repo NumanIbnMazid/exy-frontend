@@ -63,7 +63,7 @@
     </div>
     <section class="reservation-body">
       <div class="row w-100 mt-5 me-0 ms-0">
-        <div class="col-md-3 right-col">
+        <div class="col-md-3 left-col pe-4">
           <div class="row row-1">
             <p class="text-lg ps-5"><span class="top-span">|</span> 予約一覧</p>
           </div>
@@ -163,9 +163,226 @@
             </div>
           </a>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 right-col">
             <div v-if="activeTab===4" class="row">
-                <p class="text-center">Tab 4</p>
+                <div class="col-md-12 text-sm">
+                    <div class="row row-1 py-4 ps-2">
+                        <p class="m-0 text-lg">キャンセルを受付ました。(2021年2月1日)</p>
+                    </div>
+                    <div class="row row-2 pb-4 ps-3">
+                        <p class="top-p"><span class="span-1">キャンセル済み</span></p>
+                    </div>
+                    <div class="row row-2 ps-3 pb-4">
+                        <div class="col-left">
+                            <img src="../../assets/images/mypage/Mask_Group_60.png" alt="EXY" class="w-100">
+                        </div>
+                        <div class="col-middle">
+                            <p class="text-xl text-decoration-underline fw-bold">COCOROHOIKUEN 弁天町園</p>
+                            <p class="text-base mt-4 mb-3">
+                                〒552-0002 大阪市港区市岡元町2-11-30 1階 <br>
+                                JR大阪環状線「弁天町駅」から徒歩８分 <br>
+                                電話番号：06-6539-8484
+                            </p>
+                            <p class="text-base"> 
+                                <router-link :to="{name:'Talk'}">
+                                    <span class="span-2">トークルーム</span>
+                                </router-link>
+                            </p>
+                        </div>
+                        <div class="col-right pe-4">
+                            <router-link :to="{name:'todo', params:{page:68}}">
+                                <p class="text-center m-0 right-p py-2">一覧から削除</p>
+                            </router-link>
+                        </div>
+                    </div>
+                    <div class="row row-1 p-3">
+                        <p class="m-0 text-lg">予約内容 <span class="pull-right"><img src="../../assets/images/svg/collapse.svg" alt="EXY"></span></p>
+                    </div>
+                    <div class="row row-3 px-3 py-2">
+                        <p class="m-0 text-sm">登園日時</p>
+                    </div>
+                    <div class="row row-2 p-3">
+                        <p class="m-0 text-sm">2021年2月26日（金）<span class="ms-5">09：00 〜 17：00</span></p>
+                    </div>
+                    <div class="row row-3 px-3 py-2">
+                        <p class="m-0 text-sm">予約詳細</p>
+                    </div>
+                    <div class="row row-2 right-border p-3">
+                        <div class="col-left">
+                            <p class="m-0">プラン</p>
+                        </div>
+                        <div class="col-middle">
+                            <p class="m-0">体験保育  <span class="px-3">｜</span>  １歳児以上</p>
+                        </div>
+                    </div>
+                    <div class="row row-4 px-3 py-2 me-3">
+                        <p class="m-0">オプション</p>
+                    </div>
+                    <div class="row row-5 p-3 me-3">
+                        <div class="col-1">
+                            <p class="m-0">利用者</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="m-0">１. 田中 海</p>
+                        </div>
+                        <div class="col-3">
+                            <p class="m-0">令和2年2月25日生（満１歳）<span class="px-2"></span> 男児 アレルギー疾患：有</p>
+                        </div>
+                    </div>
+                    <div class="row row-5 p-3 me-3">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-1">
+                                    <p class="m-0">送迎者</p>
+                                </div>
+                                <div class="col-2">
+                                    <p class="m-0">１．田中 愛</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="m-0">族柄：母 <span class="px-4"></span> <span class="pe-3">｜</span>携帯番号：090-0000-0000</p>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-1">
+                                    
+                                </div>
+                                <div class="col-2">
+                                    <p class="m-0">２．田中 仁</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="m-0">族柄：父 <span class="px-4"></span> <span class="pe-3">｜</span>携帯番号：090-0000-0000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-5 p-3 me-3">
+                        <div class="col-1">
+                            <p class="m-0">緊急連絡先追加</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="m-0">１．上田 誠</p>
+                        </div>
+                        <div class="col-3">
+                            <p class="m-0">族柄：祖父 <span class="px-3"></span> <span class="pe-3">｜</span>携帯番号：090-0000-0000</p>
+                        </div>
+                    </div>
+                    <div class="row row-2 right-border p-3">
+                        <div class="col-left">
+                            <p class="m-0">支払い方法</p>
+                        </div>
+                        <div class="col-middle">
+                            <p class="m-0">クレジット支払い</p>
+                        </div>
+                    </div>
+                    <div class="row row-3 px-3 py-2">
+                        <p class="m-0">アンケート</p>
+                    </div>
+                    <div class="row row-2 right-border p-3">
+                       <div class="col-md-12 pb-4">
+                           <div class="row">
+                                <div class="col-4 pt-2">
+                                    <p class="m-0">▶︎アレルギー</p>
+                                </div>
+                                <div class="col-5 pt-2">
+                                    <p class="m-0">あり</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="m-0 p-box-1 ps-3 py-2">卵アレルギーがあります。</p>
+                                </div>
+                           </div>
+                           <div class="row mt-3">
+                                <div class="col-4">
+                                    <p class="m-0">▶︎ミルク</p>
+                                </div>
+                                <div class="col-5">
+                                    <p class="m-0">あり</p>
+                                </div>
+                           </div>
+                           <div class="row mt-3">
+                                <div class="col-4">
+                                    <p class="m-0">▶︎おやつ</p>
+                                </div>
+                                <div class="col-5">
+                                    <p class="m-0">なし</p>
+                                </div>
+                           </div>
+                           <div class="row mt-3">
+                                <div class="col-4">
+                                    <p class="m-0">▶︎給食</p>
+                                </div>
+                                <div class="col-5">
+                                    <p class="m-0">なし</p>
+                                </div>
+                           </div>
+                           <div class="row mt-3">
+                                <div class="col-4">
+                                    <p class="m-0">▶︎離乳食のすすみ具合</p>
+                                </div>
+                                <div class="col-7">
+                                    <p class="m-0 p-box-1 ps-3 py-2">柔らかく煮たブロッコリーをお昼ごはんに食べています。それ以外はまだ食べられません。（好き嫌いかも…？）</p>
+                                </div>
+                           </div>
+                       </div>
+                    </div>
+                    <div class="row row-3 px-3 py-2">
+                        <p class="m-0">備考</p>
+                    </div>
+                    <div class="row row-2 p-3">
+                        <p class="">【園に伝えておきたいことなどを自由にご記入ください】親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。</p>
+                    </div>
+                    <div class="row row-3 px-3 py-2">
+                        <p class="m-0">金額</p>
+                    </div>
+                    <div class="row row-2 right-border px-3 py-4">
+                        <div class="col-md-12">
+                            <div class="row inner-1">
+                                <div class="col-md-11 ps-3 py-2">
+                                    <p class="m-0">体験保育  <span class="px-3">｜</span>  １歳児以上 プラン（9:00h × ¥10）</p>
+                                </div>
+                                <div class="col-md-1 ps-3 py-2 col-left-border">
+                                    <p class="m-0">￥5,400</p>
+                                </div>
+                            </div>
+                            <div class="row inner-1">
+                                <div class="col-md-11 ps-3 py-2">
+                                    <p class="m-0">施設利用料</p>
+                                </div>
+                                <div class="col-md-1 ps-3 py-2 col-left-border">
+                                    <p class="m-0">￥500</p>
+                                </div>
+                            </div>
+                            <div class="row inner-1">
+                                <div class="col-md-11 ps-3 py-2">
+                                    <p class="m-0">その他費用 <span class="px-3">｜</span>  給食（１食）</p>
+                                </div>
+                                <div class="col-md-1 ps-3 py-2 col-left-border">
+                                    <p class="m-0">￥500</p>
+                                </div>
+                            </div>
+                            <div class="row inner-2">
+                                <div class="col-md-11 ps-3 py-2">
+                                    <p class="m-0">その他費用 <span class="px-3">｜</span>  おやつ（１食）</p>
+                                </div>
+                                <div class="col-md-1 ps-3 py-2 col-left-border">
+                                    <p class="m-0">￥100</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="row row-1 p-3">
+                        <p>お支払い予定金額 <span class="mx-5"></span>¥69,700</p>
+                        <p>付与予定ポイント <span class="mx-5"></span>697ポイント</p>
+                        <p class="p-text-color m-0">※キャンペーン内容や、プランによっては、実際の支払い金額や付与ポイントが異なる場合があります。</p>
+                    </div>
+                    <div class="row row-6 py-4 me-3">
+                        <p class="m-0 text-center">
+                            <router-link :to="{name:'todo', params:{page:68}}">
+                                <span class="span-btn px-5 py-2">一覧から削除</span>
+                            </router-link>
+                        </p>
+                    </div>
+                </div>
             </div>
              <div v-if="activeTab===1" class="row">
                 <p class="text-center">Tab 1</p>

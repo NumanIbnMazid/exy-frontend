@@ -103,7 +103,7 @@
         padding-right: 12px;
     }
     .input-group-container-right {
-        padding: 15px 0;
+        padding: 15px 10px 15px 0;
     }
 }
 .conform-email-area {
@@ -127,5 +127,18 @@
         width: 250px;
         padding: 6px 0 ;
         margin-top: 10px;
+    }
+}
+
+.badge-border {
+    color: #999191;
+    border: 1px solid;
+}
+.badge-exy {
+    background-color: $--color-cb3a82;
+}
+.profile-info-two-body {
+    .exy-default-btn {
+        margin-left: 10px;
     }
 }
