@@ -15,7 +15,7 @@
             <div class="col-xl-9 col-lg-9 col-md-7 col-sm-6 col-12 text-start mt-3">
                 <div>
                     <label class="container-checkbox text-muted">
-                        <span class="ms-2">ToDo Text</span> <span class="ms-3 me-3">|</span> ToDo Text
+                        <span class="ms-2">体験保育</span> <span class="ms-3 me-3">|</span> 0歳児
                         <input type="checkbox" disabled>
                         <span class="checkmark"></span>
                     </label>
