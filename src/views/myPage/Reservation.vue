@@ -246,7 +246,9 @@
                           </router-link>
                         </div>
                         <div class="row mt-4">
-                          <p class="m-0 text-center text-base text-decoration-underline p-text-color-1">完了報告に間違いがある方はこちら ＞</p>
+                          <router-link :to="{name:'InquiryForm'}">
+                            <p class="m-0 text-center text-base text-decoration-underline p-text-color-1">完了報告に間違いがある方はこちら ＞</p>
+                          </router-link>
                         </div>
                       </div>
                     </div>
