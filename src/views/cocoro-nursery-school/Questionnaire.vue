@@ -122,7 +122,7 @@
                 <!-- /Questionnaire Parent -->
 
                 <!-- Questionnaire Parent -->
-                <div class="mt-4" v-if="showRegType == false">
+                <div class="mt-4" v-if="showRegType == true">
                     <div class="mb-3">
                         <span>田中</span>
                         <span class="ms-3">海 さんに関するご利用前アンケート</span>

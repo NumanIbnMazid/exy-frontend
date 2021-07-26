@@ -31,20 +31,25 @@
 
                     </div>
                     <div class="form-check">
-                        <label class="container-checkbox text-muted" >
-                            <span class="ms-4 me-5">
-                                <span>田中</span>
-                                <span class="ms-2">陸</span>
-                            </span>
-                            <span class="ms-5">
-                                <span>令和3年2月25日生</span>
-                                <span class="ms-3">(満0歳)</span>
-                                <span class="ms-4">男児</span>
-                                <span class="ms-3">アレルギー疾患 : 有</span>
-                            </span>
-                            <input type="checkbox" @click="handleShowRegType()">
-                            <span class="checkmark"></span>
-                        </label>
+                        <router-link :to="{name: 'UserRegistrationDetails', props: { tabNo: 2 } }">
+                            <label class="container-checkbox text-muted" >
+                                <span class="ms-4 me-5">
+                                    <span>田中</span>
+                                    <span class="ms-2">陸</span>
+                                </span>
+                                <span class="ms-5">
+                                    <span>令和3年2月25日生</span>
+                                    <span class="ms-3">(満0歳)</span>
+                                    <span class="ms-4">男児</span>
+                                    <span class="ms-3">アレルギー疾患 : 有</span>
+                                </span>
+                                <!-- <input type="checkbox" @click="handleShowRegType()"> -->
+                                
+                                <input type="checkbox" :checked="showRegType == true ? true: false">
+                                
+                                <span class="checkmark"></span>
+                            </label>
+                        </router-link>
 
                         <!-- user registration type -->
                         <user-registration-type v-if="showRegType == true"></user-registration-type>
