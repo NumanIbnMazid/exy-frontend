@@ -246,6 +246,11 @@ const routes = [
         component: () => import("../components/auth/registration/ProfileInfoTwo")
     },
     {
+        path: '/verify-registration-details',
+        name: 'VerifyRegistrationDetails',
+        component: () => import("../components/auth/registration/VerifyRegistrationDetails")
+    },
+    {
         path: '/reset-password',
         name: 'ResetPassword',
         component: () => import("../components/auth/ResetPassword")
