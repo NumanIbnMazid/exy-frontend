@@ -2,7 +2,7 @@
   <div class="talk">
     <div class="mypage-nav">
       <div class="row w-100">
-        <div class="col-md-6 col-left">
+        <div class="col-md-5 col-left">
           <div class="row">
             <div class="col-md-2">
               <img src="../../assets/images/mypage/daiga-ellaby--0KARP5Jh_8-unspl.png" alt="EXY">
@@ -17,7 +17,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-right mt-3">
+        <div class="col-md-7 col-right mt-3 ps-3">
           <div class="row text-base">
             <div class="col-md-2">
               <router-link :to="{name:'Mypage.Home'}">
