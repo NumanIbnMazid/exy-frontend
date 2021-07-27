@@ -319,6 +319,22 @@
                 .p-text-color{
                     color: $--color-989898;
                 }
+                .inner-1 {
+                    border-bottom: 1px solid $--color-d6d6d6;
+                }
+                .span-1 {
+                    background-color: $--color-bababa;
+                    color: $--color-ffffff;
+                    border-radius: 50%;
+                }
+                .span-2 {
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
+                    border-radius: 5px;
+                }
+                .p-text-color-1{
+                    color: $--color-707070;
+                }
             }
             .row-2{
                 border-left: 1px solid $--color-707070;
@@ -336,6 +352,15 @@
                     border: 1px solid $--color-84c942;
                     color: $--color-84c942;
                     padding: 10px 90px;
+                }
+                .span-3 {
+                    padding: 13px 43px;
+                    border: 1px solid $--color-707070;
+                }
+                .span-4 {
+                    padding: 13px 68px;
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
                 }
                 .col-left{
                     width: 20%;
@@ -366,8 +391,25 @@
                     border: 1px solid $--color-cb3a82;
                     color: $--color-cb3a82;
                 }
+                .right-p-1 {
+                    border-radius: 5px;
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
+                }
+                .right-p-2 {
+                    border-radius: 5px;
+                    border:1px solid $--color-333333;
+                    color: $--color-707070;
+                }
+                .right-p-3 {
+                    background-color: $--color-f8f7f7;
+                }
                 .p-box-1{
                     border: 1px solid $--color-707070;
+                }
+                .p-box-2 {
+                    border: 1px solid $--color-707070;
+                    background-color: $--color-f7f7f7;
                 }
                 .inner-1{
                     border-top: 1px solid $--color-d6d6d6;
@@ -377,9 +419,15 @@
                     border-bottom: 1px solid $--color-d6d6d6;
                 }
             }
+            .row-2-border{
+                border: 1px solid $--color-707070;
+            }
             .row-3{
                 background-color: $--color-f8f7f7;
                 border: 1px solid $--color-d6d6d6;
+                .p-text-color {
+                    color: $--color-989898;
+                }
             }
             .row-4{
                  border-top: 1px solid $--color-d6d6d6;
@@ -410,6 +458,60 @@
                     border: 1px solid $--color-cb3a82;
                     color: $--color-cb3a82;
                 }
+                .p-box-1{
+                    background-color: $--color-ffffff;
+                    border: 1px solid $--color-84c942;
+                    color: $--color-84c942;
+                    border-radius: 5px;
+                }
+                .p-box-2 {
+                    background-color: $--color-cb3a82;
+                    border: 1px solid $--color-cb3a82;
+                    color: $--color-ffffff;
+                    border-radius: 5px;
+                }
+                .p-box-3 {
+                    border: 1px solid $--color-cb3a82;
+                    color: $--color-cb3a82;
+                    border-radius: 5px;
+                }
+                .p-box-4 {
+                    border: 1px solid $--color-333333;
+                    color: $--color-333333;
+                    border-radius: 5px;
+                }
+            }
+            .row-7{
+                border: 1px solid $--color-d6d6d6;
+                .inner-left-1{
+                    background-color: $--color-f8f7f7;
+                    border-right: 1px solid $--color-d6d6d6;
+                }
+                .inner-1 {
+                    border-top: 1px solid $--color-d6d6d6;
+                }
+                .col-left-border {
+                    border-left: 1px solid $--color-d6d6d6;
+                }
+            }
+            .row-8{
+                border: 1px solid $--color-cb3a82;
+                border-radius: 30px;
+                .span-1{
+                    background-color: $--color-ff0000;
+                    color: $--color-ffffff;
+                    border-radius: 50%;
+                }
+            }
+            .row-9{
+                background-color: $--color-fbeef5;
+                color: $--color-cb3a82;
+            }
+            .no-border{
+                border: 0px;
+            }
+            .row-border-1{
+                border-radius: 5px;
             }
         }
     }

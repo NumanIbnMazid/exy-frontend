@@ -80,7 +80,7 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="form-group-container">
                   <div class="row">
                     <div class="col-md-4">
@@ -128,7 +128,7 @@
                   </div>
                 </div>
 
-                  <div class="form-group-container">
+                <div class="form-group-container">
                   <div class="row">
                     <div class="col-md-4">
                       <div class="bg-light input-label">
@@ -161,80 +161,92 @@
                     </div>
                     <div class="col-md-8">
                       <div class="input-group-container-right">
-                         <div class="row">
-                      <div class="col-md-3">
-                        <div class="form-group row mt-3">
-                          <div class="col-sm-10 m-auto">
-                            <select class="form-control bg-light" name="year">
-                              <option value="1990">1990</option>
-                              <option value="1991">1991</option>
-                              <option value="1992">1992</option>
-                            </select>
+                        <div class="row">
+                          <div class="col-md-3">
+                            <div class="form-group row mt-3">
+                              <div class="col-sm-10 m-auto">
+                                <select
+                                  class="form-control bg-light"
+                                  name="year"
+                                >
+                                  <option value="1990">1990</option>
+                                  <option value="1991">1991</option>
+                                  <option value="1992">1992</option>
+                                </select>
+                              </div>
+                              <label class="col-sm-2 col-form-label">年</label>
+                            </div>
                           </div>
-                          <label class="col-sm-2 col-form-label">年</label>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group row mt-3">
-                          <div class="col-sm-10 m-auto">
-                            <select class="form-control bg-light" name="month">
-                              <option>--</option>
-                              <option value="01">01</option>
-                              <option value="02">02</option>
-                              <option value="02">03</option>
-                              <option value="02">04</option>
-                              <option value="02">05</option>
-                              <option value="02">06</option>
-                              <option value="02">07</option>
-                              <option value="02">08</option>
-                              <option value="02">09</option>
-                              <option value="02">10</option>
-                              <option value="02">11</option>
-                              <option value="02">12</option>
-                            </select>
+                          <div class="col-md-3">
+                            <div class="form-group row mt-3">
+                              <div class="col-sm-10 m-auto">
+                                <select
+                                  class="form-control bg-light"
+                                  name="month"
+                                >
+                                  <option>--</option>
+                                  <option value="01">01</option>
+                                  <option value="02">02</option>
+                                  <option value="02">03</option>
+                                  <option value="02">04</option>
+                                  <option value="02">05</option>
+                                  <option value="02">06</option>
+                                  <option value="02">07</option>
+                                  <option value="02">08</option>
+                                  <option value="02">09</option>
+                                  <option value="02">10</option>
+                                  <option value="02">11</option>
+                                  <option value="02">12</option>
+                                </select>
+                              </div>
+                              <label class="col-sm-2 col-form-label">月</label>
+                            </div>
                           </div>
-                          <label class="col-sm-2 col-form-label">月</label>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group row mt-3">
-                          <div class="col-sm-10 m-auto">
-                            <select class="form-control bg-light" name="month">
-                              <option>--</option>
-                              <option value="01">01</option>
-                              <option value="02">02</option>
-                              <option value="02">03</option>
-                              <option value="02">04</option>
-                              <option value="02">05</option>
-                              <option value="02">06</option>
-                              <option value="02">07</option>
-                            </select>
+                          <div class="col-md-3">
+                            <div class="form-group row mt-3">
+                              <div class="col-sm-10 m-auto">
+                                <select
+                                  class="form-control bg-light"
+                                  name="month"
+                                >
+                                  <option>--</option>
+                                  <option value="01">01</option>
+                                  <option value="02">02</option>
+                                  <option value="02">03</option>
+                                  <option value="02">04</option>
+                                  <option value="02">05</option>
+                                  <option value="02">06</option>
+                                  <option value="02">07</option>
+                                </select>
+                              </div>
+                              <label class="col-sm-2 col-form-label">日</label>
+                            </div>
                           </div>
-                          <label class="col-sm-2 col-form-label">日</label>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group row mt-3">
-                          <div class="col-sm-10 m-auto">
-                            <select class="form-control bg-light" name="month">
-                              <option value="生まれ">生まれ</option>
-                              <option value="01">生まれ</option>
-                            </select>
+                          <div class="col-md-3">
+                            <div class="form-group row mt-3">
+                              <div class="col-sm-10 m-auto">
+                                <select
+                                  class="form-control bg-light"
+                                  name="month"
+                                >
+                                  <option value="生まれ">生まれ</option>
+                                  <option value="01">生まれ</option>
+                                </select>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                    <p class="m-0 p-0">※登録後は変更することはできません。</p>
+                        <p class="m-0 p-0">
+                          ※登録後は変更することはできません。
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
-              
               </div>
             </div>
 
-
-             <div class="card mt-3">
+            <div class="card mt-3">
               <div class="card-header">
                 <h5>第二子</h5>
               </div>
@@ -285,13 +297,13 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="form-group-container">
                   <div class="row">
                     <div class="col-md-4">
                       <div class="bg-light input-label">
-                        <span >
-                            ふりがな（お子さま）
+                        <span>
+                          ふりがな（お子さま）
                           <span class="badge badge-border">任 意</span>
                         </span>
                       </div>
@@ -333,7 +345,7 @@
                   </div>
                 </div>
 
-                  <div class="form-group-container">
+                <div class="form-group-container">
                   <div class="row">
                     <div class="col-md-4">
                       <div class="bg-light input-label">
@@ -360,104 +372,234 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >生年月日 <span class="badge badge-border">任 意</span>
+                          >生年月日
+                          <span class="badge badge-border">任 意</span>
                         </span>
                       </div>
                     </div>
                     <div class="col-md-8">
                       <div class="input-group-container-right">
-                         <div class="row">
-                      <div class="col-md-3">
-                        <div class="form-group row mt-3">
-                          <div class="col-sm-10 m-auto">
-                            <select class="form-control bg-light" name="year">
-                              <option value="1990">1990</option>
-                              <option value="1991">1991</option>
-                              <option value="1992">1992</option>
-                            </select>
+                        <div class="row">
+                          <div class="col-md-3">
+                            <div class="form-group row mt-3">
+                              <div class="col-sm-10 m-auto">
+                                <select
+                                  class="form-control bg-light"
+                                  name="year"
+                                >
+                                  <option value="1990">1990</option>
+                                  <option value="1991">1991</option>
+                                  <option value="1992">1992</option>
+                                </select>
+                              </div>
+                              <label class="col-sm-2 col-form-label">年</label>
+                            </div>
                           </div>
-                          <label class="col-sm-2 col-form-label">年</label>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group row mt-3">
-                          <div class="col-sm-10 m-auto">
-                            <select class="form-control bg-light" name="month">
-                              <option>--</option>
-                              <option value="01">01</option>
-                              <option value="02">02</option>
-                              <option value="02">03</option>
-                              <option value="02">04</option>
-                              <option value="02">05</option>
-                              <option value="02">06</option>
-                              <option value="02">07</option>
-                              <option value="02">08</option>
-                              <option value="02">09</option>
-                              <option value="02">10</option>
-                              <option value="02">11</option>
-                              <option value="02">12</option>
-                            </select>
+                          <div class="col-md-3">
+                            <div class="form-group row mt-3">
+                              <div class="col-sm-10 m-auto">
+                                <select
+                                  class="form-control bg-light"
+                                  name="month"
+                                >
+                                  <option>--</option>
+                                  <option value="01">01</option>
+                                  <option value="02">02</option>
+                                  <option value="02">03</option>
+                                  <option value="02">04</option>
+                                  <option value="02">05</option>
+                                  <option value="02">06</option>
+                                  <option value="02">07</option>
+                                  <option value="02">08</option>
+                                  <option value="02">09</option>
+                                  <option value="02">10</option>
+                                  <option value="02">11</option>
+                                  <option value="02">12</option>
+                                </select>
+                              </div>
+                              <label class="col-sm-2 col-form-label">月</label>
+                            </div>
                           </div>
-                          <label class="col-sm-2 col-form-label">月</label>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group row mt-3">
-                          <div class="col-sm-10 m-auto">
-                            <select class="form-control bg-light" name="month">
-                              <option>--</option>
-                              <option value="01">01</option>
-                              <option value="02">02</option>
-                              <option value="02">03</option>
-                              <option value="02">04</option>
-                              <option value="02">05</option>
-                              <option value="02">06</option>
-                              <option value="02">07</option>
-                            </select>
+                          <div class="col-md-3">
+                            <div class="form-group row mt-3">
+                              <div class="col-sm-10 m-auto">
+                                <select
+                                  class="form-control bg-light"
+                                  name="month"
+                                >
+                                  <option>--</option>
+                                  <option value="01">01</option>
+                                  <option value="02">02</option>
+                                  <option value="02">03</option>
+                                  <option value="02">04</option>
+                                  <option value="02">05</option>
+                                  <option value="02">06</option>
+                                  <option value="02">07</option>
+                                </select>
+                              </div>
+                              <label class="col-sm-2 col-form-label">日</label>
+                            </div>
                           </div>
-                          <label class="col-sm-2 col-form-label">日</label>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group row mt-3">
-                          <div class="col-sm-10 m-auto">
-                            <select class="form-control bg-light" name="month">
-                              <option value="生まれ">生まれ</option>
-                              <option value="01">生まれ</option>
-                            </select>
+                          <div class="col-md-3">
+                            <div class="form-group row mt-3">
+                              <div class="col-sm-10 m-auto">
+                                <select
+                                  class="form-control bg-light"
+                                  name="month"
+                                >
+                                  <option value="生まれ">生まれ</option>
+                                  <option value="01">生まれ</option>
+                                </select>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </div>
-                    <p class="m-0 p-0">※登録後は変更することはできません。</p>
+                        <p class="m-0 p-0">
+                          ※登録後は変更することはできません。
+                        </p>
                       </div>
                     </div>
                   </div>
                 </div>
-              
               </div>
               <div class="card-footer bg-white">
-                  <div class="pull-right">
-                      <router-link :to="{ name: 'ProfileInfoTwo' }">
-                          <a href="#">第二子の情報を削除 ＞</a>
-                      </router-link>
-                  </div>
+                <div class="pull-right">
+                  <router-link :to="{ name: 'ProfileInfoTwo' }">
+                    <a href="#">第二子の情報を削除 ＞</a>
+                  </router-link>
+                </div>
               </div>
             </div>
             <div class="text-right mt-2 pr-2">
-                 <router-link :to="{ name: 'ProfileInfoTwo' }">
-                          <a href="#">＋第三子の情報を登録する ＞</a>
-                      </router-link>
+              <router-link :to="{ name: 'ProfileInfoTwo' }">
+                <a href="#">＋第三子の情報を登録する ＞</a>
+              </router-link>
             </div>
-           
+            <div class="card">
+              <div class="card-header bg-white">
+                <h6 class="text-center">
+                  下記をご登録いただくと、保育ご予約時に入力の手間が省けます。
+                </h6>
+              </div>
+              <div class="card-body">
+                <div class="card">
+                  <div class="card-header bg-white">
+                    <h6>第一子</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group-container">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="bg-light input-label">
+                            <span>アレルギーの有無 </span>
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="input-group-container-right">
+                            <label
+                              ><input type="radio" name="radio" /> あり</label
+                            >
+                            <label class="profile-info-radio"
+                              ><input type="radio" name="radio" /> なし</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group row mt-3p p-2">
+                        <label class="col-sm-3 col-form-label"
+                          >備考（アレルギー）：</label
+                        >
+                        <div class="col-sm-9 m-auto">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="ありの場合、簡単に内容をご記載ください"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group-container">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="bg-light input-label">
+                            <span>基礎疾患の有無 </span>
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="input-group-container-right">
+                            <label
+                              ><input type="radio" name="radio" /> あり</label
+                            >
+                            <label class="profile-info-radio"
+                              ><input type="radio" name="radio" /> なし</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group row mt-3p p-2">
+                        <label class="col-sm-3 col-form-label"
+                          >備考（基礎疾患）：</label
+                        >
+                        <div class="col-sm-9 m-auto">
+                          <input
+                            type="text"
+                            class="form-control"
+                            placeholder="ありの場合、簡単に内容をご記載ください"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header">
+                    <h6>第二子</h6>
+                  </div>
+                  <div class="card-body">
+                    <div class="form-group-container">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="bg-light input-label">
+                            <span>アレルギーの有無 </span>
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="input-group-container-right">
+                            <label
+                              ><input type="radio" name="radio" /> あり</label
+                            >
+                            <label class="profile-info-radio"
+                              ><input type="radio" name="radio" /> なし</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group-container">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="bg-light input-label">
+                            <span>基礎疾患の有無 </span>
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="input-group-container-right">
+                            <label
+                              ><input type="radio" name="radio" /> あり</label
+                            >
+                            <label class="profile-info-radio"
+                              ><input type="radio" name="radio" /> なし</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-
-
-
-
-
-
-            <div class="form-group text-center ">
+            <div class="form-group text-center">
               <router-link :to="{ name: 'ProfileInfo' }">
                 <button
                   type="submit"
@@ -465,8 +607,8 @@
                 >
                   次へ
                 </button>
-              </router-link> 
-              <router-link :to="{ name: 'ProfileInfoTwo' }">
+              </router-link>
+              <router-link :to="{ name: 'VerifyRegistrationDetails' }">
                 <button
                   type="submit"
                   class="btn text-xl exy-default-btn rounded-0 mt-4"
