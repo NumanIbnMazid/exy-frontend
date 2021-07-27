@@ -14,6 +14,11 @@
                         <span class="fw-bold">この内容で次へ</span>
                     </router-link>
                 </div>
+                <div v-else-if="gardenChecked == false">
+                    <router-link :to="{name:'TourContent'}" class="content-btn me-5" type="button">
+                        <span class="fw-bold">この内容で次へ</span>
+                    </router-link>
+                </div>
                 <div v-else>
                     <router-link :to="{name:'ReservationContent'}" class="content-btn me-5" type="button" >
                         <span class="fw-bold">この内容で次へ</span>
@@ -30,6 +35,6 @@
         props: {
             reservationPre: Boolean,
             gardenChecked: Boolean
-        },
+        }
     };
 </script>

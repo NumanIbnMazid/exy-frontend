@@ -9,7 +9,7 @@
             <div class="content-holder">
                 <div class="ms-2 me-2">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="" checked>
+                        <input class="form-check-input" type="radio" name="" :checked="dataGardenChecked == false">
                         <label class="ms-4">園見学に行ったことがある</label>
                     </div>
                     <div class="form-check">
@@ -17,7 +17,7 @@
                         <label class="ms-4">直近３ヶ月以内に一時保育で利用したことがある、または利用者の兄弟が利用していた</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="" @click="gardenChecked = !gardenChecked">
+                        <input class="form-check-input" type="radio" name="" @click="handleGardenChecked()" :checked="dataGardenChecked == true">
                         <label class="ms-4">初めて利用する</label>
                     </div>
                     <div class="row mt-4 border border-2 p-3">
@@ -32,7 +32,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="mt-5" v-if="gardenChecked == true">
+                    <div class="mt-5" v-if="dataGardenChecked == true">
                         <!-- desired content -->
                         <div>
                             <div class="vertical-line">
@@ -198,6 +198,7 @@
         data() {
             return {
                 date: '',
+                dataGardenChecked: this.gardenChecked
             }
         },
         components: {
@@ -209,6 +210,10 @@
                 today.setHours(0, 0, 0, 0)
 
                 return date < today
+            },
+            handleGardenChecked() {
+                this.dataGardenChecked = !this.dataGardenChecked
+                this.$emit('handleGardenChecked', this.dataGardenChecked)
             },
         },
     };

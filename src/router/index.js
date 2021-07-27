@@ -136,15 +136,34 @@ const routes = [
         component: () => import("../views/cocoro-nursery-school/index")
     },
     {
+        path: '/monthly-child-care',
+        name: 'MonthlyChildCare',
+        component: () => import("../views/cocoro-nursery-school/MonthlyChildCare")
+    },
+    {
+        path: '/garden-tour',
+        name: 'GardenTour',
+        component: () => import("../views/cocoro-nursery-school/GardenTour")
+    },
+    {
         path: '/user-registration-details',
         name: 'UserRegistrationDetails',
-        props: { tabNo: 1 },
         component: () => import("../views/cocoro-nursery-school/UserRegistrationDetails")
+    },
+    {
+        path: '/monthly-child-care-registration-details',
+        name: 'MonthlyChildCareRegistrationDetails',
+        component: () => import("../views/cocoro-nursery-school/MonthlyChildCareRegistrationDetails")
     },
     {
         path: '/reservation-content',
         name: 'ReservationContent',
         component: () => import("../views/cocoro-nursery-school/ReservationContents")
+    },
+    {
+        path: '/tour-content',
+        name: 'TourContent',
+        component: () => import("../views/cocoro-nursery-school/TourContent")
     },
     {
         path: '/reservation-content-pre',

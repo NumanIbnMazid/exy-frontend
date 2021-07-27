@@ -27,11 +27,11 @@
                         </label>
 
                         <!-- user registration type -->
-                        <user-registration-type v-if="showRegType == true"></user-registration-type>
+                        <user-registration-type v-if="showRegType == true" :activeTab="activeTab"></user-registration-type>
 
                     </div>
                     <div class="form-check">
-                        <router-link :to="{name: 'UserRegistrationDetails', props: { tabNo: 2 } }">
+                        <router-link :to="{name: populateDetailsRouterLink()}">
                             <label class="container-checkbox text-muted" >
                                 <span class="ms-4 me-5">
                                     <span>田中</span>
@@ -52,7 +52,7 @@
                         </router-link>
 
                         <!-- user registration type -->
-                        <user-registration-type v-if="showRegType == true"></user-registration-type>
+                        <user-registration-type v-if="showRegType == true" :activeTab="activeTab"></user-registration-type>
                     </div>
                 </div>
                 <!-- /user registration -->
@@ -68,7 +68,8 @@
     export default {
         name: "UserRegistration",
         props: {
-            showRegType: Boolean
+            showRegType: Boolean,
+            activeTab: Number
         },
         // data: () => {
         //     return {
@@ -83,6 +84,15 @@
                 this.showRegType = !this.showRegType
                 // this.$emit('showRegType', this.showRegType)
                 return
+            },
+            populateDetailsRouterLink() {
+                if (this.activeTab == 1) {
+                    return "UserRegistrationDetails"
+                } else if (this.activeTab == 2) {
+                    return "MonthlyChildCareRegistrationDetails"
+                } else {
+                    return "UserRegistrationDetails"
+                }
             }
         },
     };

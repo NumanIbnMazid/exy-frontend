@@ -15,7 +15,8 @@
             <div class="col-xl-9 col-lg-9 col-md-7 col-sm-6 col-12 text-start mt-3">
                 <div>
                     <label class="container-checkbox text-muted">
-                        <span class="ms-2">体験保育</span> <span class="ms-3 me-3">|</span> 0歳児
+                        <span v-if="activeTab == 2"><span class="ms-2">通常プラン</span> <span class="ms-3 me-3">|</span> ０歳児</span>
+                        <span v-else><span class="ms-2">体験保育</span> <span class="ms-3 me-3">|</span> 0歳児</span>
                         <input type="checkbox" disabled>
                         <span class="checkmark"></span>
                     </label>
@@ -23,7 +24,8 @@
 
                 <div>
                     <label class="container-checkbox">
-                        <span class="ms-2">体験保育</span> <span class="ms-3 me-3">|</span> 1 歳児以上
+                        <span v-if="activeTab == 2"><span class="ms-2">通常プラン</span> <span class="ms-3 me-3">|</span> １歳児・２歳児</span>
+                        <span v-else><span class="ms-2">体験保育</span> <span class="ms-3 me-3">|</span> 1 歳児以上</span>
                         <input type="checkbox" checked>
                         <span class="checkmark"></span>
                     </label>
@@ -40,7 +42,8 @@
             <div class="col-xl-9 col-lg-9 col-md-7 col-sm-6 col-12 text-start mt-3">
                 <div>
                     <label class="container-checkbox">
-                        <span class="ms-2">その他経費</span> <span class="ms-3 me-3">|</span> お給食
+                        <span v-if="activeTab == 2"><span class="ms-2">手ぶらプラン</span> <span class="ms-3 me-3">|</span> ０・１歳児</span>
+                        <span v-else><span class="ms-2">その他経費</span> <span class="ms-3 me-3">|</span> お給食</span>
                         <input type="checkbox" checked>
                         <span class="checkmark"></span>
                     </label>
@@ -53,6 +56,9 @@
 <script>
     export default {
         name: "UserRegistrationType",
+        props: {
+            activeTab: Number
+        },
     };
 </script>
 
