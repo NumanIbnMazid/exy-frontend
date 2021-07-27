@@ -620,7 +620,6 @@
           </form>
         </div>
       </div>
-   
     </section>
   </div>
 </template>
@@ -628,7 +627,6 @@
 <script>
 export default {
   name: "ProfileInfoTwo",
-   
 };
 </script>
 
