@@ -27,7 +27,7 @@
                         <!-- Tab Pills -->
                         <ul class="nav nav-pills mt-4 ms-5 me-5 cocoro-section-tab-pills row" id="pills-tab" role="tablist">
                             <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 px-0" role="presentation" @click="populateActiveTab(1), handleRoute('ProceedToReservation')">
-                                <button class="nav-link active" id="pills-experienced-based-tab" data-bs-toggle="pill" data-bs-target="#pills-experienced-based" type="button" role="tab" aria-controls="pills-experienced-based" aria-selected="true">
+                                <button class="nav-link" id="pills-experienced-based-tab" data-bs-toggle="pill" data-bs-target="#pills-experienced-based" type="button" role="tab" aria-controls="pills-experienced-based" aria-selected="false">
                                     <span class="pills-text">体験保育</span>
                                 </button>
                             </li>
@@ -37,7 +37,7 @@
                                 </button>
                             </li>
                             <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 px-0" role="presentation" @click="populateActiveTab(3), handleRoute('GardenTour')">
-                                <button class="nav-link" id="pills-garden-tour-tab" data-bs-toggle="pill" data-bs-target="#pills-garden-tour" type="button" role="tab" aria-controls="pills-garden-tour" aria-selected="false">
+                                <button class="nav-link active" id="pills-garden-tour-tab" data-bs-toggle="pill" data-bs-target="#pills-garden-tour" type="button" role="tab" aria-controls="pills-garden-tour" aria-selected="true">
                                     <span class="pills-text">園見学</span>
                                 </button>
                             </li>
@@ -73,13 +73,14 @@
     import router from "../../router/index"
 
     export default {
-        name: "UserRegistrationDetails",
+        name: "CocoroNurserySchool",
         data() {
             return {
-                showRegType: true,
+                date: '',
+                showRegType: false,
                 gardenChecked: false,
-                reservationPre: true,
-                activeTab: 1,
+                reservationPre: false,
+                activeTab: 3,
             }
         },
         components: {
