@@ -192,18 +192,24 @@
               </div>
             </div>
             <div class="form-group text-center mt-5">
-              <button
+              <router-link :to="{name:'Login'}">
+                <button
                 type="submit"
                 class="btn text-xl exy-default-btn-outline rounded-0"
               >
                 戻る    
               </button>
-              <button
+              </router-link>
+              
+              <router-link :to="{name:'ResetPassword'}">
+                 <button
                 type="submit"
                 class="btn text-xl exy-default-btn rounded-0"
               >
                 次へ
               </button>
+              </router-link>
+             
             </div>
           </form>
         </div>
