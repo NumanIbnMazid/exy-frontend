@@ -27,12 +27,12 @@
                         <!-- Tab Pills -->
                         <ul class="nav nav-pills mt-4 ms-5 me-5 cocoro-section-tab-pills row" id="pills-tab" role="tablist">
                             <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 px-0" role="presentation" @click="populateActiveTab(1), handleRoute('ProceedToReservation')">
-                                <button class="nav-link active" id="pills-experienced-based-tab" data-bs-toggle="pill" data-bs-target="#pills-experienced-based" type="button" role="tab" aria-controls="pills-experienced-based" aria-selected="true">
+                                <button class="nav-link" id="pills-experienced-based-tab" data-bs-toggle="pill" data-bs-target="#pills-experienced-based" type="button" role="tab" aria-controls="pills-experienced-based" aria-selected="false">
                                     <span class="pills-text">体験保育</span>
                                 </button>
                             </li>
                             <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 px-0" role="presentation" @click="populateActiveTab(2), handleRoute('MonthlyChildCare')">
-                                <button class="nav-link" id="pills-monthly-childcare-tab" data-bs-toggle="pill" data-bs-target="#pills-monthly-childcare" type="button" role="tab" aria-controls="pills-monthly-childcare" aria-selected="false">
+                                <button class="nav-link active" id="pills-monthly-childcare-tab" data-bs-toggle="pill" data-bs-target="#pills-monthly-childcare" type="button" role="tab" aria-controls="pills-monthly-childcare" aria-selected="true">
                                     <span class="pills-text">月極保育</span>
                                 </button>
                             </li>
@@ -53,6 +53,7 @@
                         >
                         </tab-content>
                         <!-- /Tab Content -->
+
                     </section>
                     <!-- /Cocoro Parent Section -->
                 </div>
@@ -77,9 +78,9 @@
         data() {
             return {
                 showRegType: true,
-                gardenChecked: false,
+                gardenChecked: true,
                 reservationPre: true,
-                activeTab: 1,
+                activeTab: 2,
             }
         },
         components: {
