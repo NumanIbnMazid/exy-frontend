@@ -5,13 +5,31 @@
                 <span class="text-2xl fw-bold">合計金額</span>
             </div>
             <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12 text-start">
-                <span class="text-3xl fw-bold text-red ms-4">¥5,000</span>
+                <span class="text-3xl fw-bold text-red ms-4" v-if="gardenChecked == true">-</span>
+                <span class="text-3xl fw-bold text-red ms-4" v-else>¥5,000</span>
             </div>
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-end">
-                <router-link :to="{name:'ReservationContent'}" class="content-btn me-5" type="button">
-                    <span class="fw-bold">この内容で次へ</span>
-                </router-link>
+                <div v-if="reservationPre == true">
+                    <router-link :to="{name:'PreReservationContent'}" class="content-btn me-5" type="button">
+                        <span class="fw-bold">この内容で次へ</span>
+                    </router-link>
+                </div>
+                <div v-else>
+                    <router-link :to="{name:'ReservationContent'}" class="content-btn me-5" type="button" >
+                        <span class="fw-bold">この内容で次へ</span>
+                    </router-link>
+                </div>
             </div>
         </div>
     </section>
 </template>
+
+<script>
+    export default {
+        name: "TotalFee",
+        props: {
+            reservationPre: Boolean,
+            gardenChecked: Boolean
+        },
+    };
+</script>

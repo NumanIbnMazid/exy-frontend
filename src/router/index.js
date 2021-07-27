@@ -136,9 +136,20 @@ const routes = [
         component: () => import("../views/cocoro-nursery-school/index")
     },
     {
+        path: '/user-registration-details',
+        name: 'UserRegistrationDetails',
+        props: { tabNo: 1 },
+        component: () => import("../views/cocoro-nursery-school/UserRegistrationDetails")
+    },
+    {
         path: '/reservation-content',
         name: 'ReservationContent',
         component: () => import("../views/cocoro-nursery-school/ReservationContents")
+    },
+    {
+        path: '/reservation-content-pre',
+        name: 'PreReservationContent',
+        component: () => import("../views/cocoro-nursery-school/PreReservationContent")
     },
     {
         path: '/reservation-content-secondary',

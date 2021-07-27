@@ -28,7 +28,9 @@
                         <ul class="nav nav-pills mt-4 ms-5 me-5 cocoro-section-tab-pills row" id="pills-tab" role="tablist">
                             <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 px-0" role="presentation">
                                 <button class="nav-link active" id="pills-experienced-based-tab" data-bs-toggle="pill" data-bs-target="#pills-experienced-based" type="button" role="tab" aria-controls="pills-experienced-based" aria-selected="true">
-                                    <span class="pills-text">体験保育</span>
+                                    <router-link :to="{name:'ProceedToReservation'}">
+                                        <span class="pills-text">体験保育</span>
+                                    </router-link>
                                 </button>
                             </li>
                             <li class="nav-item col-xl-4 col-md-6 col-sm-12 col-12 px-0" role="presentation">
@@ -150,7 +152,7 @@
 
                                     <!-- section 2 -->
                                     <!-- User Registration -->
-                                    <user-registration :showRegType="showRegType"></user-registration>
+                                    <user-registration :showRegType="true"></user-registration>
                                     <!-- /section 2 -->
 
 
@@ -168,7 +170,7 @@
 
                                     <!-- section 5 -->
                                     <!-- Questionnaire -->
-                                    <questionnaire :showRegType="showRegType"></questionnaire>
+                                    <questionnaire :showRegType="true"></questionnaire>
                                     <!-- /section 5 -->
 
 
@@ -190,7 +192,7 @@
 
                                     <!-- section 8 -->
                                     <!-- Total Fee -->
-                                    <total-fee></total-fee>
+                                    <total-fee :reservationPre="true"></total-fee>
                                     <!-- /section 8 -->
 
                                 </div>
@@ -477,7 +479,45 @@
 
                                     <!-- section 6 -->
                                     <!-- Garden Check -->
-                                    <garden-check :gardenChecked="gardenChecked"></garden-check>
+                                    <section class="cocoro-section mt-5">
+                                        <div class="section-header m-3">
+                                            <span class="fw-bold">この園に行くのは初めてですか？</span>
+                                        </div>
+                                        <hr>
+
+                                        <div class="ms-3 me-3 mb-4 content-box">
+                                            <div class="content-holder">
+                                                <!-- remarks -->
+                                                <div class="ms-2 me-2">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="">
+                                                        <label class="ms-4">園見学に行ったことがある</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="">
+                                                        <label class="ms-4">直近３ヶ月以内に一時保育で利用したことがある、または利用者の兄弟が利用していた</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="" checked>
+                                                        <label class="ms-4">初めて利用する</label>
+                                                    </div>
+                                                    <div class="row mt-4">
+                                                        <div class="col-xl-1 mt-4">
+                                                            <i class="fa fa-exclamation-circle text-3xl text-red"></i>
+                                                        </div>
+                                                        <div class="col-xl-11 text-start">
+                                                            <p>
+                                                                月極保育をご予約の際、「初めて園をご利用される方には、体験保育または園見学をお願いしております。
+                                                                キガルニホイクでは、お子さまとご両親が安心して保育園をご利用いただくために【体験保育】のご利用がオススメです。月極保育の入園手続きが可能となります。
+                                                                ※園によっては、利用履歴に関わらず入園前説明会を行う場合がございます。
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- /remarks -->
+                                            </div>
+                                        </div>
+                                    </section>
                                     <!-- /section 6 -->
 
                                     <!-- section 7 -->
@@ -672,19 +712,20 @@
     import ParentRegistration from "./ParentRegistration.vue"
     import PaymentMethod from "./PaymentMethod.vue"
     import Questionnaire from "./Questionnaire.vue"
-    import GardenCheck from "./GardenCheck.vue"
     import Remarks from "./Remarks.vue"
     import ItemCheck from "./ItemCheck.vue"
     import TotalFee from "./TotalFee.vue"
     import Modals from "./Modals.vue"
 
     export default {
-        name: "CocoroNurserySchool",
+        name: "UserRegistrationDetails",
+        props: {
+            tabNo: Number,
+        },
         data() {
             return {
                 date: '',
-                showRegType: false,
-                gardenChecked: false,
+                showRegType: false
             }
         },
         components: {
@@ -693,7 +734,6 @@
             ParentRegistration,
             PaymentMethod,
             Questionnaire,
-            GardenCheck,
             Remarks,
             ItemCheck,
             TotalFee,

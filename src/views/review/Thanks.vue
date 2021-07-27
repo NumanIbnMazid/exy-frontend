@@ -2,7 +2,9 @@
   <div class="modal show" aria-hidden="true">
     <div class="modal-dialog ">
       <div class="modal-content">
-        <router-link tag="div" :to="{name:'BulletinBoard'}" class="btn-close" aria-label="Close"></router-link>
+        <router-link tag="div" :to="{name:'BulletinBoard'}" class="close">
+          <i class="fa fa-times-circle text-2xl"></i>
+        </router-link>
 
         <div class="modal-body text-center py-5">
           投稿ありがとうございました！<br/>
@@ -34,10 +36,10 @@ export default {
   background: #f9fafb;
 }
 
-.btn-close {
+.close {
   position: absolute;
-  top: 8px;
-  right: 10px;
+  top: 0;
+  right: 7px;
   cursor: pointer;
   z-index: 9999;
 }
