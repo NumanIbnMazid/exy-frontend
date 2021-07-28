@@ -291,6 +291,11 @@ const routes = [
         component: () => import("../components/auth/registration/ProfileInfoTwo")
     },
     {
+        path: '/profile-info-children',
+        name: 'ProfileInfoChildren',
+        component: () => import("../components/auth/registration/ProfileInfoChildren")
+    },
+    {
         path: '/verify-registration-details',
         name: 'VerifyRegistrationDetails',
         component: () => import("../components/auth/registration/VerifyRegistrationDetails")

@@ -46,7 +46,9 @@
                       </label>
                     </div>
                     <div class="form-group mt-4">
-                      <button type="submit" class="btn text-xl exy-default-btn w-100">ログイン</button>
+                      <router-link :to="{name: 'Mypage.Home'}">
+                        <button type="button" class="btn text-xl exy-default-btn w-100">ログイン</button>
+                      </router-link>
                     </div>
                   </form>
                   <div class="forget-pass-email-option mt-4">
