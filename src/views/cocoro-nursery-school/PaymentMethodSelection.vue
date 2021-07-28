@@ -184,12 +184,11 @@
             </div>
 
             <div class="text-center mt-4">
-                <router-link :to="{name:'ProceedToReservation'}" class="border border-1 border-secondary p-2 ps-5 pe-5 bg-white" type="button">
-                    <span class="ps-5 pe-5">戻る</span>
-                </router-link>
-                <router-link :to="{name:'ProceedToReservation'}" class="border border-1 p-2 pt-2 ps-5 pe-5 ms-4 exy-default-btn" type="button">
-                    お支払い方法変更
-                </router-link>
+                <div class="justify-content-center">
+                    <button type="button" class="border border-1 border-dark p-2 ps-5 pe-5 bg-white" @click="$router.go(-1)">戻る</button>
+                    <button type="button"
+                        class="border border-1 p-2 pt-2 ps-5 pe-5 ms-4 exy-default-btn" @click="$router.go(-1)">お支払い方法変更</button>
+                </div>
             </div>
         </div>
     </div>

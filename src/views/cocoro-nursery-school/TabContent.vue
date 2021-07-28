@@ -147,7 +147,13 @@
 
                 <!-- section 8 -->
                 <!-- Total Fee -->
-                <total-fee :gardenChecked="dataGardenChecked" :reservationPre="dataReservationPre"></total-fee>
+                <total-fee 
+                :gardenChecked="dataGardenChecked" 
+                :reservationPre="dataReservationPre" 
+                :activeTab="dataActiveTab" 
+                :showRegType="dataShowRegType"
+                >
+                </total-fee>
                 <!-- /section 8 -->
 
             </div>
@@ -448,7 +454,13 @@
 
                 <!-- section 8 -->
                 <!-- Total Fee -->
-                <total-fee :gardenChecked="dataGardenChecked" :reservationPre="dataReservationPre"></total-fee>
+                <total-fee 
+                :gardenChecked="dataGardenChecked" 
+                :reservationPre="dataReservationPre" 
+                :activeTab="dataActiveTab" 
+                :showRegType="dataShowRegType"
+                >
+                </total-fee>
                 <!-- /section 8 -->
 
             </div>

@@ -130,9 +130,9 @@
                 <!-- /page content -->
 
                 <section class="text-center mt-4">
-                    <router-link :to="{name:'ProceedToReservation'}" class="border border-1 border-dark p-3 ps-5 pe-5 bg-white" type="button">
+                    <button @click="$router.go(-1)" class="border border-1 border-dark p-3 ps-5 pe-5 bg-white" type="button">
                         内容を修正する
-                    </router-link>
+                    </button>
                     <router-link :to="{name:'Talk'}" class="border border-1 p-3 pt-3 ps-5 pe-5 ms-5 exy-default-btn" type="button">
                         一時保育を予約する
                     </router-link>
