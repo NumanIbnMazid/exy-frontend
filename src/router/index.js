@@ -151,11 +151,6 @@ const routes = [
         component: () => import("../views/cocoro-nursery-school/UserRegistrationDetails")
     },
     {
-        path: '/child-care-registration-details',
-        name: 'ChildCareRegistrationDetails',
-        component: () => import("../views/cocoro-nursery-school/ChildCareRegistrationDetails")
-    },
-    {
         path: '/monthly-child-care-registration-details',
         name: 'MonthlyChildCareRegistrationDetails',
         component: () => import("../views/cocoro-nursery-school/MonthlyChildCareRegistrationDetails")
@@ -169,16 +164,6 @@ const routes = [
         path: '/tour-content',
         name: 'TourContent',
         component: () => import("../views/cocoro-nursery-school/TourContent")
-    },
-    {
-        path: '/first-garden-content',
-        name: 'FirstGardenContent',
-        component: () => import("../views/cocoro-nursery-school/FirstGardenContent")
-    },
-    {
-        path: '/child-care-registration-details-content',
-        name: 'ChildCareRegistrationDetailsContent',
-        component: () => import("../views/cocoro-nursery-school/ChildCareRegistrationDetailsContent")
     },
     {
         path: '/reservation-content-pre',
@@ -272,7 +257,6 @@ const routes = [
     },
     {
         path: '/registration',
-        name: 'Registration',
         name: 'Registration',
         component: () => import("../components/auth/Registration")
     },
