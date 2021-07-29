@@ -258,6 +258,7 @@ const routes = [
     {
         path: '/registration',
         name: 'Registration',
+        name: 'Registration',
         component: () => import("../components/auth/Registration")
     },
     {
