@@ -32,36 +32,49 @@
                             <tbody>
                                 <tr class="">
                                     <th width="20%">ご利用目的</th>
-                                    <td>体験保育</td>
+                                    <td>月極保育</td>
                                 </tr>
                                 <tr class="">
-                                    <th width="20%">利用日時</th>
+                                    <th width="20%">入園希望日</th>
                                     <td>
-                                        <span>2021年2月26日 (金)</span>
-                                        <span class="ms-3">10:00~14:00</span>
+                                        <span>2021年4月1日</span>
                                     </td>
                                 </tr>
                                 <tr class="">
+                                    <th width="20%">来園希望日</th>
+                                    <td>
+                                        <div v-for="word in ['月', '火', '水' , '木', '金', '土', '日']" :key="word">
+                                            <span>{{ word }}</span>
+                                            <span class="ms-4 me-4">:</span>
+                                            <span>09:00 ~ 17:00</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
                                     <th width="20%">プラン</th>
                                     <td>
                                         <div>
-                                            <span>体験保育</span>
-                                            <span class="ms-3 me-3">|</span>
-                                            <span>0 歳児</span>
+                                            <span>
+                                                通常プラン 
+                                                <span class="ms-3 me-3">|</span>
+                                                <span>0 歳児</span>
+                                            </span>
                                         </div>
                                         <div>
-                                            <span>体験保育</span>
-                                            <span class="ms-3 me-3">|</span>
-                                            <span>1 歳児以上</span>
+                                            <span>
+                                                通常プラン 
+                                                <span class="ms-3 me-3">|</span>
+                                                <span>1歳児・2歳児</span>
+                                            </span>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
                                     <th width="20%">オプション</th>
                                     <td>
-                                        <span>その他経費</span>
+                                        <span>手ぶらプラン</span>
                                         <span class="ms-3 me-3">|</span>
-                                        <span>お給食 x 2</span>
+                                        <span>0 . 1歳児</span>
                                     </td>
                                 </tr>
                                 <tr class="">
@@ -69,11 +82,11 @@
                                     <td>
                                         <div>
                                             <span class="me-4">1. 田中 海</span>
-                                            <span class="ms-5">令和2年2月25日生（満1歳）男児 アレルギー疾患：有</span>
+                                            <span class="ms-5">令和2年2月25日生（満1歳）男児 アレルギー疾患 ：有</span>
                                         </div>
                                         <div>
                                             <span class="me-4">2. 田中 陸</span>
-                                            <span class="ms-5">令和3年2月25日生（満0歳）男児 アレルギー疾患：有</span>
+                                            <span class="ms-5">令和3年2月25日生（満0歳）男児 アレルギー疾患 ：有</span>
                                         </div>
                                     </td>
                                 </tr>
@@ -201,6 +214,14 @@
                                 </tr>
                                 <tr>
                                     <th width="20%">
+                                        この園に行くのは初めてですか?
+                                    </th>
+                                    <td>
+                                        <span>園見学に行ったことがある</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th width="20%">
                                         <span>備</span>
                                         <span class="ms-3">考</span>
                                     </th>
@@ -216,33 +237,65 @@
                                         <span class="ms-3">訳</span>
                                     </th>
                                     <td>
-                                        <div>
-                                            <span>体験保育 | 0 歳児</span>
-                                            <span class="ms-4 me-4">:</span>
-                                            <span>3,600円</span>
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                                                <span>通常プラン</span>
+                                                <span class="ms-3 me-3">|</span>
+                                                 <span>0歳児</span>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-6 col-12">
+                                                <span class="me-4">:</span>
+                                                <span>35,900円</span>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <span>体験保育 | 1歳児以上</span>
-                                            <span class="ms-4 me-4">:</span>
-                                            <span>2,400円</span>
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                                                <span>
+                                                    通常プラン
+                                                </span>
+                                                <span class="ms-3 me-3">|</span>
+                                                <span>1歳児・2歳児</span>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-6 col-12">
+                                                <span class="me-4">:</span>
+                                                <span>35,700円</span>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <span>その他経費 | お給食</span>
-                                            <span class="ms-4 me-4">:</span>
-                                            <span>1000円</span>
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                                                <span>
+                                                    手ぶらプラン
+                                                </span>
+                                                <span class="ms-3 me-3">|</span>
+                                                <span>0・1歳児</span>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-6 col-12">
+                                                <span class="me-4">:</span>
+                                                <span>3,500円</span>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <span>施設利用料（必須)</span>
-                                            <span class="ms-4 me-4">:</span>
-                                            <span>1000円</span>
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                                                保育補助費 (全歳児対象)
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-6 col-12">
+                                                <span class="me-4">:</span>
+                                                <span>10,000円</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-6 col-12">
+                                                入園時必要経費
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-6 col-12">
+                                                <span class="me-4">:</span>
+                                                <span>50,000円</span>
+                                            </div>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th width="20%" class="no-border">
-                                        <span>金</span>
-                                        <span class="ms-3">額</span>
-                                    </th>
+                                    <th width="20%" class="no-border"></th>
                                     <td class="no-border">
                                         <div class="row">
                                             <div class="col-xl-6 col-lg-6 col-md-6 col-12">
@@ -250,7 +303,7 @@
                                             </div>
                                             <div class="col-xl-6 col-lg-6 col-md-6 col-12">
                                                 <span class="text-xxl fw-bold me-5">:</span>
-                                                <span class="text-xl fw-bold text-red">8,000円</span>
+                                                <span class="text-2xl fw-bold text-red">135,100円</span>
                                             </div>
                                         </div>
                                         <div class="row mt-4">
@@ -259,7 +312,7 @@
                                             </div>
                                             <div class="col-xl-6 col-lg-6 col-md-6 col-12">
                                                 <span class="text-xl me-5">:</span>
-                                                <span class="text-xl">80ポイント</span>
+                                                <span class="text-xl">1351ポイント</span>
                                             </div>
                                         </div>
                                     </td>
@@ -285,15 +338,10 @@
                 </section>
                 <!-- /page content -->
 
-                <section class="border border-2 boreder-secondary p-4 mt-4">
-                    <p class="fw-bold">園からご利用者様への確認事項</p>
-                    <p class="mt-4">【各園が利用者へアテンションしたいこと、確認したいことなどを記載する】親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、この次は抜かさずに飛んで見せますと答えた。（青空文庫より）</p>
-                </section>
-
                 <section class="text-center mt-4">
-                    <button @click="$router.go(-1)" class="border border-1 border-dark p-3 ps-5 pe-5 bg-white" type="button">
+                    <router-link :to="{name:'MonthlyChildCareRegistrationDetails'}" class="border border-1 border-dark p-3 ps-5 pe-5 bg-white" type="button">
                         内容を修正する
-                    </button>
+                    </router-link>
                     <router-link :to="{name:'Talk'}" class="border border-1 p-3 pt-3 ps-5 pe-5 ms-5 exy-default-btn" type="button">
                         一時保育を予約する
                     </router-link>

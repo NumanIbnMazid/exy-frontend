@@ -9,15 +9,15 @@
             <div class="content-holder">
                 <div class="ms-2 me-2">
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="" :checked="dataGardenChecked == false">
+                        <input class="form-check-input" type="radio" name="gardenCheck" value="haveTour" v-model="radioValue" @click="handleGardenChecked('haveTour')">
                         <label class="ms-4">園見学に行ったことがある</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="">
+                        <input class="form-check-input" type="radio" name="gardenCheck" value="temporary" v-model="radioValue" @click="handleGardenChecked('temporary')">
                         <label class="ms-4">直近３ヶ月以内に一時保育で利用したことがある、または利用者の兄弟が利用していた</label>
                     </div>
                     <div class="form-check">
-                        <input class="form-check-input" type="radio" name="" @click="handleGardenChecked()" :checked="dataGardenChecked == true">
+                        <input class="form-check-input" type="radio" name="gardenCheck" value="firstTime" v-model="radioValue"  @click="handleGardenChecked('firstTime')">
                         <label class="ms-4">初めて利用する</label>
                     </div>
                     <div class="row mt-4 border border-2 p-3">
@@ -198,7 +198,8 @@
         data() {
             return {
                 date: '',
-                dataGardenChecked: this.gardenChecked
+                dataGardenChecked: this.gardenChecked,
+                radioValue: this.gardenChecked == true ? "firstTime" : "haveTour"
             }
         },
         components: {
@@ -208,12 +209,16 @@
             disabledBeforeToday(date) {
                 const today = new Date()
                 today.setHours(0, 0, 0, 0)
-
                 return date < today
             },
-            handleGardenChecked() {
-                this.dataGardenChecked = !this.dataGardenChecked
-                this.$emit('handleGardenChecked', this.dataGardenChecked)
+            handleGardenChecked(value) {
+                let gardenCheckedValue = value == "firstTime" ? true : false
+                if (gardenCheckedValue == true) {
+                    this.dataGardenChecked = true
+                } else {
+                    this.dataGardenChecked = false
+                }
+                this.$emit('handleGardenChecked', gardenCheckedValue)
             },
         },
     };

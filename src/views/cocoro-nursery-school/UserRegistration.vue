@@ -32,7 +32,7 @@
                     </div>
                     <div class="form-check">
                         <router-link :to="{name: populateDetailsRouterLink()}">
-                            <label class="container-checkbox text-muted" >
+                            <label class="container-checkbox text-muted">
                                 <span class="ms-4 me-5">
                                     <span>田中</span>
                                     <span class="ms-2">陸</span>
@@ -86,12 +86,22 @@
                 return
             },
             populateDetailsRouterLink() {
-                if (this.activeTab == 1) {
-                    return "UserRegistrationDetails"
-                } else if (this.activeTab == 2) {
-                    return "MonthlyChildCareRegistrationDetails"
+                if (this.showRegType == false) {
+                    if (this.activeTab == 1) {
+                        return "UserRegistrationDetails"
+                    } else if (this.activeTab == 2) {
+                        return "MonthlyChildCareRegistrationDetails"
+                    } else {
+                        return "UserRegistrationDetails"
+                    }
                 } else {
-                    return "UserRegistrationDetails"
+                    if (this.activeTab == 1) {
+                        return "ProceedToReservation"
+                    } else if (this.activeTab == 2) {
+                        return "MonthlyChildCare"
+                    } else {
+                        return "ProceedToReservation"
+                    }
                 }
             }
         },

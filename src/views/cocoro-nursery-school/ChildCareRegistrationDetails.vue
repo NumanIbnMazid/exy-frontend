@@ -12,19 +12,19 @@
     </div>
 </template>
 
+
 <script>
     // imports
     import Main from "./Main.vue"
 
     export default {
-        name: "CocoroNurserySchool",
+        name: "ChildCareRegistrationDetails",
         data() {
             return {
-                date: '',
-                showRegType: false,
-                gardenChecked: false,
-                reservationPre: false,
-                activeTab: 1
+                showRegType: true,
+                gardenChecked: true,
+                reservationPre: true,
+                activeTab: 2
             }
         },
         components: {
