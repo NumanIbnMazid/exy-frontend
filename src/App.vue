@@ -10,8 +10,8 @@
 
 </style>
 <script>
-import NavbarTop from "./components/partials/NavbarTop";
-import Footer from "./components/partials/Footer";
+import NavbarTop from "./components/adminPartials/NavbarTop";
+import Footer from "./components/adminPartials/Footer";
 
 export default {
   components: { Footer, NavbarTop }

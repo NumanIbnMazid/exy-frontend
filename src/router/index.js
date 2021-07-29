@@ -333,6 +333,11 @@ const routes = [
     {
         path: "*",
         redirect: "/pages/error-404"
+    },
+    {
+        path: '/admin/',
+        name: 'Admin.Home',
+        component: () => import("../views/admin/Home")
     }
 ]
 
