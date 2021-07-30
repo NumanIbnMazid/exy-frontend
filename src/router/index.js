@@ -236,9 +236,15 @@ const routes = [
         component: () => import("../views/bulletin-board/Details")
     },
     {
-        path: '/child-rearing-consultation-corner',
-        name: 'ConsultationCorner',
-        component: () => import("../views/consultation-corner/Index")
+        path: '',
+        component: () => import("../views/consultation-corner/Main"),
+        children: [
+            {
+                path: '/child-rearing-consultation-corner',
+                name: 'ConsultationCorner',
+                component: () => import("../views/consultation-corner/Index"),
+            }
+        ]
     },
     {
         path: '/life-protection-information',
@@ -272,7 +278,6 @@ const routes = [
     },
     {
         path: '/registration',
-        name: 'Registration',
         name: 'Registration',
         component: () => import("../components/auth/Registration")
     },
