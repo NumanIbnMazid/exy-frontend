@@ -1,0 +1,95 @@
+
+.kigaruni-pink {
+    color: $--color-cb3a82;
+}
+.kigaruni-green {
+    color: $--color-8fc31f;
+}
+.kigaruni-green-background {
+    background-color: $--color-8fc31f;
+}
+
+.second-header {
+    padding: 20px 50px 20px 50px;
+    margin: 0 0px 0 0px;
+
+    .col-left {
+
+        // padding-left: 80px;
+        .nav-badge {
+            background-color: $--color-cccc3b;
+            color: $--color-ffffff;
+        }
+    }
+
+    .col-right {
+        .active {
+            border-left: 1px solid $--color-cb3a82;
+        }
+    }
+}
+
+.childcare-parent {
+    // tab pills
+    .custom-tab-pills {
+
+        .nav-link {
+            background: none;
+            border: 2px solid #DCDCDC;
+            border-radius: 0.65rem;
+            width: 100% !important;
+            height: 55px;
+
+            .pills-text {
+                color: rgba(51, 51, 51, 1)
+            }
+        }
+
+        .nav-link.active,
+        .show>.nav-link {
+            color: #fff;
+            background-color: #CB3A82;
+            width: 100% !important;
+            border: none !important;
+
+            .pills-text {
+                color: rgba(255, 255, 255, 1);
+                font-weight: bold;
+            }
+        }
+
+        .pills-text {
+            text-align: center;
+            font-style: normal;
+            font-size: 16px;
+        }
+    }
+
+    // tab content
+    .custom-tab-content {
+        border-top: 3px solid #DCDCDC;
+    }
+
+    // Centered Image
+    .img-center {
+        .container {
+            position: relative;
+        }
+
+        .img-text {
+            position: absolute;
+            left: 63%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 23px;
+            color: #fff;
+        }
+
+        img {
+            width: 170%;
+            height: auto;
+            opacity: 100;
+        }
+    }
+    
+}

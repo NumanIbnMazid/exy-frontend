@@ -196,6 +196,11 @@ const routes = [
         component: () => import("../views/cocoro-nursery-school/PaymentMethodSelection")
     },
     {
+        path: '/child-care-consultation',
+        name: 'ChildCareConsultation',
+        component: () => import("../views/childcare/Index")
+    },
+    {
         path: '/thoughts-of-kigarni-hoik',
         name: 'ThoughtsofKigarniHoik',
         component: () => import("../views/ThoughtsofKigarniHoik")
