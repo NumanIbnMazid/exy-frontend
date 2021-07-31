@@ -5,8 +5,38 @@
 .kigaruni-green {
     color: $--color-8fc31f;
 }
+.kigaruni-yellow {
+    color: $--color-cccc3b;
+}
 .kigaruni-green-background {
     background-color: $--color-8fc31f;
+}
+.kigaruni-yellow-background {
+    background-color: $--color-cccc3b;
+}
+.fa-bordered {
+    text-shadow: 0 0 2px #000;
+}
+
+.overlay-badge {
+    position:absolute;
+    right:17.3%;
+}
+
+.crossed {
+    background:
+        linear-gradient(to top left,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0) calc(50% - 0.8px),
+            rgba(0, 0, 0, 1) 50%,
+            rgba(0, 0, 0, 0) calc(50% + 0.8px),
+            rgba(0, 0, 0, 0) 100%),
+        linear-gradient(to top right,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0) calc(50% - 0.8px),
+            rgba(0, 0, 0, 1) 50%,
+            rgba(0, 0, 0, 0) calc(50% + 0.8px),
+            rgba(0, 0, 0, 0) 100%);
 }
 
 .second-header {
