@@ -68,7 +68,12 @@ const routes = [
                 path: '/my-page/profile',
                 name: 'Mypage.Profile',
                 component: () => import("../views/myPage/profile/Index")
-            }
+            },
+            {
+                path: '/my-page/condition',
+                name: 'Mypage.Condition',
+                component: () => import("../views/myPage/profile/Condition")
+            },
         ]
     },
     {
