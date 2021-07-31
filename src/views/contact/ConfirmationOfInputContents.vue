@@ -51,11 +51,9 @@
         </div>
       </div>
 
-      <div class="row justify-content-end py-5">
-        <div class="col-9">
-          <router-link :to="{name:'InquiryForm'}" class="border py-2 px-5 d-inline-block border-dark me-5">内容を修正する</router-link>
-          <router-link :to="{name:'InquiryComplete'}" class="exy-default-btn">送信する</router-link>
-        </div>
+      <div class="d-flex align-items-center justify-content-center py-5">
+        <router-link :to="{name:'InquiryForm'}" class="border py-2 px-5 d-inline-block border-dark me-5">内容を修正する</router-link>
+        <router-link :to="{name:'InquiryComplete'}" class="exy-default-btn">送信する</router-link>
       </div>
 
     </div>

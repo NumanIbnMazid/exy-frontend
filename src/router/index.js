@@ -252,6 +252,21 @@ const routes = [
         ]
     },
     {
+        path: '/talk-about-child-rearing',
+        name: 'TalkAboutChildRearing',
+        component: () => import("../views/consultation-corner/TalkAboutChildRearing")
+    },
+    {
+        path: '/post-a-consultation',
+        name: 'PostConsultation',
+        component: () => import("../views/consultation-corner/PostConsultation")
+    },
+    {
+        path: '/child-rearing-consultation-corner-details',
+        name: 'ChildRearingConsultationCornerDetails',
+        component: () => import("../views/consultation-corner/ChildRearingConsultationCornerDetails")
+    },
+    {
         path: '/life-protection-information',
         name: 'lifeProtectionInformation',
         component: () => import("../views/protection-information/Index")
