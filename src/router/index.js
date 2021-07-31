@@ -61,6 +61,17 @@ const routes = [
         component: () => import("../views/myPage/Home")
     },
     {
+        path: '',
+        component: () => import("../views/myPage/profile/Main"),
+        children: [
+            {
+                path: '/my-page/profile',
+                name: 'Mypage.Profile',
+                component: () => import("../views/myPage/profile/Index")
+            }
+        ]
+    },
+    {
         path: '/my-page/talk',
         name: 'Talk',
         component: () => import("../views/myPage/Talk")
