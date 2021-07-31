@@ -5,7 +5,7 @@
       <div class="position-absolute top-0 w-100 h-100">
         <div class="container">
           <div class="position-absolute bottom-0 pb-2 pb-md-3 pb-lg-5">
-            <a href="" class="link d-inline-block bg-white border border-color-e6006e fw-bold">子育て・保育の悩みを相談してみよう <i class="fa fa-angle-right ps-4"></i></a>
+            <router-link :to="{name:'TalkAboutChildRearing'}" class="link d-inline-block bg-white border border-color-e6006e fw-bold">子育て・保育の悩みを相談してみよう <i class="fa fa-angle-right ps-4"></i></router-link>
           </div>
         </div>
       </div>

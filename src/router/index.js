@@ -252,6 +252,16 @@ const routes = [
         ]
     },
     {
+        path: '/talk-about-child-rearing',
+        name: 'TalkAboutChildRearing',
+        component: () => import("../views/consultation-corner/TalkAboutChildRearing")
+    },
+    {
+        path: '/post-a-consultation',
+        name: 'PostConsultation',
+        component: () => import("../views/consultation-corner/PostConsultation")
+    },
+    {
         path: '/life-protection-information',
         name: 'lifeProtectionInformation',
         component: () => import("../views/protection-information/Index")

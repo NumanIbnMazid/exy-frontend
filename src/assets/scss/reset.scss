@@ -105,6 +105,10 @@ ul {
     background-color: $--color-f8f7f7 !important;
 }
 
+.bg-fff2f8 {
+    background-color: #FFF2F8 !important;
+}
+
 .my-page {
     padding: 10px 12px;
     font-weight: 700;
@@ -311,6 +315,7 @@ ul {
 
 .exy-default-btn {
     color: #FFFFFF;
+    text-align: center;
     outline: inherit;
     padding: 10px 75px;
     display: inline-block;
