@@ -192,6 +192,11 @@ const routes = [
         component: () => import("../views/cocoro-nursery-school/PaymentMethodSelection")
     },
     {
+        path: '/child-care-consultation',
+        name: 'ChildCareConsultation',
+        component: () => import("../views/childcare/Index")
+    },
+    {
         path: '/thoughts-of-kigarni-hoik',
         name: 'ThoughtsofKigarniHoik',
         component: () => import("../views/ThoughtsofKigarniHoik")
@@ -232,9 +237,30 @@ const routes = [
         component: () => import("../views/bulletin-board/Details")
     },
     {
-        path: '/child-rearing-consultation-corner',
-        name: 'ConsultationCorner',
-        component: () => import("../views/consultation-corner/Index")
+        path: '',
+        component: () => import("../views/consultation-corner/Main"),
+        children: [
+            {
+                path: '/child-rearing-consultation-corner',
+                name: 'ConsultationCorner',
+                component: () => import("../views/consultation-corner/Index"),
+            }
+        ]
+    },
+    {
+        path: '/talk-about-child-rearing',
+        name: 'TalkAboutChildRearing',
+        component: () => import("../views/consultation-corner/TalkAboutChildRearing")
+    },
+    {
+        path: '/post-a-consultation',
+        name: 'PostConsultation',
+        component: () => import("../views/consultation-corner/PostConsultation")
+    },
+    {
+        path: '/child-rearing-consultation-corner-details',
+        name: 'ChildRearingConsultationCornerDetails',
+        component: () => import("../views/consultation-corner/ChildRearingConsultationCornerDetails")
     },
     {
         path: '/life-protection-information',

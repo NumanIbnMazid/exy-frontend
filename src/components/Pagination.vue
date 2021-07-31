@@ -1,11 +1,12 @@
 <template>
-  <nav class="mt-5" aria-label="Page navigation">
-    <ul class="pagination justify-content-center">
+  <nav class="mt-4" aria-label="Page navigation">
+    <ul class="pagination d-flex align-items-center justify-content-center">
       <li class="page-item active"><a href="#">1</a></li>
       <li class="page-item"><a href="#">2</a></li>
       <li class="page-item"><a href="#">3</a></li>
       <li class="page-item"><a href="#">4</a></li>
       <li class="page-item"><a href="#">5</a></li>
+      <li class="page-item"><a href="#">...</a></li>
       <li class="page-item"><a href="#"><i class="fa fa-angle-right"></i></a></li>
     </ul>
   </nav>
