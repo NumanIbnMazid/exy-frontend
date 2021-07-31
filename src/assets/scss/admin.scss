@@ -1,0 +1,108 @@
+.admin-nav{
+    .nav-collapse{
+        .btn-collapse{
+            background-color: $--color-cb3a82;
+            color: $--color-ffffff;
+            border-radius: 0px;
+        }
+        .btn-collapse-1 {
+            background-color: $--color-333333;
+            color: $--color-ffffff;
+            border-radius: 0px;
+        }
+        .btn-collapse-2 {
+            background-color: $--color-a3a3a3;
+            color: $--color-707070;
+            border-radius: 0px;
+        }
+        .btn-collapse-3 {
+            background-color: $--color-a3a3a3;
+            color: $--color-ffffff;
+            border-radius: 0px;
+        }
+        .btn-collapse:focus {
+            outline: none !important;
+            box-shadow: none;
+        }
+        .btn-collapse-1:focus {
+            outline: none !important;
+            box-shadow: none;
+        }
+        .active {
+            position: relative;
+
+            &::before {
+                content: '';
+                display: inline-block;
+                height: 0;
+                width: 0;
+                border-top: 18px solid $--color-c94284;
+                border-left: 15px solid transparent;
+                border-right: 15px solid transparent;
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 1;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                height: 0px;
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: $--color-c94284;
+            }
+        }
+        .active1 {
+            position: relative;
+
+            &::before {
+                content: '';
+                display: inline-block;
+                height: 0;
+                width: 0;
+                border-top: 18px solid $--color-333333;
+                border-left: 15px solid transparent;
+                border-right: 15px solid transparent;
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 1;
+            }
+
+            &::after {
+                content: '';
+                display: block;
+                height: 0px;
+                width: 100%;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: $--color-333333;
+            }
+        }
+    }
+    .nav-collapse-body{
+        height: 170px;
+        .col-1{
+            width: calc(100% / 8.7);
+            .inner-1 {
+                background-color: $--color-ffffff;
+                border: 2px solid $--color-d1d1d1;
+                height: 100%;
+                width: 90%;
+                top: -5px;
+                left: 0px;
+            }
+            .inner-2{
+                background-color: $--color-eedae3;
+                 z-index: 9;
+            }
+        }
+    }
+}

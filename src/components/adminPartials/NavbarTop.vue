@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="admin-nav">
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container-fluid">
         <router-link class="navbar-brand" to="/">
@@ -54,25 +54,77 @@
       </div>
       
     </nav>
-    <div class="row p-0">
+    <div class="row p-0 nav-collapse w-100">
       <div class="col-md-6 p-0">
-        <a class="btn  w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Link with href
+        <a class="btn btn-collapse w-100 py-2 fw-bold"  @click="activeClass==0 ? activeClass=1 : activeClass=0" :class="[ activeClass === 1 ? 'active' : '', activeClass === 2 ? 'btn-collapse-3' : '' ]" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          キガルニホイク
         </a>
       </div>
       <div class="col-md-6 p-0">
-        <a class="btn  w-100" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-          Link with href
+        <a class="btn btn-collapse-1 w-100 py-2" @click="activeClass==0 ? activeClass=2 : activeClass=0" :class="[ activeClass === 2 ? 'active1' : '', activeClass === 1 ? 'btn-collapse-2' : '']" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          キガルニホイクシ
         </a>
       </div>
     </div>
-    <div class="row position-absolute collapse bg-light w-100" id="collapseExample">
-      <!-- <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+    <div class="row position-absolute collapse bg-white w-100 nav-collapse-body pt-4 mx-5" id="collapseExample">
+     <div class="col-1 text-center ps-4 position-relative">
+       <div class="inner-2 w-100 h-100"></div>
+       <router-link :to="{name:'todo', params:{page:65}}">
+        <div class="pt-2 inner-1 shadow  position-absolute">
+          <img src="../../assets/images/svg/clock.svg" alt="EXY" class="w-50">
+            <p class="text-xs pt-3">保育開始・完了報告</p>
         </div>
-      </div> -->
-      <p class="p-5 "> Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+       </router-link>
+     </div>
+     <div class="col-1 text-center position-relative">
+       <div class="inner-2 w-100 h-100"></div>
+       <div class="pt-2 inner-1 shadow  position-absolute">
+        <img src="../../assets/images/svg/note.svg" alt="EXY" class="w-50">
+        <p class="text-xs pt-3">予約リスト</p>
+       </div>
+     </div>
+     <div class="col-1 text-center position-relative">
+       <div class="inner-2 w-100 h-100"></div>
+       <div class="pt-2 inner-1 shadow  position-absolute">
+        <img src="../../assets/images/svg/baby-emoji.svg" alt="EXY" class="w-75">
+        <p class="text-xs pt-3">園児情報</p>
+       </div>
+     </div>
+     <div class="col-1 text-center position-relative">
+       <div class="inner-2 w-100 h-100"></div>
+       <div class="pt-2 inner-1 shadow  position-absolute">
+         <img src="../../assets/images/svg/calculator.svg" alt="EXY" class="w-75">
+       <p class="text-xs pt-3">売上管理</p>
+       </div>
+     </div>
+     <div class="col-1 text-center position-relative">
+       <div class="inner-2 w-100 h-100"></div>
+       <div class="pt-2 inner-1 shadow  position-absolute">
+        <img src="../../assets/images/svg/note-fill.svg" alt="EXY" class="w-50">
+        <p class="text-xs pt-3">記録と計画</p>
+       </div>
+     </div>
+     <div class="col-1 text-center position-relative">
+       <div class="inner-2 w-100 h-100"></div>
+       <div class="pt-2 inner-1 shadow  position-absolute">
+        <img src="../../assets/images/svg/calendar.svg" alt="EXY" class="w-50">
+        <p class="text-xs pt-3">空き状況設定</p>
+       </div>
+     </div>
+     <div class="col-1 text-center position-relative">
+       <div class="inner-2 w-100 h-100"></div>
+       <div class="pt-2 inner-1 shadow  position-absolute">
+        <img src="../../assets/images/svg/man-calendar.svg" alt="EXY" class="w-75">
+        <p class="text-xs pt-4">口コミ一覧</p>
+       </div>
+     </div>
+     <div class="col-1 text-center position-relative">
+       <div class="inner-2 w-100 h-100"></div>
+       <div class="pt-2 inner-1 shadow  position-absolute">
+        <img src="../../assets/images/svg/currency.svg" alt="EXY" class="w-75">
+        <p class="text-xs pt-4">料金プラン</p>
+       </div>
+     </div>
     </div>
   </div>
   
@@ -80,7 +132,12 @@
 
 <script>
 export default {
-  name: "NavbarTop"
+  name: "NavbarTop",
+  data() {
+    return {
+      activeClass: 0,
+    }
+  }
 }
 </script>
 
