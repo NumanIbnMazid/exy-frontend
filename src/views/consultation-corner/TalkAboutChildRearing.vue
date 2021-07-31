@@ -386,11 +386,5 @@ export default {
       margin-left: 40px;
     }
   }
-
-  .white-space-45 {
-    height: 45px;
-    background: transparent linear-gradient(180deg, #F4F0F0 0%, #FAFAFA 18%, #FAFAFA 83%, #F4F0F0 100%) 0 0 no-repeat padding-box;
-    opacity: 1;
-  }
 }
 </style>
