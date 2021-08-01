@@ -1,26 +1,53 @@
-
 .kigaruni-pink {
     color: $--color-cb3a82;
 }
+
 .kigaruni-green {
     color: $--color-8fc31f;
 }
+
 .kigaruni-yellow {
     color: $--color-cccc3b;
 }
+
+.kigaruni-pink-background {
+    background-color: $--color-cb3a82;
+}
+
 .kigaruni-green-background {
     background-color: $--color-8fc31f;
 }
+
 .kigaruni-yellow-background {
     background-color: $--color-cccc3b;
 }
+
+.background-707070 {
+    background-color: $--color-707070;
+}
+
 .fa-bordered {
     text-shadow: 0 0 2px #000;
 }
 
 .overlay-badge {
-    position:absolute;
-    right:17.3%;
+    position: absolute;
+    right: 17.3%;
+}
+
+.exy-white-btn {
+    margin-top: 50px;
+    background-color: #FFFFFF;
+    color: $--color-cb3a82;
+    display: inline-block;
+    border: 1px solid;
+    font-size: 20px;
+    line-height: 48px;
+    max-width: 500px;
+    width: 100%;
+    font-weight: 700;
+    height: 48px;
+    transition: 0.8s;
 }
 
 .crossed {
@@ -60,6 +87,7 @@
 }
 
 .childcare-parent {
+
     // tab pills
     .custom-tab-pills {
 
@@ -121,5 +149,5 @@
             opacity: 100;
         }
     }
-    
+
 }
