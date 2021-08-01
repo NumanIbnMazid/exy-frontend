@@ -217,11 +217,11 @@
 
     </div>
 
-    <a href="#" class="mb-4 d-block py-3 text-center bg-cb3a82 fw-bold text-white rounded-3">自分の子育て・保育相談</a>
+    <router-link :to="{name:'ChildCareConsultation'}" class="mb-4 d-block py-3 text-center bg-cb3a82 fw-bold text-white rounded-3">自分の子育て・保育相談</router-link>
 
-    <a href="#">
+    <router-link :to="{name:'Faqs'}">
       <img src="../../assets/images/consultation-corner/ID2x.png" alt="EXY" class="img-fluid w-100">
-    </a>
+    </router-link>
 
   </div>
 </template>
