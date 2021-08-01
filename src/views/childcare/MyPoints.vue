@@ -1,7 +1,7 @@
 <template>
     <div class="childcare-parent">
 
-        <Header></Header>
+        <Header :navActive="navActive"></Header>
 
         <div class="container">
 
@@ -44,12 +44,12 @@
                         </div>
                     </div>
                     <div class="text-center">
-                        <router-link :to="{name:'todo', params: {page: 80}}"
-                            class="read-more mt-5 kigaruni-pink-background text-white" type="button">クーポンコードを入力
+                        <router-link :to="{ name:'CouponCode' }"
+                            class="read-more mt-5 kigaruni-pink-background text-white fw-normal" type="button">クーポンコードを入力
                         </router-link>
                     </div>
                     <div class="text-center mb-5">
-                        <button class="exy-white-btn">
+                        <button class="exy-white-btn fw-normal">
                             クーポンコードを入力
                         </button>
                     </div>
@@ -63,14 +63,12 @@
                     </div>
                     <div class="table-responsive mt-5">
                         <table class="table">
-                            <thead class="text-center fw-normal">
-                                <tr>
-                                    <th scope="col">日付</th>
-                                    <th scope="col">タイプ</th>
-                                    <th scope="col">獲得・利用</th>
-                                </tr>
-                            </thead>
                             <tbody class="text-center">
+                                <tr class="text-center">
+                                    <th scope="col" class="fw-normal">日付</th>
+                                    <th scope="col" class="fw-normal">タイプ</th>
+                                    <th scope="col" class="fw-normal">獲得・利用</th>
+                                </tr>
                                 <tr>
                                     <td>5/1 (月)</td>
                                     <td>ポイント購入</td>
@@ -110,7 +108,6 @@
 
         </div>
 
-
     </div>
 </template>
 
@@ -119,10 +116,15 @@
     import Header from "./Header.vue"
 
     export default {
-        name: "MyPoint",
+        name: "MyPoints",
         components: {
             Header,
-        }
+        },
+        data() {
+            return {
+                navActive: false
+            }
+        },
     }
 </script>
 

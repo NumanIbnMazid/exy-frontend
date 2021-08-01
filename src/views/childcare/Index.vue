@@ -1,7 +1,7 @@
 <template>
     <div class="childcare-parent">
 
-        <Header></Header>
+        <Header :navActive="navActive"></Header>
 
         <div class="container">
 
@@ -38,7 +38,8 @@
         name: "ChildcareConsultation",
         data() {
             return {
-                activeTab: 1
+                activeTab: 1,
+                navActive: true
             }
         },
         components: {

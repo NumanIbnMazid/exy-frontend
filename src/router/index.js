@@ -207,9 +207,14 @@ const routes = [
         component: () => import("../views/childcare/Index")
     },
     {
-        path: '/my-point',
-        name: 'MyPoint',
-        component: () => import("../views/childcare/MyPoint")
+        path: '/my-points',
+        name: 'MyPoints',
+        component: () => import("../views/childcare/MyPoints")
+    },
+    {
+        path: '/coupon-code',
+        name: 'CouponCode',
+        component: () => import("../views/childcare/CouponCode")
     },
     {
         path: '/thoughts-of-kigarni-hoik',

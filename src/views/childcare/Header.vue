@@ -19,7 +19,7 @@
       </div>
       <div class="col-md-7 col-right mt-3 ps-3">
         <div class="row text-base">
-          <div class="col-md-2 active">
+          <div class="col-md-2" :class="navActive == true ? 'active':''">
             <router-link :to="{name:'Mypage.Home'}">
               <p class="m-0 fw-bold">ホーム</p>
               <p class="m-0 text-sm">home</p>
@@ -60,3 +60,12 @@
     </div>
   </div>
 </template>
+
+<script>
+    export default {
+        name: "Header",
+        props: {
+            navActive: Boolean
+        }
+    };
+</script>

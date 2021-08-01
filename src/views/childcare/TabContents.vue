@@ -10,7 +10,8 @@
           <!-- item -->
           <div>
             <div v-for="i in 5" :key="i">
-              <div class="border border-1 rounded-3 pt-3 pb-3 ps-4 pe-4 shadow" :class="i !== 1 ? 'mt-4' : ''"
+              <div class="border border-1 rounded-3 pt-3 pb-3 ps-4 pe-4 shadow" 
+              :class="i !== 1 ? 'mt-4' : ''"
                 @click="handleTabOneSectionOneRoutes(i)">
                 <div class="row border border-1 rounded-3 p-3">
                   <div class="col-xl-11 col-lg-10 col-md-10 col-sm-9 col-8">
@@ -38,7 +39,8 @@
                   <div class="col-6 text-start">
                     <span>2021/03/09</span>
                     <span class="ms-3">15:11</span>
-                    <span class="ms-3" v-if="i < 5 && i > 2">
+                    <span class="ms-3" 
+                    v-if="i < 5 && i > 2">
                       <span class="badge rounded-circle kigaruni-yellow-background">p</span>
                       <span class="ms-1 kigaruni-yellow">100pt</span>
                     </span>
@@ -80,7 +82,8 @@
           <!-- item -->
           <div class="mt-5">
             <div v-for="i in 5" :key="i">
-              <div class="border border-1 rounded-3 pb-3 ps-3 pe-3 shadow" :class="i !== 1 ? 'mt-4' : ''"
+              <div class="border border-1 rounded-3 pb-3 ps-3 pe-3 shadow" 
+              :class="i !== 1 ? 'mt-4' : ''"
                 @click="handleTabOneSectionTwoRoutes(i)">
                 <div class="text-end overlay-badge">
                   <span class="bg-cb3a82 ps-5 pe-5 pt-2 pb-2 text-lg text-white">回答受付中</span>
@@ -100,7 +103,8 @@
                     <span>2021/03/09</span>
                     <span class="ms-3">15:11</span>
                   </div>
-                  <div class="col-6 text-end" v-if="i === 1">
+                  <div class="col-6 text-end" 
+                  v-if="i === 1">
                     <span><u>＃回答受付中</u></span>
                     <span class="ms-3"><u>＃保育関連</u></span>
                     <span class="ms-3"><u>＃働くママ・パパ</u></span>
@@ -109,7 +113,8 @@
                     <span class="ms-3 fa fa-comment text-white fa-bordered"></span>
                     <span class="ms-1">5</span>
                   </div>
-                  <div class="col-6 text-end" v-else-if="i === 2">
+                  <div class="col-6 text-end" 
+                  v-else-if="i === 2">
                     <span><u>＃</u></span>
                     <span class="ms-3"><u>＃お悩み聞いて！</u></span>
                     <span class="ms-3"><u>＃旦那・家族</u></span>
@@ -253,7 +258,8 @@
                     <span>2021/03/09</span>
                     <span class="ms-3">15:11</span>
                   </div>
-                  <div class="col-6 text-end" v-if="i === 1">
+                  <div class="col-6 text-end" 
+                  v-if="i === 1">
                     <span><u>＃回答受付中</u></span>
                     <span class="ms-3"><u>＃保育関連</u></span>
                     <span class="ms-3"><u>＃働くママ・パパ</u></span>
@@ -262,7 +268,8 @@
                     <span class="ms-3 fa fa-comment text-white fa-bordered"></span>
                     <span class="ms-1">5</span>
                   </div>
-                  <div class="col-6 text-end" v-else-if="i === 2">
+                  <div class="col-6 text-end" 
+                  v-else-if="i === 2">
                     <span><u>＃</u></span>
                     <span class="ms-3"><u>＃お悩み聞いて！</u></span>
                     <span class="ms-3"><u>＃旦那・家族</u></span>
@@ -271,7 +278,8 @@
                     <span class="ms-3 fa fa-comment text-white fa-bordered"></span>
                     <span class="ms-1">5</span>
                   </div>
-                  <div class="col-6 text-end" v-else>
+                  <div class="col-6 text-end" 
+                  v-else>
                     <span><u>＃解決済み</u></span>
                     <span class="ms-3"><u>＃お悩み聞いて！</u></span>
                     <span class="ms-3"><u>＃旦那・家族</u></span>
@@ -355,14 +363,19 @@
                   <div class="col-6 text-start">
                     <span>2021/03/09</span>
                     <span class="ms-3">15:11</span>
-                    <span class="ms-3" v-if="i === 5">
+                    <span class="ms-3" 
+                    v-if="i === 5">
                       <span class="badge rounded-circle kigaruni-yellow-background">p</span>
                       <span class="ms-1 kigaruni-yellow">100pt</span>
                     </span>
                   </div>
                   <div class="col-6 text-end">
-                    <span v-if="i === 3 || i === 5"><u>＃回答受付中</u></span>
-                    <span v-else><u>＃解決済み</u></span>
+                    <span 
+                    v-if="i === 3 || i === 5"><u>＃回答受付中</u></span>
+                    <span 
+                    v-else>
+                    <u>＃解決済み</u>
+                    </span>
                     <span class="ms-3"><u>＃病気・健康</u></span>
                     <span class="ms-3"><u>＃シンママ・シンパパ</u></span>
                     <span class="ms-3"><u>＃2歳児</u></span>
@@ -410,7 +423,8 @@
                     <span>2021/03/09</span>
                     <span class="ms-3">15:11</span>
                   </div>
-                  <div class="col-6 text-end" v-if="i === 1">
+                  <div class="col-6 text-end" 
+                  v-if="i === 1">
                     <span><u>＃回答受付中</u></span>
                     <span class="ms-3"><u>＃保育関連</u></span>
                     <span class="ms-3"><u>＃働くママ・パパ</u></span>
@@ -419,7 +433,8 @@
                     <span class="ms-3 fa fa-comment text-white fa-bordered"></span>
                     <span class="ms-1">5</span>
                   </div>
-                  <div class="col-6 text-end" v-else-if="i === 2">
+                  <div class="col-6 text-end" 
+                  v-else-if="i === 2">
                     <span><u>＃</u></span>
                     <span class="ms-3"><u>＃お悩み聞いて！</u></span>
                     <span class="ms-3"><u>＃旦那・家族</u></span>
@@ -428,7 +443,8 @@
                     <span class="ms-3 fa fa-comment text-white fa-bordered"></span>
                     <span class="ms-1">5</span>
                   </div>
-                  <div class="col-6 text-end" v-else>
+                  <div class="col-6 text-end" 
+                  v-else>
                     <span><u>＃解決済み</u></span>
                     <span class="ms-3"><u>＃お悩み聞いて！</u></span>
                     <span class="ms-3"><u>＃旦那・家族</u></span>
