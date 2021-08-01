@@ -7,10 +7,10 @@
       </p>
     </div>
     <div class="mypage-condicion-main mt-3">
-     <div class="card">
-       <div class="card-body">
-         <form>
-             <div class="form-group-container">
+      <div class="card">
+        <div class="card-body">
+          <form>
+            <div class="form-group-container">
               <div class="row">
                 <div class="col-md-2">
                   <div class="input-label">
@@ -19,14 +19,56 @@
                 </div>
                 <div class="col-md-10">
                   <div class="input-group-container-right">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos vel est porro doloremque laboriosam et? Tempora blanditiis vero possimus. Quis hic at quam vel dolorem modi voluptates non alias rerum?
+                     <div class="form-group mb-2">
+                      <select class="mr-3">
+                        <option></option>
+                        <option>One</option>
+                      </select>
+                      <label> 住所から近い</label>
+                    </div>
+                     <div class="form-group mb-2">
+                      <select class="mr-3">
+                        <option></option>
+                        <option>One</option>
+                      </select>
+                      <label> 職場から近い</label>
+                    </div>
+                     <div class="form-group mb-2">
+                      <select class="mr-3">
+                        <option></option>
+                        <option>One</option>
+                      </select>
+                      <label> 最寄駅から近い</label>
+                    </div>
+                    <div class="form-group mb-2">
+                      <select class="mr-3">
+                        <option></option>
+                        <option>One</option>
+                      </select>
+                      <label> 希望カテゴリの合致数が多い</label>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-         </form>
-       </div>
-     </div>
+             <div class="form-group-container">
+              <div class="row">
+                <div class="col-md-2">
+                  <div class="input-label">
+                    <span>職場登録</span>
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <div class="input-group-container-right">
+                    <p class="m-0 p-0">住所</p>
+                    <p class="m-0 p-0">大阪市西区北堀江１丁目２−２７ AXIS SOUTH 四ツ橋ビル 407</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -42,9 +84,7 @@ export default {
       address: true,
     };
   },
-  methods: {
-  
-  },
+  methods: {},
 };
 </script>
 
@@ -70,9 +110,7 @@ export default {
     font-size: 13px;
   }
 }
-.form-group-container {
-  margin: 0 !important;
-}
+
 .mypage-profile-singlebox {
   display: flex;
   justify-content: start;
@@ -102,8 +140,11 @@ export default {
 }
 .form-group-container {
   .input-label {
-    background: #AAAAAA;
+    background: #aaaaaa;
     color: #fff;
   }
+}
+.input-group-container-right label {
+  margin-left: 10px;
 }
 </style>
