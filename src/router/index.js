@@ -268,6 +268,11 @@ const routes = [
         component: () => import("../views/consultation-corner/ChildRearingConsultationCornerDetails")
     },
     {
+        path: '/child-rearing-consultation-corner-detail-other-users-resolved',
+        name: 'ChildRearingConsultationCornerDetailResolved',
+        component: () => import("../views/consultation-corner/ChildRearingConsultationCornerDetailResolved")
+    },
+    {
         path: '/life-protection-information',
         name: 'lifeProtectionInformation',
         component: () => import("../views/protection-information/Index")

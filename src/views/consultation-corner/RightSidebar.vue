@@ -154,7 +154,7 @@
     <div class="border border-aaa rounded-3 my-4 p-2">
       <div class="text-center --color-e6006e text-sm mb-3">話題の情報</div>
 
-      <a href="#" class="d-flex align-items-center mb-4">
+      <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex align-items-center mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute">
             <img src="../../assets/images/bulletin-board/1.png" alt="EXY">
@@ -164,9 +164,9 @@
         <div class="text-sm">
           子供がなかなか寝てくれない。最近夜更かしをするようにな…
         </div>
-      </a>
+      </router-link>
 
-      <a href="#" class="d-flex align-items-center mb-4">
+      <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex align-items-center mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute">
             <img src="../../assets/images/bulletin-board/2.png" alt="EXY">
@@ -176,9 +176,9 @@
         <div class="text-sm">
           子供がなかなか寝てくれない。最近夜更かしをするようにな…
         </div>
-      </a>
+      </router-link>
 
-      <a href="#" class="d-flex align-items-center mb-4">
+      <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex align-items-center mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute">
             <img src="../../assets/images/bulletin-board/3.png" alt="EXY">
@@ -188,9 +188,9 @@
         <div class="text-sm">
           子供がなかなか寝てくれない。最近夜更かしをするようにな…
         </div>
-      </a>
+      </router-link>
 
-      <a href="#" class="d-flex align-items-center mb-4">
+      <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex align-items-center mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute">
             <img src="../../assets/images/bulletin-board/4.png" alt="EXY">
@@ -200,9 +200,9 @@
         <div class="text-sm">
           子供がなかなか寝てくれない。最近夜更かしをするようにな…
         </div>
-      </a>
+      </router-link>
 
-      <a href="#" class="d-flex align-items-center mb-4">
+      <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex align-items-center mb-4">
         <div class="flex-shrink-1 position-relative mx-2">
           <div class="position-absolute">
             <img src="../../assets/images/bulletin-board/5.png" alt="EXY">
@@ -212,7 +212,7 @@
         <div class="text-sm">
           子供がなかなか寝てくれない。最近夜更かしをするようにな…
         </div>
-      </a>
+      </router-link>
 
     </div>
 
