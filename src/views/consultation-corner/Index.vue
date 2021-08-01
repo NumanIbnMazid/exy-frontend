@@ -104,7 +104,7 @@
       </div>
       <div class="p-2">
         <div class="single-item">
-          <a href="#" class="d-flex align-items-center link">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetails'}" class="d-flex align-items-center link">
             <div class="flex-shrink-1 pe-3">
               <img src="../../assets/images/consultation-corner/1.png" class="u-img" alt="EXY">
             </div>
@@ -112,7 +112,7 @@
               <div class="text-decoration-underline text-base fw-bold">現在５歳、春から小学生になる息子がいる母です。</div>
               <div class="text-base">体が小さめで心も幼く、小学校でちゃんとやっていけるのか、特にいじめられないか心配…</div>
             </div>
-          </a>
+          </router-link>
           <div class="pt-1 d-flex align-items-center justify-content-between color-707070 text-sm">
             <div>
               <span>2021/03/09 15:11</span>
@@ -128,7 +128,7 @@
         </div>
         <div class="dashed-border my-3"></div>
         <div class="single-item">
-          <a href="#" class="d-flex align-items-center link">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetails'}" class="d-flex align-items-center link">
             <div class="flex-shrink-1 pe-3">
               <img src="../../assets/images/consultation-corner/2.png" class="u-img" alt="EXY">
             </div>
@@ -136,7 +136,7 @@
               <div class="text-decoration-underline text-base fw-bold">2歳の息子がいます</div>
               <div class="text-base">産まれてから2回しか風邪を引いたことがありません。児童館や公園等は１週間に一度のペ…</div>
             </div>
-          </a>
+          </router-link>
           <div class="pt-1 d-flex align-items-center justify-content-between color-707070 text-sm">
             <div>
               <span>2021/03/09 15:11</span>
@@ -152,7 +152,7 @@
         </div>
         <div class="dashed-border my-3"></div>
         <div class="single-item">
-          <a href="#" class="d-flex align-items-center link">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetails'}" class="d-flex align-items-center link">
             <div class="flex-shrink-1 pe-3">
               <img src="../../assets/images/consultation-corner/3.png" class="u-img" alt="EXY">
             </div>
@@ -160,7 +160,7 @@
               <div class="text-decoration-underline text-base fw-bold">生後２週間の子がいる新米ママです。</div>
               <div class="text-base">退院する時に母乳が足りていないため、3時間おきにミルクを40〜60足すように言われまし…</div>
             </div>
-          </a>
+          </router-link>
           <div class="pt-1 d-flex align-items-center justify-content-between color-707070 text-sm">
             <div>
               <span>2021/03/09 15:11</span>
@@ -189,7 +189,7 @@
       </div>
       <div class="p-2">
         <div class="single-item">
-          <a href="#" class="d-flex align-items-center link">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetails'}" class="d-flex align-items-center link">
             <div class="flex-shrink-1 pe-3">
               <img src="../../assets/images/consultation-corner/1.png" class="u-img" alt="EXY">
             </div>
@@ -197,7 +197,7 @@
               <div class="text-decoration-underline text-base fw-bold">現在５歳、春から小学生になる息子がいる母です。</div>
               <div class="text-base">体が小さめで心も幼く、小学校でちゃんとやっていけるのか、特にいじめられないか心配…</div>
             </div>
-          </a>
+          </router-link>
           <div class="pt-1 d-flex align-items-center justify-content-between color-707070 text-sm">
             <div>
               <span>2021/03/09 15:11</span>
@@ -213,7 +213,7 @@
         </div>
         <div class="dashed-border my-3"></div>
         <div class="single-item">
-          <a href="#" class="d-flex align-items-center link">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetails'}" class="d-flex align-items-center link">
             <div class="flex-shrink-1 pe-3">
               <img src="../../assets/images/consultation-corner/2.png" class="u-img" alt="EXY">
             </div>
@@ -221,7 +221,7 @@
               <div class="text-decoration-underline text-base fw-bold">2歳の息子がいます</div>
               <div class="text-base">産まれてから2回しか風邪を引いたことがありません。児童館や公園等は１週間に一度のペ…</div>
             </div>
-          </a>
+          </router-link>
           <div class="pt-1 d-flex align-items-center justify-content-between color-707070 text-sm">
             <div>
               <span>2021/03/09 15:11</span>
@@ -237,7 +237,7 @@
         </div>
         <div class="dashed-border my-3"></div>
         <div class="single-item">
-          <a href="#" class="d-flex align-items-center link">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetails'}" class="d-flex align-items-center link">
             <div class="flex-shrink-1 pe-3">
               <img src="../../assets/images/consultation-corner/3.png" class="u-img" alt="EXY">
             </div>
@@ -245,7 +245,7 @@
               <div class="text-decoration-underline text-base fw-bold">生後２週間の子がいる新米ママです。</div>
               <div class="text-base">退院する時に母乳が足りていないため、3時間おきにミルクを40〜60足すように言われまし…</div>
             </div>
-          </a>
+          </router-link>
           <div class="pt-1 d-flex align-items-center justify-content-between color-707070 text-sm">
             <div>
               <span>2021/03/09 15:11</span>

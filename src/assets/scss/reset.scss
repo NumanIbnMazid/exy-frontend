@@ -569,3 +569,23 @@ textarea {
     background: transparent linear-gradient(180deg, #F4F0F0 0%, #FAFAFA 18%, #FAFAFA 83%, #F4F0F0 100%) 0 0 no-repeat padding-box;
     opacity: 1;
 }
+
+.modal {
+    display: block;
+    background: rgba(0, 0, 0, .7);
+    
+    .modal-content {
+        
+        .close {
+            position: absolute;
+            top: 0;
+            right: 7px;
+            cursor: pointer;
+            z-index: 9999;
+        }
+    }
+}
+
+.w-150 {
+    width: 150px;
+}

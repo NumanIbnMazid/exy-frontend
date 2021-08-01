@@ -282,25 +282,4 @@ export default {
   border: 1px solid #84C942;
   padding: 6px 25px;
 }
-
-.w-150 {
-  width: 150px;
-}
-
-.modal {
-  display: block;
-  background: rgba(0, 0, 0, .7);
-
-  .modal-content {
-    background: #f9fafb;
-
-    .close {
-      position: absolute;
-      top: 0;
-      right: 7px;
-      cursor: pointer;
-      z-index: 9999;
-    }
-  }
-}
 </style>

@@ -55,7 +55,7 @@
                 <span class="text-decoration-underline">＃5歳児</span>
               </div>
               <div>
-                <div class="d-inline-block text-sm border py-1 px-2 rounded-3 cursor-pointer">
+                <div class="d-inline-block text-sm border py-1 px-2 rounded-3 cursor-pointer" @click="violationModal = true">
                   <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
                     <path id="ban-solid" d="M14,8a6,6,0,1,0,6,6A6,6,0,0,0,14,8Zm3.148,2.852a4.452,4.452,0,0,1,.5,5.7l-6.2-6.2A4.452,4.452,0,0,1,17.148,10.852Zm-6.3,6.3a4.452,4.452,0,0,1-.5-5.7l6.2,6.2A4.452,4.452,0,0,1,10.852,17.148Z" transform="translate(-7.5 -7.5)" fill="#707070" stroke="#fff" stroke-width="1"/>
                   </svg>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="d-flex justify-content-end p-2">
-              <div class="d-inline-block text-sm border py-1 px-2 rounded-3 cursor-pointer">
+              <div class="d-inline-block text-sm border py-1 px-2 rounded-3 cursor-pointer" @click="violationModal = true">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
                   <path id="ban-solid" d="M14,8a6,6,0,1,0,6,6A6,6,0,0,0,14,8Zm3.148,2.852a4.452,4.452,0,0,1,.5,5.7l-6.2-6.2A4.452,4.452,0,0,1,17.148,10.852Zm-6.3,6.3a4.452,4.452,0,0,1-.5-5.7l6.2,6.2A4.452,4.452,0,0,1,10.852,17.148Z" transform="translate(-7.5 -7.5)" fill="#707070" stroke="#fff" stroke-width="1"/>
                 </svg>
@@ -132,7 +132,7 @@
             </div>
 
             <div class="d-flex justify-content-end p-2">
-              <div class="d-inline-block text-sm border py-1 px-2 rounded-3 cursor-pointer">
+              <div class="d-inline-block text-sm border py-1 px-2 rounded-3 cursor-pointer" @click="violationModal = true">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
                   <path id="ban-solid" d="M14,8a6,6,0,1,0,6,6A6,6,0,0,0,14,8Zm3.148,2.852a4.452,4.452,0,0,1,.5,5.7l-6.2-6.2A4.452,4.452,0,0,1,17.148,10.852Zm-6.3,6.3a4.452,4.452,0,0,1-.5-5.7l6.2,6.2A4.452,4.452,0,0,1,10.852,17.148Z" transform="translate(-7.5 -7.5)" fill="#707070" stroke="#fff" stroke-width="1"/>
                 </svg>
@@ -153,6 +153,8 @@
       </div>
     </div>
 
+    <violation-report-modal v-if="violationModal" @close="violationModal = false"></violation-report-modal>
+
     <div class="space-100"></div>
   </div>
 </template>
@@ -161,10 +163,16 @@
 import RightSidebar from "../consultation-corner/RightSidebar";
 import Pagination from "../../components/Pagination";
 import RelatedConsultation from "./RelatedConsultation";
+import ViolationReportModal from "./ViolationReportModal";
 
 export default {
   name: "ChildRearingConsultationCornerDetails",
-  components: { RelatedConsultation, Pagination, RightSidebar }
+  data() {
+    return {
+      violationModal: false
+    }
+  },
+  components: { ViolationReportModal, RelatedConsultation, Pagination, RightSidebar }
 }
 </script>
 
