@@ -202,6 +202,11 @@ const routes = [
         component: () => import("../views/childcare/Index")
     },
     {
+        path: '/my-point',
+        name: 'MyPoint',
+        component: () => import("../views/childcare/MyPoint")
+    },
+    {
         path: '/thoughts-of-kigarni-hoik',
         name: 'ThoughtsofKigarniHoik',
         component: () => import("../views/ThoughtsofKigarniHoik")
@@ -249,6 +254,21 @@ const routes = [
                 path: '/child-rearing-consultation-corner',
                 name: 'ConsultationCorner',
                 component: () => import("../views/consultation-corner/Index"),
+            },
+            {
+                path: '/child-rearing-consultation-corner/search-results/:active?',
+                name: 'ConsultationCorner.SearchResults',
+                component: () => import("../views/consultation-corner/search-results/Main"),
+            },
+            {
+                path: '/child-rearing-consultation-corner/listen-for-the-time-being/:active?',
+                name: 'ConsultationCorner.ListenForTheTimeBeing',
+                component: () => import("../views/consultation-corner/listen-for-the-time-being/Main"),
+            },
+            {
+                path: '/child-rearing-consultation-corner/latest-consultation/:active?',
+                name: 'ConsultationCorner.LatestConsultation',
+                component: () => import("../views/consultation-corner/latest-consultation/Main"),
             }
         ]
     },

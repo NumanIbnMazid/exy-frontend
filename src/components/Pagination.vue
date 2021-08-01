@@ -24,9 +24,9 @@ export default {
     padding: 0 5px;
 
     a {
-      width: 30px;
-      height: 30px;
-      line-height: 30px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
       text-align: center;
       border-radius: 50%;
       display: inline-block;
