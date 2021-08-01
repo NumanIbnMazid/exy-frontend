@@ -11,7 +11,8 @@
               <p class="m-0 text-xl fw-bold">そらくんママ</p>
             </div>
             <div class="row mt-2 ps-1">
-              <p class="m-0 text-base fw-bold"><span class="rounded-circle me-3 px-2 pt-2 pb-1 nav-badge text-center">P</span>500</p>
+              <p class="m-0 text-base fw-bold"><span
+                  class="rounded-circle me-3 px-2 pt-2 pb-1 nav-badge text-center">P</span>500</p>
             </div>
           </div>
         </div>
