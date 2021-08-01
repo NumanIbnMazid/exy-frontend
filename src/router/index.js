@@ -293,6 +293,26 @@ const routes = [
         component: () => import("../views/consultation-corner/ChildRearingConsultationCornerDetailResolved")
     },
     {
+        path: '/child-rearing-consultation-corner/my-question/solved',
+        name: 'MyQuestion.Solved',
+        component: () => import("../views/consultation-corner/my-question/Solved"),
+    },
+    {
+        path: '/child-rearing-consultation-corner/my-question/answers-are-being-accepted',
+        name: 'MyQuestion.Being.Accepted',
+        component: () => import("../views/consultation-corner/my-question/AnswersAreBeingAccepted"),
+    },
+    {
+        path: '/child-rearing-consultation-corner/my-question/there-are-points-answers-are-being-accepted',
+        name: 'MyQuestion.Points.Accepted',
+        component: () => import("../views/consultation-corner/my-question/ThereArePointsAnswersAccepted"),
+    },
+    {
+        path: '/child-rearing-consultation-corner/my-question/anonymous-posting-answering',
+        name: 'MyQuestion.Posting.Answering',
+        component: () => import("../views/consultation-corner/my-question/AnonymousPostingAnswering"),
+    },
+    {
         path: '/life-protection-information',
         name: 'lifeProtectionInformation',
         component: () => import("../views/protection-information/Index")
