@@ -574,18 +574,20 @@ textarea {
     opacity: 1;
 }
 
-.modal {
-    display: block;
-    background: rgba(0, 0, 0, .7);
-    
-    .modal-content {
+.exy--modal {
+    .modal {
+        display: block;
+        background: rgba(0, 0, 0, .7);
         
-        .close {
-            position: absolute;
-            top: 0;
-            right: 7px;
-            cursor: pointer;
-            z-index: 9999;
+        .modal-content {
+            
+            .close {
+                position: absolute;
+                top: 0;
+                right: 7px;
+                cursor: pointer;
+                z-index: 9999;
+            }
         }
     }
 }

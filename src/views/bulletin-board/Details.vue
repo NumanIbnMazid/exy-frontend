@@ -163,62 +163,64 @@
 
     <div class="space-100"></div>
 
-    <div class="modal show" aria-hidden="true" v-if="step1">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="close" @click="step1 = false">
-            <i class="fa fa-times-circle text-2xl"></i>
-          </div>
-          <div class="p-4 mt-2">
-            <h4 class="--color-e6006e border-bottom text-base fw-bold">コメント投稿（1/2）</h4>
+    <div class="exy--modal">
+      <div class="modal show" aria-hidden="true" v-if="step1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="close" @click="step1 = false">
+              <i class="fa fa-times-circle text-2xl"></i>
+            </div>
+            <div class="p-4 mt-2">
+              <h4 class="--color-e6006e border-bottom text-base fw-bold">コメント投稿（1/2）</h4>
 
-            <form action="">
-              <label>補足文章</label>
-              <textarea class="form-control my-1" rows="6"></textarea>
-              <p class="text-end text-sm">残り <span class="fw-bold text-base">2000</span> 文字</p>
-              <p>※ ご投稿の前にお願い医療情報に関する関連法令や、利用規約に反した投稿となっていないか、ご確認をお願いいたします。 禁止事項に該当する場合は、運営事務局によって投稿を削除させていただく場合がございます。
-                自身を特定しうる情報は慎重に取り扱っていただくようお願いいたします。</p>
+              <form action="">
+                <label>補足文章</label>
+                <textarea class="form-control my-1" rows="6"></textarea>
+                <p class="text-end text-sm">残り <span class="fw-bold text-base">2000</span> 文字</p>
+                <p>※ ご投稿の前にお願い医療情報に関する関連法令や、利用規約に反した投稿となっていないか、ご確認をお願いいたします。 禁止事項に該当する場合は、運営事務局によって投稿を削除させていただく場合がございます。
+                  自身を特定しうる情報は慎重に取り扱っていただくようお願いいたします。</p>
 
-              <div class="text-center py-2">
-                <button type="button" @click="step1 = false" class="w-150 border py-2 d-inline-block border-dark me-5 bg-white">閉じる</button>
-                <button type="button" @click="toggle" class="w-150 border py-2 d-inline-block text-white border border-color-e6006e" style="background: #E6006E">確認する</button>
-              </div>
-            </form>
+                <div class="text-center py-2">
+                  <button type="button" @click="step1 = false" class="w-150 border py-2 d-inline-block border-dark me-5 bg-white">閉じる</button>
+                  <button type="button" @click="toggle" class="w-150 border py-2 d-inline-block text-white border border-color-e6006e" style="background: #E6006E">確認する</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="modal show" aria-hidden="true" v-if="step2">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="close" @click="step2 = false">
-            <i class="fa fa-times-circle text-2xl"></i>
-          </div>
-          <div class="p-4 mt-2">
-            <h4 class="--color-e6006e border-bottom text-base fw-bold">コメント投稿（2/2）</h4>
+      <div class="modal show" aria-hidden="true" v-if="step2">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="close" @click="step2 = false">
+              <i class="fa fa-times-circle text-2xl"></i>
+            </div>
+            <div class="p-4 mt-2">
+              <h4 class="--color-e6006e border-bottom text-base fw-bold">コメント投稿（2/2）</h4>
 
-            <div class="border border-3 p-2 mb-4 mt-3 text-sm">
-              <div class="fw-bold mb-2" style="color: #84C942">
-                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                まだコメントは投稿されていません
+              <div class="border border-3 p-2 mb-4 mt-3 text-sm">
+                <div class="fw-bold mb-2" style="color: #84C942">
+                  <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+                  まだコメントは投稿されていません
+                </div>
+                <div>内容をよくご確認のうえ投稿してください。</div>
               </div>
-              <div>内容をよくご確認のうえ投稿してください。</div>
-            </div>
 
-            <div class="text-base fw-bold mb-1">コメント内容</div>
-            <div class="text-sm" style="border-left: 5px solid #EBEBEB;padding-left: 12px">
-              私もちょうど昨日行ってきたところだったので記事を素通り出来ず笑<br/>
-              そうそうそうなのよーと頷きながら拝読しました^_^<br/>
-              私はバビーズのコブサラダが大好きで時折通ってました。
-            </div>
-            <div class="text-sm my-4">※ ご投稿の前にお願い医療情報に関する関連法令や、利用規約に反した投稿となっていないか、ご確認をお願いいたします。 禁止事項に該当する場合は、運営事務局によって投稿を削除させていただく場合がございます。
-              <br/>※ 投稿に回答があった場合、相談を削除することはできなくなります。 自身を特定しうる情報は慎重に取り扱っていただくようお願いいたします。
-            </div>
+              <div class="text-base fw-bold mb-1">コメント内容</div>
+              <div class="text-sm" style="border-left: 5px solid #EBEBEB;padding-left: 12px">
+                私もちょうど昨日行ってきたところだったので記事を素通り出来ず笑<br/>
+                そうそうそうなのよーと頷きながら拝読しました^_^<br/>
+                私はバビーズのコブサラダが大好きで時折通ってました。
+              </div>
+              <div class="text-sm my-4">※ ご投稿の前にお願い医療情報に関する関連法令や、利用規約に反した投稿となっていないか、ご確認をお願いいたします。 禁止事項に該当する場合は、運営事務局によって投稿を削除させていただく場合がございます。
+                <br/>※ 投稿に回答があった場合、相談を削除することはできなくなります。 自身を特定しうる情報は慎重に取り扱っていただくようお願いいたします。
+              </div>
 
-            <div class="text-center py-2">
-              <button type="button" @click="back" class="w-150 border py-2 d-inline-block border-dark me-5 bg-white">修正する</button>
-              <button type="button" @click="step2 = false" class="w-150 border py-2 d-inline-block text-white border border-color-e6006e" style="background: #E6006E">投稿する</button>
+              <div class="text-center py-2">
+                <button type="button" @click="back" class="w-150 border py-2 d-inline-block border-dark me-5 bg-white">修正する</button>
+                <button type="button" @click="step2 = false" class="w-150 border py-2 d-inline-block text-white border border-color-e6006e" style="background: #E6006E">投稿する</button>
+              </div>
             </div>
           </div>
         </div>
