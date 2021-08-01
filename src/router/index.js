@@ -202,6 +202,11 @@ const routes = [
         component: () => import("../views/childcare/Index")
     },
     {
+        path: '/my-point',
+        name: 'MyPoint',
+        component: () => import("../views/childcare/MyPoint")
+    },
+    {
         path: '/thoughts-of-kigarni-hoik',
         name: 'ThoughtsofKigarniHoik',
         component: () => import("../views/ThoughtsofKigarniHoik")

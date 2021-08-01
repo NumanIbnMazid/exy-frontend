@@ -62,11 +62,7 @@
                     <!-- /item -->
 
                     <!-- pagination -->
-                    <div class="text-center mt-5 mb-5">
-                        <span v-for="i in 5" :key="i" class="m-4" :class="i === 1 ? 'kigaruni-green-background p-3 rounded-circle text-white':''">{{ i }}</span>
-                        <span>...</span>
-                        <span class="ms-2 text-2xl">></span>
-                    </div>
+                    <Pagination></Pagination>
                     <!-- /pagination -->
                 </div>
 
@@ -135,9 +131,11 @@
                     <!-- /item -->
 
                     <!-- pagination -->
-                    <div class="text-center mt-5 mb-5">
-                        <span class="m-4 kigaruni-green-background p-3 rounded-circle text-white">1</span>
-                    </div>
+                    <nav class="mt-4" aria-label="Page navigation">
+                        <ul class="pagination d-flex align-items-center justify-content-center">
+                            <li class="page-item active"><a href="#">1</a></li>
+                        </ul>
+                    </nav>
                     <!-- /pagination -->
                 </div>
                 <!-- /section 2 -->
@@ -220,11 +218,7 @@
                     <!-- /item -->
 
                     <!-- pagination -->
-                    <div class="text-center mt-5 mb-5">
-                        <span v-for="i in 5" :key="i" class="m-4" :class="i === 1 ? 'kigaruni-green-background p-3 rounded-circle text-white':''">{{ i }}</span>
-                        <span>...</span>
-                        <span class="ms-2 text-2xl">></span>
-                    </div>
+                    <Pagination></Pagination>
                     <!-- /pagination -->
                 </div>
 
@@ -293,9 +287,11 @@
                     <!-- /item -->
 
                     <!-- pagination -->
-                    <div class="text-center mt-5 mb-5">
-                        <span class="m-4 kigaruni-green-background p-3 rounded-circle text-white">1</span>
-                    </div>
+                    <nav class="mt-4" aria-label="Page navigation">
+                        <ul class="pagination d-flex align-items-center justify-content-center">
+                            <li class="page-item active"><a href="#">1</a></li>
+                        </ul>
+                    </nav>
                     <!-- /pagination -->
                 </div>
                 <!-- /section 2 -->
@@ -381,11 +377,7 @@
                     <!-- /item -->
 
                     <!-- pagination -->
-                    <div class="text-center mt-5 mb-5">
-                        <span v-for="i in 5" :key="i" class="m-4" :class="i === 1 ? 'kigaruni-green-background p-3 rounded-circle text-white':''">{{ i }}</span>
-                        <span>...</span>
-                        <span class="ms-2 text-2xl">></span>
-                    </div>
+                    <Pagination></Pagination>
                     <!-- /pagination -->
                 </div>
 
@@ -454,9 +446,11 @@
                     <!-- /item -->
 
                     <!-- pagination -->
-                    <div class="text-center mt-5 mb-5">
-                        <span class="m-4 kigaruni-green-background p-3 rounded-circle text-white">1</span>
-                    </div>
+                    <nav class="mt-4" aria-label="Page navigation">
+                        <ul class="pagination d-flex align-items-center justify-content-center">
+                            <li class="page-item active"><a href="#">1</a></li>
+                        </ul>
+                    </nav>
                     <!-- /pagination -->
                 </div>
                 <!-- /section 2 -->
@@ -491,6 +485,7 @@
 <script>
     // imports
     import router from "../../router/index"
+    import Pagination from "../../components/Pagination.vue"
 
     export default {
         name: "TabContent",
@@ -501,6 +496,9 @@
             return {
                 dataActiveTab: this.activeTab,
             }
+        },
+        components: {
+            Pagination
         },
         methods: {
             handleTabOneSectionOneRoutes(i) {
@@ -533,3 +531,27 @@
         },
     };
 </script>
+
+<style scoped lang="scss">
+.pagination {
+  li {
+    padding: 0 5px;
+
+    a {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50%;
+      display: inline-block;
+    }
+  }
+
+  .active {
+    a {
+      color: #FFFFFF;
+      background: #84C942;
+    }
+  }
+}
+</style>
