@@ -21,7 +21,7 @@
                             <span class="fw-bold ms-2 text-xl">point</span>
                         </div>
                     </div>
-                    <div class="hr-dotted w-25" style="left:50%">
+                    <div class="hr-dotted ps-5 pe-5">
                         <hr>
                     </div>
                     <div class="row">
