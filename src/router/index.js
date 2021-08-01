@@ -259,6 +259,16 @@ const routes = [
                 path: '/child-rearing-consultation-corner/search-results/:active?',
                 name: 'ConsultationCorner.SearchResults',
                 component: () => import("../views/consultation-corner/search-results/Main"),
+            },
+            {
+                path: '/child-rearing-consultation-corner/listen-for-the-time-being/:active?',
+                name: 'ConsultationCorner.ListenForTheTimeBeing',
+                component: () => import("../views/consultation-corner/listen-for-the-time-being/Main"),
+            },
+            {
+                path: '/child-rearing-consultation-corner/latest-consultation/:active?',
+                name: 'ConsultationCorner.LatestConsultation',
+                component: () => import("../views/consultation-corner/latest-consultation/Main"),
             }
         ]
     },

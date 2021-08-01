@@ -177,7 +177,7 @@
         <div class="dashed-border my-3"></div>
 
         <div class="text-end mt-2">
-          <a href="#" class="color-cb3a82 text-decoration-underline">もっと見る ＞</a>
+          <router-link :to="{name:'ConsultationCorner.ListenForTheTimeBeing'}" class="color-cb3a82 text-decoration-underline">もっと見る ＞</router-link>
         </div>
       </div>
     </div>
@@ -262,7 +262,7 @@
         <div class="dashed-border my-3"></div>
 
         <div class="text-end mt-2">
-          <a href="#" class="color-cb3a82 text-decoration-underline">もっと見る ＞</a>
+          <router-link :to="{name:'ConsultationCorner.LatestConsultation'}" class="color-cb3a82 text-decoration-underline">もっと見る ＞</router-link>
         </div>
       </div>
     </div>
