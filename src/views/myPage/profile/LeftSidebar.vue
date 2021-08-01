@@ -1,11 +1,11 @@
 <template>
   <div class="float-start left-column">
     <ul class="list-unstyled m-0">
-      <router-link :to="{name:'Mypage.Profile'}" tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer active">
+      <router-link :to="{name:'Mypage.Profile'}" tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer" :class="`${ $router.currentRoute.path == '/my-page/profile' ? 'active' : '' }`">
         <i class="fa fa-angle-right me-1"></i>
         プロフィール
       </router-link>
-      <router-link :to="{name:'Mypage.Profile'}" tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer">
+      <router-link :to="{name:'Mypage.Condition'}" tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer" :class="`${ $router.currentRoute.path == '/my-page/condition' ? 'active' : '' }`">
         <i class="fa fa-angle-right me-1"></i>
         条件設定
       </router-link>

@@ -214,8 +214,7 @@
               <div class="row">
                 <div class="col-md-9">
                   <div class="input-group rounded-0">
-                    <span class="input-group-text rounded-0" id="basic-addon1"
-                      >郵便番号</span
+                    <span class="input-group-text rounded-0">郵便番号</span
                     >
                     <input
                       type="text"
@@ -235,8 +234,7 @@
                 </div>
                 <div class="col-md-9">
                   <div class="input-group rounded-0">
-                    <span class="input-group-text rounded-0" id="basic-addon1"
-                      >所在地（都道府県）</span
+                    <span class="input-group-text rounded-0">所在地（都道府県）</span
                     >
                     <select class="form-control rounded-0">
                       <option value="1">選択してください</option>
@@ -245,8 +243,7 @@
                 </div>
                 <div class="col-md-12">
                   <div class="input-group rounded-0">
-                    <span class="input-group-text rounded-0" id="basic-addon1"
-                      >所在地（市区町村/番地）</span
+                    <span class="input-group-text rounded-0">所在地（市区町村/番地）</span
                     >
                     <input
                       type="text"
@@ -258,8 +255,7 @@
                 </div>
                 <div class="col-md-12">
                   <div class="input-group rounded-0">
-                    <span class="input-group-text rounded-0" id="basic-addon1"
-                      >所在地（建物名）</span
+                    <span class="input-group-text rounded-0">所在地（建物名）</span
                     >
                     <input
                       type="text"
@@ -322,7 +318,7 @@
         <div class="mypage-profile-singlebox-label">性別</div>
         <div class="mypage-profile-singlebox-border"></div>
         <div class="mypage-profile-singlebox-main">
-          <div class="d-flex justify-content-between">
+          <div>
             <div>
               <p class="m-0 p-0">女性</p>
             </div>
@@ -367,7 +363,7 @@
       >
         <div>顔写真（送迎者登録）</div>
         <div class="mypage-profile-singlebox-main">
-          <div class="d-flex justify-content-between">
+          <div>
             <div>
               <button type="button" class="btn btn-link m-0 p-0">
                 登録完了 >
@@ -438,7 +434,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .mypage-profile-header h4 {
   color: #333333;
   position: relative;
@@ -465,7 +461,7 @@ export default {
 }
 .mypage-profile-singlebox {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   .mypage-profile-singlebox-label {
     margin-right: 10px;
