@@ -498,24 +498,15 @@
       handleTabOneSectionOneRoutes(i) {
         if (i === 3 || i === 4) {
           router.push({
-            name: "todo",
-            params: {
-              page: 128,
-            },
+            name: 'MyQuestion.Points.Accepted'
           });
         } else if (i === 5) {
           router.push({
-            name: "todo",
-            params: {
-              page: 129,
-            },
+            name: 'MyQuestion.Posting.Answering'
           });
         } else {
           router.push({
-            name: "todo",
-            params: {
-              page: 127,
-            },
+            name: 'MyQuestion.Being.Accepted'
           });
         }
       },
@@ -533,24 +524,15 @@
       handleTabThreeSectionOneRoutes(i) {
         if (i === 3) {
           router.push({
-            name: "todo",
-            params: {
-              page: 127,
-            },
+            name: 'MyQuestion.Being.Accepted'
           });
         } else if (i === 5) {
           router.push({
-            name: "todo",
-            params: {
-              page: 128,
-            },
+            name: 'MyQuestion.Points.Accepted'
           });
         } else {
           router.push({
-            name: "todo",
-            params: {
-              page: 126,
-            },
+            name: 'MyQuestion.Solved'
           });
         }
       },

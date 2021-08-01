@@ -192,6 +192,11 @@ const routes = [
         component: () => import("../views/cocoro-nursery-school/ReservationContentSecondary")
     },
     {
+        path: '/first-garden-content',
+        name: 'FirstGardenContent',
+        component: () => import("../views/cocoro-nursery-school/FirstGardenContent")
+    },
+    {
         path: '/payment-method-selection',
         name: 'PaymentMethodSelection',
         component: () => import("../views/cocoro-nursery-school/PaymentMethodSelection")

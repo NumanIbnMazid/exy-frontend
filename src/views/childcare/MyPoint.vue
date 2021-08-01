@@ -61,36 +61,46 @@
                     <div class="pt-2 pb-2 ps-4 pe-4 background-707070 mt-5">
                         <span class="text-white fw-bold">ポイント履歴</span>
                     </div>
-                    <div>
+                    <div class="table-responsive mt-5">
                         <table class="table">
-                            <thead>
+                            <thead class="text-center fw-normal">
                                 <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
+                                    <th scope="col">日付</th>
+                                    <th scope="col">タイプ</th>
+                                    <th scope="col">獲得・利用</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody class="text-center">
                                 <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
+                                    <td>5/1 (月)</td>
+                                    <td>ポイント購入</td>
+                                    <td>6500ポイント獲得予定</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
+                                    <td>2/1 (月)</td>
+                                    <td>一時保育利用（COCORO HOIKUEN弁天町園)</td>
+                                    <td>200ポイント獲得</td>
                                 </tr>
                                 <tr>
-                                    <th scope="row">3</th>
-                                    <td colspan="2">Larry the Bird</td>
-                                    <td>@twitter</td>
+                                    <td>2/1 (月)</td>
+                                    <td>一時保育利用（COCORO HOIKUEN弁天町園)</td>
+                                    <td>200ポイント獲得</td>
+                                </tr>
+                                <tr>
+                                    <td>2/1 (月)</td>
+                                    <td>一時保育利用（COCORO HOIKUEN弁天町園)</td>
+                                    <td>200ポイント獲得</td>
+                                </tr>
+                                <tr>
+                                    <td>2/1 (月)</td>
+                                    <td>一時保育利用（COCORO HOIKUEN弁天町園)</td>
+                                    <td>200ポイント獲得</td>
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                    <div class="mt-5 text-center">
+                        <span class="fa fa-spinner text-6xl text-secondary"></span>
                     </div>
                 </div>
                 <!-- /section 2 -->
