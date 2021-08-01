@@ -338,6 +338,11 @@ const routes = [
         path: '/admin/',
         name: 'Admin.Home',
         component: () => import("../views/admin/Home")
+    },
+    {
+        path: '/admin/my-page',
+        name: 'Admin.MyPage',
+        component: () => import("../views/admin/MyPage")
     }
 ]
 

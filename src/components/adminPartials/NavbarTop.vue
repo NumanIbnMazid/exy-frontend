@@ -104,7 +104,6 @@
         <p class="text-xs pt-3">記録と計画</p>
        </div>
      </div> 
-     
      <div class="col-1 text-center position-relative">
        <div class="inner-2 w-100 h-100"></div>
        <div class="pt-2 inner-1 shadow  position-absolute">
