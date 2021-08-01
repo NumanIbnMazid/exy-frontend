@@ -70,6 +70,6 @@
             TabPills,
             TabContent,
             Modals
-        }
+        },
     };
 </script>

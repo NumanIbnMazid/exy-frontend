@@ -29,7 +29,9 @@
         },
         methods: {
             handleRoute(path) {
-                router.push({ name: path })
+                if (this.$route.name != path) {
+                    router.push({ name: path })
+                }
                 return
             }
         },

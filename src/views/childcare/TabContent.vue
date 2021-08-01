@@ -13,7 +13,7 @@
                         <div v-for="i in 5" :key="i">
                             <div class="border border-1 rounded-3 pt-3 pb-3 ps-4 pe-4 shadow" :class="i !== 1 ? 'mt-4':''" @click="handleTabOneSectionOneRoutes(i)">
                                 <div class="row border border-1 rounded-3 p-3">
-                                    <div class="col-11">
+                                    <div class="col-xl-11 col-lg-10 col-md-10 col-sm-9 col-8">
                                         <div>
                                             <u class="fw-bold">2歳の息子がいます</u>
                                         </div>
@@ -23,7 +23,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-xl-1 col-lg-2 col-md-2 col-sm-3 col-4">
                                         <div class="img-center">
                                             <div class="container">
                                                 <img src="../../assets/images/icon/comment-alt-original.png" alt="EXY">
@@ -180,7 +180,7 @@
                             <router-link :to="{name: 'todo', params: { page: 126 } }">
                                 <div class="border border-1 rounded-3 pt-3 pb-3 ps-4 pe-4 shadow" :class="i !== 1 ? 'mt-4':''">
                                     <div class="row border border-1 rounded-3 p-3">
-                                        <div class="col-11">
+                                        <div class="col-xl-11 col-lg-10 col-md-10 col-sm-9 col-8">
                                             <div>
                                                 <u class="fw-bold">2歳の息子がいます</u>
                                             </div>
@@ -190,7 +190,7 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col-1">
+                                        <div class="col-xl-1 col-lg-2 col-md-2 col-sm-3 col-4">
                                             <div class="img-center">
                                                 <div class="container">
                                                     <img src="../../assets/images/icon/comment-alt-original.png" alt="EXY">
@@ -337,7 +337,7 @@
                         <div v-for="i in 5" :key="i">
                             <div class="border border-1 rounded-3 pt-3 pb-3 ps-4 pe-4 shadow" :class="i !== 1 ? 'mt-4':''" @click="handleTabThreeSectionOneRoutes(i)">
                                 <div class="row border border-1 rounded-3 p-3">
-                                    <div class="col-11">
+                                    <div class="col-xl-11 col-lg-10 col-md-10 col-sm-9 col-8">
                                         <div>
                                             <u class="fw-bold">2歳の息子がいます</u>
                                         </div>
@@ -347,7 +347,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-xl-1 col-lg-2 col-md-2 col-sm-3 col-4">
                                         <div class="img-center">
                                             <div class="container">
                                                 <img src="../../assets/images/icon/comment-alt-original.png" alt="EXY">
