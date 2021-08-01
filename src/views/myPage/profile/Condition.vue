@@ -7,68 +7,237 @@
       </p>
     </div>
     <div class="mypage-condicion-main mt-3">
-      <div class="card">
-        <div class="card-body">
-          <form>
-            <div class="form-group-container">
-              <div class="row">
-                <div class="col-md-2">
-                  <div class="input-label">
-                    <span>優先度</span>
+      <form>
+        <div class="mypage-condition-first-step" v-if="conditionFirstStep == true">
+          <div class="card">
+            <div class="card-body">
+              <div class="form-group-container">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="input-label">
+                      <span>住所から近い</span>
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-10">
-                  <div class="input-group-container-right">
-                     <div class="form-group mb-2">
-                      <select class="mr-3">
-                        <option></option>
-                        <option>One</option>
-                      </select>
-                      <label> 住所から近い</label>
-                    </div>
-                     <div class="form-group mb-2">
-                      <select class="mr-3">
-                        <option></option>
-                        <option>One</option>
-                      </select>
-                      <label> 職場から近い</label>
-                    </div>
-                     <div class="form-group mb-2">
-                      <select class="mr-3">
-                        <option></option>
-                        <option>One</option>
-                      </select>
-                      <label> 最寄駅から近い</label>
-                    </div>
-                    <div class="form-group mb-2">
-                      <select class="mr-3">
-                        <option></option>
-                        <option>One</option>
-                      </select>
-                      <label> 希望カテゴリの合致数が多い</label>
+                  <div class="col-md-10">
+                    <div class="input-group-container-right">
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">1</span>
+                        <label> 住所から近い</label>
+                      </div>
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">2</span>
+                        <label> 希望駅から近い</label>
+                      </div>
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">3</span>
+                        <label> 希望カテゴリの合致数が多い</label>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-             <div class="form-group-container">
-              <div class="row">
-                <div class="col-md-2">
-                  <div class="input-label">
-                    <span>職場登録</span>
+                <div class="form-group-container">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="input-label">
+                      <span>住所</span>
+                    </div>
                   </div>
-                </div>
-                <div class="col-md-10">
-                  <div class="input-group-container-right">
-                    <p class="m-0 p-0">住所</p>
-                    <p class="m-0 p-0">大阪市西区北堀江１丁目２−２７ AXIS SOUTH 四ツ橋ビル 407</p>
+                  <div class="col-md-10">
+                    <div class="input-group-container-right">
+                      <p class="m-0 p-0">
+                        住所
+                      </p>
+                      <p class="m-0 p-0">
+                        大阪市西区北堀江１丁目２−２７ AXIS SOUTH 四ツ橋ビル 407
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
+                 <div class="form-group-container">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="input-label">
+                      <span>希望駅登録</span>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="input-group-container-right">
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">1</span>
+                        <label class="bg-light"> Osaka Metro 地下鉄四ツ橋線 四ツ橋駅</label>
+                      </div>
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">2</span>
+                        <label class="bg-light"> Osaka Metro 地下鉄御堂筋線線 心斎橋駅</label>
+                      </div>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+                 <div class="form-group-container">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="input-label">
+                      <span>希望カテゴリ</span>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="input-group-container-right">
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">1</span>
+                        <label class="bg-light"> 体験保育（一時保育）</label>
+                      </div>
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">2</span>
+                        <label class="bg-light"> リフレッシュ利用可能</label>
+                      </div> 
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">3</span>
+                        <label class="bg-light"> ０歳児（６ヶ月未満）</label>
+                      </div>  
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">4</span>
+                        <label class="bg-light"> 延長保育（夕方）</label>
+                      </div>   
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">5</span>
+                        <label class="bg-light"> 慣らし保育なし</label>
+                      </div>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group text-center mt-4">
+                <button type="button" class="exy-default-btn-outline" @click="changeCondtionStep">
+                  変更する
+                </button>
+              </div>
             </div>
-          </form>
+          </div>
         </div>
-      </div>
+
+        <div class="mypage-condition-second-step mt-3" v-if="conditionFirstStep == false">
+          <div class="card">
+            <div class="card-body">
+              <div class="form-group-container">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="input-label">
+                      <span>優先度</span>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="input-group-container-right">
+                      <div class="form-group mb-2">
+                        <select class="mr-3 mypage-condition-select">
+                          <option></option>
+                          <option>One</option>
+                        </select>
+                        <label> 住所から近い</label>
+                      </div>
+                      <div class="form-group mb-2">
+                        <select class="mr-3 mypage-condition-select">
+                          <option></option>
+                          <option>One</option>
+                        </select>
+                        <label> 希望駅から近い</label>
+                      </div>
+                      <div class="form-group mb-2">
+                        <select class="mr-3 mypage-condition-select">
+                          <option></option>
+                          <option>One</option>
+                        </select>
+                        <label> 希望カテゴリの合致数が多い</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group-container">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="input-label">
+                      <span>職場登録</span>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="input-group-container-right">
+                      <p class="m-0 p-0">住所</p>
+                      <p class="m-0 p-0">
+                        大阪市西区北堀江１丁目２−２７ AXIS SOUTH 四ツ橋ビル 407
+                      </p>
+                      <p class="m-0 p-0">
+                        ※住所の変更はプロフィールで変更が可能です。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="form-group-container">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="input-label">
+                      <span>希望駅登録</span>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="input-group-container-right">
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">1</span>
+                        <label class="bg-light"> Osaka Metro 地下鉄四ツ橋線 四ツ橋駅 </label>
+                      </div>
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">2</span>
+                        <label class="bg-light"> Osaka Metro 地下鉄御堂筋線線 心斎橋駅</label>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group-container">
+                <div class="row">
+                  <div class="col-md-2">
+                    <div class="input-label">
+                      <span>希望カテゴリ</span>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="input-group-container-right">
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">1</span>
+                        <label class="bg-light"> 体験保育（一時保育）</label>
+                      </div>
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">2</span>
+                        <label class="bg-light">リフレッシュ利用可能</label>
+                      </div> 
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">3</span>
+                        <label class="bg-light">０歳児（６ヶ月未満）</label>
+                      </div> 
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">4</span>
+                        <label class="bg-light">延長保育（夕方）</label>
+                      </div> 
+                      <div class="form-group mb-2">
+                        <span class="mypage-condition">5</span>
+                        <label class="bg-light">慣らし保育なし</label>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="form-group text-center mt-4">
+                <button type="button" class="exy-default-btn" @click="changeCondtionStep">
+                  登録する
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </template>
@@ -78,13 +247,14 @@ export default {
   name: "Condition",
   data() {
     return {
-      username: true,
-      email: true,
-      phone: true,
-      address: true,
+      conditionFirstStep: true,
     };
   },
-  methods: {},
+  methods: {
+    changeCondtionStep() {
+      this.conditionFirstStep = !this.conditionFirstStep;
+    }
+  },
 };
 </script>
 
@@ -146,5 +316,16 @@ export default {
 }
 .input-group-container-right label {
   margin-left: 10px;
+}
+.mypage-condition {
+  border: 1px solid #ccc;
+  padding: 4px 21px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.mypage-condition-select {
+  border: 1px solid #ccc;
+  padding: 4px;
+  border-radius: 5px;
 }
 </style>
