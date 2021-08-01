@@ -1,16 +1,5 @@
 <template>
   <div>
-    <div class="position-relative">
-      <img src="../../assets/images/consultation-corner/kosodatesoudan22x-100.png" class="w-100" alt="EXY">
-      <div class="position-absolute top-0 w-100 h-100">
-        <div class="container">
-          <div class="position-absolute bottom-0 pb-2 pb-md-3 pb-lg-5">
-            <router-link :to="{name:'TalkAboutChildRearing'}" class="link d-inline-block bg-white border border-color-e6006e fw-bold">子育て・保育の悩みを相談してみよう <i class="fa fa-angle-right ps-4"></i></router-link>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="breadcrumb-border">
       <nav class="p-2 py-1 text-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -20,6 +9,17 @@
           <li class="breadcrumb-item active" aria-current="page">子育て相談コーナー</li>
         </ol>
       </nav>
+    </div>
+
+    <div class="position-relative">
+      <img src="../../assets/images/consultation-corner/kosodatesoudan22x-100.png" class="w-100" alt="EXY">
+      <div class="position-absolute top-0 w-100 h-100">
+        <div class="container">
+          <div class="position-absolute bottom-0 pb-2 pb-md-3 pb-lg-5">
+            <router-link :to="{name:'TalkAboutChildRearing'}" class="link d-inline-block bg-white border border-color-e6006e fw-bold">子育て・保育の悩みを相談してみよう <i class="fa fa-angle-right ps-4"></i></router-link>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="container-fluid pt-4">

@@ -113,6 +113,10 @@ ul {
     background-color: #FFF2F8 !important;
 }
 
+.bg-fffafd {
+    background-color: #FFFAFD !important;
+}
+
 .bg-fefdfc {
     background-color: #FEFDFC !important;
 }
@@ -588,4 +592,27 @@ textarea {
 
 .w-150 {
     width: 150px;
+}
+
+.child--rearing {
+    .link {
+        border: 1px solid #707070;
+        border-radius: 60px 15px 15px 60px;
+        border-left: inherit;
+    }
+    
+    .link2 {
+        border: 1px solid #707070;
+        border-radius: 15px 60px 60px 15px;
+        border-right: inherit;
+        margin-top: 15px;
+    }
+    
+    .link, .link2 {
+        .u-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+    }
 }

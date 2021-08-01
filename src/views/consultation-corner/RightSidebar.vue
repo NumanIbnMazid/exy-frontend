@@ -146,7 +146,7 @@
             </label>
           </div>
         </div>
-        <a href="#" class="d-block mt-4 py-2 text-center bg-cb3a82 fw-bold text-white rounded-3">絞り込む</a>
+        <router-link :to="{name:'ConsultationCorner.SearchResults'}" class="d-block mt-4 py-2 text-center bg-cb3a82 fw-bold text-white rounded-3">絞り込む</router-link>
       </form>
     </div>
 

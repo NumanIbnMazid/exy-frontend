@@ -120,12 +120,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
 .tab {
   .active {
     color: #FFFFFF;
     background: #CB3A82;
-    border-color: #CB3A82;
+    border-color: #CB3A82 !important;
   }
 }
 </style>

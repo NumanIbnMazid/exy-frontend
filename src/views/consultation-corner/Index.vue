@@ -91,7 +91,7 @@
         </div>
 
         <div class="text-center">
-          <a href="#" class="read-more mt-4 mb-3">この条件で検索する</a>
+          <router-link :to="{name:'ConsultationCorner.SearchResults'}" class="read-more mt-4 mb-3">この条件で検索する</router-link>
         </div>
 
       </div>

@@ -249,6 +249,11 @@ const routes = [
                 path: '/child-rearing-consultation-corner',
                 name: 'ConsultationCorner',
                 component: () => import("../views/consultation-corner/Index"),
+            },
+            {
+                path: '/child-rearing-consultation-corner/search-results/:active?',
+                name: 'ConsultationCorner.SearchResults',
+                component: () => import("../views/consultation-corner/search-results/Main"),
             }
         ]
     },
