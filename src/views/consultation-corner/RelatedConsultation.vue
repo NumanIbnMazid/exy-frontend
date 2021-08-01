@@ -10,8 +10,8 @@
 
     <div class="p-2">
       <div class="bg-fefdfc border rounded-3 p-2">
-        <div class="single-item">
-          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex align-items-center link">
+        <div class="single-item child--rearing">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex bg-white align-items-center link">
             <div class="flex-shrink-1 pe-3">
               <img src="../../assets/images/consultation-corner/7.png" class="u-img" alt="EXY">
             </div>
@@ -20,7 +20,7 @@
               <div class="text-base">体が小さめで心も幼く、小学校でちゃんとやっていけるのか、特にいじめられないか心配で…</div>
             </div>
           </router-link>
-          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex align-items-center justify-content-between link2">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex bg-white align-items-center justify-content-between link2">
             <div class="d-flex align-items-center">
               <div class="flex-shrink-1 pe-3">
                 <img src="../../assets/images/consultation-corner/bestA2x.png" class="py-2 ps-2" alt="EXY">
@@ -53,8 +53,8 @@
 
     <div class="p-2">
       <div class="bg-fefdfc border rounded-3 p-2">
-        <div class="single-item">
-          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex align-items-center link">
+        <div class="single-item child--rearing">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex bg-white align-items-center link">
             <div class="flex-shrink-1 pe-3">
               <img src="../../assets/images/consultation-corner/2.png" class="u-img" alt="EXY">
             </div>
@@ -81,8 +81,8 @@
 
     <div class="p-2">
       <div class="bg-fefdfc border rounded-3 p-2">
-        <div class="single-item">
-          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex align-items-center link">
+        <div class="single-item child--rearing">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex bg-white align-items-center link">
             <div class="flex-shrink-1 pe-3">
               <img src="../../assets/images/consultation-corner/7.png" class="u-img" alt="EXY">
             </div>
@@ -91,7 +91,7 @@
               <div class="text-base">体が小さめで心も幼く、小学校でちゃんとやっていけるのか、特にいじめられないか心配で…</div>
             </div>
           </router-link>
-          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex align-items-center justify-content-between link2">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" class="d-flex bg-white align-items-center justify-content-between link2">
             <div class="d-flex align-items-center">
               <div class="flex-shrink-1 pe-3">
                 <img src="../../assets/images/consultation-corner/bestA2x.png" class="py-2 ps-2" alt="EXY">
@@ -130,25 +130,6 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
-.link {
-  border: 1px solid #707070;
-  border-radius: 60px 15px 15px 60px;
-  border-left: inherit;
-}
+<style scoped>
 
-.link2 {
-  border: 1px solid #707070;
-  border-radius: 15px 60px 60px 15px;
-  border-right: inherit;
-  margin-top: 15px;
-}
-
-.link, .link2 {
-.u-img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
-}
 </style>
