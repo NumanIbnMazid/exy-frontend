@@ -283,7 +283,6 @@ export default {
 
 .mypage-profile-singlebox {
   display: flex;
-  justify-content: start;
   align-items: center;
   .mypage-profile-singlebox-label {
     margin-right: 10px;
