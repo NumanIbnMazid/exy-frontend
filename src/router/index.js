@@ -415,6 +415,12 @@ const routes = [{
             import ("../views/scladmin/PlanPageRecord3.vue"),
     },
     {
+        path: "/admin/physical-measurement",
+        name: "Admin.PhysicalMeasurement",
+        component: () =>
+            import ("../views/scladmin/PhysicalMeasurement"),
+    },
+    {
         path: "*",
         redirect: "/pages/error-404",
     },
