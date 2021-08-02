@@ -109,6 +109,7 @@
 }
 .admin-mypage{
     background-color: $--color-f2f2f2;
+    margin-bottom: 100px !important;
     .row-1{
         .col-left{
             .p-left-1{
@@ -215,9 +216,71 @@
                     background-color: #fff;
                 }
             }
+            .inner-2{
+                padding: 40px 80px;
+                .bottom-p{
+                    background-color: $--color-cb3a82;
+                    color: $--color-ffffff;
+                }
+            }
         }
     }
     .row-4{
         border: 1px solid $--color-707070;
+    }
+}
+.breadcrumb-border-admin {
+    .breadcrumb {
+        margin: 0;
+    }
+}
+.expericence-childcare{
+    margin-bottom: 100px !important;
+    .experience-body{
+        .left-col{
+            .row-1{
+                background-color: $--color-eaeaea;
+                .inner-1{
+                    border: 1px solid $--color-d8d8d8;
+                }
+                .inner-2{
+                    option{
+                        background-color: $--color-eaeaea !important;
+                    }
+                    select option:checked{
+                         background-color: none !important;
+                    }
+                    select option:hover {
+                        background-color: none !important;
+                        color: $--color-ffffff;
+                    }
+                    select:focus {
+                        border: 1px solid $--color-d8d8d8;
+                        
+                    }
+                }
+            }
+            .row-2{
+                 option {
+                     background-color: $--color-eaeaea !important;
+                 }
+                 select:focus {
+                     border: 1px solid $--color-d8d8d8;
+
+                 }
+            }
+            .row-3{
+                border: 1px solid $--color-dee2e6;
+                border-bottom: 0px;
+            }
+            .row-4 {
+                border-top: 1px solid $--color-dee2e6;
+                .span-1 {
+                    background-color: $--color-84c942;
+                    color: $--color-ffffff;
+                    border-radius: 50%;
+                }
+            }
+        }
     }
 }

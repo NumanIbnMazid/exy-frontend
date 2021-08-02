@@ -403,6 +403,11 @@ const routes = [{
         component: () => import("../views/scladmin/MyPage")
     },
     {
+        path: '/admin/children-info/experience-childcare',
+        name: 'ChildrenInfo.ExperienceChildcare',
+        component: () => import("../views/scladmin/childrenInformation/ExperienceChildcare")
+    },
+    {
         path: "/admin/plan-page",
         name: "Plan.page",
         component: () =>
