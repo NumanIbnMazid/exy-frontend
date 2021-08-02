@@ -352,7 +352,7 @@
         <div class="child-consultation-inner">
           <h4>子育て相談コーナー</h4>
 
-          <div class="consultation-item">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" tag="div" class="consultation-item">
             <img src="../assets/images/group-2770.png" alt="EXY">
             <div class="consultation-content bg-left">
               <h5><a href="#">▶︎現在５歳、春から小学生になる息子がいる母です。体が小さめで心も幼く、小学…</a></h5>
@@ -364,9 +364,9 @@
                 <span>2021/04/01 17:28 ｜ コメント２</span>
               </div>
             </div>
-          </div>
+          </router-link>
 
-          <div class="consultation-item">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" tag="div" class="consultation-item">
             <div class="consultation-content bg-right">
               <h5><a href="#">▶︎現在５歳、春から小学生になる息子がいる母です。体が小さめで心も幼く、小学…</a></h5>
               <div>
@@ -378,9 +378,9 @@
               </div>
             </div>
             <img src="../assets/images/group-2770.png" alt="EXY">
-          </div>
+          </router-link>
 
-          <div class="consultation-item">
+          <router-link :to="{name:'ChildRearingConsultationCornerDetailResolved'}" tag="div" class="consultation-item">
             <img src="../assets/images/group-2770.png" alt="EXY">
             <div class="consultation-content bg-left">
               <h5><a href="#">▶︎現在５歳、春から小学生になる息子がいる母です。体が小さめで心も幼く、小学…</a></h5>
@@ -392,10 +392,10 @@
                 <span>2021/04/01 17:28 ｜ コメント２</span>
               </div>
             </div>
-          </div>
+          </router-link>
 
           <div class="text-center">
-            <a href="#" class="read-more">保育園一覧をみる</a>
+            <router-link :to="{name:'ConsultationCorner'}" class="read-more">保育園一覧をみる</router-link>
           </div>
         </div>
       </div>
@@ -407,28 +407,28 @@
         <h3>お知らせ</h3>
         <div class="notice-content">
           <div class="notice-item">
-            <a href="#">
+            <router-link :to="{name:'AboutKindergartenHunting'}">
               <span>▶︎2021年04月01日</span>
               <span>新型コロナウィルス感染拡大に伴う影響について</span>
-            </a>
+            </router-link>
           </div>
           <div class="notice-item">
-            <a href="#">
+            <router-link :to="{name:'AboutKindergartenHunting'}">
               <span>▶︎2021年04月01日</span>
               <span>新型コロナウィルス感染拡大に伴う影響について</span>
-            </a>
+            </router-link>
           </div>
           <div class="notice-item">
-            <a href="#">
+            <router-link :to="{name:'AboutKindergartenHunting'}">
               <span>▶︎2021年04月01日</span>
               <span>新型コロナウィルス感染拡大に伴う影響について</span>
-            </a>
+            </router-link>
           </div>
           <div class="notice-item">
-            <a href="#">
+            <router-link :to="{name:'AboutKindergartenHunting'}">
               <span>▶︎2021年04月01日</span>
               <span>新型コロナウィルス感染拡大に伴う影響について</span>
-            </a>
+            </router-link>
           </div>
         </div>
       </div>
@@ -467,9 +467,9 @@
 
     <div class="pb-4">
       <div class="container">
-        <a href="#">
+        <router-link :to="{name:'AllUsersGuidelines'}">
           <img src="../assets/images/_1-100@2x.png" alt="EXY" class="d-block w-100">
-        </a>
+        </router-link>
       </div>
     </div>
 
