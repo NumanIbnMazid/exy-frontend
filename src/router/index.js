@@ -398,26 +398,15 @@ const routes = [{
             import ("../views/todo"),
     },
     {
-        path: "/admin/",
-        name: "Admin.Home",
-        component: () =>
-            import ("../views/admin/Home"),
+        path: '/admin/my-page',
+        name: 'Admin.MyPage',
+        component: () => import("../views/scladmin/MyPage")
     },
     {
         path: "/admin/plan-page",
         name: "Plan.page",
         component: () =>
             import ("../views/scladmin/PlanPage.vue"),
-    },
-    {
-        path: '/admin/',
-        name: 'Admin.Home',
-        component: () => import("../views/admin/Home")
-    },
-    {
-        path: '/admin/my-page',
-        name: 'Admin.MyPage',
-        component: () => import("../views/admin/MyPage")
     },
     {
         path: "/admin/plan-page-record-3",
