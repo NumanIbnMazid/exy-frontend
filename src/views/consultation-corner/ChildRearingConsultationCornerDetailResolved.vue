@@ -17,7 +17,7 @@
       <div class="row">
         <div class="col-md-8 col-lg-9 mb-4 mb-md-0">
 
-          <div class="border border-2 border-color-707070 rounded">
+          <div class="border border-2 rounded">
             <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
               <div>
                 <img src="../../assets/images/consultation-corner/4.png" alt="EXY">
@@ -64,15 +64,15 @@
           </div>
 
           <div class="mt-4">
-            <div class="d-flex align-items-center border-bottom pb-1 border-color-707070">
+            <div class="d-flex align-items-center border-bottom pb-1">
               <div class="fw-bold">
                 <img src="../../assets/images/consultation-corner/oukan.png" alt="EXY">
                 ベストアンサー
               </div>
             </div>
-            <div class="border-bottom exy-pt-1 border-color-707070"></div>
+            <div class="border-bottom exy-pt-1"></div>
 
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center justify-content-between bg-fefdfc p-2 border-bottom border-2">
                 <div class="d-flex align-items-center">
                   <div>
@@ -114,7 +114,7 @@
           </div>
 
           <div class="mt-4">
-            <div class="d-flex align-items-center justify-content-between border-bottom pb-1 border-color-707070">
+            <div class="d-flex align-items-center justify-content-between border-bottom pb-1">
               <div class="fw-bold">
                 <img src="../../assets/images/svg/title-left.svg" alt="EXY">
                 この相談への回答
@@ -127,9 +127,9 @@
                 </select>
               </div>
             </div>
-            <div class="border-bottom exy-pt-1 border-color-707070"></div>
+            <div class="border-bottom exy-pt-1"></div>
 
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
                 <div>
                   <img src="../../assets/images/consultation-corner/6.png" alt="EXY">
@@ -161,7 +161,7 @@
                 </div>
               </div>
             </div>
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
                 <div>
                   <img src="../../assets/images/consultation-corner/6.png" alt="EXY">
@@ -193,7 +193,7 @@
                 </div>
               </div>
             </div>
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
                 <div>
                   <img src="../../assets/images/consultation-corner/6.png" alt="EXY">
@@ -225,7 +225,7 @@
                 </div>
               </div>
             </div>
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
                 <div>
                   <img src="../../assets/images/consultation-corner/6.png" alt="EXY">
@@ -257,7 +257,7 @@
                 </div>
               </div>
             </div>
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
                 <div>
                   <img src="../../assets/images/consultation-corner/6.png" alt="EXY">

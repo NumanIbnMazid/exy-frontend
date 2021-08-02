@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="d-flex align-items-center justify-content-between border-bottom pb-1 mt-5 border-color-707070">
+    <div class="d-flex align-items-center justify-content-between border-bottom pb-1 mt-5">
       <div class="fw-bold">
         <img src="../../assets/images/svg/title-left.svg" alt="EXY">
         関連の相談
       </div>
     </div>
-    <div class="border-bottom exy-pt-1 border-color-707070"></div>
+    <div class="border-bottom exy-pt-1"></div>
 
     <div class="p-2">
       <div class="bg-fefdfc border rounded-3 p-2">

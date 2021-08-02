@@ -17,10 +17,10 @@
       <div class="row">
         <div class="col-md-8 col-lg-9 mb-4 mb-md-0">
 
-          <div class="border border-2 border-color-707070 rounded">
+          <div class="border border-2 rounded">
             <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
               <div>
-                <img src="../../../assets/images/consultation-corner/4.png" alt="EXY">
+                <img src="../../../assets/images/consultation-corner/10.png" alt="EXY">
               </div>
               <div class="text-sm ms-2">
                 <span class="fw-bold">まま〜さん</span><br/>
@@ -52,14 +52,6 @@
                 <span class="text-decoration-underline me-4">＃働くママ・働くパパ</span>
                 <span class="text-decoration-underline">＃5歳児</span>
               </div>
-              <div>
-                <div class="d-inline-block text-sm border py-1 px-2 rounded-3 cursor-pointer" @click="violationModal = true">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13">
-                    <path id="ban-solid" d="M14,8a6,6,0,1,0,6,6A6,6,0,0,0,14,8Zm3.148,2.852a4.452,4.452,0,0,1,.5,5.7l-6.2-6.2A4.452,4.452,0,0,1,17.148,10.852Zm-6.3,6.3a4.452,4.452,0,0,1-.5-5.7l6.2,6.2A4.452,4.452,0,0,1,10.852,17.148Z" transform="translate(-7.5 -7.5)" fill="#707070" stroke="#fff" stroke-width="1"/>
-                  </svg>
-                  違反報告
-                </div>
-              </div>
             </div>
           </div>
 
@@ -72,7 +64,7 @@
             </div>
             <div class="border-bottom exy-pt-1 border-color-707070"></div>
 
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center justify-content-between bg-fefdfc p-2 border-bottom border-2">
                 <div class="d-flex align-items-center">
                   <div>
@@ -129,7 +121,7 @@
             </div>
             <div class="border-bottom exy-pt-1 border-color-707070"></div>
 
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
                 <div>
                   <img src="../../../assets/images/consultation-corner/6.png" alt="EXY">
@@ -161,7 +153,7 @@
                 </div>
               </div>
             </div>
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
                 <div>
                   <img src="../../../assets/images/consultation-corner/6.png" alt="EXY">
@@ -193,7 +185,7 @@
                 </div>
               </div>
             </div>
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
                 <div>
                   <img src="../../../assets/images/consultation-corner/6.png" alt="EXY">
@@ -225,7 +217,7 @@
                 </div>
               </div>
             </div>
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
                 <div>
                   <img src="../../../assets/images/consultation-corner/6.png" alt="EXY">
@@ -257,7 +249,7 @@
                 </div>
               </div>
             </div>
-            <div class="border border-2 border-color-707070 rounded mt-3">
+            <div class="border border-2 rounded mt-3">
               <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
                 <div>
                   <img src="../../../assets/images/consultation-corner/6.png" alt="EXY">

@@ -19,7 +19,7 @@
         <div class="col-md-8 col-lg-9 mb-4 mb-md-0">
           <div class="border border-2 text-sm fw-bold p-2 bg-fff2f8">回答終了受付まで <span class="color-cb3a82">あと６日</span></div>
 
-          <div class="border border-2 border-color-707070 rounded mt-4">
+          <div class="border border-2 rounded mt-4">
             <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
               <div>
                 <img src="../../assets/images/consultation-corner/4.png" alt="EXY">
@@ -67,7 +67,7 @@
 
           <button type="button" @click="step1 = true" class="exy-default-btn text-xl my-5 w-100 py-3 text-center">回答する</button>
 
-          <div class="d-flex align-items-center justify-content-between border-bottom pb-1 border-color-707070">
+          <div class="d-flex align-items-center justify-content-between border-bottom pb-1">
             <div class="fw-bold">
               <img src="../../assets/images/svg/title-left.svg" alt="EXY">
               この相談への回答
@@ -80,9 +80,9 @@
               </select>
             </div>
           </div>
-          <div class="border-bottom exy-pt-1 border-color-707070"></div>
+          <div class="border-bottom exy-pt-1"></div>
 
-          <div class="border border-2 border-color-707070 rounded mt-4">
+          <div class="border border-2 rounded mt-4">
             <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
               <div>
                 <img src="../../assets/images/consultation-corner/5.png" alt="EXY">
@@ -108,7 +108,7 @@
             </div>
           </div>
 
-          <div class="border border-2 border-color-707070 rounded mt-4">
+          <div class="border border-2 rounded mt-4">
             <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
               <div>
                 <img src="../../assets/images/consultation-corner/6.png" alt="EXY">
@@ -140,7 +140,6 @@
               </div>
             </div>
           </div>
-
 
           <pagination/>
 
