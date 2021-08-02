@@ -1,0 +1,218 @@
+.breadcrumb-border-admin {
+    .breadcrumb {
+        margin: 0;
+    }
+}
+
+.children-information {
+    margin-bottom: 100px !important;
+
+    .experience-body {
+        .left-col {
+            .row-1 {
+                background-color: $--color-eaeaea;
+
+                .inner-1 {
+                    border: 1px solid $--color-d8d8d8;
+                }
+
+                .inner-2 {
+                    option {
+                        background-color: $--color-eaeaea !important;
+                    }
+
+                    select option:checked {
+                        background-color: none !important;
+                    }
+
+                    select option:hover {
+                        background-color: none !important;
+                        color: $--color-ffffff;
+                    }
+
+                    select:focus {
+                        border: 1px solid $--color-d8d8d8;
+
+                    }
+                }
+            }
+
+            .row-2 {
+                option {
+                    background-color: $--color-eaeaea !important;
+                }
+
+                select:focus {
+                    border: 1px solid $--color-d8d8d8;
+
+                }
+            }
+
+            .row-3 {
+                border: 1px solid $--color-dee2e6;
+                border-bottom: 0px;
+            }
+
+            .row-4 {
+                border-top: 1px solid $--color-dee2e6;
+
+                .span-1 {
+                    background-color: $--color-84c942;
+                    color: $--color-ffffff;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .right-col {
+            .row-1 {
+                border-top: 1px solid $--color-dee2e6;
+
+                .top-p {
+                    font-size: 45px;
+
+                    .span-1 {
+                        border: 1px solid $--color-707070;
+                        border-radius: 21px;
+                        color: $--color-707070;
+                        margin-top: 12px;
+                    }
+                }
+            }
+
+            .row-2 {
+                .details-tab {
+                    padding-top: 40px;
+
+                    .tabs {
+                        display: flex;
+                        flex-wrap: nowrap;
+                        text-align: center;
+                        padding: 0 5rem 0 5rem;
+
+                        a,
+                        i {
+                            cursor: pointer;
+                            display: inline-block;
+                            font-weight: 500;
+                        }
+
+                        a {
+                            width: calc(100% / 4);
+                            padding: 6px 10px;
+                            font-size: 15px;
+                            border-radius: 5px 5px 0 0;
+                            border-bottom: 1px solid $--color-333333;
+                            color: $--color-cb3a82;
+
+                            &:hover {
+                                color: #333333;
+
+                                i {
+                                    color: #333333;
+                                }
+                            }
+                        }
+
+                        a.active {
+                            border: 1px solid $--color-333333;
+                            border-bottom: 0px solid $--color-ffffff;
+                            //  background-color: $--color-cb3a82;
+                            color: $--color-333333;
+                        }
+                    }
+                }
+
+                .expericence-childcare {
+                    .inner-row-1 {
+                        option {
+                            background-color: $--color-eaeaea !important;
+                        }
+
+                        select:focus {
+                            border: 1px solid $--color-d8d8d8;
+
+                        }
+
+                        .inner-1 {
+                            .p-button {
+                                background-color: $--color-333333;
+                                color: $--color-ffffff;
+                            }
+
+                            .p-button-1 {
+                                background-color: $--color-cb3a82;
+                                color: $--color-ffffff;
+                            }
+                        }
+
+                        .inner-2 {
+                            .inner-col {
+                                border: 1px solid $--color-333333;
+                            }
+
+                            .box-row-1 {
+                                border-top: 1px solid $--color-333333;
+
+                                .box-left {
+                                    background-color: $--color-fbeef5;
+                                }
+
+                                .p-box {
+                                    height: 80px;
+                                    border: 1px solid $--color-d8d8d8;
+                                }
+                            }
+
+                            .no-border {
+                                border: 0px;
+                            }
+                        }
+
+                        .inner-3 {
+                            .box-inner-1 {
+                                margin-top: 100px;
+                            }
+
+                            .box-inner-2 {
+                                background-color: $--color-edeff0;
+                            }
+
+                            .box-inner-3 {
+                                border-bottom: 1px solid $--color-dee2e6;
+                            }
+                        }
+
+                        .inner-4 {
+                            .hr-color {
+                                border-top: 1px solid $--color-333333;
+                                background-color: $--color-333333;
+                            }
+                        }
+
+                        .inner-5 {
+                            .p-box {
+                                height: 80px;
+                                border: 1px solid $--color-d8d8d8;
+                            }
+
+                            .span-1 {
+                                background-color: $--color-cb3a82;
+                                color: $--color-ffffff;
+                            }
+
+                            .span-2 {
+                                background-color: $--color-333333;
+                                color: $--color-ffffff;
+                            }
+                        }
+
+                        .box-margin {
+                            margin-top: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
