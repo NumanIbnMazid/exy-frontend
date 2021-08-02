@@ -17,7 +17,7 @@
       <div class="row">
         <div class="col-md-8 col-lg-9 mb-4 mb-md-0">
 
-          <div class="border border-2 border-color-707070 rounded mt-4">
+          <div class="border border-2 border-color-707070 rounded">
             <div class="d-flex align-items-center bg-fefdfc p-2 border-bottom border-2">
               <div>
                 <img src="../../assets/images/consultation-corner/4.png" alt="EXY">
