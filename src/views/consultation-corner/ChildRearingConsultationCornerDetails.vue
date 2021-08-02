@@ -175,7 +175,7 @@
                   </div>
                 </div>
 
-                <div class="text-sm color-707070">
+                <div class="text-sm color-707070 mt-2">
                   <div>LITALICOのコミュニティを作成したんですが違うコミュニティを作成したいので削除とかできないのでわしょうか？</div>
                 </div>
               </div>

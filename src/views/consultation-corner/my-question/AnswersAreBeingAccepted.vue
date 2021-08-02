@@ -97,7 +97,7 @@
             </div>
 
             <div class="d-flex justify-content-end p-2">
-              <div class="bg-cb3a82 d-inline-block text-sm border border-cb3a82 py-1 px-2 rounded-3 cursor-pointer me-3 text-white" @click="violationModal = true">
+              <div class="bg-cb3a82 d-inline-block text-sm border border-cb3a82 py-1 px-2 rounded-3 cursor-pointer me-3 text-white" @click="bestAnswerModal = true">
                 <img src="../../../assets/images/consultation-corner/oukan_w.png" alt="EXY">
                 ベストアンサーに選ぶ
               </div>
@@ -135,7 +135,7 @@
             </div>
 
             <div class="d-flex justify-content-end p-2">
-              <div class="bg-cb3a82 d-inline-block text-sm border border-cb3a82 py-1 px-2 rounded-3 cursor-pointer me-3 text-white" @click="violationModal = true">
+              <div class="bg-cb3a82 d-inline-block text-sm border border-cb3a82 py-1 px-2 rounded-3 cursor-pointer me-3 text-white" @click="bestAnswerModal = true">
                 <img src="../../../assets/images/consultation-corner/oukan_w.png" alt="EXY">
                 ベストアンサーに選ぶ
               </div>
@@ -161,6 +161,7 @@
     </div>
 
     <div class="exy--modal">
+      <best-answer-modal v-if="bestAnswerModal" @close="bestAnswerModal = false"></best-answer-modal>
       <violation-report-modal v-if="violationModal" @close="violationModal = false"></violation-report-modal>
 
       <div class="modal show" aria-hidden="true" v-if="step1">
@@ -170,30 +171,32 @@
               <i class="fa fa-times-circle text-2xl"></i>
             </div>
             <div class="p-4 mt-2">
-              <h4 class="--color-e6006e border-bottom text-base fw-bold">回答投稿（1/2）</h4>
+              <h4 class="--color-e6006e border-bottom text-base fw-bold">相談の補足（1/2）</h4>
 
-              <div class="text-sm" style="border-left: 5px solid #EBEBEB;padding-left: 12px">
+              <div class="text-sm mt-3" style="border-left: 5px solid #EBEBEB;padding-left: 12px">
                 <div class="d-flex align-items-center">
                   <div class="flex-shrink-1 pe-3">
-                    <img src="../../../assets/images/consultation-corner/4.png" alt="EXY">
+                    <img src="../../../assets/images/consultation-corner/10.png" alt="EXY">
                   </div>
                   <div class="color-707070">
-                    <div class="text-sm fw-bold">さちこさん</div>
-                    <div class="text-xs">2021/03/09 16:11</div>
+                    <div class="text-sm fw-bold">小六ままさん</div>
+                    <div class="text-xs">2021/03/09 15:11</div>
                   </div>
                 </div>
 
-                <div class="text-sm color-707070">
-                  <div>LITALICOのコミュニティを作成したんですが違うコミュニティを作成したいので削除とかできないのでわしょうか？</div>
+                <div class="text-sm color-707070 pb-2 mt-2">
+                  LITALICOのコミュニティを作成したんですが違うコミュニティを作成したいので削除とかできないのでわしょうか？
                 </div>
               </div>
 
               <form action="" class="mt-4">
-                <label>回答文</label>
+                <label class="text-sm fw-bold">補足文章</label>
                 <textarea class="form-control my-1" rows="6"></textarea>
                 <p class="text-end text-sm">残り <span class="fw-bold text-base">2000</span> 文字</p>
-                <p class="text-xs color-707070">※ ご投稿の前にお願い医療情報に関する関連法令や、利用規約に反した投稿となっていないか、ご確認をお願いいたします。 禁止事項に該当する場合は、運営事務局によって投稿を削除させていただく場合がございます。<br/>
-                  ※ 投稿に回答があった場合、相談を削除することはできなくなります。 自身を特定しうる情報は慎重に取り扱っていただくようお願いいたします。</p>
+                <div class="text-xs color-707070">
+                  ※ ご投稿の前にお願い医療情報に関する関連法令や、利用規約に反した投稿となっていないか、ご確認をお願いいたします。 禁止事項に該当する場合は、運営事務局によって投稿を削除させていただく場合がございます。<br />
+                  ※ 投稿に回答があった場合、相談を削除することはできなくなります。 自身を特定しうる情報は慎重に取り扱っていただくようお願いいたします。
+                </div>
 
                 <div class="text-center py-2">
                   <button type="button" @click="step1 = false" class="w-150 border py-2 d-inline-block border-dark me-5 bg-white">閉じる</button>
@@ -212,29 +215,47 @@
               <i class="fa fa-times-circle text-2xl"></i>
             </div>
             <div class="p-4 mt-2">
-              <h4 class="--color-e6006e border-bottom text-base fw-bold">回答投稿（2/2）</h4>
+              <h4 class="--color-e6006e border-bottom text-base fw-bold">相談の補足（2/2）</h4>
 
               <div class="border border-3 p-2 mb-4 mt-3 text-sm color-707070">
                 <div class="fw-bold mb-2" style="color: #84C942">
                   <i class="fa fa-exclamation-triangle"></i>
-                  <span class="ms-2">まだ回答は投稿されていません</span>
+                  <span class="ms-2">まだ相談は投稿されていません</span>
                 </div>
                 <div>内容をよくご確認のうえご相談ください。</div>
               </div>
 
-              <div class="text-sm fw-bold">回答内容</div>
-              <div class="text-sm" style="border-left: 5px solid #EBEBEB;padding-left: 12px">
+              <div class="text-sm fw-bold">相談内容</div>
+              <div class="text-sm mt-2 mb-4" style="border-left: 5px solid #EBEBEB;padding-left: 12px">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-1 pe-3">
+                    <img src="../../../assets/images/consultation-corner/10.png" alt="EXY">
+                  </div>
+                  <div class="color-707070">
+                    <div class="text-sm fw-bold">小六ままさん</div>
+                    <div class="text-xs">2021/03/09 15:11</div>
+                  </div>
+                </div>
+
+                <div class="text-sm color-707070 pb-2 mt-2">
+                  LITALICOのコミュニティを作成したんですが違うコミュニティを作成したいので削除とかできないのでわしょうか？
+                </div>
+              </div>
+
+              <div class="text-sm fw-bold">補足内容</div>
+              <div class="text-sm mt-2" style="border-left: 5px solid #EBEBEB;padding-left: 12px">
                 <div class="text-sm color-707070">
                   <div class="pb-2">
-                    そろそろ子離れの準備をされた方がいいと思いました。<br/><br/>
-
-                    お子さんは、健康なら大丈夫です。相談者さんが稀有したところで何にもなりません。心配心を別のエネルギーに変えて、楽しくお過ごしください。
+                    一言添えてから放置して大丈夫なんですね☺️<br />
+                    どうしたら良いのかわからなくて、ありがとうございました✨✨✨
                   </div>
                 </div>
               </div>
 
-              <p class="text-xs color-707070 mt-4">※ ご投稿の前にお願い医療情報に関する関連法令や、利用規約に反した投稿となっていないか、ご確認をお願いいたします。 禁止事項に該当する場合は、運営事務局によって投稿を削除させていただく場合がございます。<br/>
-                ※ 投稿に回答があった場合、相談を削除することはできなくなります。 自身を特定しうる情報は慎重に取り扱っていただくようお願いいたします。</p>
+              <div class="text-xs color-707070 mt-4">
+                ※ ご投稿の前にお願い医療情報に関する関連法令や、利用規約に反した投稿となっていないか、ご確認をお願いいたします。 禁止事項に該当する場合は、運営事務局によって投稿を削除させていただく場合がございます。<br />
+                ※ 投稿に回答があった場合、相談を削除することはできなくなります。 自身を特定しうる情報は慎重に取り扱っていただくようお願いいたします。
+              </div>
 
               <div class="text-center py-2">
                 <router-link :to="{name:'ChildRearingConsultationCornerDetails'}" class="w-150 border py-2 d-inline-block border-dark me-5 bg-white">修正する</router-link>
@@ -255,6 +276,7 @@ import RightSidebar from "../../consultation-corner/RightSidebar";
 import Pagination from "../../../components/Pagination";
 import RelatedConsultation from "../RelatedConsultation";
 import ViolationReportModal from "../ViolationReportModal";
+import BestAnswerModal from "../BestAnswerModal";
 
 export default {
   name: "AnswersAreBeingAccepted",
@@ -262,10 +284,11 @@ export default {
     return {
       step1: false,
       step2: false,
-      violationModal: false
+      violationModal: false,
+      bestAnswerModal: false,
     }
   },
-  components: { ViolationReportModal, RelatedConsultation, Pagination, RightSidebar },
+  components: { BestAnswerModal, ViolationReportModal, RelatedConsultation, Pagination, RightSidebar },
   methods: {
     toggle: function () {
       this.step1 = false
