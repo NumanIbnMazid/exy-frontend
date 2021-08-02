@@ -74,6 +74,11 @@ const routes = [
                 name: 'Mypage.Condition',
                 component: () => import("../views/myPage/profile/Condition")
             },
+            {
+                path: '/my-page/demo-modal',
+                name: 'Mypage.DemoModal',
+                component: () => import("../views/myPage/profile/DemoModal")
+            },
         ]
     },
     {

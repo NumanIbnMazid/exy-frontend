@@ -239,6 +239,13 @@
         </div>
       </form>
     </div>
+
+  <!-- Category modal start  -->
+  
+  <!-- End of Category modal start  -->
+
+
+
   </div>
 </template>
 
