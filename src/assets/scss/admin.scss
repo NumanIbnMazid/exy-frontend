@@ -122,15 +122,15 @@
 .admin-mypage {
     background-color: $--color-f2f2f2;
 
-    <<<<<<< HEAD .row-1 {
+    .row-1 {
         .col-left {
             .p-left-1 {
-                =======margin-bottom: 100px !important;
+                margin-bottom: 100px !important;
 
                 .row-1 {
                     .col-left {
                         .p-left-1 {
-                            >>>>>>>6fefcd275202c384333baba092731092470e18f3 color: $--color-cb3a82;
+                            color: $--color-cb3a82;
                         }
 
                         .p-left-2 {
@@ -270,24 +270,6 @@
                 }
             }
 
-            // *** custom-breadcrumb ***
-            .custom-breadcrumb-parent {
-                margin-top: -6px !important;
-
-                .custom-breadcrumb {
-                    margin-bottom: 0px !important;
-
-                    .breadcrumb-item {
-                        margin-top: 10px;
-                    }
-                }
-
-                hr {
-                    margin-top: -10px !important;
-                }
-            }
-
-            // *** /custom-breadcrumb ***
             .breadcrumb-border-admin {
                 .breadcrumb {
                     margin: 0;
@@ -355,3 +337,25 @@
                     }
                 }
             }
+        }
+    }
+}
+
+// *** custom-breadcrumb ***
+.custom-breadcrumb-parent {
+    margin-top: -6px !important;
+
+    .custom-breadcrumb {
+        margin-bottom: 0px !important;
+
+        .breadcrumb-item {
+            margin-top: 10px;
+        }
+    }
+
+    hr {
+        margin-top: -10px !important;
+    }
+}
+
+// *** /custom-breadcrumb ***
