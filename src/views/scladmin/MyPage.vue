@@ -238,15 +238,20 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row inner-2">
+                        <router-link :to="{name:'todo', params:{page:16}}">
+                            <p class="m-0 text-center bottom-p py-2">運営サポートを受ける</p>
+                        </router-link>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <a href="#">
+    <router-link :to="{name:'todo', params:{page:13}}">
         <div class="row py-3 bg-white mt-4 row-4">
             <p class="m-0 text-center">サポート窓口</p>
         </div>
-    </a>
+    </router-link>
   </div>
 </template>
 
