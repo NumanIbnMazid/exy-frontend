@@ -76,6 +76,12 @@
                                     <a @click="graphActiveTab=2" :class="[ graphActiveTab === 2 ? 'active' : '' ]"> 身体測定</a>
                                 </div>
                             </div>
+                            <div class="graph-content mt-3">
+                                <div class="mt-4" v-for="i in graphYparams" :key="i">{{ i }} cm</div>
+                                <div class="row ms-5 ps-4">
+                                    <div class="col-1 graph-col" v-for="i in dataTableCols" :key="i">{{ i }} 月</div>
+                                </div>
+                            </div>
                             <!-- /page content -->
 
                         </div>
@@ -110,6 +116,9 @@
                 graphActiveTab: 1,
                 dataTableCols: [
                     4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2, 3
+                ],
+                graphYparams : [
+                    96, 94, 92, 90, 88, 86, 84, 82, 80, 78, 76, 74, 72
                 ]
             }
         }
