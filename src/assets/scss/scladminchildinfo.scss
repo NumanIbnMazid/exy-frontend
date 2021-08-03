@@ -206,7 +206,14 @@
                                 color: $--color-ffffff;
                             }
                         }
-
+                        .inner-6{
+                            background-color: $--color-f8f7f7;
+                            .p-box{
+                                border: 1px solid $--color-cb3a82;
+                                color: $--color-cb3a82;
+                                border-radius: 15px;
+                            }
+                        }
                         .box-margin {
                             margin-top: 100px;
                         }

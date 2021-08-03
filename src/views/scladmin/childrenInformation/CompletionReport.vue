@@ -218,8 +218,18 @@
                                     <div class="col-md-2 pe-0">
                                         <p :class="[ leftsub === 1 ? 'p-button' : 'p-button-1' ]" class="m-0 py-2 text-center">修正</p>
                                     </div>
+                                </div>
+                                <div class="row inner-6 mt-4 py-1">
+                                    <div class="col-md-2">
+                                        <p class="m-0 text-center p-box py-1 text-xs">ご注意ください</p>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <router-link :to="{name:'todo', params:{page:30}}">
+                                            <p class="m-0 text-decoration-underline ps-3 pt-1">完了報告が未対応です。</p>
+                                        </router-link>
+                                    </div>
                                 </div>      
-                                <div class="row pt-2 inner-2">
+                                <div class="row pt-1 inner-2">
                                     <div class="col-md-12 inner-col">
                                         <div class="row box-row-1 no-border">
                                             <div class="col-md-2 box-left py-2 text-sm">
@@ -387,7 +397,7 @@
 
 <script>
 export default {
-  name: "ExperienceChildcare",
+  name: "CompletionReport",
   data() {
     return {
       activeTab: 3,
