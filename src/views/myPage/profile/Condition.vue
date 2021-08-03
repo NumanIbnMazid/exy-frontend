@@ -36,7 +36,7 @@
                   </div>
                 </div>
               </div>
-                <div class="form-group-container">
+              <div class="form-group-container">
                 <div class="row">
                   <div class="col-md-2">
                     <div class="input-label">
@@ -55,7 +55,7 @@
                   </div>
                 </div>
               </div>
-                 <div class="form-group-container">
+              <div class="form-group-container">
                 <div class="row">
                   <div class="col-md-2">
                     <div class="input-label">
@@ -71,12 +71,12 @@
                       <div class="form-group mb-2">
                         <span class="mypage-condition">2</span>
                         <label class="bg-light"> Osaka Metro 地下鉄御堂筋線線 心斎橋駅</label>
-                      </div>  
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-                 <div class="form-group-container">
+              <div class="form-group-container">
                 <div class="row">
                   <div class="col-md-2">
                     <div class="input-label">
@@ -85,26 +85,26 @@
                   </div>
                   <div class="col-md-10">
                     <div class="input-group-container-right">
-                      <div class="form-group mb-2" >
+                      <div class="form-group mb-2">
                         <span class="mypage-condition">1</span>
                         <label class="bg-light"> 体験保育（一時保育）</label>
                       </div>
                       <div class="form-group mb-2">
                         <span class="mypage-condition">2</span>
                         <label class="bg-light"> リフレッシュ利用可能</label>
-                      </div> 
+                      </div>
                       <div class="form-group mb-2">
                         <span class="mypage-condition">3</span>
                         <label class="bg-light"> ０歳児（６ヶ月未満）</label>
-                      </div>  
+                      </div>
                       <div class="form-group mb-2">
                         <span class="mypage-condition">4</span>
                         <label class="bg-light"> 延長保育（夕方）</label>
-                      </div>   
+                      </div>
                       <div class="form-group mb-2">
                         <span class="mypage-condition">5</span>
                         <label class="bg-light"> 慣らし保育なし</label>
-                      </div>  
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -175,7 +175,7 @@
                   </div>
                 </div>
               </div>
-                <div class="form-group-container">
+              <div class="form-group-container">
                 <div class="row">
                   <div class="col-md-2">
                     <div class="input-label">
@@ -191,7 +191,7 @@
                       <div class="form-group mb-2 cursor-pointer" @click="designAreaModal = true">
                         <span class="mypage-condition">2</span>
                         <label class="bg-light"> Osaka Metro 地下鉄御堂筋線線 心斎橋駅</label>
-                      </div> 
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -212,24 +212,24 @@
                       <div class="form-group mb-2 cursor-pointer" @click="designCategoryModal = true">
                         <span class="mypage-condition">2</span>
                         <label class="bg-light">リフレッシュ利用可能</label>
-                      </div> 
+                      </div>
                       <div class="form-group mb-2 cursor-pointer" @click="designCategoryModal = true">
                         <span class="mypage-condition">3</span>
                         <label class="bg-light">０歳児（６ヶ月未満）</label>
-                      </div> 
+                      </div>
                       <div class="form-group mb-2 cursor-pointer" @click="designCategoryModal = true">
                         <span class="mypage-condition">4</span>
                         <label class="bg-light">延長保育（夕方）</label>
-                      </div> 
+                      </div>
                       <div class="form-group mb-2 cursor-pointer" @click="designCategoryModal = true">
                         <span class="mypage-condition">5</span>
                         <label class="bg-light">慣らし保育なし</label>
-                      </div> 
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-                <div class="form-group text-center mt-4">
+              <div class="form-group text-center mt-4">
                 <button type="button" class="exy-default-btn" @click="changeCondtionStep">
                   登録する
                 </button>
@@ -240,11 +240,11 @@
       </form>
     </div>
 
-  <!-- Category modal start  -->
-  
-  <!-- End of Category modal start  -->
-    <DesirAreaModal v-if="designAreaModal" @close="designAreaModal = false" />
-    <DesirCategoryModal v-if="designCategoryModal" @close="designCategoryModal = false" />
+    <!-- Category modal start  -->
+
+    <!-- End of Category modal start  -->
+    <DesirAreaModal v-if="designAreaModal" @close="designAreaModal = false"/>
+    <DesirCategoryModal v-if="designCategoryModal" @close="designCategoryModal = false"/>
 
   </div>
 </template>
@@ -279,6 +279,7 @@ export default {
   color: #333333;
   position: relative;
   margin-bottom: 25px;
+
   &::after {
     content: "";
     display: block;
@@ -291,6 +292,7 @@ export default {
     top: 14px;
   }
 }
+
 .mypage-profile-prfileimage {
   p {
     font-size: 13px;
@@ -300,13 +302,16 @@ export default {
 .mypage-profile-singlebox {
   display: flex;
   align-items: center;
+
   .mypage-profile-singlebox-label {
     margin-right: 10px;
     width: 15%;
   }
+
   .mypage-profile-singlebox-border {
     margin-right: 10px;
     width: 2%;
+
     &::after {
       content: "";
       display: block;
@@ -316,30 +321,36 @@ export default {
       background: #666;
     }
   }
+
   .mypage-profile-singlebox-main {
     width: 80%;
   }
 }
+
 .btn-link {
   color: #333333 !important;
 }
+
 .form-group-container {
   .input-label {
     background: #aaaaaa;
     color: #fff;
   }
 }
+
 .input-group-container-right label {
   padding-left: 18px;
-    min-width: 50%;
-    cursor: pointer;
+  min-width: 50%;
+  cursor: pointer;
 }
+
 .mypage-condition {
   border: 1px solid #ccc;
   padding: 4px 21px;
   border-radius: 5px;
   font-weight: bold;
 }
+
 .mypage-condition-select {
   border: 1px solid #ccc;
   padding: 4px;

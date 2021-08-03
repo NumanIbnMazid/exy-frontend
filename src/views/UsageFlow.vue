@@ -7,7 +7,9 @@
             <li class="breadcrumb-item">
               <router-link to="/">Top</router-link>
             </li>
-            <li class="breadcrumb-item">キガルニホイクの使い方</li>
+            <li class="breadcrumb-item">
+              <router-link :to="{name:'HowToUseKigarniHoik'}">キガルニホイクの使い方</router-link>
+            </li>
             <li class="breadcrumb-item active" aria-current="page">ご利用の流れ</li>
           </ol>
         </nav>
@@ -131,7 +133,7 @@
               <div class="right-content">
                 <p>「月極保育を利用する前に、うちの子がこの園の雰囲気に合うか知りたい」というときや、子どもを連れていけない予定のとき、リフレッシュしたいとき、などなど、どのようなシーンでもスポット的にお子さまをお預けいただけます。</p>
                 <div class="text-end">
-                  <a class="m-0" href="#">体験保育予約の流れ ＞</a>
+                  <router-link class="m-0" :to="{name:'guide', params:{active:'experience-childcare-reservation'}}">体験保育予約の流れ ＞</router-link>
                 </div>
               </div>
             </div>
@@ -144,7 +146,7 @@
                 <p>月単位なので生活スタイルに合わせて柔軟に対応することが可能です。</p>
                 <p>※保育園の利用履歴によっては、月極保育予約前に【体験保育（一時保育）や園見学】をお願いする場合がございます。</p>
                 <div class="text-end">
-                  <a class="m-0" href="#">月極保育予約の流れ ＞</a>
+                  <router-link class="m-0" :to="{name:'guide', params:{active:'monthly-childcare'}}">月極保育予約の流れ ＞</router-link>
                 </div>
               </div>
             </div>
@@ -157,7 +159,7 @@
                 <p>実際の保育を見て、直接ご質問やご相談していただくことが可能です。</p>
                 <p>大切なお子さまをより安心してお預けいただくために、ぜひご利用ください。</p>
                 <div class="text-end">
-                  <a class="m-0" href="#">園見学予約の流れ ＞</a>
+                  <router-link class="m-0" :to="{name:'guide', params:{active:'garden-tour'}}">園見学予約の流れ ＞</router-link>
                 </div>
               </div>
             </div>
@@ -283,7 +285,7 @@
 
     <section class="py-5">
       <div class="container">
-        <registration-link />
+        <registration-link/>
       </div>
     </section>
 
@@ -292,6 +294,7 @@
 
 <script>
 import RegistrationLink from "../components/RegistrationLink";
+
 export default {
   name: "UsageFlow",
   components: { RegistrationLink }
