@@ -42,29 +42,42 @@
                                 <span class="ms-4 me-4 text-xl fw-bold">2021 年度</span>
                                 <span class="fa fa-caret-right color-kigaruni-pink text-xl fw-bold"></span>
                             </div>
-                            
+
+                            <!-- table -->
                             <div class="table-responsive mt-4">
                                 <table class="table table-bordered border-dark">
-                                <thead>
-                                    <tr>
-                                        <th scope="col" width="100"></th>
-                                        <th scope="col" v-for="i in dataTableCols" :key="i" class="text-center background-pinkish fw-normal">
-                                            {{ i }} 月
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr class="text-center">
-                                        <th class="background-bluish fw-normal">身長(cm)</th>
-                                        <td v-for="i in dataTableCols" :key="i" class="py-3"></td>
-                                    </tr>
-                                    <tr class="text-center">
-                                        <th class="background-bluish fw-normal">体重(kg)</th>
-                                        <td v-for="i in dataTableCols" :key="i" class="py-3"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" width="100"></th>
+                                            <th scope="col" v-for="i in dataTableCols" :key="i"
+                                                class="text-center background-pinkish fw-normal">
+                                                {{ i }} 月
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="text-center">
+                                            <th class="background-bluish fw-normal">身長(cm)</th>
+                                            <td v-for="i in dataTableCols" :key="i" class="py-3"></td>
+                                        </tr>
+                                        <tr class="text-center">
+                                            <th class="background-bluish fw-normal">体重(kg)</th>
+                                            <td v-for="i in dataTableCols" :key="i" class="py-3"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
+                            <!-- /table -->
+
+                            <!-- page content -->
+                            <div class="graph-tab ms-4">
+                                <div class="px-0 tabs">
+                                    <a @click="graphActiveTab=1" :class="[ graphActiveTab === 1 ? 'active' : '' ]"> 基本情報</a>
+                                    <a @click="graphActiveTab=2" :class="[ graphActiveTab === 2 ? 'active' : '' ]"> 身体測定</a>
+                                </div>
+                            </div>
+                            <!-- /page content -->
+
                         </div>
                     </div>
                     <!-- /tab content -->
@@ -94,6 +107,7 @@
             return {
                 dataPageName: "園児情報",
                 activeTab: 2,
+                graphActiveTab: 1,
                 dataTableCols: [
                     4, 5, 6, 7, 8, 9, 10, 11, 12, 1, 2, 3
                 ]
