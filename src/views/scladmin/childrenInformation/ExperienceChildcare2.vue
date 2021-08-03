@@ -231,7 +231,7 @@
                                                 <p class="m-0">2021年1月1日（金）11：00</p>
                                             </div>
                                         </div>
-                                         <div class="row box-row-1 no-border">
+                                         <div class="row box-row-1">
                                             <div class="col-md-2 box-left py-2 text-sm">
                                                 <p class="m-0 text-center fw-bold pt-1">利用終了日時</p>
                                             </div>
@@ -239,7 +239,7 @@
                                                 <p class="m-0">2021年1月1日（金）14：00</p>
                                             </div>
                                         </div>
-                                         <div class="row box-row-1 no-border">
+                                         <div class="row box-row-1">
                                             <div class="col-md-2 box-left py-2 text-sm">
                                                 <p class="m-0 text-center fw-bold pt-1">利用内容</p>
                                             </div>
