@@ -99,7 +99,7 @@
 
                         a {
                             width: calc(100% / 4);
-                            padding: 6px 10px;
+                            padding: 15px 10px;
                             font-size: 15px;
                             border-radius: 5px 5px 0 0;
                             border-bottom: 1px solid $--color-333333;
@@ -206,14 +206,17 @@
                                 color: $--color-ffffff;
                             }
                         }
-                        .inner-6{
+
+                        .inner-6 {
                             background-color: $--color-f8f7f7;
-                            .p-box{
+
+                            .p-box {
                                 border: 1px solid $--color-cb3a82;
                                 color: $--color-cb3a82;
                                 border-radius: 15px;
                             }
                         }
+
                         .box-margin {
                             margin-top: 100px;
                         }
