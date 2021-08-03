@@ -433,6 +433,11 @@ const routes = [{
         component: () => import("../views/scladmin/childrenInformation/ExperienceChildcare2")
     },
     {
+        path: '/admin/children-info/physical-measurement-Weight',
+        name: 'ChildrenInfo.PhysicalMeasurementWeight',
+        component: () => import("../views/scladmin/childrenInformation/PhysicalMeasurementWeight")
+    },
+    {
         path: "/admin/plan-page",
         name: "Plan.page",
         component: () =>

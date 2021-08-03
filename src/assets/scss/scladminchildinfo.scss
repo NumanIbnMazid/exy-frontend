@@ -228,6 +228,36 @@
                         }
                     }
                 }
+                .physical-measurement-Weight{
+                    .inner-1{
+                        .span-1{
+                            color: $--color-cb3a82;
+                        }
+                    }
+                    .inner-2{
+                        .inner-col{
+                            border: 1px solid $--color-333333;
+
+                            .col-1 {
+                                width: calc(2 * (100% / 14));
+                            }
+
+                            .col-2 {
+                                border-left: 1px solid $--color-333333;
+                                width: calc(100% / 14);
+                            }
+                            .inner-row-1{
+                                background-color: $--color-fbeef5;
+                            }
+                            .inner-row-2 {
+                                border-top: 1px solid $--color-333333;
+                                .left-col{
+                                    background-color: $--color-e8f4ff;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
