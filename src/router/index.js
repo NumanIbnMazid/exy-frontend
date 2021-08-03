@@ -423,6 +423,11 @@ const routes = [{
         component: () => import("../views/scladmin/childrenInformation/MonthlyChildcareFirstMonth")
     },
     {
+        path: '/admin/children-info/monthly-childcare-second-month',
+        name: 'ChildrenInfo.MonthlyChildcareSecondMonth',
+        component: () => import("../views/scladmin/childrenInformation/MonthlyChildcareSecondMonth")
+    },
+    {
         path: "/admin/plan-page",
         name: "Plan.page",
         component: () =>
