@@ -85,7 +85,7 @@
                   </div>
                   <div class="col-md-10">
                     <div class="input-group-container-right">
-                      <div class="form-group mb-2">
+                      <div class="form-group mb-2" >
                         <span class="mypage-condition">1</span>
                         <label class="bg-light"> 体験保育（一時保育）</label>
                       </div>
@@ -184,11 +184,11 @@
                   </div>
                   <div class="col-md-10">
                     <div class="input-group-container-right">
-                      <div class="form-group mb-2">
+                      <div class="form-group mb-2 cursor-pointer" @click="designAreaModal = true">
                         <span class="mypage-condition">1</span>
                         <label class="bg-light"> Osaka Metro 地下鉄四ツ橋線 四ツ橋駅 </label>
                       </div>
-                      <div class="form-group mb-2">
+                      <div class="form-group mb-2 cursor-pointer" @click="designAreaModal = true">
                         <span class="mypage-condition">2</span>
                         <label class="bg-light"> Osaka Metro 地下鉄御堂筋線線 心斎橋駅</label>
                       </div> 
@@ -205,23 +205,23 @@
                   </div>
                   <div class="col-md-10">
                     <div class="input-group-container-right">
-                      <div class="form-group mb-2">
+                      <div class="form-group mb-2 cursor-pointer" @click="designCategoryModal = true">
                         <span class="mypage-condition">1</span>
                         <label class="bg-light"> 体験保育（一時保育）</label>
                       </div>
-                      <div class="form-group mb-2">
+                      <div class="form-group mb-2 cursor-pointer" @click="designCategoryModal = true">
                         <span class="mypage-condition">2</span>
                         <label class="bg-light">リフレッシュ利用可能</label>
                       </div> 
-                      <div class="form-group mb-2">
+                      <div class="form-group mb-2 cursor-pointer" @click="designCategoryModal = true">
                         <span class="mypage-condition">3</span>
                         <label class="bg-light">０歳児（６ヶ月未満）</label>
                       </div> 
-                      <div class="form-group mb-2">
+                      <div class="form-group mb-2 cursor-pointer" @click="designCategoryModal = true">
                         <span class="mypage-condition">4</span>
                         <label class="bg-light">延長保育（夕方）</label>
                       </div> 
-                      <div class="form-group mb-2">
+                      <div class="form-group mb-2 cursor-pointer" @click="designCategoryModal = true">
                         <span class="mypage-condition">5</span>
                         <label class="bg-light">慣らし保育なし</label>
                       </div> 
@@ -243,19 +243,28 @@
   <!-- Category modal start  -->
   
   <!-- End of Category modal start  -->
-
-
+    <DesirAreaModal v-if="designAreaModal" @close="designAreaModal = false" />
+    <DesirCategoryModal v-if="designCategoryModal" @close="designCategoryModal = false" />
 
   </div>
 </template>
 
 <script>
+import DesirAreaModal from '../../../components/modal/DesirAreaModal.vue';
+import DesirCategoryModal from '../../../components/modal/DesirCategoryModal.vue';
+
 export default {
   name: "Condition",
   data() {
     return {
       conditionFirstStep: true,
+      designAreaModal: false,
+      designCategoryModal: false,
     };
+  },
+  components: {
+    DesirAreaModal,
+    DesirCategoryModal
   },
   methods: {
     changeCondtionStep() {
@@ -321,7 +330,9 @@ export default {
   }
 }
 .input-group-container-right label {
-  margin-left: 10px;
+  padding-left: 18px;
+    min-width: 50%;
+    cursor: pointer;
 }
 .mypage-condition {
   border: 1px solid #ccc;
