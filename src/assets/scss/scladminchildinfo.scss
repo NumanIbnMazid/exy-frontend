@@ -257,6 +257,33 @@
                             }
                         }
                     }
+                    .inner-3{
+                        .col-1{
+                            border-left: 1px solid $--color-cecece;
+                            width: calc(1.25 * (100% / 7.5));
+                        }
+                        .col-2 {
+                            border-left: 1px solid $--color-cecece;
+                            width: calc(100% / 7.5);
+                        }
+                        .no-border{
+                            border: 0px;
+                        }
+                        .active{
+                            border: 0px;
+                            border-bottom: 3px solid $--color-cb3a82;
+                        }
+                        .inner-row-1{
+                            .col-1{
+                                border: 0px;
+                               width: calc(100% / 14.5);
+                            }
+                            .col-2 {
+                                border: 0px;
+                                width: calc((100% / 14.5) - 2.25);
+                            }
+                        }
+                    }
                 }
             }
         }
