@@ -196,9 +196,9 @@
                 <div class="details-tab">
                     <div class="px-0 tabs">
                         <a> </a>
-                        <a @click="activeTab=1" :class="[ activeTab === 1 ? 'active' : '' ]"> 園の特色</a>
-                        <a @click="activeTab=2" :class="[ activeTab === 2 ? 'active' : '' ]"> 保育内容</a>
-                        <a @click="activeTab=3" :class="[ activeTab === 3 ? 'active' : '' ]"> 料金プラン</a>
+                        <a @click="activeTab=1" :class="[ activeTab === 1 ? 'active' : '' ]"> 基本情報</a>
+                        <a @click="activeTab=2" :class="[ activeTab === 2 ? 'active' : '' ]"> 身体測定</a>
+                        <a @click="activeTab=3" :class="[ activeTab === 3 ? 'active' : '' ]"> 利用履歴</a>
                         <a > </a>
                     </div>
                 </div>
@@ -211,6 +211,7 @@
                                     </div>
                                     <div class="col-md-8">
                                         <select class="form-select ps-5 w-25" aria-label="Default select example">
+                                            <option selected>1 月</option>
                                             <option v-for="i in 12" :key="i" :value="`${i} 月`">
                                                 {{ `${i} 月` }}
                                             </option>
@@ -224,7 +225,7 @@
                                                 <p class="m-0 text-center fw-bold pt-1">利用開始日時</p>
                                             </div>
                                             <div class="col-md-10 box-right py-2 ps-4">
-                                                <p class="m-0">2021年1月1日（金）11：00</p>
+                                                <p class="m-0">2021年7月8日（木）9:00</p>
                                             </div>
                                         </div>
                                         <div class="row box-row-1">
@@ -232,7 +233,7 @@
                                                 <p class="m-0 text-center fw-bold pt-1">利用終了日時</p>
                                             </div>
                                             <div class="col-md-10 box-right py-2 ps-4">
-                                                <p class="m-0">2021年1月1日（金）14：00</p>
+                                                <p class="m-0">2021年7月8日（木）17:00</p>
                                             </div>
                                         </div>
                                         <div class="row box-row-1">
@@ -318,13 +319,13 @@
                                         </div>
                                         <div class="row box-inner-3 py-2">
                                             <div class="col-md-3">
-                                                <p class="m-0">2021/06/02 <span class="ps-5">12:00</span></p>
+                                                <p class="m-0">2021/7/8 <span class="ps-5">17:00</span></p>
                                             </div>
                                             <div class="col-md-3">
-                                                <p class="m-0">利用プラン</p>
+                                                <p class="m-0">利用時間</p>
                                             </div>
                                             <div class="col-md-6">
-                                                <p class="m-0">利用プラン変更の申し出があったため</p>
+                                                <p class="m-0">【運営修正】保護者様より修正の申し出があったため</p>
                                             </div>
                                         </div>
                                     </div>

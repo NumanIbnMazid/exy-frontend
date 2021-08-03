@@ -196,9 +196,9 @@
                 <div class="details-tab">
                     <div class="px-0 tabs">
                         <a> </a>
-                        <a @click="activeTab=1" :class="[ activeTab === 1 ? 'active' : '' ]"> 園の特色</a>
-                        <a @click="activeTab=2" :class="[ activeTab === 2 ? 'active' : '' ]"> 保育内容</a>
-                        <a @click="activeTab=3" :class="[ activeTab === 3 ? 'active' : '' ]"> 料金プラン</a>
+                        <a @click="activeTab=1" :class="[ activeTab === 1 ? 'active' : '' ]"> 基本情報</a>
+                        <a @click="activeTab=2" :class="[ activeTab === 2 ? 'active' : '' ]"> 身体測定</a>
+                        <a @click="activeTab=3" :class="[ activeTab === 3 ? 'active' : '' ]"> 利用履歴</a>
                         <a > </a>
                     </div>
                 </div>
@@ -212,7 +212,10 @@
                                     </div>
                                     <div class="col-md-8">
                                         <select class="form-select ps-5 w-25" aria-label="Default select example">
-                                            <option>1月</option>
+                                            <option selected>1 月</option>
+                                            <option v-for="i in 12" :key="i" :value="`${i} 月`">
+                                                {{ `${i} 月` }}
+                                            </option>
                                         </select>
                                     </div>
                                     <div class="col-md-2 pe-0">

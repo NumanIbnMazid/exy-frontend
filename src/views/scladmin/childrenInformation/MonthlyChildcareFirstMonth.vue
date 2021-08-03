@@ -212,7 +212,7 @@
                                     </div>
                                     <div class="col-md-8">
                                         <select class="form-select ps-5 w-25" aria-label="Default select example">
-                                            <option selected>1 月</option>
+                                            <option selected>7 月</option>
                                             <option v-for="i in 12" :key="i" :value="`${i} 月`">
                                                 {{ `${i} 月` }}
                                             </option>
@@ -221,25 +221,15 @@
                                     <div class="col-md-2 pe-0">
                                         <p :class="[ leftsub === 1 ? 'p-button' : 'p-button-1' ]" class="m-0 py-2 text-center">修正</p>
                                     </div>
-                                </div>
-                                <div class="row inner-6 mt-4 py-1">
-                                    <div class="col-md-2">
-                                        <p class="m-0 text-center p-box py-1 text-xs">ご注意ください</p>
-                                    </div>
-                                    <div class="col-md-10">
-                                        <router-link :to="{name:'todo', params:{page:30}}">
-                                            <p class="m-0 text-decoration-underline ps-3 pt-1">完了報告が未対応です。</p>
-                                        </router-link>
-                                    </div>
                                 </div>      
-                                <div class="row pt-1 inner-2">
+                                <div class="row pt-2 inner-2">
                                     <div class="col-md-12 inner-col">
                                         <div class="row box-row-1 no-border">
                                             <div class="col-md-2 box-left py-2 text-sm">
                                                 <p class="m-0 text-center fw-bold pt-1">利用開始日時</p>
                                             </div>
                                             <div class="col-md-10 box-right py-2 ps-4">
-                                                <p class="m-0">2021年1月1日（金）11：00</p>
+                                                <p class="m-0">2021年7月9日（金）11：00</p>
                                             </div>
                                         </div>
                                         <div class="row box-row-1">
@@ -247,7 +237,7 @@
                                                 <p class="m-0 text-center fw-bold pt-1">利用終了日時</p>
                                             </div>
                                             <div class="col-md-10 box-right py-2 ps-4">
-                                                <p class="m-0">2021年1月1日（金）14：00</p>
+                                                <p class="m-0">2021年7月9日（金）14：00</p>
                                             </div>
                                         </div>
                                         <div class="row box-row-1">
@@ -255,7 +245,7 @@
                                                 <p class="m-0 pt-1"><input type="checkbox"> <span class="ps-3 fw-bold">利用内容</span></p>
                                             </div>
                                             <div class="col-md-10 box-right py-2 ps-4">
-                                                <p class="m-0">体験保育</p>
+                                                <p class="m-0">月極保育</p>
                                             </div>
                                         </div>
                                         <div class="row box-row-1">
@@ -263,7 +253,7 @@
                                                 <p class="m-0 pt-1"><input type="checkbox"> <span class="ps-3 fw-bold">料金プラン</span></p>
                                             </div>
                                             <div class="col-md-10 box-right py-2 ps-4">
-                                                <p class="m-0">通常プラン  <span class="px-3">｜</span>  １歳児以降</p>
+                                                <p class="m-0">通常プラン <span class="px-3">｜</span>  ０歳児</p>
                                             </div>
                                         </div>
                                         <div class="row box-row-1">
@@ -271,7 +261,7 @@
                                                 <p class="m-0 pt-1"><input type="checkbox"> <span class="ps-3 fw-bold">オプション</span></p>
                                             </div>
                                             <div class="col-md-10 box-right py-2 ps-4">
-                                                <p class="m-0">その他費用 <span class="px-3">｜</span>  給食、その他費用 <span class="px-3">｜</span>おやつ</p>
+                                                <p class="m-0">その他費用  <span class="px-3">｜</span>  給食、その他費用 <span class="px-3">｜</span>おやつ、その他経費 <span class="px-3">｜</span> ミルク</p>
                                             </div>
                                         </div>
                                         <div class="row box-row-1">
@@ -333,7 +323,7 @@
                                         </div>
                                         <div class="row box-inner-3 py-2">
                                             <div class="col-md-3">
-                                                <p class="m-0">2021/06/02 <span class="ps-5">12:00</span></p>
+                                                <p class="m-0">2021/08/10 </p>
                                             </div>
                                             <div class="col-md-3">
                                                 <p class="m-0">利用プラン</p>
@@ -352,7 +342,7 @@
                                             </div>
                                             <div class="col-md-10 box-right py-2 ps-4">
                                                 <select class="form-select ps-5 w-50" aria-label="Default select example">
-                                                    <option>通常プラン  <span class="px-3">｜</span>  １歳児以降</option>
+                                                    <option>通常プラン  <span class="px-3">｜</span>  ０歳児</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -361,7 +351,7 @@
                                                 <p class="m-0 pt-1 text-center fw-bold">完了報告</p>
                                             </div>
                                             <div class="col-md-10 box-right py-2 ps-4">
-                                                <p class="p-box m-0"></p>
+                                                <p class="p-box m-0 py-4 ps-4">お母様の働き方が変わったため</p>
                                             </div>
                                         </div>
                                     </div>
@@ -400,7 +390,7 @@
 
 <script>
 export default {
-  name: "CompletionReport",
+  name: "MonthlyChildcareFirstMonth",
   data() {
     return {
       activeTab: 3,
