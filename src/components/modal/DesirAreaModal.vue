@@ -1150,7 +1150,7 @@ export default {
   }
 }
 
-.desiire-station-select-btn-single > img {
+.desiire-station-select-btn-single {
   cursor: pointer;
 }
 
