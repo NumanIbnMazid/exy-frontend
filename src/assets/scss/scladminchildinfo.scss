@@ -70,6 +70,7 @@
 
                 .top-p {
                     font-size: 45px;
+                    color: $--color-707070;
 
                     .span-1 {
                         border: 1px solid $--color-707070;
@@ -161,6 +162,11 @@
                                 .p-box {
                                     height: 80px;
                                     border: 1px solid $--color-d8d8d8;
+                                }
+                                .span-1{
+                                    border: 1px solid $--color-707070;
+                                    color: $--color-707070;
+                                    border-radius: 50%;
                                 }
                             }
 
