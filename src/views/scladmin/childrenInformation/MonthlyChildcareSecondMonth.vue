@@ -218,8 +218,11 @@
                                             </option>
                                         </select>
                                     </div>
-                                    <div class="col-md-2 pe-0">
-                                        <p :class="[ leftsub === 1 ? 'p-button' : 'p-button-1' ]" class="m-0 py-2 text-center">修正</p>
+                                     <div v-if="leftsub == 1" class="col-md-2 pe-0">
+                                        <p class="m-0 py-2 text-center p-button">修正</p>
+                                    </div>
+                                    <div v-if="leftsub == 2" class="col-md-2 pe-0">
+                                        <p class="m-0 py-2 text-center p-button-1">保存</p>
                                     </div>
                                 </div> 
                             </a>
@@ -441,8 +444,11 @@
                                 <div v-if="subBottom == 2" class="row py-3 inner-5">
                                     <p class="py-4 ps-3 m-0 p-box">お迎えの時間に少しルーズな部分があるため配置に注意する</p>
                                 </div>
-                                <div class="row py-2 inner-5">
-                                    <p class="m-0"><span :class="[ subBottom == 1 ? 'span-1' : 'span-2' ]" class="pull-right py-2 px-5">保存</span></p>
+                                <div v-if="subBottom==1" class="row py-2 inner-5">
+                                    <p class="m-0"><span class="pull-right py-2 px-5 span-1">保存</span></p>
+                                </div>
+                                <div v-if="subBottom==2" class="row py-2 inner-5">
+                                    <p class="m-0"><span class="pull-right py-2 px-5 span-2">修正</span></p>
                                 </div>
                             </a>
                         </div>
