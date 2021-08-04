@@ -462,6 +462,12 @@ const routes = [{
             import ("../views/scladmin/ChildcareInformation/ChildcareInformation"),
     },
     {
+        path: "/admin/child-measurement-information",
+        name: "Admin.ChildMeasurementInformation",
+        component: () =>
+            import ("../views/scladmin/ChildcareInformation/ChildMeasurementInformation"),
+    },
+    {
         path: "*",
         redirect: "/pages/error-404",
     },

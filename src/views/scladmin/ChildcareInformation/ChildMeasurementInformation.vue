@@ -58,11 +58,17 @@
                                     <tbody>
                                         <tr class="text-center">
                                             <th class="background-bluish fw-normal">身長(cm)</th>
-                                            <td v-for="i in dataTableCols" :key="i" class="py-3"></td>
+                                            <td v-for="i in dataTableCols" :key="i">
+                                                <span v-if="i == 4">78.8</span>
+                                                <span v-if="i == 5">79</span>
+                                            </td>
                                         </tr>
                                         <tr class="text-center">
                                             <th class="background-bluish fw-normal">体重(kg)</th>
-                                            <td v-for="i in dataTableCols" :key="i" class="py-3"></td>
+                                            <td v-for="i in dataTableCols" :key="i">
+                                                <span v-if="i == 4">9.7</span>
+                                                <span v-if="i == 5">10</span>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -91,7 +97,10 @@
                                                 <!-- Y Axis -->
                                                 <div class="row" v-for="i in graphYparams" :key="i">
                                                     <div class="col-1 py-2 no-border ps-4">
-                                                        <p class="m-0 pt-2 text-xs">{{ i }} cm</p>
+                                                        <p class="m-0 pt-2 text-xs">
+                                                            {{ i }} cm
+                                                            <span v-if="i == 78" class="ms-4">X</span>
+                                                        </p>
                                                     </div>
                                                     <div class="col-2">
                                                     </div>

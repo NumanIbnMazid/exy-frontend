@@ -50,7 +50,7 @@
                         <span class="me-3">体重</span>
                         <input type="text" class="ms-3 w-25 border border-2 p-2 form-text bg-light">
                         <span class="ms-2 me-4">kg</span>
-                        <router-link :to="{name: 'todo', params: {page: 47} }" class="rounded-circle text-white ps-2 pe-2 background-kigaruni-pink p-3">
+                        <router-link :to="{name: 'Admin.ChildMeasurementInformation' }" class="rounded-circle text-white ps-2 pe-2 background-kigaruni-pink p-3">
                             登録
                         </router-link>
                     </div>
