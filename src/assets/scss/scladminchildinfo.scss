@@ -77,6 +77,7 @@
                         border-radius: 21px;
                         color: $--color-707070;
                         margin-top: 12px;
+                        z-index: -1;
                     }
                 }
             }
@@ -360,4 +361,86 @@
             }
         }
     }
+}
+.garden-basic-info{
+     .details-tab {
+         padding-top: 40px;
+
+         .tabs {
+             display: flex;
+             flex-wrap: nowrap;
+             text-align: center;
+             padding: 0 5rem 0 5rem;
+
+             a,
+             i {
+                 cursor: pointer;
+                 display: inline-block;
+                 font-weight: 500;
+             }
+
+             a {
+                 width: calc(100% / 5);
+                 padding: 15px 10px;
+                 font-size: 15px;
+                 border-radius: 5px 5px 0 0;
+                 border-bottom: 1px solid $--color-333333;
+                 color: $--color-cb3a82;
+
+                 &:hover {
+                     color: #333333;
+
+                     i {
+                         color: #333333;
+                     }
+                 }
+             }
+
+             a.active {
+                 border: 1px solid $--color-333333;
+                 border-bottom: 0px solid $--color-ffffff;
+                 //  background-color: $--color-cb3a82;
+                 color: $--color-333333;
+             }
+         }
+     }
+     .tab-1{
+        .row-1{
+             border-top: 1px solid $--color-333333;
+             border-bottom: 1px solid $--color-333333;
+            .left-col {
+                 background-color: $--color-fbeef5;
+
+                 .p-left {
+                     padding-top: 200px;
+                 }
+            }
+            .right-col{
+                .crossed {
+                    background:
+                        linear-gradient(to top left,
+                            rgba(0, 0, 0, 0) 0%,
+                            rgba(0, 0, 0, 0) calc(50% - 0.8px),
+                            rgba(0, 0, 0, 1) 50%,
+                            rgba(0, 0, 0, 0) calc(50% + 0.8px),
+                            rgba(0, 0, 0, 0) 100%),
+                        linear-gradient(to top right,
+                            rgba(0, 0, 0, 0) 0%,
+                            rgba(0, 0, 0, 0) calc(50% - 0.8px),
+                            rgba(0, 0, 0, 1) 50%,
+                            rgba(0, 0, 0, 0) calc(50% + 0.8px),
+                            rgba(0, 0, 0, 0) 100%);
+                }
+
+                .cross-box {
+                    height: 220px;
+                }
+                .inner-1{
+                    background-color: $--color-f8f7f7;
+                    border: 1px solid $--color-333333;
+                }
+            }
+        }
+     }
+    
 }
