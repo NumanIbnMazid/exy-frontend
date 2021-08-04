@@ -410,11 +410,17 @@
                                         <div class="col-2"></div>
                                         <div class="col-1"></div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-1 py-2 no-border ps-4">
-                                            <p class="m-0 pt-2 text-xs">10kg</p>
+                                    <div class="row inner-row-2">
+                                        <div class="col-1 py-2 no-border ps-4 text-xs">
+                                            <div class="pull-left step-left">
+                                                <p class="m-0 pt-2 text-xs">10kg</p>
+                                            </div>
+                                            <ul class="progressbar">
+                                                <li class="bottom"></li>
+                                                <li></li>
+                                            </ul>
                                         </div>
-                                        <div class="col-2">
+                                        <div class="col-2 position-absolute">
                                         </div>
                                         <div class="col-2"></div>
                                         <div class="col-2"></div>
