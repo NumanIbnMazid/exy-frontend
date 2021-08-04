@@ -5,7 +5,7 @@
         <div class="row mt-5 mb-5">
           <div class="col-md-6">
             <div class="w-100 text-center shadow p-5 rounded mt-5">
-              <router-link to="/">
+              <router-link to="/admin/plan-page-record-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
