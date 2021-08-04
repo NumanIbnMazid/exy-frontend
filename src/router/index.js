@@ -438,6 +438,11 @@ const routes = [{
         component: () => import("../views/scladmin/childrenInformation/PhysicalMeasurementWeight")
     },
     {
+        path: '/admin/garden-basic-information',
+        name: 'Admin.GardenBasicInformation',
+        component: () => import("../views/scladmin/GardenBasicInformation")
+    },
+    {
         path: "/admin/plan-page",
         name: "Plan.page",
         component: () =>
