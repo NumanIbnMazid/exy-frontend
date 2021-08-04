@@ -473,6 +473,18 @@ const routes = [{
             import ("../views/scladmin/ChildcareInformation/ChildMeasurementInformation"),
     },
     {
+        path: "/admin/rate-plan",
+        name: "Admin.RatePlan",
+        component: () =>
+            import ("../views/scladmin/RatePlan/RatePlan"),
+    },
+    {
+        path: "/admin/rate-plan-details",
+        name: "Admin.RatePlanDetails",
+        component: () =>
+            import ("../views/scladmin/RatePlan/PlanDetails"),
+    },
+    {
         path: "*",
         redirect: "/pages/error-404",
     },

@@ -134,6 +134,7 @@
 
 <script>
     // imports
+    import router from "../../../router/index"
     import Breadcrumb from "../../../components/adminPartials/Breadcrumb"
     import LeftSidebar from "./LeftSidebar.vue"
     import RightcolHeader from "./RightcolHeader.vue"
@@ -156,6 +157,23 @@
                 graphYparams: [
                     96, 94, 92, 90, 88, 86, 84, 82, 80, 78, 76, 74, 72
                 ]
+            }
+        },
+        methods: {
+            handleRoute(path) {
+                if (typeof path === 'number') {
+                    router.push(
+                        {
+                            name: 'todo',
+                            params: {
+                                page: path
+                            }
+                        }
+                    )
+                } else {
+                    router.push({ name: path })
+                }
+                return
             }
         }
     }

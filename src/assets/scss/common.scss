@@ -33,3 +33,57 @@
 .admin-parent {
     padding-bottom: 77px !important;
 }
+
+.no-border {
+    border: none !important;
+}
+
+.rate-paln-table {
+
+    tr,
+    td {
+        padding: 23px !important;
+    }
+}
+
+.custom-tab-pill {
+    padding-top: 40px;
+
+    .tabs {
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        padding: 0 5rem 0 5rem;
+
+        a,
+        i {
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 500;
+        }
+
+        a {
+            width: calc(100% / 4);
+            padding: 15px 10px;
+            font-size: 15px;
+            border-radius: 5px 5px 0 0;
+            border-bottom: 1px solid $--color-333333;
+            color: $--color-cb3a82;
+
+            &:hover {
+                color: #333333;
+
+                i {
+                    color: #333333;
+                }
+            }
+        }
+
+        a.active {
+            border: 1px solid $--color-333333;
+            border-bottom: 0px solid $--color-ffffff;
+            color: $--color-333333;
+            font-weight: bold;
+        }
+    }
+}

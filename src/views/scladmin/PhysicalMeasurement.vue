@@ -73,6 +73,7 @@
 
 <script>
     // imports
+    import router from "../../router/index"
     import Breadcrumb from "../../components/adminPartials/Breadcrumb"
     import Pagination from "../../components/Pagination"
 
@@ -98,6 +99,23 @@
         components: {
             Breadcrumb,
             Pagination
+        },
+        methods: {
+            handleRoute(path) {
+                if (typeof path === 'number') {
+                    router.push(
+                        {
+                            name: 'todo',
+                            params: {
+                                page: path
+                            }
+                        }
+                    )
+                } else {
+                    router.push({ name: path })
+                }
+                return
+            }
         }
     };
 </script>
