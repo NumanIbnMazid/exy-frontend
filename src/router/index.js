@@ -410,20 +410,28 @@ const routes = [{
             import ("../views/scladmin/PlanPage.vue"),
     },
     {
-        path: '/admin/',
-        name: 'Admin.Home',
-        component: () => import("../views/admin/Home")
+        path: "/admin/",
+        name: "Admin.Home",
+        component: () =>
+            import ("../views/admin/Home"),
     },
     {
-        path: '/admin/my-page',
-        name: 'Admin.MyPage',
-        component: () => import("../views/admin/MyPage")
+        path: "/admin/my-page",
+        name: "Admin.MyPage",
+        component: () =>
+            import ("../views/admin/MyPage"),
     },
     {
         path: "/admin/plan-page-record-3",
         name: "Plan.page3",
         component: () =>
             import ("../views/scladmin/PlanPageRecord3.vue"),
+    },
+    {
+        path: "/admin/plan-page-record-2",
+        name: "Plan.page3",
+        component: () =>
+            import ("../views/scladmin/PlanPageRecord2.vue"),
     },
     {
         path: "*",
