@@ -1,42 +1,48 @@
 <template>
   <nav class="mt-5" aria-label="Page navigation">
     <ul class="pagination justify-content-center">
-      <li class="page-item active"><a href="#">1</a></li>
-      <li class="page-item"><a href="#">2</a></li>
-      <li class="page-item"><a href="#">3</a></li>
-      <li class="page-item"><a href="#">4</a></li>
-      <li class="page-item"><a href="#">5</a></li>
+      <li class="page-item" v-for="i in dataNumPages" :key="i" :class="i == 1 ? 'active':''">
+        <a href="#">{{ i }}</a>
+      </li>
       <li class="page-item"><a href="#"><i class="fa fa-angle-right"></i></a></li>
     </ul>
   </nav>
 </template>
 
 <script>
-export default {
-  name: "Pagination"
-}
+  export default {
+    name: "Pagination",
+    props: {
+      numPages: Number
+    },
+    data() {
+      return {
+        dataNumPages: this.numPages != null ? this.numPages : 5
+      }
+    },
+  }
 </script>
 
 <style scoped lang="scss">
-.pagination {
-  li {
-    padding: 0 5px;
+  .pagination {
+    li {
+      padding: 0 5px;
 
-    a {
-      width: 30px;
-      height: 30px;
-      line-height: 30px;
-      text-align: center;
-      border-radius: 50%;
-      display: inline-block;
+      a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        display: inline-block;
+      }
+    }
+
+    .active {
+      a {
+        color: #FFFFFF;
+        background: #84C942;
+      }
     }
   }
-
-  .active {
-    a {
-      color: #FFFFFF;
-      background: #84C942;
-    }
-  }
-}
 </style>

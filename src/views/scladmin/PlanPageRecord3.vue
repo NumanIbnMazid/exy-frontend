@@ -67,11 +67,7 @@
               </div>
             </div>
             <div class="col-md-6 p-3">
-              <table
-                class="table table-bordered"
-                data-bs-toggle="modal"
-                data-bs-target="#thisPageModal2"
-              >
+              <table class="table table-bordered">
                 <tbody>
                   <tr>
                     <td class="text-center">担当</td>
@@ -79,9 +75,21 @@
                     <td class="text-center">園長</td>
                   </tr>
                   <tr>
-                    <td class="blank-td"></td>
-                    <td class="blank-td"></td>
-                    <td class="blank-td"></td>
+                    <td
+                      class="blank-td"
+                      data-bs-toggle="modal"
+                      data-bs-target="#thisPageModal2"
+                    ></td>
+                    <td
+                      class="blank-td"
+                      data-bs-toggle="modal"
+                      data-bs-target="#thisPageModal3"
+                    ></td>
+                    <td
+                      class="blank-td"
+                      data-bs-toggle="modal"
+                      data-bs-target="#thisPageModal3"
+                    ></td>
                   </tr>
                 </tbody>
               </table>
@@ -89,11 +97,7 @@
           </div>
 
           <div class="row p-3">
-            <table
-              class="table-bordered table"
-              data-bs-toggle="modal"
-              data-bs-target="#thisPageModal1"
-            >
+            <table class="table-bordered table">
               <thead>
                 <tr class="bg-light">
                   <td class="text-center">年間目標</td>
@@ -441,6 +445,83 @@
                   />
                   <label class="form-check-label" for="flexCheckDefault">
                     山中琴葉
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secodery border rounded-0"
+              data-bs-dismiss="modal"
+            >
+              キャンセル
+            </button>
+            <button
+              type="button"
+              class="
+                btn btn btn-secodery
+                text-white
+                rounded-0
+                border-0
+                bg-cb3a82
+              "
+            >
+              保存
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="thisPageModal3" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="thisPageModal">承認者</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    出雲由規
+                  </label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    安井紗羽
+                  </label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckDefault"
+                  />
+                  <label class="form-check-label" for="flexCheckDefault">
+                    杉本恵美莉
                   </label>
                 </div>
               </div>

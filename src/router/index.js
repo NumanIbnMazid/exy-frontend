@@ -398,10 +398,64 @@ const routes = [{
             import ("../views/todo"),
     },
     {
-        path: "/admin/",
-        name: "Admin.Home",
+        path: "/admin/my-page",
+        name: "Admin.MyPage",
         component: () =>
-            import ("../views/admin/Home"),
+            import ("../views/scladmin/MyPage"),
+    },
+    {
+        path: "/admin/children-info/experience-childcare",
+        name: "ChildrenInfo.ExperienceChildcare",
+        component: () =>
+            import ("../views/scladmin/childrenInformation/ExperienceChildcare"),
+    },
+    {
+        path: "/admin/children-info/completion-report",
+        name: "ChildrenInfo.CompletionReport",
+        component: () =>
+            import ("../views/scladmin/childrenInformation/CompletionReport"),
+    },
+    {
+        path: "/admin/children-info/experience-childcare-completion-report",
+        name: "ChildrenInfo.ExperienceCompletionReport",
+        component: () =>
+            import (
+                "../views/scladmin/childrenInformation/ExperienceCompletionReport"
+            ),
+    },
+    {
+        path: "/admin/children-info/monthly-childcare-first-month",
+        name: "ChildrenInfo.MonthlyChildcareFirstMonth",
+        component: () =>
+            import (
+                "../views/scladmin/childrenInformation/MonthlyChildcareFirstMonth"
+            ),
+    },
+    {
+        path: "/admin/children-info/monthly-childcare-second-month",
+        name: "ChildrenInfo.MonthlyChildcareSecondMonth",
+        component: () =>
+            import (
+                "../views/scladmin/childrenInformation/MonthlyChildcareSecondMonth"
+            ),
+    },
+    {
+        path: "/admin/children-info/experience-childcare-2",
+        name: "ChildrenInfo.ExperienceChildcare2",
+        component: () =>
+            import ("../views/scladmin/childrenInformation/ExperienceChildcare2"),
+    },
+    {
+        path: "/admin/children-info/physical-measurement-Weight",
+        name: "ChildrenInfo.PhysicalMeasurementWeight",
+        component: () =>
+            import ("../views/scladmin/childrenInformation/PhysicalMeasurementWeight"),
+    },
+    {
+        path: "/admin/garden-basic-information",
+        name: "Admin.GardenBasicInformation",
+        component: () =>
+            import ("../views/scladmin/GardenBasicInformation"),
     },
     {
         path: "/admin/plan-page",
@@ -410,22 +464,30 @@ const routes = [{
             import ("../views/scladmin/PlanPage.vue"),
     },
     {
-        path: "/admin/",
-        name: "Admin.Home",
-        component: () =>
-            import ("../views/admin/Home"),
-    },
-    {
-        path: "/admin/my-page",
-        name: "Admin.MyPage",
-        component: () =>
-            import ("../views/admin/MyPage"),
-    },
-    {
         path: "/admin/plan-page-record-3",
         name: "Plan.page3",
         component: () =>
             import ("../views/scladmin/PlanPageRecord3.vue"),
+    },
+    {
+        path: "/admin/physical-measurement",
+        name: "Admin.PhysicalMeasurement",
+        component: () =>
+            import ("../views/scladmin/PhysicalMeasurement"),
+    },
+    {
+        path: "/admin/childcare-information",
+        name: "Admin.ChildcareInformation",
+        component: () =>
+            import ("../views/scladmin/ChildcareInformation/ChildcareInformation"),
+    },
+    {
+        path: "/admin/child-measurement-information",
+        name: "Admin.ChildMeasurementInformation",
+        component: () =>
+            import (
+                "../views/scladmin/ChildcareInformation/ChildMeasurementInformation"
+            ),
     },
     {
         path: "/admin/plan-page-record-2",
