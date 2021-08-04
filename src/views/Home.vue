@@ -50,12 +50,25 @@
 
         <!-- Search Nav -->
         <div class="d-flex align-items-center justify-content-between mt-4 search-nav">
-          <a href="#">
-            <i class="fa fa-caret-right"></i>
-            <span class="ms-3">＃</span> 明日預ける
-          </a>
-          <a href="#"><span>＃</span> 体験保育</a>
-          <a href="#"><span>＃</span> 月極保育</a>
+          <div class="position-relative">
+            <div class="cursor-pointer" @click="togglePopup1">
+              <i class="fa fa-caret-right"></i>
+              <span class="ms-3">＃</span> 明日預ける
+            </div>
+            <wise-search v-if="popup1" @close="popup1 = false"/>
+          </div>
+          <div class="position-relative">
+            <div class="cursor-pointer" @click="togglePopup2">
+              <span>＃</span> 体験保育
+            </div>
+            <wise-search v-if="popup2" @close="popup2 = false"/>
+          </div>
+          <div class="position-relative">
+            <div class="cursor-pointer" @click="togglePopup3">
+              <span>＃</span> 月極保育
+            </div>
+            <wise-search v-if="popup3" @close="popup3 = false"/>
+          </div>
           <router-link :to="{name:'FindNurserySchool'}"><span>＃</span> 条件からさがす</router-link>
           <router-link :to="{name:'SearchFromArea'}"><span>＃</span> エリアからさがす</router-link>
           <router-link :to="{name:'SearchFromArea'}"><span>＃</span> 沿線からさがす</router-link>
@@ -503,11 +516,15 @@ import {
 import 'hooper/dist/hooper.css';
 import GardenFeatureItem from "../components/GardenFeatureItem";
 import GardenReviews from "../components/GardenReviews";
+import WiseSearch from "../components/search/WiseSearch";
 
 export default {
   name: 'Home',
   data() {
     return {
+      popup1: false,
+      popup2: false,
+      popup3: false,
       date: '',
       activeTab: '1',
       options: [
@@ -539,13 +556,25 @@ export default {
       }
     }
   },
-  components: { GardenReviews, GardenFeatureItem, DatePicker, vSelect, Slide, Hooper, HooperNavigation },
+  components: { WiseSearch, GardenReviews, GardenFeatureItem, DatePicker, vSelect, Slide, Hooper, HooperNavigation },
   methods: {
     disabledBeforeToday(date) {
       const today = new Date();
       today.setHours(0, 0, 0, 0);
 
       return date < today;
+    },
+
+    togglePopup1() {
+      this.popup1 = !this.popup1
+    },
+
+    togglePopup2() {
+      this.popup2 = !this.popup2
+    },
+
+    togglePopup3() {
+      this.popup3 = !this.popup3
     }
   },
 }
