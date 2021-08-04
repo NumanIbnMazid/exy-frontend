@@ -2,10 +2,10 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <div class="row">
+        <div class="row mt-5 mb-5">
           <div class="col-md-6">
             <div class="w-100 text-center shadow p-5 rounded mt-5">
-              <router-link to="/">
+              <router-link to="/admin/plan-page-record-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -73,7 +73,5 @@ export default {};
 </script>
 
 <style scoped>
-.main-nav {
-  display: none !important;
-}
+
 </style>

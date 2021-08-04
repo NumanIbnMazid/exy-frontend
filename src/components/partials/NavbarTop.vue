@@ -42,7 +42,7 @@
           </li>
           <li class="nav-item">
             <router-link class="my-page" :to="{name:'Login'}">ログイン</router-link>
-<!--            <router-link class="my-page" :to="{name:'MyPage'}">マイページ</router-link>-->
+<!--<router-link class="my-page" :to="{name:'MyPage'}">マイページ</router-link>-->
           </li>
         </ul>
       </div>
