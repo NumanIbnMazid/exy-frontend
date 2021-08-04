@@ -1,5 +1,6 @@
 <template>
   <div class="w-100 bg-light">
+    <Breadcrumb pageName="指導案"></Breadcrumb>
     <div class="container">
       <div class="row mt-4">
         <div class="col-md-12">
@@ -14,17 +15,19 @@
             </option>
           </select>
 
-          <span class="font-bolder float-end mt-2 mr-2 pr-2"
-            >◀︎ 2021年度 ▶︎</span
-          >
+          <span class="font-bolder float-end mt-2 me-2 fs-5">
+            <span class="color-cb3a82">◀︎</span> 2021年度
+            <span class="color-cb3a82">▶︎</span>
+          </span>
         </div>
       </div>
 
       <div class="row mt-5">
         <div class="col-md-6">
-          <span class="font-bolder float-start mt-2 mr-2 pr-2"
-            >◀︎ 2021年度 ▶︎</span
-          >
+          <span class="font-bolder float-start mt-2 mr-2 pr-2">
+            <span class="color-cb3a82">◀︎</span> 2021年度
+            <span class="color-cb3a82">▶︎</span>
+          </span>
         </div>
 
         <div class="col-md-6">
@@ -555,7 +558,12 @@
 </template>
 
 <script>
-export default {};
+import Breadcrumb from "../../components/adminPartials/Breadcrumb.vue";
+export default {
+  components: {
+    Breadcrumb,
+  },
+};
 </script>
 
 <style scoped>
