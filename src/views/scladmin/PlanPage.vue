@@ -27,7 +27,7 @@
           </div>
           <div class="col-md-6">
             <div class="w-100 text-center shadow p-5 rounded mt-5">
-              <router-link to="/">
+              <router-link :to="{name: 'Admin.PhysicalMeasurement'}">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"

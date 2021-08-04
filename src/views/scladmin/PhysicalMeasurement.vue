@@ -30,13 +30,12 @@
             <!-- items -->
             <div class="row mt-4" v-for="(item, index) in dataItems" :key="index" :class="index == 0 ? 'mt-5':''">
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                    <router-link :to="{name: 'todo', params: {page: 40} }">
-                        <div>
-                            <span class="fw-bold">
-                                <u>{{ item.name }}</u>
-                            </span>
-                        </div>
-                    </router-link>
+                    <!-- * link * -->
+                    <div @click="handleRoute(40)">
+                        <span class="fw-bold">
+                            <u>{{ item.name }}</u>
+                        </span>
+                    </div>
                     <div class="mt-2">
                         <span class="text-muted">女（{{ item.number }} 歳児）</span>
                     </div>
@@ -112,7 +111,9 @@
                         }
                     )
                 } else {
-                    router.push({ name: path })
+                    if (this.$route.name != path) {
+                        router.push({ name: path })
+                    }
                 }
                 return
             }

@@ -13,10 +13,11 @@
                 <div class="custom-tab-pill">
                     <div class="px-0 tabs">
                         <a> </a>
-                        <a @click="activeTab=1, handleRoute(23)" :class="[ activeTab === 1 ? 'active' : '' ]"> 基本情報</a>
-                        <a @click="activeTab=2, handleRoute(23)" :class="[ activeTab === 2 ? 'active' : '' ]"> 身体測定</a>
+                        <!-- * link * -->
+                        <a @click="activeTab=1, handleRoute(61)" :class="[ activeTab === 1 ? 'active' : '' ]"> 基本情報</a>
+                        <a @click="activeTab=2, handleRoute(62)" :class="[ activeTab === 2 ? 'active' : '' ]"> 身体測定</a>
                         <a @click="activeTab=3, handleRoute(74)" :class="[ activeTab === 3 ? 'active' : '' ]"> 利用履歴</a>
-                        <a @click="activeTab=4, handleRoute(23)" :class="[ activeTab === 4 ? 'active' : '' ]"> 利用履歴</a>
+                        <a @click="activeTab=4, handleRoute('Admin.RatePlanDetails')" :class="[ activeTab === 4 ? 'active' : '' ]"> 利用履歴</a>
                         <a> </a>
                     </div>
                 </div>
@@ -113,6 +114,7 @@
                     <!-- /details table -->
 
                     <div class="text-end mt-2">
+                        <!-- * link * -->
                         <router-link :to="{name: 'todo', params: {page: 61} }" class="button bg-dark px-5 py-2 text-white"
                             type="button">
                             削除する
@@ -164,7 +166,9 @@
                         }
                     )
                 } else {
-                    router.push({ name: path })
+                    if (this.$route.name != path) {
+                        router.push({ name: path })
+                    }
                 }
                 return
             }
