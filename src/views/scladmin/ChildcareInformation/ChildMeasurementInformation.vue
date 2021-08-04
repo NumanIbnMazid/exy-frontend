@@ -99,7 +99,7 @@
                                                     <div class="col-1 py-2 no-border ps-4">
                                                         <p class="m-0 pt-2 text-xs">
                                                             {{ i }} cm
-                                                            <span v-if="i == 78" class="ms-4">X</span>
+                                                            <span v-if="i == 80" class="ms-4 value-pointer"></span>
                                                         </p>
                                                     </div>
                                                     <div class="col-2">
