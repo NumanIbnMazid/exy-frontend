@@ -76,7 +76,6 @@
                             <!-- /table -->
 
                             <!-- page content -->
-
                             <!-- graph tab -->
                             <div class="graph-tab ms-4">
                                 <div class="px-0 tabs">
@@ -127,7 +126,6 @@
                                 </div>
                             </div>
                             <!-- /graph content -->
-
                             <!-- /page content -->
 
                         </div>
