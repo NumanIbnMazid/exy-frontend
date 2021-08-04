@@ -104,12 +104,10 @@
 }
 
 .value-pointer {
-    // width: 100px;
-    // color: red;
     position: absolute;
     margin-top: 12px;
     height: 35px;
-    width: calc(100% / 15);
+    width: calc(100% / 23);
     background:
         linear-gradient(to top left,
             rgba(0, 0, 0, 0) 0%,

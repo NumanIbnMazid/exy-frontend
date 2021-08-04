@@ -19,13 +19,14 @@
 <script>
 export default {
   name: "Footer",
+
 };
 </script>
 
 <style scoped>
-.footer-area {
+/* .footer-area {
   position: fixed;
   width: 100%;
   bottom: 0;
-}
+} */
 </style>

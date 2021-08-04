@@ -25,9 +25,10 @@
                     <div class="details-tab">
                         <div class="px-0 tabs">
                             <a> </a>
-                            <a @click="activeTab=1" :class="[ activeTab === 1 ? 'active' : '' ]"> 基本情報</a>
-                            <a @click="activeTab=2" :class="[ activeTab === 2 ? 'active' : '' ]"> 身体測定</a>
-                            <a @click="activeTab=3" :class="[ activeTab === 3 ? 'active' : '' ]"> 利用履歴</a>
+                            <!-- * link * -->
+                            <a @click="activeTab=1, handleRoute(40)" :class="[ activeTab === 1 ? 'active' : '' ]"> 基本情報</a>
+                            <a @click="activeTab=2, handleRoute('Admin.ChildMeasurementInformation')" :class="[ activeTab === 2 ? 'active' : '' ]"> 身体測定</a>
+                            <a @click="activeTab=3, handleRoute(49)" :class="[ activeTab === 3 ? 'active' : '' ]"> 利用履歴</a>
                             <a> </a>
                         </div>
                     </div>
@@ -141,6 +142,7 @@
 
 <script>
     // imports
+    import router from "../../../router/index"
     import Breadcrumb from "../../../components/adminPartials/Breadcrumb"
     import LeftSidebar from "./LeftSidebar.vue"
     import RightcolHeader from "./RightcolHeader.vue"
@@ -163,6 +165,25 @@
                 graphYparams: [
                     96, 94, 92, 90, 88, 86, 84, 82, 80, 78, 76, 74, 72
                 ]
+            }
+        },
+        methods: {
+            handleRoute(path) {
+                if (typeof path === 'number') {
+                    router.push(
+                        {
+                            name: 'todo',
+                            params: {
+                                page: path
+                            }
+                        }
+                    )
+                } else {
+                    if (this.$route.name != path) {
+                        router.push({ name: path })
+                    }
+                }
+                return
             }
         }
     }
