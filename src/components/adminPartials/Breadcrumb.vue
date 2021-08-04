@@ -3,7 +3,7 @@
         <ol class="breadcrumb ms-5 custom-breadcrumb">
             
             <li class="breadcrumb-item">
-                <router-link :to="{name:'Admin.MyPage'}">
+                <router-link :to="{name: 'Admin.MyPage' }">
                     <span>TOP</span>
                 </router-link>
             </li>
