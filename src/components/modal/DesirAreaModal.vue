@@ -11,111 +11,46 @@
         </div>
         <div class="v-step-one-main p-4 pt-2">
           <div class="row">
+
             <div class="col-md-6">
               <div class="desiire-station-select-btn-area">
                 <div class="row">
                   <div class="col-md-3">
                     <div class="desiire-station-select-btn-single">
-                      <img
-                          src="../../assets/images/desire-station-icon/hyogo.png"
-                          alt="EXY"
-                          class="w-100"
-                          v-if="hydo === false"
-                          @click="hydoToggle"
-                      />
-                      <img
-                          src="../../assets/images/desire-station-icon/hyogo_selected.png"
-                          alt="EXY"
-                          class="w-100"
-                          v-if="hydo"
-                      />
+                      <img src="../../assets/images/desire-station-icon/hyogo.png" alt="EXY" class="w-100" v-if="hydo === false" @click="hydoToggle"/>
+                      <img src="../../assets/images/desire-station-icon/hyogo_selected.png" alt="EXY" class="w-100" v-if="hydo"/>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="desiire-station-select-btn-single">
-                      <img
-                          src="../../assets/images/desire-station-icon/kyoto.png"
-                          alt="EXY"
-                          class="w-100"
-                          v-if="kyto === false"
-                          @click="kytoToggle"
-                      />
-                      <img
-                          src="../../assets/images/desire-station-icon/kyoto_selected.png"
-                          alt="EXY"
-                          class="w-100"
-                          v-if="kyto"
-                      />
+                      <img src="../../assets/images/desire-station-icon/kyoto.png" alt="EXY" class="w-100" v-if="kyto === false" @click="kytoToggle"/>
+                      <img src="../../assets/images/desire-station-icon/kyoto_selected.png" alt="EXY" class="w-100" v-if="kyto"/>
                     </div>
                     <div class="row mt-2">
                       <div class="col-md-6">
                         <div class="desiire-station-select-btn-single">
-                          <img
-                              src="../../assets/images/desire-station-icon/osaka.png"
-                              alt="EXY"
-                              class="w-100"
-                              v-if="osaka === false"
-                              @click="osakaToggle"
-                          />
-                          <img
-                              src="../../assets/images/desire-station-icon/osaka_selected.png"
-                              alt="EXY"
-                              class="w-100"
-                              v-if="osaka"
-                          />
+                          <img src="../../assets/images/desire-station-icon/osaka.png" alt="EXY" class="w-100" v-if="osaka === false" @click="osakaToggle"/>
+                          <img src="../../assets/images/desire-station-icon/osaka_selected.png" alt="EXY" class="w-100" v-if="osaka"/>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="desiire-station-select-btn-single">
-                          <img
-                              src="../../assets/images/desire-station-icon/nara.png"
-                              alt="EXY"
-                              class="w-100"
-                              v-if="nara === false"
-                              @click="naraToggle"
-                          />
-                          <img
-                              src="../../assets/images/desire-station-icon/nara_selected.png"
-                              alt="EXY"
-                              class="w-100"
-                              v-if="nara"
-                          />
+                          <img src="../../assets/images/desire-station-icon/nara.png" alt="EXY" class="w-100" v-if="nara === false" @click="naraToggle"/>
+                          <img src="../../assets/images/desire-station-icon/nara_selected.png" alt="EXY" class="w-100" v-if="nara"/>
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="desiire-station-select-btn-single">
-                          <img
-                              src="../../assets/images/desire-station-icon/wakayama.png"
-                              alt="EXY"
-                              class="w-100"
-                              v-if="wakayama === false"
-                              @click="wakayamaToggle"
-                          />
-                          <img
-                              src="../../assets/images/desire-station-icon/wakayama_selected.png"
-                              alt="EXY"
-                              class="w-100"
-                              v-if="wakayama === true"
-                          />
+                          <img src="../../assets/images/desire-station-icon/wakayama.png" alt="EXY" class="w-100" v-if="wakayama === false" @click="wakayamaToggle"/>
+                          <img src="../../assets/images/desire-station-icon/wakayama_selected.png" alt="EXY" class="w-100" v-if="wakayama === true"/>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="col-md-3">
                     <div class="desiire-station-select-btn-single">
-                      <img
-                          src="../../assets/images/desire-station-icon/shiga.png"
-                          alt="EXY"
-                          class="w-100"
-                          v-if="shiga === false"
-                          @click="shigaToggle"
-                      />
-                      <img
-                          src="../../assets/images/desire-station-icon/shiga_selected.png"
-                          alt="EXY"
-                          class="w-100"
-                          v-if="shiga === true"
-                      />
+                      <img src="../../assets/images/desire-station-icon/shiga.png" alt="EXY" class="w-100" v-if="shiga === false" @click="shigaToggle"/>
+                      <img src="../../assets/images/desire-station-icon/shiga_selected.png" alt="EXY" class="w-100" v-if="shiga === true"/>
                     </div>
                   </div>
                 </div>
@@ -124,29 +59,14 @@
 
             <div class="col-md-6">
               <!-- hyco accordion item  -->
-              <div
-                  class="accordion"
-                  id="accordionPanelsStayOpenExample"
-                  v-if="hydo"
-              >
+              <div class="accordion" v-if="hydo">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button
-                        class="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseOne"
-                        aria-expanded="true"
-                        aria-controls="panelsStayOpen-collapseOne"
-                    >
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne1" aria-expanded="true">
                       <b>JR</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseOne"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="panelsStayOpen-headingOne"
-                  >
+                  <div id="panelsStayOpen-collapseOne1" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne1">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-4">
@@ -196,23 +116,12 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                    <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseTwo"
-                    >
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo2" aria-expanded="false">
                       <b>阪急</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseTwo"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="panelsStayOpen-headingTwo"
-                  >
+                  <div id="panelsStayOpen-collapseTwo2" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo2">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-4">
@@ -245,26 +154,12 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2
-                      class="accordion-header bg-light"
-                      id="panelsStayOpen-headingThree"
-                  >
-                    <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseThree"
-                        aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseThree"
-                    >
+                  <h2 class="accordion-header bg-light" id="panelsStayOpen-headingThree3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree3" aria-expanded="false">
                       <b>私鉄</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseThree"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="panelsStayOpen-headingThree"
-                  >
+                  <div id="panelsStayOpen-collapseThree3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree3">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-6">
@@ -350,29 +245,14 @@
               </div>
               <!-- end of hyco accordion  -->
               <!-- kyto accordion start  -->
-              <div
-                  class="accordion"
-                  id="accordionPanelsStayOpenExample"
-                  v-if="kyto"
-              >
+              <div class="accordion" v-if="kyto">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button
-                        class="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseOne"
-                        aria-expanded="true"
-                        aria-controls="panelsStayOpen-collapseOne"
-                    >
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne4">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne4" aria-expanded="true">
                       <b>JR</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseOne"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="panelsStayOpen-headingOne"
-                  >
+                  <div id="panelsStayOpen-collapseOne4" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne4">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-4">
@@ -415,26 +295,12 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2
-                      class="accordion-header bg-light"
-                      id="panelsStayOpen-headingThree"
-                  >
-                    <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseThree"
-                        aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseThree"
-                    >
+                  <h2 class="accordion-header bg-light" id="panelsStayOpen-headingThree5">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree5" aria-expanded="false">
                       <b>私鉄</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseThree"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="panelsStayOpen-headingThree"
-                  >
+                  <div id="panelsStayOpen-collapseThree5" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree5">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-6">
@@ -489,29 +355,14 @@
               </div>
               <!-- end of kyto accordion  -->
               <!-- Osaka accordion start  -->
-              <div
-                  class="accordion"
-                  id="accordionPanelsStayOpenExample"
-                  v-if="osaka"
-              >
+              <div class="accordion" v-if="osaka">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button
-                        class="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseOne"
-                        aria-expanded="true"
-                        aria-controls="panelsStayOpen-collapseOne"
-                    >
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne6">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne6" aria-expanded="true">
                       <b>JR</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseOne"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="panelsStayOpen-headingOne"
-                  >
+                  <div id="panelsStayOpen-collapseOne6" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne6">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-4">
@@ -535,26 +386,12 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2
-                      class="accordion-header bg-light"
-                      id="panelsStayOpen-headingTwo"
-                  >
-                    <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseTwo"
-                    >
+                  <h2 class="accordion-header bg-light" id="panelsStayOpen-headingTwo7">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo7" aria-expanded="false">
                       <b>Osaka Metro</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseTwo"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="panelsStayOpen-headingTwo"
-                  >
+                  <div id="panelsStayOpen-collapseTwo7" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo7">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-6">
@@ -587,26 +424,12 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2
-                      class="accordion-header bg-light"
-                      id="panelsStayOpen-headingThree"
-                  >
-                    <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseThree"
-                        aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseThree"
-                    >
+                  <h2 class="accordion-header bg-light" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false">
                       <b>私鉄</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseThree"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="panelsStayOpen-headingThree"
-                  >
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-6">
@@ -695,29 +518,14 @@
               </div>
               <!-- end of Osaka accordion  -->
               <!-- nara accordion start  -->
-              <div
-                  class="accordion"
-                  id="accordionPanelsStayOpenExample"
-                  v-if="nara"
-              >
+              <div class="accordion" v-if="nara">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button
-                        class="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseOne"
-                        aria-expanded="true"
-                        aria-controls="panelsStayOpen-collapseOne"
-                    >
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne8">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne8" aria-expanded="true">
                       <b>JR</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseOne"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="panelsStayOpen-headingOne"
-                  >
+                  <div id="panelsStayOpen-collapseOne8" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne8">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-4">
@@ -741,26 +549,12 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2
-                      class="accordion-header bg-light"
-                      id="panelsStayOpen-headingTwo"
-                  >
-                    <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseTwo"
-                    >
+                  <h2 class="accordion-header bg-light" id="panelsStayOpen-headingTwo9">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo9" aria-expanded="false">
                       <b>私鉄</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseTwo"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="panelsStayOpen-headingTwo"
-                  >
+                  <div id="panelsStayOpen-collapseTwo9" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo9">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-6">
@@ -805,29 +599,14 @@
               </div>
               <!-- nara of Osaka accordion  -->
               <!-- wakayama accordion start  -->
-              <div
-                  class="accordion"
-                  id="accordionPanelsStayOpenExample"
-                  v-if="wakayama"
-              >
+              <div class="accordion" v-if="wakayama">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button
-                        class="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseOne"
-                        aria-expanded="true"
-                        aria-controls="panelsStayOpen-collapseOne"
-                    >
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne10">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne10" aria-expanded="true">
                       <b>JR</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseOne"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="panelsStayOpen-headingOne"
-                  >
+                  <div id="panelsStayOpen-collapseOne10" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne10">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-4">
@@ -848,26 +627,12 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2
-                      class="accordion-header bg-light"
-                      id="panelsStayOpen-headingTwo"
-                  >
-                    <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseTwo"
-                    >
+                  <h2 class="accordion-header bg-light" id="panelsStayOpen-headingTwo11">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo11" aria-expanded="false">
                       <b>私鉄</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseTwo"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="panelsStayOpen-headingTwo"
-                  >
+                  <div id="panelsStayOpen-collapseTwo11" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo11">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-6">
@@ -895,29 +660,14 @@
               </div>
               <!-- wakayama of Osaka accordion  -->
               <!-- shiga accordion start  -->
-              <div
-                  class="accordion"
-                  id="accordionPanelsStayOpenExample"
-                  v-if="shiga"
-              >
+              <div class="accordion" v-if="shiga">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button
-                        class="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseOne"
-                        aria-expanded="true"
-                        aria-controls="panelsStayOpen-collapseOne"
-                    >
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true">
                       <b>JR</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseOne"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="panelsStayOpen-headingOne"
-                  >
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-4">
@@ -941,26 +691,12 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2
-                      class="accordion-header bg-light"
-                      id="panelsStayOpen-headingTwo"
-                  >
-                    <button
-                        class="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#panelsStayOpen-collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="panelsStayOpen-collapseTwo"
-                    >
+                  <h2 class="accordion-header bg-light" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false">
                       <b>私鉄</b>
                     </button>
                   </h2>
-                  <div
-                      id="panelsStayOpen-collapseTwo"
-                      class="accordion-collapse collapse"
-                      aria-labelledby="panelsStayOpen-headingTwo"
-                  >
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                     <div class="accordion-body">
                       <div class="row">
                         <div class="col-md-6">
@@ -990,6 +726,7 @@
               </div>
               <!-- nara of Osaka accordion  -->
             </div>
+
             <div class="form-group text-center mt-4">
               <div class="d-grid">
                 <button class="btn btn-outline-success d-flex justify-content-between" @click="naraToggle">

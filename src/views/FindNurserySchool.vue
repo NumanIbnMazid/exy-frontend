@@ -24,10 +24,10 @@
               <form action="">
                 <div class="row g-3 align-items-center mb-3">
                   <div class="col-4">
-                    <label for="purposeOfUse" class="col-form-label text-xl">ご利用目的</label>
+                    <label class="col-form-label text-xl">ご利用目的</label>
                   </div>
                   <div class="col-8">
-                    <select id="purposeOfUse" class="w-100 border-1 p-10 rounded-0 border-cbcbcb bg-light">
+                    <select class="w-100 border-1 p-10 rounded-0 border-cbcbcb bg-light">
                       <option value="">ご利用目的</option>
                       <option value="">体験保育</option>
                       <option value="">月極保育</option>
@@ -57,10 +57,10 @@
                 </div>
                 <div class="row g-3 align-items-center mb-3">
                   <div class="col-4">
-                    <label for="ageOfChild" class="col-form-label text-xl">お子様の年齢</label>
+                    <label class="col-form-label text-xl">お子様の年齢</label>
                   </div>
                   <div class="col-8">
-                    <select id="ageOfChild" class="w-100 border-1 p-10 rounded-0 border-cbcbcb bg-light">
+                    <select class="w-100 border-1 p-10 rounded-0 border-cbcbcb bg-light">
                       <option value="">お子様の年齢</option>
                       <option value="">０歳 ０ヶ月</option>
                       <option value="">０歳 １ヶ月〜２ヶ月</option>
@@ -103,7 +103,7 @@
             <router-link :to="{name:'SearchFromArea'}">
               <div class="d-flex align-items-center">
                 <img src="../assets/images/ID3808135_m@2x.png" alt="EXY">
-                <h3>エリアからさがす</h3>
+                <h3>沿線からさがす</h3>
               </div>
             </router-link>
           </div>

@@ -283,27 +283,58 @@
                 <div class="row">
                   <div class="col-md-6">
                     <p>
-                      <img
-                        src="../../../assets/images/icon/Rectangle 1094.png"
-                        alt="EXY"
-                      />
-                      <u>サービス利用規約</u>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 22 15">
+                        <g id="Group_1332" data-name="Group 1332" transform="translate(-751.817 -1221.328)">
+                          <g id="Group_1331" data-name="Group 1331" transform="translate(751.817 1221.328)">
+                            <g id="Group_1329" data-name="Group 1329">
+                              <g id="Rectangle_1096" data-name="Rectangle 1096" transform="translate(2 2)" fill="#fff" stroke="#707070" stroke-width="1">
+                                <rect width="20" height="13" stroke="none"/>
+                                <rect x="0.5" y="0.5" width="19" height="12" fill="none"/>
+                              </g>
+                              <g id="Rectangle_1094" data-name="Rectangle 1094" fill="#fff" stroke="#707070" stroke-width="1">
+                                <rect width="20" height="13" stroke="none"/>
+                                <rect x="0.5" y="0.5" width="19" height="12" fill="none"/>
+                              </g>
+                              <g id="Rectangle_1095" data-name="Rectangle 1095" fill="#707070" stroke="#707070" stroke-width="1">
+                                <rect width="20" height="4" stroke="none"/>
+                                <rect x="0.5" y="0.5" width="19" height="3" fill="none"/>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                      <u class="ms-2">サービス利用規約</u>
                     </p>
                   </div>
                   <div class="col-md-6">
                     <p>
-                      <img
-                        src="../../../assets/images/icon/Rectangle 1094.png"
-                        alt="EXY"
-                      />
-                      <u>個人情報の取り扱い</u>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 22 15">
+                        <g id="Group_1332" data-name="Group 1332" transform="translate(-751.817 -1221.328)">
+                          <g id="Group_1331" data-name="Group 1331" transform="translate(751.817 1221.328)">
+                            <g id="Group_1329" data-name="Group 1329">
+                              <g id="Rectangle_1096" data-name="Rectangle 1096" transform="translate(2 2)" fill="#fff" stroke="#707070" stroke-width="1">
+                                <rect width="20" height="13" stroke="none"/>
+                                <rect x="0.5" y="0.5" width="19" height="12" fill="none"/>
+                              </g>
+                              <g id="Rectangle_1094" data-name="Rectangle 1094" fill="#fff" stroke="#707070" stroke-width="1">
+                                <rect width="20" height="13" stroke="none"/>
+                                <rect x="0.5" y="0.5" width="19" height="12" fill="none"/>
+                              </g>
+                              <g id="Rectangle_1095" data-name="Rectangle 1095" fill="#707070" stroke="#707070" stroke-width="1">
+                                <rect width="20" height="4" stroke="none"/>
+                                <rect x="0.5" y="0.5" width="19" height="3" fill="none"/>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                      <u class="ms-2">個人情報の取り扱い</u>
                     </p>
                   </div>
                   <div class="col-md-12 mt-3">
-                    <label>
-                      <input type="checkbox" />
-                      利用規約およびプライバシーポリシーに同意する</label
-                    >
+                    <label class="container-checkbox">利用規約およびプライバシーポリシーに同意する
+                      <input type="checkbox"><span class="checkmark"></span>
+                    </label>
                   </div>
                 </div>
               </div>

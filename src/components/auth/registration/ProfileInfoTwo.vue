@@ -3,9 +3,9 @@
     <div class="breadcrumb-border">
       <div class="container">
         <nav
-          class="py-2"
-          style="--bs-breadcrumb-divider: '>'"
-          aria-label="breadcrumb"
+            class="py-2"
+            style="--bs-breadcrumb-divider: '>'"
+            aria-label="breadcrumb"
         >
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -20,7 +20,7 @@
       <div class="container">
         <div class="auth-page-header mb-5">
           <div class="text-lg fw-bold border-bottom mb-2">
-            <img src="../../../assets/images/svg/title-left.svg" alt="EXY" />
+            <img src="../../../assets/images/svg/title-left.svg" alt="EXY"/>
             お子さまの情報登録
           </div>
           <p class="m-0 p-0">
@@ -39,7 +39,7 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >お名前（お子さま）
+                        >お名前（お子さま）
                           <span class="badge badge-exy">必 須</span>
                         </span>
                       </div>
@@ -50,13 +50,13 @@
                           <div class="col-md-5">
                             <div class="form-group row mt-3">
                               <label class="col-sm-3 col-form-label"
-                                >姓：</label
+                              >姓：</label
                               >
                               <div class="col-sm-9 m-auto">
                                 <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder="例）保育"
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="例）保育"
                                 />
                               </div>
                             </div>
@@ -64,13 +64,13 @@
                           <div class="col-md-5">
                             <div class="form-group row mt-3">
                               <label class="col-sm-3 col-form-label"
-                                >名：</label
+                              >名：</label
                               >
                               <div class="col-sm-9 m-auto">
                                 <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder="例）太郎"
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="例）太郎"
                                 />
                               </div>
                             </div>
@@ -86,7 +86,7 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >ふりがな（お子さま）
+                        >ふりがな（お子さま）
                           <span class="badge badge-exy">必 須</span>
                         </span>
                       </div>
@@ -97,13 +97,13 @@
                           <div class="col-md-5">
                             <div class="form-group row mt-3">
                               <label class="col-sm-3 col-form-label"
-                                >姓：</label
+                              >姓：</label
                               >
                               <div class="col-sm-9 m-auto">
                                 <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder="例）ほいく"
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="例）ほいく"
                                 />
                               </div>
                             </div>
@@ -111,13 +111,13 @@
                           <div class="col-md-5">
                             <div class="form-group row mt-3">
                               <label class="col-sm-3 col-form-label"
-                                >名：</label
+                              >名：</label
                               >
                               <div class="col-sm-9 m-auto">
                                 <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder="例）たろう"
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="例）たろう"
                                 />
                               </div>
                             </div>
@@ -133,18 +133,18 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >性別 <span class="badge badge-exy">必 須</span>
+                        >性別 <span class="badge badge-exy">必 須</span>
                         </span>
                       </div>
                     </div>
                     <div class="col-md-8">
                       <div class="input-group-container-right">
-                        <label><input type="radio" /> 男の子</label>
+                        <label><input type="radio"/> 男の子</label>
                         <label class="profile-info-radio"
-                          ><input type="radio" /> 女の子</label
+                        ><input type="radio"/> 女の子</label
                         >
                         <label class="profile-info-radio"
-                          ><input type="radio" /> 未回答</label
+                        ><input type="radio"/> 未回答</label
                         >
                       </div>
                     </div>
@@ -155,7 +155,7 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >生年月日 <span class="badge badge-exy">必 須</span>
+                        >生年月日 <span class="badge badge-exy">必 須</span>
                         </span>
                       </div>
                     </div>
@@ -165,13 +165,8 @@
                           <div class="col-md-3">
                             <div class="form-group row mt-3">
                               <div class="col-sm-10 m-auto">
-                                <select
-                                  class="form-control bg-light"
-                                  name="year"
-                                >
-                                  <option value="1990">1990</option>
-                                  <option value="1991">1991</option>
-                                  <option value="1992">1992</option>
+                                <select class="form-control bg-light" name="year">
+                                  <option v-for="year in years" :key="year">{{ year }}</option>
                                 </select>
                               </div>
                               <label class="col-sm-2 col-form-label">年</label>
@@ -181,8 +176,8 @@
                             <div class="form-group row mt-3">
                               <div class="col-sm-10 m-auto">
                                 <select
-                                  class="form-control bg-light"
-                                  name="month"
+                                    class="form-control bg-light"
+                                    name="month"
                                 >
                                   <option>--</option>
                                   <option value="01">01</option>
@@ -206,8 +201,8 @@
                             <div class="form-group row mt-3">
                               <div class="col-sm-10 m-auto">
                                 <select
-                                  class="form-control bg-light"
-                                  name="month"
+                                    class="form-control bg-light"
+                                    name="month"
                                 >
                                   <option>--</option>
                                   <option value="01">01</option>
@@ -226,8 +221,8 @@
                             <div class="form-group row mt-3">
                               <div class="col-sm-10 m-auto">
                                 <select
-                                  class="form-control bg-light"
-                                  name="month"
+                                    class="form-control bg-light"
+                                    name="month"
                                 >
                                   <option value="生まれ">生まれ</option>
                                   <option value="01">生まれ</option>
@@ -267,13 +262,13 @@
                           <div class="col-md-5">
                             <div class="form-group row mt-3">
                               <label class="col-sm-3 col-form-label"
-                                >姓：</label
+                              >姓：</label
                               >
                               <div class="col-sm-9 m-auto">
                                 <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder="例）保育"
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="例）保育"
                                 />
                               </div>
                             </div>
@@ -281,13 +276,13 @@
                           <div class="col-md-5">
                             <div class="form-group row mt-3">
                               <label class="col-sm-3 col-form-label"
-                                >名：</label
+                              >名：</label
                               >
                               <div class="col-sm-9 m-auto">
                                 <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder="例）太郎"
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="例）太郎"
                                 />
                               </div>
                             </div>
@@ -314,13 +309,13 @@
                           <div class="col-md-5">
                             <div class="form-group row mt-3">
                               <label class="col-sm-3 col-form-label"
-                                >姓：</label
+                              >姓：</label
                               >
                               <div class="col-sm-9 m-auto">
                                 <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder="例）ほいく"
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="例）ほいく"
                                 />
                               </div>
                             </div>
@@ -328,13 +323,13 @@
                           <div class="col-md-5">
                             <div class="form-group row mt-3">
                               <label class="col-sm-3 col-form-label"
-                                >名：</label
+                              >名：</label
                               >
                               <div class="col-sm-9 m-auto">
                                 <input
-                                  type="text"
-                                  class="form-control"
-                                  placeholder="例）たろう"
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="例）たろう"
                                 />
                               </div>
                             </div>
@@ -350,18 +345,18 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >性別 <span class="badge badge-border">任 意</span>
+                        >性別 <span class="badge badge-border">任 意</span>
                         </span>
                       </div>
                     </div>
                     <div class="col-md-8">
                       <div class="input-group-container-right">
-                        <label><input type="radio" /> 男の子</label>
+                        <label><input type="radio"/> 男の子</label>
                         <label class="profile-info-radio"
-                          ><input type="radio" /> 女の子</label
+                        ><input type="radio"/> 女の子</label
                         >
                         <label class="profile-info-radio"
-                          ><input type="radio" /> 未回答</label
+                        ><input type="radio"/> 未回答</label
                         >
                       </div>
                     </div>
@@ -372,7 +367,7 @@
                     <div class="col-md-4">
                       <div class="bg-light input-label">
                         <span
-                          >生年月日
+                        >生年月日
                           <span class="badge badge-border">任 意</span>
                         </span>
                       </div>
@@ -383,13 +378,8 @@
                           <div class="col-md-3">
                             <div class="form-group row mt-3">
                               <div class="col-sm-10 m-auto">
-                                <select
-                                  class="form-control bg-light"
-                                  name="year"
-                                >
-                                  <option value="1990">1990</option>
-                                  <option value="1991">1991</option>
-                                  <option value="1992">1992</option>
+                                <select class="form-control bg-light" name="year">
+                                  <option v-for="year in years" :key="year">{{ year }}</option>
                                 </select>
                               </div>
                               <label class="col-sm-2 col-form-label">年</label>
@@ -399,8 +389,8 @@
                             <div class="form-group row mt-3">
                               <div class="col-sm-10 m-auto">
                                 <select
-                                  class="form-control bg-light"
-                                  name="month"
+                                    class="form-control bg-light"
+                                    name="month"
                                 >
                                   <option>--</option>
                                   <option value="01">01</option>
@@ -424,8 +414,8 @@
                             <div class="form-group row mt-3">
                               <div class="col-sm-10 m-auto">
                                 <select
-                                  class="form-control bg-light"
-                                  name="month"
+                                    class="form-control bg-light"
+                                    name="month"
                                 >
                                   <option>--</option>
                                   <option value="01">01</option>
@@ -444,8 +434,8 @@
                             <div class="form-group row mt-3">
                               <div class="col-sm-10 m-auto">
                                 <select
-                                  class="form-control bg-light"
-                                  name="month"
+                                    class="form-control bg-light"
+                                    name="month"
                                 >
                                   <option value="生まれ">生まれ</option>
                                   <option value="01">生まれ</option>
@@ -497,23 +487,23 @@
                         <div class="col-md-8">
                           <div class="input-group-container-right">
                             <label
-                              ><input type="radio" name="radio" /> あり</label
+                            ><input type="radio" name="radio"/> あり</label
                             >
                             <label class="profile-info-radio"
-                              ><input type="radio" name="radio" /> なし</label
+                            ><input type="radio" name="radio"/> なし</label
                             >
                           </div>
                         </div>
                       </div>
                       <div class="form-group row mt-3p p-2">
                         <label class="col-sm-3 col-form-label"
-                          >備考（アレルギー）：</label
+                        >備考（アレルギー）：</label
                         >
                         <div class="col-sm-9 m-auto">
                           <input
-                            type="text"
-                            class="form-control"
-                            placeholder="ありの場合、簡単に内容をご記載ください"
+                              type="text"
+                              class="form-control"
+                              placeholder="ありの場合、簡単に内容をご記載ください"
                           />
                         </div>
                       </div>
@@ -528,23 +518,23 @@
                         <div class="col-md-8">
                           <div class="input-group-container-right">
                             <label
-                              ><input type="radio" name="radio" /> あり</label
+                            ><input type="radio" name="radio"/> あり</label
                             >
                             <label class="profile-info-radio"
-                              ><input type="radio" name="radio" /> なし</label
+                            ><input type="radio" name="radio"/> なし</label
                             >
                           </div>
                         </div>
                       </div>
                       <div class="form-group row mt-3p p-2">
                         <label class="col-sm-3 col-form-label"
-                          >備考（基礎疾患）：</label
+                        >備考（基礎疾患）：</label
                         >
                         <div class="col-sm-9 m-auto">
                           <input
-                            type="text"
-                            class="form-control"
-                            placeholder="ありの場合、簡単に内容をご記載ください"
+                              type="text"
+                              class="form-control"
+                              placeholder="ありの場合、簡単に内容をご記載ください"
                           />
                         </div>
                       </div>
@@ -566,10 +556,10 @@
                         <div class="col-md-8">
                           <div class="input-group-container-right">
                             <label
-                              ><input type="radio" name="radio" /> あり</label
+                            ><input type="radio" name="radio"/> あり</label
                             >
                             <label class="profile-info-radio"
-                              ><input type="radio" name="radio" /> なし</label
+                            ><input type="radio" name="radio"/> なし</label
                             >
                           </div>
                         </div>
@@ -585,10 +575,10 @@
                         <div class="col-md-8">
                           <div class="input-group-container-right">
                             <label
-                              ><input type="radio" name="radio" /> あり</label
+                            ><input type="radio" name="radio"/> あり</label
                             >
                             <label class="profile-info-radio"
-                              ><input type="radio" name="radio" /> なし</label
+                            ><input type="radio" name="radio"/> なし</label
                             >
                           </div>
                         </div>
@@ -602,16 +592,16 @@
             <div class="form-group text-center">
               <router-link :to="{ name: 'ProfileInfo' }">
                 <button
-                  type="submit"
-                  class="btn text-xl exy-default-btn-outline rounded-0 mt-4"
+                    type="submit"
+                    class="btn text-xl exy-default-btn-outline rounded-0 mt-4"
                 >
                   次へ
                 </button>
               </router-link>
               <router-link :to="{ name: 'VerifyRegistrationDetails' }">
                 <button
-                  type="submit"
-                  class="btn text-xl exy-default-btn rounded-0 mt-4"
+                    type="submit"
+                    class="btn text-xl exy-default-btn rounded-0 mt-4"
                 >
                   次へ
                 </button>
@@ -620,7 +610,7 @@
           </form>
         </div>
       </div>
-   
+
     </section>
   </div>
 </template>
@@ -628,8 +618,24 @@
 <script>
 export default {
   name: "ProfileInfoTwo",
-   
-};
+  data() {
+    return {
+      years: []
+    }
+  },
+  mounted() {
+    this.initYear()
+  },
+  methods: {
+    initYear() {
+      const years = []
+      for (let i = new Date().getFullYear(); i >= 2016; i--) {
+        years.push(i);
+      }
+      this.years = years
+    }
+  }
+}
 </script>
 
 <style scoped>
