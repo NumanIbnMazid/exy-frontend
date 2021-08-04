@@ -363,6 +363,7 @@
     }
 }
 .garden-basic-info{
+    padding-bottom: 100px;
      .details-tab {
          padding-top: 40px;
 
@@ -399,7 +400,6 @@
              a.active {
                  border: 1px solid $--color-333333;
                  border-bottom: 0px solid $--color-ffffff;
-                 //  background-color: $--color-cb3a82;
                  color: $--color-333333;
              }
          }
@@ -410,7 +410,8 @@
              border-bottom: 1px solid $--color-333333;
             .left-col {
                  background-color: $--color-fbeef5;
-
+                border-left: 1px solid $--color-dee2e6;
+                border-right: 1px solid $--color-dee2e6;
                  .p-left {
                      padding-top: 200px;
                  }
@@ -439,8 +440,181 @@
                     background-color: $--color-f8f7f7;
                     border: 1px solid $--color-333333;
                 }
+                .span-1{
+                    border: 3px solid $--color-707070;
+                    border-radius: 50%;
+                    color: $--color-707070;
+                }
             }
         }
-     }
+        .row-2{
+            border: 1px solid $--color-dee2e6;
+        }
+        .row-3{
+            .inner-col{
+                border: 1px solid $--color-707070;
+                .left-col {
+                        background-color: $--color-fbeef5;
+                }
+                .right-col{
+                    background-color: $--color-fbeef5;
+                    border-left: 1px solid $--color-707070;
+                }
+                .inner-1 {
+                    border-top: 1px solid $--color-707070;
+                    .span-1{
+                        border: 1px solid $--color-707070;
+                    }
+                    .inner-row-1{
+                        background: $--color-eaeaea;
+                    }
+                }
+            }
+        }
+        .row-4{
+            .span-1{
+                background: $--color-fbeef5;
+                border: 1px solid $--color-cb3a82;
+                color: $--color-cb3a82;
+            }
+            .span-2{
+                background: $--color-cb3a82;
+                color: $--color-ffffff;
+            }
+        }
+        .row-5{
+            .inner-col{
+                border: 1px solid $--color-333333;
+                border-top: 0px;
+                .inner-1 {
+                    background: $--color-f8f7f7;
+
+                    .col-1 {
+                        width: calc(100% / 5);
+                    }
+
+                    .p-button {
+                        background: $--color-ffffff;
+                        border-radius: 5px;
+                    }
+
+                    .p-button-1 {
+                        background: $--color-bcbcbc;
+                        border-radius: 5px;
+                    }
+
+                    .p-color {
+                        color: $--color-9d9d9d;
+                    }
+                }
+                .inner-2{
+                    .left-col{
+                        border: 1px solid $--color-333333;
+                        .inner-box-1{
+                            background: $--color-fbeef5;
+                        }
+                    }
+                    .right-col{
+                        .inner-box-2{
+                            border: 1px solid $--color-333333;
+                            .left-box{
+                                background: $--color-fbeef5;
+                                border-right: 1px solid $--color-333333;
+                            }
+                            .p-box{
+                                background: $--color-f2f2f2;
+                                border: 1px solid $--color-bababa;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+            .inner-col-1{
+                border: 1px solid $--color-333333;
+                border-top: 0px;
+                .school-step {
+                    .step-item {
+                        padding-left: 50px;
+                        position: relative;
+                        z-index: 1;
+                        font-weight: bold;
+                    }
+
+                    .step-left {
+                        position: relative;
+                        font-weight: bold;
+
+                        p {
+                            position: absolute;
+                            left: 70px;
+                            width: 150px;
+                        }
+                    }
+
+                    .progressbar {
+
+                        li {
+                            list-style-type: none;
+                            width: 20%;
+                            float: left;
+                            font-size: 12px;
+                            position: relative;
+                            text-align: center;
+                            text-transform: uppercase;
+                            color: $--color-cecece;
+
+                            img {
+                                position: absolute;
+                                top: -20px;
+                                left: 75px;
+                                z-index: 2;
+                            }
+                        }
+
+                        li:before {
+                            width: 20px;
+                            height: 20px;
+                            content: '';
+                            line-height: 20px;
+                            display: block;
+                            text-align: center;
+                            margin: 0 auto 10px auto;
+                            border-radius: 50%;
+                            background-color: $--color-cecece;
+                        }
+
+                        li:after {
+                            width: 100%;
+                            height: 4px;
+                            content: '';
+                            position: absolute;
+                            background-color: $--color-cecece;
+                            top: 9px;
+                            left: -50%;
+                            z-index: -1;
+                        }
+
+                        li:first-child:after {
+                            content: none;
+
+                        }
+                    }
+
+                    .step-right {
+                        position: relative;
+                        font-weight: bold;
+                        margin-top: 0;
+
+                        p {
+                            position: absolute;
+                            left: -55px;
+                            top: -15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
     
 }
