@@ -97,11 +97,9 @@
 
     .nav-collapse-body {
         height: 170px;
-        z-index: 9;
-
+        padding-left: 100px;
         .col-1 {
             width: calc(100% / 8.7);
-
             .inner-1 {
                 background-color: $--color-ffffff;
                 border: 2px solid $--color-d1d1d1;
@@ -115,6 +113,11 @@
                 background-color: $--color-eedae3;
                 z-index: 9;
             }
+        }
+    }
+    .nav-collapse-body-1{
+        .col-2{
+            width: calc(100% / 10);
         }
     }
 }
