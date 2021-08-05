@@ -71,7 +71,7 @@
           </div>
           <router-link :to="{name:'FindNurserySchool'}"><span>＃</span> 条件からさがす</router-link>
           <router-link :to="{name:'SearchFromArea'}"><span>＃</span> エリアからさがす</router-link>
-          <router-link :to="{name:'SearchFromArea'}"><span>＃</span> 沿線からさがす</router-link>
+          <router-link :to="{name:'SearchFromAlongLine'}"><span>＃</span> 沿線からさがす</router-link>
         </div>
       </div>
     </div>

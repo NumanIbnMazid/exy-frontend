@@ -134,7 +134,12 @@ const routes = [
     {
         path: '/search-from-the-area',
         name: 'SearchFromArea',
-        component: () => import("../views/SearchFromArea")
+        component: () => import("../components/search/SearchFromArea")
+    },
+    {
+        path: '/search-from-along-the-line',
+        name: 'SearchFromAlongLine',
+        component: () => import("../components/search/SearchFromAlongLine")
     },
     {
         path: '/guardian-characteristics-detail',
