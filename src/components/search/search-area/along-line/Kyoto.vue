@@ -10,12 +10,12 @@
           </div>
           <div class="col-6">
             <router-link :to="{name:'SearchFromAlongLine.Kyoto'}">
-              <img src="../../../../assets/images/desire-station-icon/kyoto.png" alt="EXY" class="img-fluid"/>
+              <img src="../../../../assets/images/desire-station-icon/kyoto_selected.png" alt="EXY" class="img-fluid"/>
             </router-link>
             <div class="row mt-2">
               <div class="col-6">
                 <router-link :to="{name:'SearchFromAlongLine.Osaka'}">
-                  <img src="../../../../assets/images/desire-station-icon/osaka_selected.png" alt="EXY" class="img-fluid"/>
+                  <img src="../../../../assets/images/desire-station-icon/osaka.png" alt="EXY" class="img-fluid"/>
                 </router-link>
               </div>
               <div class="col-6">
@@ -58,7 +58,7 @@
 
 <script>
 export default {
-  name: "Osaka"
+  name: "Kyoto"
 }
 </script>
 

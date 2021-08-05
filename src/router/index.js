@@ -144,6 +144,31 @@ const routes = [
                 path: '/search-from-the-area/osaka',
                 name: 'SearchFromArea.Osaka',
                 component: () => import("../components/search/search-area/Osaka")
+            },
+            {
+                path: '/search-from-the-area/hyogo',
+                name: 'SearchFromArea.Hyogo',
+                component: () => import("../components/search/search-area/Hyogo")
+            },
+            {
+                path: '/search-from-the-area/kyoto',
+                name: 'SearchFromArea.Kyoto',
+                component: () => import("../components/search/search-area/Kyoto")
+            },
+            {
+                path: '/search-from-the-area/shiga',
+                name: 'SearchFromArea.Shiga',
+                component: () => import("../components/search/search-area/Shiga")
+            },
+            {
+                path: '/search-from-the-area/nara',
+                name: 'SearchFromArea.Nara',
+                component: () => import("../components/search/search-area/Nara")
+            },
+            {
+                path: '/search-from-the-area/wakayama',
+                name: 'SearchFromArea.Wakayama',
+                component: () => import("../components/search/search-area/Wakayama")
             }
         ]
     },
@@ -160,6 +185,31 @@ const routes = [
                 path: '/search-from-along-the-line/osaka',
                 name: 'SearchFromAlongLine.Osaka',
                 component: () => import("../components/search/search-area/along-line/Osaka")
+            },
+            {
+                path: '/search-from-along-the-line/hyogo',
+                name: 'SearchFromAlongLine.Hyogo',
+                component: () => import("../components/search/search-area/along-line/Hyogo")
+            },
+            {
+                path: '/search-from-along-the-line/kyoto',
+                name: 'SearchFromAlongLine.Kyoto',
+                component: () => import("../components/search/search-area/along-line/Kyoto")
+            },
+            {
+                path: '/search-from-along-the-line/shiga',
+                name: 'SearchFromAlongLine.Shiga',
+                component: () => import("../components/search/search-area/along-line/Shiga")
+            },
+            {
+                path: '/search-from-along-the-line/nara',
+                name: 'SearchFromAlongLine.Nara',
+                component: () => import("../components/search/search-area/along-line/Nara")
+            },
+            {
+                path: '/search-from-along-the-line/wakayama',
+                name: 'SearchFromAlongLine.Wakayama',
+                component: () => import("../components/search/search-area/along-line/Wakayama")
             }
         ]
     },

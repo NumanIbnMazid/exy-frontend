@@ -36,13 +36,11 @@
               <div class="widget-body">
                 <div class="widget-body-title mt-0">地域</div>
 
-                <button class="add-detail-condition mb-3" @click="RailwayLineModel = true">地域を追加する +</button>
-                <railway-line v-if="RailwayLineModel" @close="RailwayLineModel = false"></railway-line>
+                <router-link :to="{name:'SearchFromArea.Osaka'}" class="add-detail-condition mb-3">地域を追加する +</router-link>
 
                 <div class="widget-body-title mt-0">沿線</div>
 
-                <button class="add-detail-condition" @click="RailwayLineModel = true">地域を追加する +</button>
-                <railway-line v-if="RailwayLineModel" @close="RailwayLineModel = false"></railway-line>
+                <router-link :to="{name:'SearchFromAlongLine.Osaka'}" class="add-detail-condition">地域を追加する +</router-link>
               </div>
             </div>
           </div>
@@ -611,7 +609,6 @@
 <script>
 import DatePicker from 'vue2-datepicker';
 import 'vue2-datepicker/index.css';
-import RailwayLine from "./RailwayLine";
 import DetailsConditions from "./DetailsConditions";
 
 export default {
@@ -641,7 +638,6 @@ export default {
   },
   components: {
     DatePicker,
-    RailwayLine,
     DetailsConditions
   },
   methods: {
@@ -651,6 +647,7 @@ export default {
 
       return date < today;
     },
+
     getImgUrl(img) {
       let image = require.context('../../assets/images/search/', false, /\.png$/)
       return image('./' + img)

@@ -1,7 +1,7 @@
 <template>
-  <div class="row justify-content-center">
-    <div class="col-11 col-sm-9 col-md-6">
-      <div class="desiire-station-select-btn-area mb-5">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="desiire-station-select-btn-area">
         <div class="row">
           <div class="col-3">
             <router-link :to="{name:'SearchFromArea.Hyogo'}">
@@ -20,7 +20,7 @@
               </div>
               <div class="col-6">
                 <router-link :to="{name:'SearchFromArea.Nara'}">
-                  <img src="../../../assets/images/desire-station-icon/nara.png" alt="EXY" class="img-fluid"/>
+                  <img src="../../../assets/images/desire-station-icon/nara_selected.png" alt="EXY" class="img-fluid"/>
                 </router-link>
               </div>
               <div class="col-12">
@@ -38,30 +38,22 @@
         </div>
       </div>
     </div>
-    <div class="solid-border"></div>
+    <div class="col-md-6">
+      Content
+    </div>
+
+    <div class="col-12 mt-5">
+      <div class="bg-cb3a82 text-center py-3 text-white text-xl">この条件で検索する</div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Index"
+  name: "Nara"
 }
 </script>
 
-<style lang="scss" scoped>
-.desiire-station-select-btn-area {
-  .col-3 {
-    margin: 0;
-    padding: 5px;
-  }
+<style scoped>
 
-  .col-6 {
-    margin: 0;
-    padding: 5px;
-  }
-
-  .col-12 {
-    margin: -35px 0 0 0;
-  }
-}
 </style>
