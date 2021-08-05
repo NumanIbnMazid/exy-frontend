@@ -11,7 +11,7 @@
                 <div class="px-0 tabs">
                     <!-- * link * -->
                     <a> </a>
-                    <a @click="activeTab=1, handleRoute(55)" :class="[ activeTab === 1 ? 'active' : '' ]"> 園の基本情報</a>
+                    <a @click="activeTab=1, handleRoute('Admin.GardenBasicInformation')" :class="[ activeTab === 1 ? 'active' : '' ]"> 園の基本情報</a>
                     <a @click="activeTab=2, handleRoute('Admin.GardenBasic')"
                         :class="[ activeTab === 2 ? 'active' : '' ]"> 園の保育内容</a>
                     <a @click="activeTab=3, handleRoute(57)" :class="[ activeTab === 3 ? 'active' : '' ]">
@@ -77,6 +77,58 @@
                     </div>
                 </div>
                 <!-- /section 1 -->
+
+                <!-- section 2 -->
+                <div class="mt-5 ">
+                    <div class="border border-2 p-3 rounded">
+                        <span>保育コラム</span>
+                    </div>
+                    <div class="border-start border-end border-2">
+                        <div class="table-responsive no-margin-table">
+                            <table class="table">
+                                <tbody>
+                                    <tr class="custom-padding-row" v-for="i in 4" :key="i">
+                                        <td width="2" class="background-pinkish">{{ i }}</td>
+                                        <td class="ms-4">
+                                            <span class="fw-bold" v-if="i == 1">ヨガレッスンの様子</span>
+                                            <span class="fw-bold" v-else-if="i == 2">英語レッスンの様子</span>
+                                            <span class="fw-bold" v-else-if="i == 3">英語レッスンの様子</span>
+                                            <span v-else></span>
+                                        </td>
+                                        <td>
+                                            <div v-if="i != 4">
+                                                <div v-if="i == 2">下書き</div>
+                                                <div v-else>公開済み</div>
+                                                <div>2021/06/10</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <img src="../../assets/images/garden-basic/_12x@2x.png" alt="EXY" style="height:90px !important;"
+                                                class="img-fluid" v-if="i == 1">
+                                            <img src="../../assets/images/garden-basic/_22x@2x.png" alt="EXY" style="height:90px !important;"
+                                                class="img-fluid" v-else-if="i == 2">
+                                            <img src="../../assets/images/garden-basic/_32x@2x.png" alt="EXY" style="height:90px !important;"
+                                                class="img-fluid" v-else-if="i == 3">
+                                            <span v-else></span>
+                                        </td>
+                                        <td>
+                                            <button @click="handleRoute(59)" class="exy-default-btn" type="button" v-if="i == 1 || i == 3">
+                                                修正する
+                                            </button>
+                                            <button @click="handleRoute(59)" class="exy-default-btn border-kigaruni-pink bg-white color-kigaruni-pink" type="button" v-else-if="i == 2">
+                                                公開する
+                                            </button>
+                                            <button @click="handleRoute(58)" class="exy-default-btn bg-secondary" type="button" v-else>
+                                                作成する
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- /section 2 -->
             </div>
         </div>
     </div>

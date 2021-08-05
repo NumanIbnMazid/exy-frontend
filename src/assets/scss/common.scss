@@ -10,6 +10,10 @@
     color: $--color-cb3a82 !important;
 }
 
+.border-kigaruni-pink {
+    border: 1px solid $--color-cb3a82 !important;
+}
+
 .background-kigaruni-pink {
     background-color: $--color-cb3a82 !important;
 }
@@ -38,11 +42,18 @@
     border: none !important;
 }
 
-.rate-paln-table {
+.rate-paln-table,
+.custom-padding-row {
 
     tr,
     td {
         padding: 23px !important;
+    }
+}
+
+.no-margin-table {
+    .table {
+        margin-bottom: 0px !important;
     }
 }
 
