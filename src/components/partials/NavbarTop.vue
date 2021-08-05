@@ -43,6 +43,8 @@
           <li class="nav-item">
             <router-link class="my-page" v-if="!loggedIn" :to="{name:'Login'}">ログイン</router-link>
             <router-link class="my-page" v-if="loggedIn" :to="{name:'Mypage.Home'}">マイページ</router-link>
+          </li>
+          <li>
             <router-link class="my-page" v-if="loggedIn" :to="{name:'Logout'}">ログアウト</router-link>
           </li>
         </ul>
