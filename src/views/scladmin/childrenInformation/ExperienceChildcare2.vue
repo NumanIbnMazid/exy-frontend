@@ -196,7 +196,7 @@
                 <div class="details-tab">
                     <div class="px-0 tabs">
                         <a> </a>
-                        <router-link :to="{name:'todo', params:{page:40}}"> 基本情報</router-link>
+                        <router-link :to="{name:'Admin.NurserySchoolExperienceBasedChildcare'}"> 基本情報</router-link>
                         <router-link :to="{name:'Admin.ChildcareInformation'}"> 身体測定</router-link>
                         <a @click="activeTab=3" :class="[ activeTab === 3 ? 'active' : '' ]"> 利用履歴</a>
                         <a > </a>
