@@ -490,6 +490,14 @@ const routes = [{
             ),
     },
     {
+        path: "/admin/nursery-school-experience-based-childcare",
+        name: "Admin.NurserySchoolExperienceBasedChildcare",
+        component: () =>
+            import (
+                "../views/scladmin/ChildcareInformation/NurserySchoolExperienceBasedChildcare"
+            ),
+    },
+    {
         path: "/admin/plan-page-record-2",
         name: "Plan.page3",
         component: () =>
