@@ -729,7 +729,7 @@
 
             <div class="form-group text-center mt-4">
               <div class="d-grid">
-                <button class="btn btn-outline-success d-flex justify-content-between" @click="naraToggle">
+                <button class="btn btn-outline-success d-flex justify-content-between">
                   <span>さらに絞り込む</span>
                   <i class="fa fa-angle-down"></i>
                 </button>

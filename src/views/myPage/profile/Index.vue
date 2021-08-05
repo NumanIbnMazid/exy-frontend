@@ -7,9 +7,7 @@
       <div class="row">
         <div class="col-md-2">
           <div class="mypage-profile-prfileimage text-center">
-            <img
-              src="../../../assets/images/mypage/daiga-ellaby--0KARP5Jh_8-unspl.png"
-            />
+            <img src="../../../assets/images/mypage/daiga-ellaby--0KARP5Jh_8-unspl.png"/>
             <p class="text-base">
               <u>プロフィール写真を変更</u>
             </p>

@@ -48,20 +48,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.desiire-station-select-btn-area {
-  .col-3 {
-    margin: 0;
-    padding: 5px;
-  }
+<style scoped>
 
-  .col-6 {
-    margin: 0;
-    padding: 5px;
-  }
-
-  .col-12 {
-    margin: -35px 0 0 0;
-  }
-}
 </style>

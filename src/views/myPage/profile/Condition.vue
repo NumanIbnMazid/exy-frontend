@@ -8,7 +8,7 @@
     </div>
     <div class="mypage-condicion-main mt-3">
       <form>
-        <div class="mypage-condition-first-step" v-if="conditionFirstStep == true">
+        <div class="mypage-condition-first-step" v-if="conditionFirstStep === true">
           <div class="card">
             <div class="card-body">
               <div class="form-group-container">
@@ -118,7 +118,7 @@
           </div>
         </div>
 
-        <div class="mypage-condition-second-step mt-3" v-if="conditionFirstStep == false">
+        <div class="mypage-condition-second-step mt-3" v-if="conditionFirstStep === false">
           <div class="card">
             <div class="card-body">
               <div class="form-group-container">
