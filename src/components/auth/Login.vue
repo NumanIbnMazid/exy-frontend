@@ -46,7 +46,7 @@
                       </label>
                     </div>
                     <div class="form-group mt-4">
-                      <router-link :to="{name: 'Mypage.Home'}">
+                      <router-link to="/admin/my-page">
                         <button type="button" class="btn text-xl exy-default-btn w-100">ログイン</button>
                       </router-link>
                     </div>
