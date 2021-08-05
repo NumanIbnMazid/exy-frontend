@@ -1,5 +1,5 @@
 <template>
-  <div class="admin-nav">
+  <div  class="admin-nav">
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container-fluid">
         <router-link class="navbar-brand" :to="{name:'Admin.MyPage'}">
@@ -58,17 +58,17 @@
     </nav>
     <div class="row p-0 nav-collapse w-100 m-0">
       <div class="col-md-6 p-0">
-        <a class="btn btn-collapse w-100 py-2 fw-bold"  @click="activeClass==0 ? activeClass=1 : activeClass=0" :class="[ activeClass === 1 ? 'active' : '', activeClass === 2 ? 'btn-collapse-3' : '' ]" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <a class="btn btn-collapse w-100 py-2 fw-bold"  @click="activeClass==0 ? activeClass=1 : activeClass=0" :class="[ activeClass === 1 ? 'active' : '', activeClass === 2 ? 'btn-collapse-3' : '' ]" >
           キガルニホイク
         </a>
       </div>
       <div class="col-md-6 p-0">
-        <a class="btn btn-collapse-1 w-100 py-2" @click="activeClass==0 ? activeClass=2 : activeClass=0" :class="[ activeClass === 2 ? 'active1' : '', activeClass === 1 ? 'btn-collapse-2' : '']" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+        <a class="btn btn-collapse-1 w-100 py-2" @click="activeClass==0 ? activeClass=2 : activeClass=0" :class="[ activeClass === 2 ? 'active1' : '', activeClass === 1 ? 'btn-collapse-2' : '']" >
           キガルニホイクシ
         </a>
       </div>
     </div>
-    <div class="row position-absolute collapse bg-white w-100 nav-collapse-body pt-4" id="collapseExample">
+    <div @click="activeClass=0" v-if="activeClass==1" class="row position-absolute collapse bg-white w-100 nav-collapse-body pt-4 show" id="collapseExample">
      <div class="col-1 text-center ps-4 position-relative">
        <div class="inner-2 w-100 h-100"></div>
        <router-link :to="{name:'todo', params:{page:19}}">
@@ -89,7 +89,7 @@
      </div>
      <div class="col-1 text-center position-relative">
        <div class="inner-2 w-100 h-100"></div>
-       <router-link :to="{name:'todo', params:{page:40}}">
+       <router-link :to="{name:'Admin.NurserySchoolExperienceBasedChildcare'}">
         <div class="pt-2 inner-1 shadow  position-absolute">
           <img src="../../assets/images/svg/baby-emoji.svg" alt="EXY" class="w-75">
           <p class="text-xs pt-3">園児情報</p>
@@ -142,7 +142,7 @@
        </router-link>
      </div>
     </div>
-    <div class="row position-absolute collapse bg-white w-100 nav-collapse-body-1 pt-4" id="collapseExample1">
+    <div v-if="activeClass==2" class="row position-absolute collapse bg-white w-100 nav-collapse-body-1 pt-4 show" id="collapseExample1">
       <div class="col-2"></div>
       <div class="col-2"></div>
       <div class="col-2"></div>
@@ -174,7 +174,16 @@ export default {
     return {
       activeClass: 0,
     }
-  }
+  },
+  mounted() {
+    console.log(window.location.pathname)
+    var pathname =  window.location.pathname.split('/')[2]
+    console.log(pathname)
+    if(pathname == 'my-page')
+      this.activeClass = 1
+    else
+      this.activeClass = 0
+  }  
 }
 </script>
 

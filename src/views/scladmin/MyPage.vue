@@ -246,82 +246,10 @@
     </div>
     <div class="row row-3 w-100 mt-4 text-base">
       <div class="col-md-6 pe-4">
-        <div class="row bg-white shadow">
-          <p class="m-0 text-center text-lg fw-bold">現在の予約状況</p>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="499"
-            height="533.5"
-            viewBox="0 0 499 533.5"
-          >
-            <defs>
-              <filter
-                id="_5037111_m"
-                x="0"
-                y="0"
-                width="499"
-                height="533.5"
-                filterUnits="userSpaceOnUse"
-              >
-                <feOffset dy="8" input="SourceAlpha" />
-                <feGaussianBlur stdDeviation="1.5" result="blur" />
-                <feFlood flood-opacity="0.102" />
-                <feComposite operator="in" in2="blur" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-              <filter
-                id="_5037111_m-2"
-                x="0"
-                y="0"
-                width="499"
-                height="533.5"
-                filterUnits="userSpaceOnUse"
-              >
-                <feOffset dy="8" input="SourceAlpha" />
-                <feGaussianBlur stdDeviation="1.5" result="blur-2" />
-                <feFlood flood-opacity="0.102" />
-                <feComposite operator="in" in2="blur-2" />
-                <feComposite in="SourceGraphic" />
-              </filter>
-            </defs>
-            <g
-              id="Group_4014"
-              data-name="Group 4014"
-              transform="translate(-35.5 -1039)"
-            >
-              <g
-                transform="matrix(1, 0, 0, 1, 35.5, 1039)"
-                filter="url(#_5037111_m)"
-              >
-                <rect
-                  id="_5037111_m-3"
-                  data-name="5037111_m"
-                  width="490"
-                  height="521"
-                  rx="5"
-                  transform="translate(4.5)"
-                  fill="#fff"
-                />
-              </g>
-              <g
-                transform="matrix(1, 0, 0, 1, 35.5, 1039)"
-                filter="url(#_5037111_m-2)"
-              >
-                <rect
-                  id="_5037111_m-4"
-                  data-name="5037111_m"
-                  width="490"
-                  height="521"
-                  rx="5"
-                  transform="translate(4.5)"
-                  fill="#fff"
-                  opacity="0.3"
-                />
-              </g>
-            </g>
-          </svg>
-        </div>
+          <div class="row bg-white shadow calendar-col">
+              <p class=" text-center text-lg fw-bold pt-3">現在の予約状況</p>
+              <img src="../../assets/images/admin/calendar.jpeg" alt="EXY"> 
+          </div>
       </div>
       <div class="col-md-6 ps-4 right-col">
         <div class="row bg-white shadow">
