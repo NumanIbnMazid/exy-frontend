@@ -122,3 +122,7 @@
         //     rgba(0, 0, 0, 0) calc(50% + 0.8px),
         //     rgba(0, 0, 0, 0) 100%);
 }
+
+.custom-row {
+    --bs-gutter-x: 0px !important;
+}
