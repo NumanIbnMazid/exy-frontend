@@ -7,7 +7,7 @@
         <div class="details-tab">
             <div class="px-0 tabs">
                 <a @click="activeTab=1" :class="[ activeTab === 1 ? 'active' : '' ]"> 園の基本情報</a>
-                <a @click="activeTab=2" :class="[ activeTab === 2 ? 'active' : '' ]"> 園の保育内容</a>
+                <router-link :to="{name:'Admin.GardenBasic'}"> 園の保育内容</router-link>
                 <a @click="activeTab=3" :class="[ activeTab === 3 ? 'active' : '' ]"> 保護者様への確認事項</a>
                 <a > </a>
                 <a> </a>
