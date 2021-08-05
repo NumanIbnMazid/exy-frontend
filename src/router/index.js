@@ -132,14 +132,36 @@ const routes = [
         component: () => import("../components/search/Search")
     },
     {
-        path: '/search-from-the-area',
-        name: 'SearchFromArea',
-        component: () => import("../components/search/SearchFromArea")
+        path: '',
+        component: () => import("../components/search/search-area/Main"),
+        children: [
+            {
+                path: '/search-from-the-area',
+                name: 'SearchFromArea',
+                component: () => import("../components/search/search-area/Index")
+            },
+            {
+                path: '/search-from-the-area/osaka',
+                name: 'SearchFromArea.Osaka',
+                component: () => import("../components/search/search-area/Osaka")
+            }
+        ]
     },
     {
-        path: '/search-from-along-the-line',
-        name: 'SearchFromAlongLine',
-        component: () => import("../components/search/SearchFromAlongLine")
+        path: '',
+        component: () => import("../components/search/search-area/along-line/Main"),
+        children: [
+            {
+                path: '/search-from-along-the-line',
+                name: 'SearchFromAlongLine',
+                component: () => import("../components/search/search-area/along-line/Index")
+            },
+            {
+                path: '/search-from-along-the-line/osaka',
+                name: 'SearchFromAlongLine.Osaka',
+                component: () => import("../components/search/search-area/along-line/Osaka")
+            }
+        ]
     },
     {
         path: '/guardian-characteristics-detail',
