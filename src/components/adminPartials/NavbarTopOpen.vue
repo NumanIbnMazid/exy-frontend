@@ -169,10 +169,10 @@
 
 <script>
 export default {
-  name: "NavbarTop",
+  name: "NavbarTopOpen",
   data() {
     return {
-      activeClass: 0,
+      activeClass: 1,
     }
   }
 }
