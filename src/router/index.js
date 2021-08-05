@@ -516,6 +516,12 @@ const routes = [{
             import ("../views/scladmin/RatePlan/PlanDetails"),
     },
     {
+        path: "/admin/garden-basic",
+        name: "Admin.GardenBasic",
+        component: () =>
+            import ("../views/scladmin/GardenBasic"),
+    },
+    {
         path: "*",
         redirect: "/pages/error-404",
     },
