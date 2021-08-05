@@ -142,7 +142,7 @@
        </router-link>
      </div>
     </div>
-    <div v-if="activeClass==2" class="row position-absolute collapse bg-white w-100 nav-collapse-body-1 pt-4 show" id="collapseExample1">
+    <div @click="activeClass=0" v-if="activeClass==2" class="row position-absolute collapse bg-white w-100 nav-collapse-body-1 pt-4 show" id="collapseExample1">
       <div class="col-2"></div>
       <div class="col-2"></div>
       <div class="col-2"></div>
