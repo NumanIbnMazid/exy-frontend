@@ -51,11 +51,6 @@ const routes = [
         component: () => import("../views/terms/Index")
     },
     {
-        path: '/my-page',
-        name: 'MyPage',
-        component: () => import("../views/MyPage")
-    },
-    {
         path: '/my-page/home',
         name: 'Mypage.Home',
         component: () => import("../views/myPage/Home")
@@ -351,6 +346,11 @@ const routes = [
         path: '/login',
         name: 'Login',
         component: () => import("../components/auth/Login")
+    },
+    {
+        path: '/logout',
+        name: 'Logout',
+        component: () => import('../components/auth/Logout'),
     },
     {
         path: '/registration',

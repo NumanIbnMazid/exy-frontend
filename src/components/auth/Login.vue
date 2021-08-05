@@ -46,9 +46,7 @@
                       </label>
                     </div>
                     <div class="form-group mt-4">
-                      <router-link :to="{name: 'Mypage.Home'}">
-                        <button type="button" class="btn text-xl exy-default-btn w-100">ログイン</button>
-                      </router-link>
+                      <button type="button" @click="login" class="btn text-xl exy-default-btn w-100">ログイン</button>
                     </div>
                   </form>
                   <div class="forget-pass-email-option mt-4">
@@ -94,7 +92,13 @@
 
 <script>
 export default {
-  name: "Login"
+  name: "Login",
+  methods: {
+    login() {
+      this.$store.dispatch('login')
+      this.$router.push({ name: 'Mypage.Home' })
+    }
+  }
 }
 </script>
 

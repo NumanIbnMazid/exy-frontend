@@ -324,7 +324,7 @@ export default {
   methods: {
     initYear() {
       const years = []
-      for (let i = new Date().getFullYear(); i >= 2016; i--) {
+      for (let i = new Date().getFullYear(); i >= 1980; i--) {
         years.push(i);
       }
       this.years = years

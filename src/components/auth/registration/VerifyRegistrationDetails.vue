@@ -3,9 +3,9 @@
     <div class="breadcrumb-border">
       <div class="container">
         <nav
-          class="py-2"
-          style="--bs-breadcrumb-divider: '>'"
-          aria-label="breadcrumb"
+            class="py-2"
+            style="--bs-breadcrumb-divider: '>'"
+            aria-label="breadcrumb"
         >
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -20,7 +20,7 @@
       <div class="container">
         <div class="auth-page-header mb-5">
           <div class="text-lg fw-bold border-bottom mb-2">
-            <img src="../../../assets/images/svg/title-left.svg" alt="EXY" />
+            <img src="../../../assets/images/svg/title-left.svg" alt="EXY"/>
             登録内容の確認
           </div>
           <h6 class="m-0 p-0 header-bar-heading">
@@ -343,28 +343,10 @@
 
           <div class="form-group text-center verification-info-action-btn">
             <router-link :to="{ name: 'ProfileInfo' }">
-              <button
-                type="submit"
-                class="btn exy-default-btn-outline rounded-0"
-              >
-                次へ
-              </button>
+              <button type="submit" class="btn exy-default-btn-outline rounded-0">次へ</button>
             </router-link>
-            <!-- <router-link @click="vstep1 = true" :to="">
-              <button
-                type="submit"
-                class="btn text-xl exy-default-btn rounded-0 mt-4"
-              >
-                次へ
-              </button>
-            </router-link> -->
-            <button
-              type="button"
-              @click="vstep1 = true"
-              class="exy-default-btn"
-            >
-              次へ
-            </button>
+
+            <button type="button" @click="setDemoToken" class="exy-default-btn">次へ</button>
           </div>
         </div>
       </div>
@@ -381,7 +363,7 @@
           <div class="p-4 mt-4 text-center">
             <h4 class="border-bottom text-base fw-bold">
               会員登録完了しました！
-              <br />
+              <br/>
               保育ご予約の方は、引き続き登録をお願いいたします。
             </h4>
           </div>
@@ -436,57 +418,57 @@
                 <div class="row">
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> 保育園さがし
+                      <input type="checkbox" name="checkbox"/> 保育園さがし
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" />
+                      <input type="checkbox" name="checkbox"/>
                       体験保育(一時保育)予約
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> 月極保育予約
+                      <input type="checkbox" name="checkbox"/> 月極保育予約
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> 園見学予約
+                      <input type="checkbox" name="checkbox"/> 園見学予約
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> 子育て情報掲示板
+                      <input type="checkbox" name="checkbox"/> 子育て情報掲示板
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" />
+                      <input type="checkbox" name="checkbox"/>
                       子育て相談コーナー
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> 園口コミ
+                      <input type="checkbox" name="checkbox"/> 園口コミ
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> 保活情報
+                      <input type="checkbox" name="checkbox"/> 保活情報
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> その他
+                      <input type="checkbox" name="checkbox"/> その他
                     </label>
                   </div>
                   <div class="col-md-9">
                     <input
-                      type="text"
-                      name="text"
-                      class="form-control"
-                      placeholder="簡単に内容をご記載ください"
+                        type="text"
+                        name="text"
+                        class="form-control"
+                        placeholder="簡単に内容をご記載ください"
                     />
                   </div>
                 </div>
@@ -500,35 +482,35 @@
                 <div class="row">
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> WEB広告をみて
+                      <input type="checkbox" name="checkbox"/> WEB広告をみて
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> SNSをみて
+                      <input type="checkbox" name="checkbox"/> SNSをみて
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> お友達からの紹介
+                      <input type="checkbox" name="checkbox"/> お友達からの紹介
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> 保育園からの紹介
+                      <input type="checkbox" name="checkbox"/> 保育園からの紹介
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> その他
+                      <input type="checkbox" name="checkbox"/> その他
                     </label>
                   </div>
                   <div class="col-md-9">
                     <input
-                      type="text"
-                      name="text"
-                      class="form-control"
-                      placeholder="簡単に内容をご記載ください"
+                        type="text"
+                        name="text"
+                        class="form-control"
+                        placeholder="簡単に内容をご記載ください"
                     />
                   </div>
                 </div>
@@ -544,12 +526,12 @@
                 <div class="row">
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> はい
+                      <input type="checkbox" name="checkbox"/> はい
                     </label>
                   </div>
                   <div class="col-md-3">
                     <label>
-                      <input type="checkbox" name="checkbox" /> いいえ
+                      <input type="checkbox" name="checkbox"/> いいえ
                     </label>
                   </div>
                 </div>
@@ -559,9 +541,9 @@
             <div class="text-center py-2">
               <router-link :to="{ name: 'Home' }">
                 <button
-                  type="button"
-                  @click="step2 = false"
-                  class="exy-default-btn mt-3"
+                    type="button"
+                    @click="step2 = false"
+                    class="exy-default-btn mt-3"
                 >
                   アンケートに回答する
                 </button>
@@ -592,6 +574,12 @@ export default {
       this.vstep1 = true;
       this.vstep2 = false;
     },
+
+    setDemoToken() {
+      this.vstep1 = true;
+
+      this.$store.dispatch('login')
+    }
   },
 };
 </script>
@@ -600,6 +588,7 @@ export default {
 .profile-info-radio {
   margin-left: 25px;
 }
+
 .header-bar-heading span {
   margin-left: 10px;
 }
@@ -610,6 +599,7 @@ export default {
 
   .modal-content {
     background: #f9fafb;
+
     .close {
       position: absolute;
       top: 0;
@@ -617,9 +607,11 @@ export default {
       cursor: pointer;
       z-index: 9999;
     }
+
     .card-body {
       .col-md-3 {
         margin-bottom: 10px !important;
+
         label {
           font-size: 12px;
         }
@@ -627,13 +619,17 @@ export default {
     }
   }
 }
+
 .v-step-one-main {
   padding: 0 20px;
+
   .exy-default-btn {
     width: 90%;
   }
+
   .point-get-btn {
     position: relative;
+
     .btn-warning {
       width: 90%;
       border-radius: 0 !important;
@@ -654,8 +650,10 @@ export default {
     }
   }
 }
+
 .modal-heading-text {
   text-align: center;
+
   p {
     border: 1px solid #ccc;
     display: inline-block;
@@ -663,6 +661,7 @@ export default {
     padding: 4px 10px;
   }
 }
+
 .verification-info-action-btn {
   .exy-default-btn {
     margin-left: 10px;

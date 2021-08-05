@@ -41,8 +41,9 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <router-link class="my-page" :to="{name:'Login'}">ログイン</router-link>
-<!--            <router-link class="my-page" :to="{name:'MyPage'}">マイページ</router-link>-->
+            <router-link class="my-page" v-if="!loggedIn" :to="{name:'Login'}">ログイン</router-link>
+            <router-link class="my-page" v-if="loggedIn" :to="{name:'Mypage.Home'}">マイページ</router-link>
+            <router-link class="my-page" v-if="loggedIn" :to="{name:'Logout'}">ログアウト</router-link>
           </li>
         </ul>
       </div>
@@ -52,7 +53,12 @@
 
 <script>
 export default {
-  name: "NavbarTop"
+  name: "NavbarTop",
+  computed: {
+    loggedIn() {
+      return this.$store.getters.loggedIn
+    }
+  }
 }
 </script>
 
