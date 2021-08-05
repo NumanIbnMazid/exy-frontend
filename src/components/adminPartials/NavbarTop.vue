@@ -1,5 +1,5 @@
 <template>
-  <div class="admin-nav">
+  <div  class="admin-nav">
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container-fluid">
         <router-link class="navbar-brand" :to="{name:'Admin.MyPage'}">
@@ -68,7 +68,7 @@
         </a>
       </div>
     </div>
-    <div v-if="activeClass==1" class="row position-absolute collapse bg-white w-100 nav-collapse-body pt-4 show" id="collapseExample">
+    <div @click="activeClass=0" v-if="activeClass==1" class="row position-absolute collapse bg-white w-100 nav-collapse-body pt-4 show" id="collapseExample">
      <div class="col-1 text-center ps-4 position-relative">
        <div class="inner-2 w-100 h-100"></div>
        <router-link :to="{name:'todo', params:{page:19}}">
@@ -89,7 +89,7 @@
      </div>
      <div class="col-1 text-center position-relative">
        <div class="inner-2 w-100 h-100"></div>
-       <router-link :to="{name:'todo', params:{page:40}}">
+       <router-link :to="{name:'Admin.NurserySchoolExperienceBasedChildcare'}">
         <div class="pt-2 inner-1 shadow  position-absolute">
           <img src="../../assets/images/svg/baby-emoji.svg" alt="EXY" class="w-75">
           <p class="text-xs pt-3">園児情報</p>
