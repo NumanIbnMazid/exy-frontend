@@ -731,10 +731,14 @@
     
     .title {
         padding: 10px 15px;
-    }
-    
-    .search-result-left {
-        margin: 0 15px;
+        
+        span {
+            border: 1px solid;
+            color: $--color-cb3a82;
+            font-size: 13px;
+            padding: 3px 5px;
+            margin-right: 10px;
+        }
     }
     
     .search-result-right {
