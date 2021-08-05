@@ -205,9 +205,9 @@
     </div>
     <div class="row row-3 w-100 mt-4 text-base">
         <div class="col-md-6 pe-4">
-            <div class="row bg-white shadow">
-                <p class="m-0 text-center text-lg fw-bold">現在の予約状況</p>
-                <p class="text-center">Draft Calendar Here</p>
+            <div class="row bg-white shadow calendar-col">
+                <p class=" text-center text-lg fw-bold pt-3">現在の予約状況</p>
+                <img src="../../assets/images/admin/calendar.jpeg" alt="EXY"> 
             </div>
         </div>
         <div class="col-md-6 ps-4 right-col">

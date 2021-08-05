@@ -49,7 +49,7 @@
                 top: 100%;
                 left: 50%;
                 transform: translateX(-50%);
-                z-index: 1;
+                z-index: 99;
             }
 
             &::after {
@@ -126,6 +126,7 @@
 
 .admin-mypage {
     background-color: $--color-f2f2f2;
+    margin-top: 200px !important;
     margin-bottom: 100px !important;
 
     .row-1 {
@@ -212,6 +213,11 @@
     }
 
     .row-3 {
+        .calendar-col{
+            img{
+                height: 560px;
+            }
+        }
         .right-col {
             .inner-1 {
                 background-color: $--color-f2f2f2;
