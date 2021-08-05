@@ -39,7 +39,67 @@
       </div>
     </div>
     <div class="col-md-6">
-      Content
+      <div class="accordion" id="accordionExy">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Title
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExy">
+            <div class="accordion-body row">
+              <div class="col-md-4">
+                <ul>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="col-12 mt-5">
