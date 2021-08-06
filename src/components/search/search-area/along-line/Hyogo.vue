@@ -51,70 +51,70 @@
               <div class="col-md-4">
                 <ul>
                   <li>
-                    <label class="container-checkbox">JR大阪環状線
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                  </li>
-                  <li>
-                    <label class="container-checkbox">JR桜島線
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                  </li>
-                  <li>
-                    <label class="container-checkbox">JR関西空港線
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                  </li>
-                  <li>
-                    <label class="container-checkbox">JRおおさか東線
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-4">
-                <ul>
-                  <li>
                     <label class="container-checkbox">JR東海道本線
-                      <input type="checkbox">
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">JR関西本線
-                      <input type="checkbox">
+                    <label class="container-checkbox">JR和田岬線
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">JR福知山線
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-4">
-                <ul>
-                  <li>
-                    <label class="container-checkbox">JR片町線
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                  </li>
-                  <li>
-                    <label class="container-checkbox">JR阪和線
-                      <input type="checkbox">
+                    <label class="container-checkbox">JR山陰本線
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
                     <label class="container-checkbox">JR東西線
-                      <input type="checkbox">
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li>
+                    <label class="container-checkbox">JR山陰本線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">JR加古川線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">JR播但線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li>
+                    <label class="container-checkbox">JR赤穂線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">JR福知山線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">JR姫新線
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
@@ -131,33 +131,43 @@
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExy">
             <div class="accordion-body row">
-              <div class="col-md-6">
+              <div class="col-md-4">
                 <ul>
                   <li>
                     <label class="container-checkbox">Text
-                      <input type="checkbox">
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
                     <label class="container-checkbox">Text
-                      <input type="checkbox">
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                 </ul>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-4">
                 <ul>
                   <li>
                     <label class="container-checkbox">Text
-                      <input type="checkbox">
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
                     <label class="container-checkbox">Text
-                      <input type="checkbox">
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
+                  <li>
+                    <label class="container-checkbox">阪急今津線
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
@@ -178,13 +188,67 @@
                 <ul>
                   <li>
                     <label class="container-checkbox">Text
-                      <input type="checkbox">
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
                     <label class="container-checkbox">Text
-                      <input type="checkbox">
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">Text
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
@@ -193,20 +257,62 @@
               <div class="col-md-6">
                 <ul>
                   <li>
-                    <label class="container-checkbox">Text
-                      <input type="checkbox">
+                    <label class="container-checkbox">阪神電鉄阪神なんば線
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
-                      <input type="checkbox">
+                    <label class="container-checkbox">能勢電鉄妙見線
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
-                      <input type="checkbox">
+                    <label class="container-checkbox">神戸電鉄有馬線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">神戸電鉄公園都市線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">ポートアイランド線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">地下鉄西神・山手線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">地下鉄北神線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">山陽電鉄網干線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">神戸高速鉄道南北線
+                      <input type="checkbox" checked>
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">北条鉄道北条線
+                      <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
