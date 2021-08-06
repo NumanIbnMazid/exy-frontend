@@ -43,7 +43,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Title
+              JR
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExy">
@@ -51,29 +51,13 @@
               <div class="col-md-4">
                 <ul>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">JR奈良線
                       <input type="checkbox">
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-md-4">
-                <ul>
-                  <li>
-                    <label class="container-checkbox">Text
-                      <input type="checkbox">
-                      <span class="checkmark"></span>
-                    </label>
-                  </li>
-                  <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">JR和歌山線
                       <input type="checkbox">
                       <span class="checkmark"></span>
                     </label>
@@ -83,13 +67,17 @@
               <div class="col-md-4">
                 <ul>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">JR関西本線
                       <input type="checkbox">
                       <span class="checkmark"></span>
                     </label>
                   </li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <ul>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">JR桜井線
                       <input type="checkbox">
                       <span class="checkmark"></span>
                     </label>
@@ -102,7 +90,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Title
+              私鉄
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExy">

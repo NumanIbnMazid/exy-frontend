@@ -43,7 +43,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Title
+              和歌山エリア
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExy">
@@ -51,13 +51,31 @@
               <div class="col-md-4">
                 <ul>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">和歌山市
                       <input type="checkbox">
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">有田市
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">新宮市
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">海草郡
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">日高郡
                       <input type="checkbox">
                       <span class="checkmark"></span>
                     </label>
@@ -67,13 +85,31 @@
               <div class="col-md-4">
                 <ul>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">海南市
                       <input type="checkbox">
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">御坊市
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">紀の川市
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">伊都郡
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">西牟婁郡
                       <input type="checkbox">
                       <span class="checkmark"></span>
                     </label>
@@ -83,13 +119,31 @@
               <div class="col-md-4">
                 <ul>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">橋本市
                       <input type="checkbox">
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">田辺市
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">岩出市
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">有田郡
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                    </label>
+                  </li>
+                  <li>
+                    <label class="container-checkbox">東牟婁郡
                       <input type="checkbox">
                       <span class="checkmark"></span>
                     </label>
