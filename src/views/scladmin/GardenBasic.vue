@@ -11,7 +11,8 @@
                 <div class="px-0 tabs">
                     <!-- * link * -->
                     <a> </a>
-                    <a @click="activeTab=1, handleRoute('Admin.GardenBasicInformation')" :class="[ activeTab === 1 ? 'active' : '' ]"> 園の基本情報</a>
+                    <a @click="activeTab=1, handleRoute('Admin.GardenBasicInformation')"
+                        :class="[ activeTab === 1 ? 'active' : '' ]"> 園の基本情報</a>
                     <a @click="activeTab=2, handleRoute('Admin.GardenBasic')"
                         :class="[ activeTab === 2 ? 'active' : '' ]"> 園の保育内容</a>
                     <a @click="activeTab=3, handleRoute(57)" :class="[ activeTab === 3 ? 'active' : '' ]">
@@ -103,22 +104,26 @@
                                             </div>
                                         </td>
                                         <td>
-                                            <img src="../../assets/images/garden-basic/_12x@2x.png" alt="EXY" style="height:90px !important;"
-                                                class="img-fluid" v-if="i == 1">
-                                            <img src="../../assets/images/garden-basic/_22x@2x.png" alt="EXY" style="height:90px !important;"
-                                                class="img-fluid" v-else-if="i == 2">
-                                            <img src="../../assets/images/garden-basic/_32x@2x.png" alt="EXY" style="height:90px !important;"
-                                                class="img-fluid" v-else-if="i == 3">
+                                            <img src="../../assets/images/garden-basic/_12x@2x.png" alt="EXY"
+                                                style="height:90px !important;" class="img-fluid" v-if="i == 1">
+                                            <img src="../../assets/images/garden-basic/_22x@2x.png" alt="EXY"
+                                                style="height:90px !important;" class="img-fluid" v-else-if="i == 2">
+                                            <img src="../../assets/images/garden-basic/_32x@2x.png" alt="EXY"
+                                                style="height:90px !important;" class="img-fluid" v-else-if="i == 3">
                                             <span v-else></span>
                                         </td>
-                                        <td>
-                                            <button @click="handleRoute(59)" class="exy-default-btn" type="button" v-if="i == 1 || i == 3">
+                                        <td class="text-end">
+                                            <button @click="handleRoute(59)" class="exy-default-btn" type="button"
+                                                v-if="i == 1 || i == 3">
                                                 修正する
                                             </button>
-                                            <button @click="handleRoute(59)" class="exy-default-btn border-kigaruni-pink bg-white color-kigaruni-pink" type="button" v-else-if="i == 2">
+                                            <button @click="handleRoute(59)"
+                                                class="exy-default-btn border-kigaruni-pink bg-white color-kigaruni-pink"
+                                                type="button" v-else-if="i == 2">
                                                 公開する
                                             </button>
-                                            <button @click="handleRoute(58)" class="exy-default-btn bg-secondary" type="button" v-else>
+                                            <button @click="handleRoute(58)" class="exy-default-btn bg-secondary"
+                                                type="button" v-else>
                                                 作成する
                                             </button>
                                         </td>
@@ -129,6 +134,207 @@
                     </div>
                 </div>
                 <!-- /section 2 -->
+
+                <!-- section 3 -->
+                <div class="mt-5 ">
+                    <div class="border border-2 p-3 rounded">
+                        <span>年間カレンダー</span>
+                    </div>
+                    <div class="border border-2 p-4">
+                        <div class="row" v-for="i in 3" :key="i">
+                            <div class="col-md-3">
+                                <div v-if="i == 1">
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">4</div>
+                                            <div class="text-small">Apr</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・入園式</div>
+                                            <div>・保護者面談</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div v-else-if="i == 2">
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">5</div>
+                                            <div class="text-small">May</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・子どもの日会</div>
+                                            <div>・保護者面談</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div v-else>
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">6</div>
+                                            <div class="text-small">Jun</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・虫歯予防月間</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div v-if="i == 1">
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">7</div>
+                                            <div class="text-small">Jul</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・七夕まつり</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div v-else-if="i == 2">
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">8</div>
+                                            <div class="text-small">Aug</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・夏まつりごっこ</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div v-else>
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">9</div>
+                                            <div class="text-small">Sep</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・お月見会</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div v-if="i == 1">
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">10</div>
+                                            <div class="text-small">Oct</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・ハロウィン</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div v-else-if="i == 2">
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">11</div>
+                                            <div class="text-small">Nov</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・秋の遠足</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div v-else>
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">12</div>
+                                            <div class="text-small">Dec</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・クリスマス会</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div v-if="i == 1">
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">1</div>
+                                            <div class="text-small">Jan</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・お正月遊び</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div v-else-if="i == 2">
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">2</div>
+                                            <div class="text-small">Feb</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・英語発表会</div>
+                                            <div>・豆まき</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div v-else>
+                                    <div class="row ms-3">
+                                        <div class="col-md-3">
+                                            <div class="text-4xl fw-bold">3</div>
+                                            <div class="text-small">Mar</div>
+                                        </div>
+                                        <div class="col-md-9 bg-light p-3 border border-2 calender-box">
+                                            <div>・ひなまつり</div>
+                                            <div>・卒園式</div>
+                                        </div>
+                                    </div>
+                                    <div v-if="i != 3" class="hr-dotted px-4">
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /section 3 -->
+
+                <div class="text-end mt-4">
+                    <button @click="handleRoute('todo')" class="exy-default-btn border-kigaruni-pink bg-light color-kigaruni-pink me-4" type="button">
+                        プレビュー
+                    </button>
+                    <button @click="handleRoute('todo')" class="exy-default-btn" type="button">
+                        修正する
+                    </button>
+                </div>
             </div>
         </div>
     </div>
