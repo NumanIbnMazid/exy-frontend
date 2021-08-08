@@ -5,7 +5,7 @@
         <Breadcrumb :pageName="pageName"></Breadcrumb>
         <!-- /breadcrumb -->
 
-        <div class="container mb-5">
+        <div class="container mb-5 mt-5">
             <!-- page header -->
             <div class="text-center">
                 <div class="text-2xl fw-bold">園への新着口コミ</div>
@@ -31,7 +31,8 @@
                     </div>
                     <div class="col-md-9">
                         <div class="bg-light p-2 color-kigaruni-pink">
-                            <u>COCORO HOIKUEN 弁天町園</u>
+                            <u v-if="x == 1" @click="handleRoute(22)">COCORO HOIKUEN 弁天町園</u>
+                            <u v-else @click="handleRoute(24)">COCORO HOIKUEN 弁天町園</u>
                         </div>
                         <div class="row mt-4">
                             <div class="col-md-1">
@@ -71,7 +72,7 @@
             <!-- /items -->
 
             <!-- page banner -->
-            <div class="mt-5">
+            <div class="mt-5" @click="handleRoute(106)">
                 <img src="../assets/images/garden-reviews/sinkitouroku-100@2x.png" alt="EXY" class="img-fluid mt-5 mb-5">
             </div>
             <!-- /page banner -->
@@ -84,6 +85,7 @@
 <script>
     // imports
     import Breadcrumb from "../components/partials/Breadcrumb"
+    import router from "../router/index"
 
     export default {
         name: "GardenReviews",
@@ -94,6 +96,25 @@
         },
         components: {
             Breadcrumb
+        },
+        methods: {
+            handleRoute(path) {
+                if (typeof path === 'number') {
+                    router.push(
+                        {
+                            name: 'todo',
+                            params: {
+                                page: path
+                            }
+                        }
+                    )
+                } else {
+                    if (this.$route.name != path) {
+                        router.push({ name: path })
+                    }
+                }
+                return
+            }
         }
     };
 </script>
