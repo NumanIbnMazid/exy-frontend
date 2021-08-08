@@ -1,0 +1,41 @@
+// *** custom-breadcrumb ***
+.custom-breadcrumb-parent {
+    margin-top: -6px !important;
+
+    .custom-breadcrumb {
+        margin-bottom: 0px !important;
+
+        .breadcrumb-item {
+            margin-top: 10px;
+        }
+    }
+
+    hr {
+        margin-top: -10px !important;
+    }
+}
+
+// *** /custom-breadcrumb ***
+
+.color-kigaruni-pink {
+    color: $--color-cb3a82 !important;
+}
+
+.bg-kigaruni-pink {
+    background-color: $--color-cb3a82 !important;
+}
+
+.color-kigaruni-cccc3b {
+    color: $--color-cccc3b !important;
+}
+
+.bg-kigaruni-cccc3b {
+    background-color: $--color-cccc3b !important;
+}
+
+.hr-kigaruni {
+    hr {
+        background-color: #fff;
+        border-top: 3px solid $--color-e6006e;
+    }
+}

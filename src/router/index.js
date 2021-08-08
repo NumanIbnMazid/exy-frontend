@@ -485,6 +485,11 @@ const routes = [
         component: () => import("../components/auth/PasswordResetSuccess")
     },
     {
+        path: '/garden-reviews',
+        name: 'GardenReviews',
+        component: () => import("../views/GardenReviews")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")
