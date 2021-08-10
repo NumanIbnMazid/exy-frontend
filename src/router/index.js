@@ -492,7 +492,7 @@ const routes = [
     {
         path: '/change-reservation',
         name: 'ChangeReservation',
-        component: () => import("../views/ChangeReservation")
+        component: () => import("../views/ChangeReservation/ChangeReservation")
     },
     {
         path: '/todo/:page',

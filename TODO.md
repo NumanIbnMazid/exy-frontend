@@ -6,10 +6,9 @@
 
 ## ISSUES
 
-* Border for Tab Parent Section with Tab Pills (Page: 31, 34, 40)
-* Radio Button Style Fix (Page:40)
-* User Registration Type Text Fix (Page: 33)
+* modal backdrop issue in page 62 (frontend)
 
 ## Page To Link
 
 * (Page 30):=> 22, 24, 106
+* (Page 62):=> 59

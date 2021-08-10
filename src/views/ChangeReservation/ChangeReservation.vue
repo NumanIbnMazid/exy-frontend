@@ -14,7 +14,7 @@
             <!-- /header -->
 
             <!-- content -->
-            <div class="border border-1 p-4 mt-5">
+            <div class="border border-1 p-4 mt-5 shadow">
                 <div class="text-xl fw-bold">予約内容</div>
                 <div class="p-2 bg-light mt-4">登園日時</div>
 
@@ -146,11 +146,11 @@
                                     <div class="m-2 bg-light p-1 ms-3">
                                         <span>金額</span>
                                     </div>
-                                    <div class="row m-2 mt-4">
-                                        <div class="col-md-2 text-center p-5 bg-light">
-                                            内訳
+                                    <div class="row m-2 mt-4 custom-row-x-0">
+                                        <div class="col-md-2 bg-light d-flex align-items-center justify-content-center">
+                                            <span>内訳</span>
                                         </div>
-                                        <div class="col-md-10 table-responsive">
+                                        <div class="col-md-10 table-responsive no-margin-table">
                                             <table class="table table-bordered">
                                                 <tbody>
                                                     <tr>
@@ -183,21 +183,81 @@
                                     </div>
                                 </td>
                             </tr>
+                            <tr>
+                                <td>
+                                    <div class="row mx-2">
+                                        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-6 mt-4">
+                                            支払い予定金額
+                                        </div>
+                                        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12 mt-4">
+                                            ￥6,500
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="ms-3">
+                                        <span>付与予定ポイント</span>
+                                        <span class="ms-2">697ポイント</span>
+                                    </div>
+                                </td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
             <!-- /content -->
 
+            <div class="p-4 bg-light text-center mt-5">
+                <button class="exy-default-btn rounded" data-bs-toggle="modal" data-bs-target="#reservationModal">この内容で予約を変更する</button>
+            </div>
+
             <!-- /page content -->
 
+        </div>
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="text-end p-2">
+                        <button type="button" class="border rounded-circle bg-dark text-white ps-2 pe-2"
+                            data-bs-dismiss="modal" aria-label="Close">X</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center text-xl fw-bold text-dark">
+                            予約内容を変更しました
+                        </div>
+
+                        <hr>
+
+                        <div class="mt-4 text-center">
+                            <p>変更後、ご予約は「予約リクエスト」となります。</p>
+                            <p>「ご予約確定」ではございませんのでご注意ください.</p>
+                        </div>
+                        <div class="mt-5 text-center">
+                            <p>保育園からの「予約確定」の連絡をもって</p>
+                            <p>予約成立となります.</p>
+                        </div>
+                        <div class="mt-5 mb-5 text-center">
+                            <p>今しばらくお待ちくださいませ.</p>
+                        </div>
+
+                        <div class="text-center mb-4">
+                            <button class="btn-dark px-5 py-2 w-50" @click="handleRoute(59)">としる</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
     // imports
-    import router from "../router/index"
+    import router from "../../router/index"
     import DatePicker from 'vue2-datepicker';
     import 'vue2-datepicker/index.css';
     import 'vue2-datepicker/locale/ja';
