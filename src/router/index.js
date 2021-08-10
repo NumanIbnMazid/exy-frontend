@@ -490,6 +490,11 @@ const routes = [
         component: () => import("../views/GardenReviews")
     },
     {
+        path: '/change-reservation',
+        name: 'ChangeReservation',
+        component: () => import("../views/ChangeReservation")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")
