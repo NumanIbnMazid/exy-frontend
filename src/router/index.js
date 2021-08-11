@@ -495,6 +495,16 @@ const routes = [
         component: () => import("../views/ChangeReservation/ChangeReservation")
     },
     {
+        path: '/change-reservation-details',
+        name: 'ChangeReservationDetails',
+        component: () => import("../views/ChangeReservation/ChangeReservationDetails")
+    },
+    {
+        path: '/approve-report',
+        name: 'ApproveReport',
+        component: () => import("../views/ApproveReport")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")

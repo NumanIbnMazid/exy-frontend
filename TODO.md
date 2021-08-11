@@ -10,5 +10,9 @@
 
 ## Page To Link
 
-* (Page 30):=> 22, 24, 106
-* (Page 62):=> 59
+* (Page 30: GardenReviews):=> 22, 24, 106
+* (Page 62: ChangeReservation):=> 59
+* (Page 63: ChangeReservationDetails):=> 59
+* (Page 64: 62, 63):=> 59
+* (Page 69: Approve Content):=> 155
+* (Page 70: 69):=> 71
