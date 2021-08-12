@@ -254,6 +254,7 @@
                 </div>
             </div>
         </div>
+        <!-- /Modal -->
     </div>
 </template>
 
