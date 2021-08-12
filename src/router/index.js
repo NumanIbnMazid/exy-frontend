@@ -505,6 +505,11 @@ const routes = [
         component: () => import("../views/ApproveReport")
     },
     {
+        path: '/garden-review-solo',
+        name: 'GardenReviewSolo',
+        component: () => import("../views/GardenReviewSolo")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")
