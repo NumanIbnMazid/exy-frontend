@@ -112,8 +112,8 @@
 }
 
 .left-sidebar {
-    min-width: 250px;
-    margin-right: 20px;
+    // min-width: 250px;
+    // margin-right: 20px;
 
     li {
         min-height: 50px !important;
@@ -123,6 +123,15 @@
         background-color: $--color-cb3a82 !important;
         color: #fff !important;
     }
+}
+
+.left-column {
+    width: 230px;
+}
+
+.right-column {
+    width: calc(100% - 230px);
+    padding: 0 15px;
 }
 
 .custom-tab-pill {
@@ -163,6 +172,59 @@
             border-bottom: 0px solid $--color-ffffff;
             color: $--color-333333;
             font-weight: bold;
+        }
+    }
+}
+
+.custom-tab-pill-two {
+    padding-top: 40px;
+
+    .tabs {
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+        // padding: 0 5rem 0 5rem;
+
+        a,
+        i {
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 500;
+        }
+
+        .nav-item {
+            min-width: 250px;
+        }
+
+        .add {
+            width: 10%;
+            border: 1px solid $--color-dddddd;
+        }
+
+        a {
+            font-weight: 700;
+            width: 80%;
+            padding: 15px 10px;
+            font-size: 15px;
+            border-radius: 5px 5px 0 0;
+            border-bottom: 1px solid $--color-dddddd;
+            color: $--color-333333;
+
+            &:hover {
+                color: #333333;
+
+                i {
+                    color: #333333;
+                }
+            }
+        }
+
+        a.active {
+            border: 0px solid $--color-ffffff;
+            border-bottom: 0px solid $--color-ffffff;
+            color: $--color-ffffff;
+            font-weight: bold;
+            background-color: $--color-cb3a82;
         }
     }
 }
