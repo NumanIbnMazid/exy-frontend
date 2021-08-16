@@ -515,6 +515,16 @@ const routes = [
         component: () => import("../views/PaymentConfirmation")
     },
     {
+        path: '/favorite-garden',
+        name: 'FavoriteGarden',
+        component: () => import("../views/FavoriteGarden")
+    },
+    {
+        path: '/child-informaiton',
+        name: 'ChildInformation',
+        component: () => import("../views/ChildInformation")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")

@@ -81,6 +81,10 @@
     background-color: $--color-cccc3b !important;
 }
 
+.border-kigaruni-pink {
+    border: 1px solid $--color-cb3a82;
+}
+
 .hr-kigaruni {
     hr {
         background-color: #fff;
@@ -104,6 +108,20 @@
 .no-margin-table {
     .table {
         margin-bottom: 0px !important;
+    }
+}
+
+.left-sidebar {
+    min-width: 250px;
+    margin-right: 20px;
+
+    li {
+        min-height: 50px !important;
+    }
+
+    .active {
+        background-color: $--color-cb3a82 !important;
+        color: #fff !important;
     }
 }
 
@@ -148,3 +166,23 @@
         }
     }
 }
+
+// *** hr title ***
+
+.hr-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hr-title::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #b6b6b6;
+}
+
+.hr-title:not(:empty)::after {
+    margin-left: 15px;
+}
+
+// *** /hr title ***

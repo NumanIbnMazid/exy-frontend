@@ -38,7 +38,7 @@
 76: RatePlan
 77: PlanDetails
 
-## Page To Link
+## Page To Link (User Panel)
 
 * (Page 30: GardenReviews):=> 22, 24, 106
 * (Page 62: ChangeReservation):=> 59
@@ -49,3 +49,4 @@
 * (Page 71: GardenReviewSolo):=> 180, 72
 * (Page 72: PaymentConfirmation: 73):=> 56
 * (Page 73: 72):=> 56
+* (Page 74: FavoriteGarden):=> 22
