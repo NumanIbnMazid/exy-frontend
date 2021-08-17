@@ -525,6 +525,11 @@ const routes = [
         component: () => import("../views/ChildInformation")
     },
     {
+        path: '/pickup-person-registration',
+        name: 'PickupPersonRegistration',
+        component: () => import("../views/PickupPersonRegistration")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")

@@ -50,3 +50,5 @@
 * (Page 72: PaymentConfirmation: 73):=> 56
 * (Page 73: 72):=> 56
 * (Page 74: FavoriteGarden):=> 22
+* (Page 92: ChildInformation):=> 97, 100, 103, 106, 99, 98, 108
+* (Page 93: PickupPersonRegistration)
