@@ -13,15 +13,15 @@
                 <i class="fa fa-angle-right me-1"></i>
                 お子さま情報
             </li>
-            <li tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer d-flex align-items-center" :class="sideNavActive == 4 ? 'active':''" @click="handleRoute(93)">
+            <li tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer d-flex align-items-center" :class="sideNavActive == 4 ? 'active':''" @click="handleRoute('PickupPersonRegistration')">
                 <i class="fa fa-angle-right me-1"></i>
                 送迎者登録
             </li>
-            <li tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer d-flex align-items-center" :class="sideNavActive == 5 ? 'active':''" @click="handleRoute(95)">
+            <li tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer d-flex align-items-center" :class="sideNavActive == 5 ? 'active':''" @click="handleRoute('Security')">
                 <i class="fa fa-angle-right me-1"></i>
                 セキュリティ
             </li>
-            <li tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer d-flex align-items-center" :class="sideNavActive == 6 ? 'active':''" @click="handleRoute(96)">
+            <li tag="li" class="bg-light text-base px-3 py-2 mb-1 cursor-pointer d-flex align-items-center" :class="sideNavActive == 6 ? 'active':''" @click="handleRoute('NotificationSetting')">
                 <i class="fa fa-angle-right me-1"></i>
                 通知
             </li>

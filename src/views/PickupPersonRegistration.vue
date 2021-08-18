@@ -1,5 +1,5 @@
 <template>
-    <div class="favorite-garden-parent">
+    <div class="pickup-person-registration-parent">
 
         <!-- secondary header -->
         <SecondaryHeader :navActive="navActive"></SecondaryHeader>
@@ -20,7 +20,7 @@
                     <div class="px-0 tabs">
                         <!-- * link * -->
                         <a class="nav-item border" :class="[ activeTab === 1 ? 'active' : '' ]"> 一人目</a>
-                        <a class="nav-item border" :class="[ activeTab === 2 ? 'active' : '' ]"> 二人目</a>
+                        <a class="nav-item border" :class="[ activeTab === 2 ? 'active' : '' ]" @click="handleRoute('PickupRegistration')"> 二人目</a>
                         <a class="add" :class="[ activeTab === 3 ? 'active' : '' ]"> ＋</a>
                         <a> </a>
                     </div>

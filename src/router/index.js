@@ -530,6 +530,21 @@ const routes = [
         component: () => import("../views/PickupPersonRegistration")
     },
     {
+        path: '/pickup-registration',
+        name: 'PickupRegistration',
+        component: () => import("../views/PickupRegistration")
+    },
+    {
+        path: '/security',
+        name: 'Security',
+        component: () => import("../views/Security")
+    },
+    {
+        path: '/notification-setting',
+        name: 'NotificationSetting',
+        component: () => import("../views/NotificationSetting")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")
