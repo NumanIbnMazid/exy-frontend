@@ -169,7 +169,7 @@
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="single-item">
-              <a href="#">
+              <a>
                 <img src="../assets/images/group-2764.png" class="img-fluid" alt="EXY">
                 <p>ご利用いただく皆さまへ</p>
                 <span>To all of you</span>
