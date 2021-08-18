@@ -2,14 +2,16 @@
   <div class="find-nursery-school">
 
     <div class="breadcrumb-border">
-      <nav class="p-2 py-1 text-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item py-0">
-            <router-link to="/">Top</router-link>
-          </li>
-          <li class="breadcrumb-item active py-0" aria-current="page">保育園をさがす</li>
-        </ol>
-      </nav>
+      <div class="container">
+        <nav class="p-2 py-1 text-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item py-0">
+              <router-link to="/">Top</router-link>
+            </li>
+            <li class="breadcrumb-item active py-0" aria-current="page">保育園をさがす</li>
+          </ol>
+        </nav>
+      </div>
     </div>
 
     <section class="position-relative">
@@ -281,7 +283,7 @@
 
         <h4 class="shadow p-3 my-5 bg-body rounded">その他の条件を追加する</h4>
 
-        <search-from-the-area />
+        <search-from-the-area/>
 
       </div>
     </section>

@@ -16,30 +16,32 @@
     </div>
 
     <div class="breadcrumb-border">
-      <nav class="p-2 py-1 text-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item">
-            <router-link to="/">Top</router-link>
-          </li>
-          <li class="breadcrumb-item active" aria-current="page">よくある質問</li>
-        </ol>
-      </nav>
+      <div class="container">
+        <nav class="py-1 text-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <router-link to="/">Top</router-link>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">よくある質問</li>
+          </ol>
+        </nav>
+      </div>
     </div>
 
     <div class="py-5 overflow-hidden">
-
-      <left-sidebar />
-
-      <div class="float-start right-column">
-        <router-view></router-view>
+      <div class="container">
+        <left-sidebar/>
+        <div class="float-start right-column">
+          <router-view></router-view>
+        </div>
       </div>
-
     </div>
   </div>
 </template>
 
 <script>
 import LeftSidebar from "./LeftSidebar";
+
 export default {
   name: "Index",
   components: { LeftSidebar }

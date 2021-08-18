@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+    <div class="container">
       <router-link class="navbar-brand" to="/">
         <div id="_ia">
           <span>企業主導型専門予約サイト</span>
