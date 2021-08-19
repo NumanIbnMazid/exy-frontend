@@ -545,6 +545,21 @@ const routes = [
         component: () => import("../views/NotificationSetting")
     },
     {
+        path: '/document-upload',
+        name: 'DocumentUpload',
+        component: () => import("../views/DocumentUpload")
+    },
+    {
+        path: '/document-upload-secondary',
+        name: 'DocumentUploadSecondary',
+        component: () => import("../views/DocumentUploadSecondary")
+    },
+    {
+        path: '/registration-handbook',
+        name: 'RegistrationHandbook',
+        component: () => import("../views/RegistrationHandbook")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")

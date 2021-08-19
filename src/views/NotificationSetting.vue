@@ -13,37 +13,43 @@
 
             <!-- right column -->
             <div class="float-start right-column mb-5">
-                <div class="hr-title fw-bold text-2xl">セキュリティ</div>
+                <div class="hr-title fw-bold text-2xl">通知設定</div>
 
                 <!-- content -->
 
-                <div class="bg-light px-3 py-4 mt-4">
+                <div class="py-4 mt-2">
 
-                    <div class="bg-white p-3">
-                        <div>お支払い情報</div>
-                        <div class="ms-3 mt-3 row">
-                            <div class="col-md-6">
-                                クレジット支払い
+                    <div class="row border border-3 mx-1 p-3">
+                        <div class="col-md-11">
+                            <div>
+                                保育園だより
                             </div>
-                            <div class="col-md-6 text-end">
-                                <button class="border px-5 py-2 border-secondary border-2 rounded bg-white">
-                                    変更す-を
-                                </button>
+
+                            <div class="mt-2">
+                                ※あなたのご近所の保育園が登録したり、お気に入り園に空きが出た場合、メールでお知らせします。
                             </div>
+                        </div>
+                        <div class="col-md-1 text-end d-flex align-items-center">
+                            <div>OFF</div>
+                            <div class="fa fa-toggle-on ms-2 me-2 text-4xl color-kigaruni-green"></div>
+                            <div>ON</div>
                         </div>
                     </div>
 
-                    <div class="bg-white p-3 mt-3" @click="handleRoute(161)">
-                        <div class="row py-2">
-                            <div class="col-md-6">
-                                <div>
-                                    パスワード
-                                </div>
+                    <div class="row border border-3 mx-1 p-3">
+                        <div class="col-md-11">
+                            <div>
+                                ニュースレター
                             </div>
-                            <div class="col-md-6 text-end">
-                                <span class="color-kigaruni-pink">登録完了</span>
-                                <span class="ms-3 fa fa-angle-right color-kigaruni-pink text-xl fw-bold"></span>
+
+                            <div class="mt-2">
+                                ※キャンペーンやアンケートなどの最新情報を定期的にメールでお届けします。
                             </div>
+                        </div>
+                        <div class="col-md-1 text-end d-flex align-items-center">
+                            <div>OFF</div>
+                            <div class="fa fa-toggle-on ms-2 me-2 text-4xl color-kigaruni-green"></div>
+                            <div>ON</div>
                         </div>
                     </div>
 

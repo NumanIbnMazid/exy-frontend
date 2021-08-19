@@ -54,3 +54,7 @@
 * (Page 93: PickupPersonRegistration)
 * (Page 94: PickupRegistration)
 * (Page 95: Security):=> 161
+* (Page 96: NotificationSetting)
+* (Page 97: DocumentUpload)
+* (Page 98: DocumentUploadSecondary)
+* (Page 99: RegistrationHandbook)
