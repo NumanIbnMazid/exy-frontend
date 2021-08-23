@@ -192,7 +192,7 @@
         <garden-reviews></garden-reviews>
 
         <div class="text-center">
-          <a href="#" class="read-more">保育園一覧をみる</a>
+          <router-link :to="{name:'GardenReviews'}" class="read-more">保育園一覧をみる</router-link>
         </div>
       </div>
     </div>
