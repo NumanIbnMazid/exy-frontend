@@ -18,8 +18,8 @@
                 <div class="custom-tab-pill-two">
                     <div class="px-0 tabs">
                         <!-- * link * -->
-                        <a class="nav-item border" :class="[ activeTab === 1 ? 'active' : '' ]"> 第一子</a>
-                        <a class="nav-item border" :class="[ activeTab === 2 ? 'active' : '' ]" @click="handleRoute('ChildQuestionnaireSecondary')"> 第二子</a>
+                        <a class="nav-item border" :class="[ activeTab === 1 ? 'active' : '' ]" @click="handleRoute('ChildQuestionnaire')"> 第一子</a>
+                        <a class="nav-item border" :class="[ activeTab === 2 ? 'active' : '' ]"> 第二子</a>
                         <a class="add" :class="[ activeTab === 3 ? 'active' : '' ]"> ＋</a>
                         <a> </a>
                     </div>
@@ -27,7 +27,7 @@
                 <!-- /tabs -->
 
                 <!-- tab content -->
-                <div v-if="activeTab===1" class="first-child mb-5">
+                <div v-if="activeTab===2" class="first-child mb-5">
                     <div class="hr-black">
                         <hr>
                     </div>
@@ -57,17 +57,17 @@
                                     </th>
                                     <td class="p-3">
                                         <span>
-                                            田中空
+                                            田中 陸
                                         </span>
                                         <span class="ms-4">
-                                            (たなかそら)
+                                        （たなか りく）
                                         </span>
                                     </td>
                                     <th scope="row" class="p-3 bg-kigaruni-pinkish">
                                         生年月日
                                     </th>
                                     <td class="p-3">
-                                        令和2年(2020年) 2月25日 (1歳4ヶ月)
+                                        令和3年(2021年) 2月25日（0歳4ヶ月）
                                     </td>
                                 </tr>
                                 <tr>
@@ -76,14 +76,14 @@
                                     </th>
                                     <td class="p-3">
                                         <span>
-                                            36度2分
+                                            度 分
                                         </span>
                                     </td>
                                     <th scope="row" class="p-3 bg-kigaruni-pinkish">
                                         血液型
                                     </th>
                                     <td class="p-3">
-                                        + A
+                                        
                                     </td>
                                 </tr>
                             </tbody>
@@ -127,7 +127,7 @@
                                         田中 仁 <span class="ms-4">(たなかひとし)</span>
                                     </td>
                                     <td class="p-3 text-center">
-                                        母親
+                                        父親
                                     </td>
                                     <td class="p-3" width="40%">
                                         平成元年(1989年) 9月15日 (満31歳)
@@ -135,13 +135,13 @@
                                 </tr>
                                 <tr>
                                     <td class="p-3" width="40%">
-                                        田中 陸 <span class="ms-4">(たなかりく)</span>
+                                        田中 空 <span class="ms-4">（たなか そら）</span>
                                     </td>
                                     <td class="p-3 text-center">
-                                        弟
+                                        兄
                                     </td>
                                     <td class="p-3" width="40%">
-                                        令和3年(2021年) 2月25日 (満0歳)
+                                        令和2年(2020年) 2月25日（満1歳）
                                     </td>
                                 </tr>
                             </tbody>
@@ -161,26 +161,25 @@
                                 <td rowspan="5" class="bg-kigaruni-pinkish p-3 text-center fw-bold">
                                     食事
                                 </td>
-                                <td colspan="3" class="p-3">離乳食と母乳（又は粉ミルク）</td>
+                                <td colspan="3" class="p-3"><div></div></td>
                             </tr>
                             <tr>
                                 <td colspan="3" class="p-3">
                                     <span>ミルクの回数は１日</span>
-                                    <span class="ms-4">３回</span>
+                                    <span class="ms-4">- -</span>
                                     <span class="ms-2">程度、１回の量はおおよそ</span>
-                                    <span class="ms-4">100cc</span>
-                                    <span class="ms-2">です</span>
+                                    <span class="ms-4">です</span>
                                 </td>
                             </tr>
                             <tr>
-                                <td class="p-3 border-end border-dark">
-                                    <span>小さくほぐしたもの（やわらかく）</span>
+                                <td class="p-3 border-end border-dark" width="40%">
+                                    <div></div>
                                 </td>
                                 <td class="p-3 bg-kigaruni-pinkish text-center fw-bold border-end border-secondary">
                                     <span>食事量</span>
                                 </td>
-                                <td class="p-3">
-                                    <span>よく食べる（多い）</span>
+                                <td class="p-3" width="40%">
+                                    <div></div>
                                 </td>
                             </tr>
                             <tr>
@@ -188,9 +187,6 @@
                                     <div class="d-flex">
                                         <div class="fw-bold">
                                             好きな食べ物
-                                        </div>
-                                        <div class="ms-5">
-                                            りんご、みかん、鶏肉
                                         </div>
                                     </div>
                                 </td>
@@ -201,9 +197,6 @@
                                         <div class="fw-bold">
                                             嫌いな食べ物
                                         </div>
-                                        <div class="ms-5">
-                                            にんじん
-                                        </div>
                                     </div>
                                 </td>
                             </tr>
@@ -212,7 +205,7 @@
                                     排泄
                                 </td>
                                 <td class="p-3" colspan="3">
-                                    常時おむつを使用している
+                                    <div></div>
                                 </td>
                             </tr>
                             <tr>
@@ -220,7 +213,7 @@
                                     着脱衣
                                 </td>
                                 <td class="p-3" colspan="3">
-                                    大人にしてもらう
+                                    <div></div>
                                 </td>
                             </tr>
                             <tr>
@@ -228,8 +221,8 @@
                                     睡眠
                                 </td>
                                 <td class="p-3" colspan="3">
-                                    <span>就寝 (20：30 頃）</span>
-                                    <span class="ms-5">起床 (06：30 頃）</span>
+                                    <span>就寝<span class="ms-4 me-5">(</span>頃）</span>
+                                    <span class="ms-5">起床<span class="ms-4 me-5">(</span>頃）</span>
                                 </td>
                             </tr>
                             <tr>
@@ -237,8 +230,7 @@
                                     お昼寝
                                 </td>
                                 <td class="p-3" colspan="3">
-                                    <span>一定ではないがする</span>
-                                    <span class="ms-5">（２ 時間程度）</span>
+                                    <div></div>
                                 </td>
                             </tr>
                             <tr>
@@ -246,7 +238,7 @@
                                     言葉
                                 </td>
                                 <td class="p-3" colspan="3">
-                                    ママ、ブーブーなどの意味のある言葉をいくつか話すことができる
+                                    <div></div>
                                 </td>
                             </tr>
                             <tr>
@@ -255,29 +247,17 @@
                                 </td>
                                 <td colspan="3" class="p-3">
                                     保育園、幼稚園、託児所、保育ママなどの保育施設に通ったことはありますか？
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="p-3" colspan="1">
-                                    ある
-                                </td>
-                                <td class="p-3" colspan="2">
-                                    <div>
-                                        ■利用施設名（ COCORO HOIKUEN弁天町園 ）
-                                    </div>
-                                    <div>
-                                        ■頻度（ 週 ３ 回程度 ｜ １日 ４ 時間程度）
+                                    <div class="hr-dotted">
+                                        <hr>
                                     </div>
                                 </td>
                             </tr>
                             <tr>
                                 <td colspan="3" class="p-3">
                                     現在は誰とどのように過ごしていますか？
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="3" class="p-3">
-                                    終日、母親と祖母と一緒に自宅にて過ごしています。
+                                    <div class="hr-dotted">
+                                        <hr>
+                                    </div>
                                 </td>
                             </tr>
                         </table>
@@ -298,7 +278,7 @@
                                         生まれた時の体重は何グラムですか？
                                     </td>
                                     <td class="p-3">
-                                        3000 g
+                                        <div></div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -306,7 +286,7 @@
                                         首がすわったのはいつ頃ですか？
                                     </td>
                                     <td class="p-3">
-                                        ２ ヶ月頃
+                                        <div></div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -314,7 +294,7 @@
                                         歩き始めたのはいつ頃ですか？
                                     </td>
                                     <td class="p-3">
-                                        12 ヶ月頃
+                                        <div></div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -322,7 +302,7 @@
                                         音や声がする方を向きますか？
                                     </td>
                                     <td class="p-3">
-                                        はい
+                                        <div></div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -330,7 +310,7 @@
                                         目が合いますか？
                                     </td>
                                     <td class="p-3">
-                                        はい
+                                        <div></div>
                                     </td>
                                 </tr>
                             </tbody>
@@ -356,12 +336,7 @@
                                             <hr>
                                         </div>
                                         <div class="d-flex">
-                                            <div class="w-50">
-                                                ある
-                                            </div>
-                                            <div class="w-50">
-                                                <span class="color-kigaruni-pink">■</span> 相談した機関名: 高山メディカルクリニック
-                                            </div>
+                                            <div class="p-2"></div>
                                         </div>
                                     </td>
                                 </tr>
@@ -373,9 +348,7 @@
                                         <div class="hr-dotted">
                                             <hr>
                                         </div>
-                                        <div>
-                                            熱性けいれん、花粉症、その他（病名：アトピー性皮膚炎）
-                                        </div>
+                                        <div class="p-2"></div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -386,15 +359,7 @@
                                         <div class="hr-dotted">
                                             <hr>
                                         </div>
-                                        <div class="d-flex">
-                                            <div class="w-50">
-                                                あり
-                                            </div>
-                                            <div class="w-50">
-                                                <span class="color-kigaruni-pink">■</span> 病名：<span
-                                                    class="ms-4">アトピー性皮膚炎</span>
-                                            </div>
-                                        </div>
+                                        <div class="p-2"></div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -405,9 +370,7 @@
                                         <div class="hr-dotted">
                                             <hr>
                                         </div>
-                                        <div>
-                                            なし
-                                        </div>
+                                        <div class="p-2"></div>
                                     </td>
                                 </tr>
                                 <tr>
@@ -423,16 +386,7 @@
                                         <div class="hr-dotted">
                                             <hr>
                                         </div>
-                                        <div class="d-flex">
-                                            <div class="w-50">
-                                                あり
-                                            </div>
-                                            <div class="w-50">
-                                                <span class="color-kigaruni-pink">■</span>
-                                                反応の出る食品名・アレルゲン物質・病状：
-                                                <div class="mt-2">卵・乳製品NG。食べると蕁麻疹が出てきて、症状が酷い場合、嘔吐します</div>
-                                            </div>
-                                        </div>
+                                        <div class="p-2"></div>
                                     </td>
                                 </tr>
                             </tbody>
@@ -446,8 +400,7 @@
 
                     <div class="border border-2 border-secondary p-1 mt-4">
                         <div class="border border-2 border-secondary p-3">
-                            ご飯の量が、同世代の子と比べてよく食べます。ただ嫌いなものは絶対に食べようとせず、他のものと混ぜて口に入れても吐き出してしまいます。我が強いのか、一度癇癪を起こすと中々泣き止みません。
-                            <div class="p-4"></div>
+                            <div class="p-5"></div>
                         </div>
                     </div>
 
@@ -477,12 +430,12 @@
     import LeftSidebar from "../components/LeftSidebar"
 
     export default {
-        name: "ChildQuestionnaire",
+        name: "ChildQuestionnaireSecondary",
         data() {
             return {
                 navActive: "setting",
                 sideNavActive: 3,
-                activeTab: 1,
+                activeTab: 2,
             }
         },
         components: {
