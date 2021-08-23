@@ -4,7 +4,7 @@
     <slide v-for="n in 5" :key="n">
       <div class="garden-review-item">
         <div class="date-time">2021年2月利用者</div>
-        <a href="#" class="review-title">一時保育 - １歳児プラン</a>
+        <router-link :to="{name:'GardenReviews'}" class="review-title">一時保育 - １歳児プラン</router-link>
         <ul class="review">
           <li>
             <div class="title">雰囲気</div>

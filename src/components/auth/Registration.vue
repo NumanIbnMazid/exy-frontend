@@ -2,11 +2,7 @@
   <div class="registration-page">
     <div class="breadcrumb-border">
       <div class="container">
-        <nav
-          class="py-2"
-          style="--bs-breadcrumb-divider: '>'"
-          aria-label="breadcrumb"
-        >
+        <nav class="py-2" style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
               <router-link to="/">Top</router-link>
@@ -20,7 +16,7 @@
       <div class="container">
         <div class="registration-header">
           <div class="text-lg fw-bold border-bottom mb-4">
-            <img src="../../assets/images/svg/title-left.svg" alt="EXY" />
+            <img src="../../assets/images/svg/title-left.svg" alt="EXY"/>
             新規会員登録
           </div>
           <p class="m-0 p-0">ご利用になるメールアドレスを入力してください。</p>
@@ -44,12 +40,7 @@
                     <div class="form-group row">
                       <label class="col-sm-2 col-form-label">姓：</label>
                       <div class="col-sm-10 m-auto">
-                        <input
-                          type="text"
-                          class="form-control"
-                          name="name"
-                          placeholder="例）保育"
-                        />
+                        <input type="text" class="form-control" name="name" placeholder="例）保育"/>
                       </div>
                     </div>
                   </div>
@@ -57,12 +48,7 @@
                     <div class="form-group row">
                       <label class="col-sm-2 col-form-label">名:</label>
                       <div class="col-sm-10 m-auto">
-                        <input
-                          type="text"
-                          class="form-control"
-                          name="name"
-                          placeholder="例）花子"
-                        />
+                        <input type="text" class="form-control" name="name" placeholder="例）花子"/>
                       </div>
                     </div>
                   </div>
@@ -79,12 +65,7 @@
                     <div class="form-group row">
                       <label class="col-sm-2 col-form-label">姓：</label>
                       <div class="col-sm-10 m-auto">
-                        <input
-                          type="text"
-                          class="form-control"
-                          name="name"
-                          placeholder="例）ほいく"
-                        />
+                        <input type="text" class="form-control" name="name" placeholder="例）ほいく"/>
                       </div>
                     </div>
                   </div>
@@ -92,12 +73,7 @@
                     <div class="form-group row">
                       <label class="col-sm-2 col-form-label">名：</label>
                       <div class="col-sm-10 m-auto">
-                        <input
-                          type="text"
-                          class="form-control"
-                          name="name"
-                          placeholder="例）はなこ"
-                        />
+                        <input type="text" class="form-control" name="name" placeholder="例）はなこ"/>
                       </div>
                     </div>
                   </div>
@@ -109,7 +85,7 @@
                 <label>メールアドレス</label>
               </div>
               <div class="col-md-9">
-                <input type="text" class="form-control" name="name" />
+                <input type="text" class="form-control" name="name"/>
               </div>
             </div>
             <div class="row mt-4">
@@ -121,13 +97,8 @@
                 <p class="m-0 p-0">
                   お名前・ふりがなは登録後、変更はできませんのでご注意ください。
                 </p>
-                <router-link :to="{ name: 'RegistrationOtp' }">
-                  <button
-                    type="submit"
-                    class="btn text-xl exy-default-btn w-100 mt-5"
-                  >
-                    メールアドレスで登録
-                  </button>
+                <router-link :to="{ name: 'RegistrationOtp' }" class="btn text-xl exy-default-btn w-100 mt-5">
+                  メールアドレスで登録
                 </router-link>
               </div>
             </div>
