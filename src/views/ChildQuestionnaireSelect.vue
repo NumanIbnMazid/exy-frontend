@@ -18,8 +18,7 @@
                 <div class="custom-tab-pill-two">
                     <div class="px-0 tabs">
                         <!-- * link * -->
-                        <a class="nav-item border" :class="[ activeTab === 1 ? 'active' : '' ]"
-                            @click="handleRoute('ChildQuestionnaire')"> 第一子</a>
+                        <a class="nav-item border" :class="[ activeTab === 1 ? 'active' : '' ]"> 第一子</a>
                         <a class="nav-item border" :class="[ activeTab === 2 ? 'active' : '' ]"> 第二子</a>
                         <a class="add" :class="[ activeTab === 3 ? 'active' : '' ]"> ＋</a>
                         <a> </a>
