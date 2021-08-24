@@ -570,6 +570,11 @@ const routes = [
         component: () => import("../views/ChildQuestionnaireSecondary")
     },
     {
+        path: '/child-questionnaire-select',
+        name: 'ChildQuestionnaireSelect',
+        component: () => import("../views/ChildQuestionnaireSelect")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")
