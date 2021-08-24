@@ -98,19 +98,19 @@
               <div class="col-md-6">
                 <ul>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox"> 京阪石山坂本線
                       <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox"> 近江鉄道八日市線
                       <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox"> 近江鉄道多賀線
                       <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>

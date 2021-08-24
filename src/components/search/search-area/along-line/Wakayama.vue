@@ -92,25 +92,25 @@
               <div class="col-md-6">
                 <ul>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">南海本線
                       <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">南海和歌山港線
                       <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">南海高野山ケーブル
                       <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
                   </li>
                   <li>
-                    <label class="container-checkbox">Text
+                    <label class="container-checkbox">紀州鉄道
                       <input type="checkbox" checked>
                       <span class="checkmark"></span>
                     </label>
