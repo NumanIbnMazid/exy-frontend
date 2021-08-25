@@ -113,7 +113,7 @@
                         <hr>
 
                         <div class="text-center m-5">
-                            <button class="exy-default-btn rounded px-5 py-3" @click="handleRoute(71)">
+                            <button class="exy-default-btn rounded px-5 py-3" @click="handleRoute('GardenReviewSolo')">
                                 <span class="px-5">ロコミ・支払い手続きへ</span>
                             </button>
                         </div>

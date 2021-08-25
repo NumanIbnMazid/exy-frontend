@@ -111,7 +111,7 @@
                         書類登録
                     </div>
 
-                    <div class="bg-white p-3 mt-1" @click="handleRoute(97)">
+                    <div class="bg-white p-3 mt-1" @click="handleRoute('DocumentUpload')">
                         <div class="ms-3 row p-2">
                             <div class="col-md-6">
                                 <div>
@@ -125,7 +125,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-white p-3 mt-2" @click="handleRoute(100)">
+                    <div class="bg-white p-3 mt-2" @click="handleRoute('ChildQuestionnaire')">
                         <div class="ms-3 row p-2">
                             <div class="col-md-6">
                                 <div>
@@ -167,7 +167,7 @@
                         </div>
                     </div>
 
-                    <div class="bg-white p-3 mt-2" @click="handleRoute(99)">
+                    <div class="bg-white p-3 mt-2" @click="handleRoute('RegistrationHandbook')">
                         <div class="ms-3 row p-2">
                             <div class="col-md-6">
                                 <div>
@@ -192,7 +192,7 @@
                                     <span>ダウンロード</span>
                                 </span>
                             </div>
-                            <div class="col-md-6 text-end" @click="handleRoute(98)">
+                            <div class="col-md-6 text-end" @click="handleRoute('DocumentUploadSecondary')">
                                 <span class="color-kigaruni-pink">登録完了</span>
                                 <span class="ms-3 fa fa-angle-right color-kigaruni-pink text-xl fw-bold"></span>
                             </div>

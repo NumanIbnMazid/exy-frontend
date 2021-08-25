@@ -104,7 +104,7 @@
                     </div>
 
                     <div class="text-center mt-4 mb-4">
-                        <button class="exy-default-btn" @click="handleRoute(72)">お支払いに進む</button>
+                        <button class="exy-default-btn" @click="handleRoute('PaymentConfirmation')">お支払いに進む</button>
                     </div>
                 </div>
             </div>

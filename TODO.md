@@ -44,7 +44,11 @@
 * (Page 62: ChangeReservation):=> 59
 * (Page 63: ChangeReservationDetails):=> 59
 * (Page 64: 62, 63):=> 59
-* (Page 69: Approve Content):=> 155
+* (Page 65: Modals->cancelReservationModal):=> 64, 55
+* (Page 66: Modals->reservationConfirmationApproval):=> 59, 67
+* (Page 67: Modals->nurseryReserved):=> 108
+* (Page 68: Modals->removeFromListModal):=> 67, 59
+* (Page 69: ApproveReport):=> 155
 * (Page 70: 69):=> 71
 * (Page 71: GardenReviewSolo):=> 180, 72
 * (Page 72: PaymentConfirmation: 73):=> 56
@@ -60,3 +64,4 @@
 * (Page 99: RegistrationHandbook)
 * (Page 100: ChildQuestionnaire):=> 101, 102
 * (Page 101: ChildQuestionnaireSecondary):=> 102
+* (Page 102: ChildQuestionnaireSelect)

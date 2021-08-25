@@ -575,6 +575,11 @@ const routes = [
         component: () => import("../views/ChildQuestionnaireSelect")
     },
     {
+        path: '/modals',
+        name: 'Modals',
+        component: () => import("../views/Modals")
+    },
+    {
         path: '/todo/:page',
         name: 'todo',
         component: () => import("../views/todo")

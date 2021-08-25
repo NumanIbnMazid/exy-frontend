@@ -33,7 +33,7 @@
                     </div>
 
                     <div class="text-end">
-                        <button class="bg-dark text-white px-4 py-1 border border-dark" @click="handleRoute(102)">
+                        <button class="bg-dark text-white px-4 py-1 border border-dark" @click="handleRoute('ChildQuestionnaireSelect')">
                             修正
                         </button>
                     </div>
@@ -456,7 +456,7 @@
                     </div>
 
                     <div class="text-center">
-                        <button class="border border-dark bg-dark text-white px-5 py-2" @click="handleRoute(102)">修正</button>
+                        <button class="border border-dark bg-dark text-white px-5 py-2" @click="handleRoute('ChildQuestionnaireSelect')">修正</button>
                     </div>
 
                 </div>
